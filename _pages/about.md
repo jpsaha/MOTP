@@ -45,29 +45,50 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 {% tab something-else IOQM %}
 
 ### IOQM (Indian Olympiad Qualifier in Mathematics)
-- Scheduled on 8th September, 2024, during 10:00hrs --- 13:00hrs
-- It is 100 marks worth paper. 
-- The paper consists of 30 questions. 
+- Scheduled on 8th September, 2024, during 10:00hrs --- 13:00hrs.
+- The paper consists of 30 question worth 100 marks in total. 
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
-- Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) 
+- Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
 {% endtab %}
 
-{% tab something-else quote %}
+{% tab something-else RMO %}
 
-> A quote
+### RMO (Regional Mathematical Olympiad)
+- Scheduled on 3rd November, 2024, during 13:00hrs --- 16:00hrs.
+- The paper consists of 6 questions. 
+- It requires writing detailed proofs.
+- Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
+
+{% endtab %}
+
+{% tab something-else INMO %}
+
+### INMO (Indian National Mathematical Olympiad)
+- Scheduled on 19th January, 2025, during 12:00hrs --- 16:30hrs.
+- The paper consists of 6 questions. 
+- It requires writing detailed proofs.
+- Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
 {% endtab %}
 
-{% tab something-else list %}
+{% tab something-else IMOTC %}
 
-Hipster list
-
-- brunch
-- fixie
-- raybans
-- messenger bag
+### IMOTC (International Mathematical Olympiad Training Camp)
+- Held from April to May.
+- The paper consists of 6 questions. 
+- Through the TSTs (Team Selection Tests), it leads to the selection of six students to represent India at IMO.
+- Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
 {% endtab %}
+
+{% tab something-else PDC %}
+
+### PDC (Pre-Departure Camp)
+- Held before leaving for [IMO](https://www.imo-official.org).
+- Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
+
+{% endtab %}
+
 
 {% endtabs %}
