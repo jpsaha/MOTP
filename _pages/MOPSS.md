@@ -10,6 +10,13 @@ nav_order: 4
 ## [Mathematics Olympiad Problem Solving Sessions](https://jpsaha.github.io/M/MOPSS/) (MOPSS)
 
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/MOPSS.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
 <iframe src="/M/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 
@@ -23,7 +30,7 @@ nav_order: 4
   * Applications to be accepted <span style="color: royalblue"> **until 07th July, 2024** </span> through the <span style="color: royalblue"> Google form</span> posted at [**this link**](https://forms.gle/B9wQteEtGXvCj3AH9). 
   * In the Google form, the link to [**this problem set**](https://jpsaha.github.io/M/assets/pdf/MOPSS/PS0B24Aug) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
   * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024** </span>.
-  * Please refer to the [flyer](assets/pdf/MOPSS/flyer.pdf) for further information.
+  * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
     * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email_username }}
