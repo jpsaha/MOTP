@@ -42,9 +42,14 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% tabs something-else %}
 
-{% tab something-else text %}
+{% tab something-else IOQM %}
 
-Regular text
+### IOQM (Indian Olympiad Qualifier in Mathematics)
+- Scheduled on 8th September, 2024, during 10:00hrs --- 13:00hrs
+- It is 100 marks worth paper. 
+- The paper consists of 30 questions. 
+- There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
+- Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) 
 
 {% endtab %}
 
