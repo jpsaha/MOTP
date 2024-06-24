@@ -4,7 +4,7 @@ permalink: /Geometry/
 title: Geometry
 description: Geometry
 nav: false
-nav_order: 4
+nav_order: 23
 ---
 
 <!--

@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /NumberTheory/
-title: Number Theory
-description: Number Theory
+permalink: /MoreOlympiads/
+title: More Olympiads
+description: Further Olympiads
 nav: false
-nav_order: 24
+nav_order: 14
 ---
 
 <!--

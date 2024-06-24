@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /NumberTheory/
-title: Number Theory
-description: Number Theory
+permalink: /APMO/
+title: APMO
+description: APMO
 nav: false
-nav_order: 24
+nav_order: 12
 ---
 
 <!--

@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /NumberTheory/
-title: Number Theory
-description: Number Theory
+permalink: /EGMO/
+title: EGMO
+description: EGMO
 nav: false
-nav_order: 24
+nav_order: 13
 ---
 
 <!--

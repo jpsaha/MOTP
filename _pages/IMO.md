@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /NumberTheory/
-title: Number Theory
-description: Number Theory
+permalink: /IMO/
+title: IMO
+description: IMO
 nav: false
-nav_order: 24
+nav_order: 11
 ---
 
 <!--

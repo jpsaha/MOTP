@@ -4,7 +4,7 @@ permalink: /Algebra/
 title: Algebra
 description: Algebra
 nav: false
-nav_order: 2
+nav_order: 21
 ---
 
 <!--
