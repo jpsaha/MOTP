@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Mathematics Olympiad Problem Solving Sessions
+subtitle: <a href='#'>Mathematics Olympiad Problem Solving Sessions</a>.
 
 profile:
   align: right
