@@ -19,7 +19,7 @@ giscus_comments: true
 
 ## Handouts
 
-- [More on polynomials](https://jpsaha.github.io/M/blog/2024/MorePoly/)
+- [More on polynomials]({{ site.url }}{{ site.baseurl }}/blog/2024/MorePoly/)
 
 ## These notes may be useful
 
