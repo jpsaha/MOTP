@@ -36,7 +36,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the <span style="color: royalblue">Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
 - 📫 For any <span style="color: green">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: green">write to</span> <a href="mailto:site.email?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> site.email
-    </a> 
+    </a>
 
 ## Some of the stages of the Math Olympiad program 2024 --- 2025 are
 
@@ -91,3 +91,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 {% endtab %}
 
 {% endtabs %}
+
+* Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
+
+* For [EGMO](https://www.egmo.org/), the stages are IOQM, RMO, INMO, EGMOTC, EGMOPDC, EGMO (along with certain criteria at the stages).
+* For [APMO](https://www.apmo-official.org/), the stages are IOQM, RMO, INMO, APMO (along with certain criteria at the stages).
+
+* [INMOTC](https://olympiads.hbcse.tifr.res.in/faq/) is a camp, organized before INMO.
