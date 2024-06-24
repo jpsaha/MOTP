@@ -34,3 +34,33 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 📫 For any **queries related to the Mathematics Olympiad** program, please feel free to **reach me at** <a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> jpsaha@iiserb.ac.in
     </a> 
+
+
+## Tabs for something else
+
+{% tabs something-else %}
+
+{% tab something-else text %}
+
+Regular text
+
+{% endtab %}
+
+{% tab something-else quote %}
+
+> A quote
+
+{% endtab %}
+
+{% tab something-else list %}
+
+Hipster list
+
+- brunch
+- fixie
+- raybans
+- messenger bag
+
+{% endtab %}
+
+{% endtabs %}
