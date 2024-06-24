@@ -5,6 +5,9 @@ nav: true
 nav_order: 2
 dropdown: true
 children:
+  - title: Prior Participations
+    permalink: /PriorParticipation/
+  - title: divider
   - title: IMO
     permalink: /IMO/
   - title: divider

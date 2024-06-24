@@ -4,7 +4,7 @@ permalink: /PriorParticipation/
 title: Prior Participations
 description: Participation of a few Indian contestants in some International Olympiads
 nav: false
-nav_order: 11
+nav_order: 10
 ---
 
 <h2 align="center">👋 Participation of a few Indian contestants in some International Olympiads </h2>
