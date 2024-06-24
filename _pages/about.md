@@ -18,6 +18,7 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+tabs: true
 ---
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -34,7 +35,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 📫 For any **queries related to the Mathematics Olympiad** program, please feel free to **reach me at** <a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> jpsaha@iiserb.ac.in
     </a> 
-
 
 ## Tabs for something else
 
