@@ -20,9 +20,12 @@ nav_order: 21
 
 - [More on polynomials](https://jpsaha.github.io/M/blog/2024/MorePoly/)
 
+## These notes may be useful
 
-<!--
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+- to the students who would like to have a look at some of the past RMO problem before getting started, 
+or just curious about it. 
 
-Organize your courses by years, topics, or universities, however you like!
--->
+- as a reference, to anyone who would like to provide guidance to students, 
+and is eager to do so as soon as having 
+the relevant questions across the topics and sub-topics
+available in an organized form. 
