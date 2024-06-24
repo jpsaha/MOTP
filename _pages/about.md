@@ -34,8 +34,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 🔭 I’m currently working at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/) as an Assistant Professor.
 - I am the <span style="color: royalblue">Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
 - For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the <span style="color: royalblue">Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
-- 📫 For any <span style="color: green">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: green">write to</span> <a href="mailto:site.email?subject=[MOPSS]"> 
-      <i class="fas fa-envelope" style="color:gray"></i> site.email
+- 📫 For any <span style="color: green">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: green">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
+      <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
     </a>
 
 ## Some of the stages of the Math Olympiad program 2024 --- 2025 are
