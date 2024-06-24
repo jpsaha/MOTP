@@ -2,12 +2,10 @@
 layout: page
 permalink: /MoreOlympiads/
 title: More Olympiads
-description: Further Olympiads
+description: Sharygin Geometry Olympiad, Iranian Geometry Olympiad, Tournament of Towns
 nav: false
 nav_order: 14
 ---
-
-# Sharygin Geometry Olympiad, Iranian Geometry Olympiad, Tournament of Towns
 
 ## [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php)
 * [Google translate](https://translate.google.co.in/?sl=auto&tl=en&op=translate) may be used. The past problems and solutions are also available in English on the [webpage](https://geometry.ru/olimp/olimpsharygin.php)

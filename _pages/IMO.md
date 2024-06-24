@@ -7,8 +7,6 @@ nav: false
 nav_order: 11
 ---
 
-# IMO
-
 ## [International Mathematical Olympiad](https://www.imo-official.org/) (IMO)
 * The International Mathematical Olympiad ([IMO](https://www.imo-official.org/)) is the World Championship Mathematics Competition for High School students. It is held annually in a different country.
 * The [IMO Foundation](https://imof.co/) is a charity which supports the IMO. Its [vision](https://imof.co/) is as follows. 

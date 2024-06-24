@@ -27,7 +27,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 -->
 
-## 👋 Hello! I'm Jyoti Prakash Saha.
+## Hello! I'm Jyoti Prakash Saha.
 
 - 🔭 I’m currently working at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/) as an Assistant Professor.
 - I am the **Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region**. For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the **Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region**. 

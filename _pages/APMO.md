@@ -7,8 +7,6 @@ nav: false
 nav_order: 12
 ---
 
-# APMO
-
 ## [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO)
 
 * The Asian Pacific Mathematics Olympiad ([APMO](https://www.apmo-official.org/)) is a mathematical competition for countries in the Pacific-Rim Region.

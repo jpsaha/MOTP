@@ -7,8 +7,6 @@ nav: false
 nav_order: 13
 ---
 
-# EGMO
-
 ## [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO)
 
 * The European Girls’ Mathematical Olympiad ([EGMO](https://www.egmo.org/))

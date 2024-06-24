@@ -7,7 +7,7 @@ nav: false
 nav_order: 10
 ---
 
-<h2 align="center">👋 Participation of a few Indian contestants in some International Olympiads </h2>
+<h2 align="center"> Participation of a few Indian contestants in some International Olympiads </h2>
 
 
 | Name | [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) | [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) | [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) | [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php) | [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO) | [Tournament of Towns](https://www.turgor.ru/en/) |
