@@ -1,6 +1,21 @@
+    <style>
+    #clustrmaps-container {
+    width: 10vw; /* Adjust the width as needed */
+    float: right; /* Right align on larger screens */
+    }
+    @media screen and (max-width: 600px) { /* Adjust the breakpoint as needed */
+        #clustrmaps-container {
+            width: 35%; /* Adjust the width for smaller screens */
+            float: right; /* Keep it right-aligned or change as needed */
+        }
+    }
+    </style>
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
+        <div id="clustrmaps-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rrw4fF85b2rVhvDNSiLVW0QcD868HQGKnMSLqD7Xoz0"></script>
+        </div>
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -20,6 +35,9 @@
     {% endif %}
 
     <div class="container">
+        <div id="clustrmaps-container">
+        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=rrw4fF85b2rVhvDNSiLVW0QcD868HQGKnMSLqD7Xoz0"></script>
+        </div>
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
