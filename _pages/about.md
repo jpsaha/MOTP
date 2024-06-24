@@ -38,7 +38,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
       <i class="fas fa-envelope" style="color:gray"></i> site.email
     </a> 
 
-## Tabs for something else
+## Some of the stages of the Math Olympiad program 2024 --- 2025 are
 
 {% tabs something-else %}
 
