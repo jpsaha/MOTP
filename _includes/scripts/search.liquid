@@ -310,6 +310,16 @@
             },
           },
         {%- endif -%}
+        {%- if site.mathstodon_username -%}
+          {
+            id: 'socials-mathstodon',
+            title: 'Mathstodon',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://mathstodon.xyz/@{{ site.mathstodon_username  }}", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.medium_username -%}
           {
             id: 'socials-medium',
