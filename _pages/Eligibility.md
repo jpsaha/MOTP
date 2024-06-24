@@ -16,11 +16,10 @@ giscus_comments: true
 
 ### [Eligibility](https://olympiads.hbcse.tifr.res.in/how-to-participate/eligibility/mathematical-olympiad/) and the [stages](https://olympiads.hbcse.tifr.res.in/about-olympiads/stages/mathematical-olympiad/) of IMO
 * The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM. [^1]
-  [^1]: provided certain additional conditions are met. The precise details are available at the [webpage](https://olympiads.hbcse.tifr.res.in/) of the Homi Bhabha Centre for Science Education (HBCSE).
 
+[^1]: provided certain additional conditions are met. The precise details are available at the [webpage](https://olympiads.hbcse.tifr.res.in/) of the Homi Bhabha Centre for Science Education (HBCSE).
 
-<h2 align="center"> Some of the stages of the Math Olympiad program 2024 --- 2025 are </h2>
-
+### Some of the stages of the Math Olympiad program 2024 --- 2025 are
 
 -------
 
@@ -58,7 +57,7 @@ Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-oly
 -------
 
 ### Syllabus
-* [Algebra](https://jpsaha.github.io/M/Algebra/)
-* [Combinatorics](https://jpsaha.github.io/M/Combinatorics/)
-* [Geometry](https://jpsaha.github.io/M/Geometry/)
-* [Number Theory](https://jpsaha.github.io/M/Numbertheory/)
+* [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/)
+* [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/)
+* [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/)
+* [Number Theory]({{ site.url }}{{ site.baseurl }}/Numbertheory/)
