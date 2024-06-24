@@ -33,7 +33,7 @@ nav_order: 4
   * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
     * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
-      <i class="fas fa-envelope" style="color:gray"></i> {{ site.email_username }}
+      <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
     </a>),
     * Kartick Adhikari (<a href="mailto:kartick@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> kartick@iiserb.ac.in
