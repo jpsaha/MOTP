@@ -42,8 +42,6 @@ nav_order: 4
       <i class="fas fa-envelope" style="color:gray"></i> manas@iiserb.ac.in
     </a>). 
 
-
-
 ## <span style="color: royalblue"> Why math olympiads are a valuable experience for high schoolers </span>
 * The post by Evan Chen on [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/) is worth reading.
 * In a previous post, titled [Against the “Research vs. Olympiads” Mantra](https://blog.evanchen.cc/2016/08/13/against-the-research-vs-olympiads-mantra/), Evan Chen discussed why math olympiads should not be judged by their relevance to research mathematics. He mentions that in that post, he failed to actually explain why he thinks math olympiads are a valuable experience for high schoolers. In the post [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/), he puts the amends. 
@@ -54,6 +52,7 @@ nav_order: 4
 
 ## Participation of India in [International Mathematical Olympiads](https://jpsaha.github.io/M/PriorParticipation/) 
 <!--<span style="color: green"> **International Mathematical Olympiads**</span>-->
+India has been participating in 
 * [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) since [1989](https://www.imo-official.org/country_team_r.aspx?code=IND).
 * [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) since [2015](https://www.apmo-official.org/country_report/IND/all). 
 * [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).

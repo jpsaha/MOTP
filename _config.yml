@@ -3,8 +3,8 @@
 # -----------------------------------------------------------------------------
 
 title: MOPSS # the website title (if blank, full name will be used instead)
-first_name: Jyoti
-middle_name: Prakash
+first_name: Jyoti Prakash
+middle_name: 
 last_name: Saha
 email: jpsaha@iiserb.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
