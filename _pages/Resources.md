@@ -3,7 +3,7 @@ layout: page
 permalink: /Resources/
 title: Resources
 description: Resources
-nav: true
+nav: false
 nav_order: 6
 giscus_comments: true
 ---

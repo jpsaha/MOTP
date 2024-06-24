@@ -16,4 +16,7 @@ children:
   - title: divider
   - title: Number Theory
     permalink: /NumberTheory/
+  - title: divider
+  - title: Resources
+    permalink: /Resources/
 ---
