@@ -25,7 +25,7 @@ nav_order: 4
   * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024** </span>.
   * Please refer to the [flyer](assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
-    * Jyoti Prakash Saha (<a href="mailto:{{ site.email_username }}?subject=[MOPSS]"> 
+    * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email_username }}
     </a>),
     * Kartick Adhikari (<a href="mailto:kartick@iiserb.ac.in?subject=[MOPSS]"> 
@@ -36,7 +36,6 @@ nav_order: 4
     </a>). 
 
 
--------
 
 ## <span style="color: royalblue"> Why math olympiads are a valuable experience for high schoolers </span>
 * The post by Evan Chen on [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/) is worth reading.
@@ -44,7 +43,7 @@ nav_order: 4
 * and the last, but not the least, could be to take a look at the following [vision](https://imof.co/) of the [IMO Foundation](https://imof.co/), which is a charity supporting the International Mathematical Olympiad ([IMO](https://www.imo-official.org/)). 
 > It is the aim of the IMO to bring young people together from all over the world to enjoy the challenges of mathematics in a spirit of friendly competition. This provides a stimulus for Mathematics in each of the participating countries as young people strive for selection. Whist clearly it is a competitive event, for most participants, it is the people that they meet and the shared joy of discovery that is what they regard as most worthwhile. It is common that lifelong friendships are forged at IMO events.
 
--------
+
 
 ## Participation of India in [International Mathematical Olympiads](https://jpsaha.github.io/M/PriorParticipation/) 
 <!--<span style="color: green"> **International Mathematical Olympiads**</span>-->
