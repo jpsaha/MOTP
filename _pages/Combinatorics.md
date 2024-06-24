@@ -3,7 +3,7 @@ layout: page
 permalink: /Combinatorics/
 title: Combinatorics
 description: Combinatorics
-nav: true
+nav: false
 nav_order: 3
 ---
 

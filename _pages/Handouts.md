@@ -2,7 +2,7 @@
 layout: page
 title: Notes, Handouts
 nav: true
-nav_order: 22
+nav_order: 2
 dropdown: true
 children:
   - title: Algebra

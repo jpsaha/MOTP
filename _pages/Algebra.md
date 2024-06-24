@@ -3,7 +3,7 @@ layout: page
 permalink: /Algebra/
 title: Algebra
 description: Algebra
-nav: true
+nav: false
 nav_order: 2
 ---
 

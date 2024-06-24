@@ -3,7 +3,7 @@ layout: page
 permalink: /NumberTheory/
 title: Number Theory
 description: Number Theory
-nav: true
+nav: false
 nav_order: 5
 ---
 

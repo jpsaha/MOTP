@@ -3,7 +3,7 @@ layout: page
 permalink: /Geometry/
 title: Geometry
 description: Geometry
-nav: true
+nav: false
 nav_order: 4
 ---
 
