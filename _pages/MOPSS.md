@@ -5,6 +5,7 @@ title: MOPSS
 description: MOPSS
 nav: true
 nav_order: 4
+giscus_comments: true
 ---
 
 ## [Mathematics Olympiad Problem Solving Sessions](https://jpsaha.github.io/M/MOPSS/) (MOPSS)
