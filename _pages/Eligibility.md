@@ -5,6 +5,7 @@ title: Eligibility
 description: Eligibility
 nav: true
 nav_order: 10
+tabs: true
 giscus_comments: true
 ---
 
