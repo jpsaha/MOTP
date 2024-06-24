@@ -4,7 +4,7 @@ permalink: /TrainingProg/
 title: Training Program
 description: Training Program
 nav: true
-nav_order: 9
+nav_order: 5
 ---
 
 <!--
