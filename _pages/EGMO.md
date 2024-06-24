@@ -8,7 +8,6 @@ nav_order: 13
 ---
 
 ## [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO)
-
 * The European Girls’ Mathematical Olympiad ([EGMO](https://www.egmo.org/))
 > is the premier European mathematics competition, made exclusively for high school female students who enjoy mathematics beyond the regular school curriculum. Started by the United Kingdom in April 2012, EGMO has grown since then and now includes over fifty countries, welcoming participants from beyond Europe.
 * [EGMO](https://www.egmo.org/)
@@ -30,7 +29,6 @@ nav_order: 13
   * each problem is worth 7 points for a maximum total score of 42 points.  
   
 ## [Participation of India in EGMO](https://www.egmo.org/countries/country35/)
-
 * India has been participating in EGMO since [2015](https://www.egmo.org/countries/country35/).
 * India has received 6 Silver medals (S), 15 Bronze medals (B), and 4 Honourable mentions (HM).
 
