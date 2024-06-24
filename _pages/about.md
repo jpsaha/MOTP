@@ -40,9 +40,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Some of the stages of the Math Olympiad program 2024 --- 2025 are
 
-{% tabs something-else %}
+{% tabs stages %}
 
-{% tab something-else IOQM %}
+{% tab stages IOQM %}
 
 ### IOQM (Indian Olympiad Qualifier in Mathematics)
 - Scheduled on 8th September, 2024, during 10:00hrs --- 13:00hrs.
@@ -52,7 +52,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtab %}
 
-{% tab something-else RMO %}
+{% tab stages RMO %}
 
 ### RMO (Regional Mathematical Olympiad)
 - Scheduled on 3rd November, 2024, during 13:00hrs --- 16:00hrs.
@@ -62,7 +62,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtab %}
 
-{% tab something-else INMO %}
+{% tab stages INMO %}
 
 ### INMO (Indian National Mathematical Olympiad)
 - Scheduled on 19th January, 2025, during 12:00hrs --- 16:30hrs.
@@ -72,7 +72,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtab %}
 
-{% tab something-else IMOTC %}
+{% tab stages IMOTC %}
 
 ### IMOTC (International Mathematical Olympiad Training Camp)
 - Held from April to May.
@@ -82,13 +82,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtab %}
 
-{% tab something-else PDC %}
+{% tab stages PDC %}
 
 ### PDC (Pre-Departure Camp)
 - Held before leaving for [IMO](https://www.imo-official.org).
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
 {% endtab %}
-
 
 {% endtabs %}
