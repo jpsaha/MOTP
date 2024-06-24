@@ -6,20 +6,31 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: MOPSS.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <!--
+    <p>Department of Mathematics</p>
+    <p>IISER Bhopal</p>
+    <p>Madhya Pradesh, India</p>
+    -->
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-
+<!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+-->
+
+<h2 align="center">👋 Hello! I'm Jyoti Prakash Saha. </h2>
+
+- 🔭 I’m currently working at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/) as an Assistant Professor.
+- I am the **Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region**. For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the **Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region**. 
+- 📫 For any **queries related to the Mathematics Olympiad** program, please feel free to **reach me at** <a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
+      <i class="fas fa-envelope" style="color:gray"></i> jpsaha@iiserb.ac.in
+    </a> 
