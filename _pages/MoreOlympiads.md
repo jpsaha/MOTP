@@ -5,6 +5,7 @@ title: More Olympiads
 description: Sharygin Geometry Olympiad, Iranian Geometry Olympiad, Tournament of Towns
 nav: false
 nav_order: 14
+giscus_comments: true
 ---
 
 ## [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php)

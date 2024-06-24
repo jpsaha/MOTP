@@ -5,6 +5,7 @@ title: Algebra
 description: Algebra
 nav: false
 nav_order: 21
+giscus_comments: true
 ---
 
 ## References/Resources

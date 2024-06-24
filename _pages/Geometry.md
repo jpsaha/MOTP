@@ -5,6 +5,7 @@ title: Geometry
 description: Geometry
 nav: false
 nav_order: 23
+giscus_comments: true
 ---
 
 ## References/Resources

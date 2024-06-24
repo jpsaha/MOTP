@@ -5,6 +5,7 @@ title: Number Theory
 description: Number Theory
 nav: false
 nav_order: 24
+giscus_comments: true
 ---
 
 ## References/Resources

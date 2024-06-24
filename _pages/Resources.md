@@ -5,6 +5,7 @@ title: Resources
 description: Resources
 nav: true
 nav_order: 6
+giscus_comments: true
 ---
 
 ## References

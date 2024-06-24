@@ -5,6 +5,7 @@ title: Combinatorics
 description: Combinatorics
 nav: false
 nav_order: 22
+giscus_comments: true
 ---
 
 

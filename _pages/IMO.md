@@ -5,6 +5,7 @@ title: IMO
 description: IMO
 nav: false
 nav_order: 11
+giscus_comments: true
 ---
 
 ## [International Mathematical Olympiad](https://www.imo-official.org/) (IMO)

@@ -5,6 +5,7 @@ title: Training Program
 description: Training Program
 nav: true
 nav_order: 5
+giscus_comments: true
 ---
 
 Here are some of the [suggestions](https://web.evanchen.cc/faq-contest.html#C-0) from [Evan Chen](https://web.evanchen.cc/) regarding the preparation of Math Olympiad. 

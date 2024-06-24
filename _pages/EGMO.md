@@ -5,6 +5,7 @@ title: EGMO
 description: EGMO
 nav: false
 nav_order: 13
+giscus_comments: true
 ---
 
 ## [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO)

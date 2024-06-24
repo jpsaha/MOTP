@@ -5,6 +5,7 @@ title: APMO
 description: APMO
 nav: false
 nav_order: 12
+giscus_comments: true
 ---
 
 ## [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO)
