@@ -10,7 +10,7 @@ giscus_comments: true
 
 
 ## References/Resources
-
+* Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts)
 * Mathematical circles (Russian experience) by Fomin, Genkin, Itenberg.
 * Problem-solving methods in combinatorics by Pablo Soberón, who received a Gold medal in [IMO 2006](https://www.imo-official.org/participant_r.aspx?id=8475).
 * Problem-solving strategies by Engel.
