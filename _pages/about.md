@@ -31,7 +31,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Hello! I'm Jyoti Prakash Saha.
 
-- 🔭 I’m currently working at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/) as an Assistant Professor.
+- 🔭 I’m an Assistant Professor at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/).
 - I am the <span style="color: royalblue">Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
 - For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the <span style="color: royalblue">Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
 - 📫 For any <span style="color: royalblue">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: royalblue">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
