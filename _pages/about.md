@@ -43,7 +43,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - To provide a brief introduction to Mathematical Olympiad.
 - To serve as a website for the [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) program at IISER Bhopal, to be held in person, from August 2024 to November 2024.
   - We have plans to post notes containing the details of those sessions. 
-- To provide handouts on the topics of [Algebra]({{ site.url }}{{ site.baseurl }}/algebra/), [Combinatorics]({{ site.url }}{{ site.baseurl }}/combinatorics/), [Geometry]({{ site.url }}{{ site.baseurl }}/geometry/), and [Number Theory]({{ site.url }}{{ site.baseurl }}/numbertheory/), and to keep it posted in an organized manner across different sub-topics.
+- To provide handouts on the topics of [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/), [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/), [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/), and [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/), and to keep it posted in an organized manner across different sub-topics.
   - These notes may be useful to the students who would like to have a look at some of the past RMO problems before getting started, or just curious about it.
   - These notes may also serve as a reference to anyone who would like to provide guidance to students, but may not have enough time to organize the relevant questions across the topics and sub-topics. 
 - To provide assistance to anyone on Mathematics Olympiad.
