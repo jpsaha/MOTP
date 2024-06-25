@@ -50,6 +50,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
 - Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
+- Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
+- <span style="color: green"> **Further details on IOQM will be published in the month of June 2024**</span> on the webpage of [Mathematics Teachers’ Association](https://www.mtai.org.in/).
+- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/assets/pdf/IOQM/IOQM23.pdf).
+
 {% endtab %}
 
 {% tab stages RMO %}
