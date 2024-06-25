@@ -8,8 +8,6 @@ nav_order: 15
 giscus_comments: true
 ---
 
-## Let's go through a few problems
-
 * [A1]({{ site.url }}{{ site.baseurl }}/assets/pdf/Glimpse/3Mod4NotSumOfTwoSq.pdf)
 * [C1]({{ site.url }}{{ site.baseurl }}/assets/pdf/Glimpse/Putnam2002A2.pdf)
 * [C2]({{ site.url }}{{ site.baseurl }}/assets/pdf/Glimpse/RUSMMO2015Grade11Day1P5.pdf)
