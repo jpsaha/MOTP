@@ -60,7 +60,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 ### IMOTC (International Mathematical Olympiad Training Camp)
 - Held from April to May.
 - The paper consists of 6 questions. 
-- Through the TSTs (Team Selection Tests), it leads to the selection of six students to represent India at IMO.
+- Through the TSTs (Team Selection Tests), it leads to the selection of six students to represent India at [IMO](https://www.imo-official.org/organizers.aspx).
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
 {% endtab %}
