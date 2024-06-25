@@ -48,7 +48,7 @@ giscus_comments: true
 
 ## Participation of India in [International Mathematical Olympiads]({{ site.url }}{{ site.baseurl }}/PriorParticipation/) 
 <!--<span style="color: green"> **International Mathematical Olympiads**</span>-->
-India has been participating in 
+India has been participating in the
 * [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) since [1989](https://www.imo-official.org/country_team_r.aspx?code=IND).
 * [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) since [2015](https://www.apmo-official.org/country_report/IND/all). 
 * [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).
