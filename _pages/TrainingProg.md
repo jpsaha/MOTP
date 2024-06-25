@@ -18,7 +18,6 @@ giscus_comments: true
 >
 > Alternatively, you need a cloning facility and a relaxed regulatory framework.
 
-
 ## Some of the [suggestions](https://web.evanchen.cc/faq-contest.html#C-0) from [Evan Chen](https://web.evanchen.cc/) regarding the preparation of Math Olympiad. 
 
 > * Pick up any standard textbook to work through, so you learn some of the standard theory that is tested in math contests. 
@@ -28,9 +27,9 @@ giscus_comments: true
 > * As you get experience, you will automatically start to know what deep understanding feels like. 
 > * Be aware that you will see many, many problems which you can’t solve, where you read the solution and ask, “how was I supposed to think of that?”. This is okay and expected: it’s not because you’re dumb, it’s because you are learning.
 
-## [A few training programs](https://jpsaha.github.io/MOTP/resources/)
+## [A few training programs]({{ site.url }}{{ site.baseurl }}/Resources/)
 
-#### The [<span style="color: royalblue"> **OTIS program**</span>](https://web.evanchen.cc/otis.html)
+#### The [OTIS program](https://web.evanchen.cc/otis.html)
   * Olympiad Training for Individual Study, run by [Evan Chen](https://web.evanchen.cc/) and [people](https://web.evanchen.cc/otis.html#people), is **a proof-based olympiad training program, with over [300 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**.
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
@@ -49,7 +48,7 @@ giscus_comments: true
 |   `Anushka Aggarwal`  |     |     |  [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B)  |     |     |     |     |
 
 
-#### [<span style="color: royalblue"> **The Sophie Fellowship**</span>](https://www.sophiefellowship.in/home)
+#### [The Sophie Fellowship](https://www.sophiefellowship.in/home)
   * It is a training program and fellowship for students preparing for IMO, EGMO, INMO and other national and international mathematical competitions.
   * It is a student-run initiative to assist selected high schoolers passionate about mathematics, by offering help from people who have performed well at various mathematical contests such as the IMO, APMO, EGMO, and INMO.
   * The program will be completely free of cost.
@@ -58,7 +57,7 @@ giscus_comments: true
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Sophie Fellowship is the gem! It provides such a nice community and so many resources!
 
-#### [<span style="color: royalblue"> **Online Math Club 2.0**</span>](https://sites.google.com/view/online-math-club)
+#### [Online Math Club 2.0](https://sites.google.com/view/online-math-club)
 * To quote from [this post](https://sunainalovesmath.blogspot.com/2022/05/reflecting-on-past.html) of [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), 
 > The Online Math Club is an initiative to reach high school students interested in math and give them a platform to learn more and interact with others. The Club aims to increase exposure to olympiad mathematics and advanced mathematics. And OMC is free and open to all!
 * The [Online Math Club 2.0](https://sites.google.com/view/online-math-club/home?authuser=0) is a student-run mathematical program that aims to help students from all over India and internationally prepare for mathematical olympiads. The team consists of a group of math enthusiasts who have taken part in these math olympiads in the past, many of whom are also IMO and EGMO medallists and awardees from the Indian National Mathematical Olympiad. The classes run on a Discord server.
@@ -66,11 +65,11 @@ giscus_comments: true
 
 * [Blog](https://www.omath.club/)
 * On [YouTube](https://www.youtube.com/@omath)
-    * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
-    * An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
+  * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
+  * An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
 
 
-#### [<span style="color: royalblue"> **The Philomath Club**</span>](https://thephillomathclub.weebly.com/)
+#### [The Philomath Club](https://thephillomathclub.weebly.com/)
 * It is a math club founded by [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), which aims to motivate the elementary and middle school students to do Mathematics but in a fun way. The club wants to spread the awareness towards non-routine mathematics.
 
 

@@ -19,4 +19,7 @@ children:
   - title: divider
   - title: Further Olympiads
     permalink: /MoreOlympiads/
+  - title: divider
+  - title: Glimpse of a few problems
+    permalink: /GlimpseOfAFewProblems/
 ---
