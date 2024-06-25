@@ -90,4 +90,4 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 * [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/)
 * [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/)
 * [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/)
-* [Number Theory]({{ site.url }}{{ site.baseurl }}/Numbertheory/)
+* [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/)
