@@ -20,7 +20,7 @@ giscus_comments: true
 ## Handouts
 
 - [Warm up]({{ site.url }}{{ site.baseurl }}/blog/2024/WarmUp/)
-- [$a^3+b^3+c^3 - 3abc$]({{ site.url }}{{ site.baseurl }}/blog/2024/a3b3c3-3abc/)
+- [$$ a^3+b^3+c^3 - 3abc $$]({{ site.url }}{{ site.baseurl }}/blog/2024/a3b3c3-3abc/)
 - [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2024/Invariance/)
 - [Polynomials]({{ site.url }}{{ site.baseurl }}/blog/2024/Polynomials/)
 - [Quadratic polynomials]({{ site.url }}{{ site.baseurl }}/blog/2024/Quadratic/)
