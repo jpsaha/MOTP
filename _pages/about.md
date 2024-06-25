@@ -50,7 +50,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## I am enthusiastic about math/math olympiads and/or teaching math to high schoolers. How may I contribute?
 
-- One may reach to schools, to high schoolers. 
+- One may reach to schools, to high schoolers.
 - One may explain about Olympiads, and spread awareness about it.
 - One may encourage people (for instance, students, teachers or anyone enthusiastic/curious about math olympiad) to go through this website (and suggest a careful reading of the homepage!).
 - Next, a student interested in math olympiad, may browse through the handouts posted here (this will grow with time).
