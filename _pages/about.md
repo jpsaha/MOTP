@@ -37,6 +37,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 📫 For any <span style="color: royalblue">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: royalblue">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
     </a>.
+---
 
 ## Some stages of the Math Olympiad program 2024 --- 2025 are
 
@@ -93,12 +94,15 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtabs %}
 
+---
 * Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
 
 * For [EGMO](https://www.egmo.org/), the stages are IOQM, RMO, INMO, EGMOTC, EGMOPDC, EGMO (along with certain criteria at the stages).
 * For [APMO](https://www.apmo-official.org/), the stages are IOQM, RMO, INMO, APMO (along with certain criteria at the stages).
 
 * [INMOTC](https://olympiads.hbcse.tifr.res.in/faq/) is a camp, organized before INMO.
+
+---
 
 ## Goal of <a href="{{ site.url }}{{ site.baseurl }}/">this website</a> (aka Why another website? What is its use?!)
 
@@ -109,6 +113,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   - These notes may be useful to the students who would like to have a look at some of the past RMO problems before getting started, or just curious about it.
   - These notes may also serve as a reference to anyone who would like to provide guidance to students, but may not have enough time to organize the relevant questions across the topics and sub-topics. 
 - To provide assistance to anyone on Mathematics Olympiad.
+
+---
 
 ## I am enthusiastic about math/math olympiads and/or teaching math to high schoolers. How may I contribute?
 
@@ -128,3 +134,5 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - Yes! You could spread the message by 
   - sharing the link [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/)
   - and suggeting to go through this page, that is the homepage [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/), to find what all this is about!
+
+  --- 
