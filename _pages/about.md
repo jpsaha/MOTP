@@ -34,38 +34,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 🔭 I’m currently working at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/) as an Assistant Professor.
 - I am the <span style="color: royalblue">Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
 - For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the <span style="color: royalblue">Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
-- 📫 For any <span style="color: green">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: green">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
+- 📫 For any <span style="color: royalblue">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: royalblue">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
     </a>.
-
-## Goal of <a href="{{ site.url }}{{ site.baseurl }}/">this website</a> (aka Why another website? What is its use?!)
-
-- To provide a brief introduction to Mathematical Olympiad.
-- To serve as a website for the [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) program at IISER Bhopal, to be held in person, from August 2024 to November 2024.
-  - We have plans to post notes containing the details of those sessions. 
-- To provide handouts on the topics of [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/), [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/), [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/), and [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/), and to keep it posted in an organized manner across different sub-topics.
-  - These notes may be useful to the students who would like to have a look at some of the past RMO problems before getting started, or just curious about it.
-  - These notes may also serve as a reference to anyone who would like to provide guidance to students, but may not have enough time to organize the relevant questions across the topics and sub-topics. 
-- To provide assistance to anyone on Mathematics Olympiad.
-
-## I am enthusiastic about math/math olympiads and/or teaching math to high schoolers. How may I contribute?
-
-- One may reach to schools, to high schoolers.
-- One may explain about Olympiads, and spread awareness about it.
-- One may encourage people (for instance, students, teachers or anyone enthusiastic/curious about math olympiad) to go through this website (and suggest a careful reading of the homepage!).
-- Next, a student interested in math olympiad, may browse through the handouts posted here (this will grow with time).
-- A person with passion in teaching high school students could use the handouts as a problem bag, or in other way.
-- What else? For instance, if one has interest in a science subject(s) other than (or parallel to) mathematics, then one may refer to the [webpage of HBCSE](https://olympiads.hbcse.tifr.res.in/), which has information about olympiads ([past papers](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/)) on the following subjects, and may repeat the same process as above adapted to those subjects!
-  - Astronomy
-  - Biology
-  - Chemistry
-  - Junior Science
-  - Physics
-
-## I do not have much time for the above, but I find it interesting. Is there something that I can do?
-- Yes! You could spread the message by 
-  - sharing the link [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/)
-  - and suggeting to go through this page, that is the homepage [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/), to find what all this is about!
 
 ## Some stages of the Math Olympiad program 2024 --- 2025 are
 
@@ -128,3 +99,32 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 * For [APMO](https://www.apmo-official.org/), the stages are IOQM, RMO, INMO, APMO (along with certain criteria at the stages).
 
 * [INMOTC](https://olympiads.hbcse.tifr.res.in/faq/) is a camp, organized before INMO.
+
+## Goal of <a href="{{ site.url }}{{ site.baseurl }}/">this website</a> (aka Why another website? What is its use?!)
+
+- To provide a brief introduction to Mathematical Olympiad.
+- To serve as a website for the [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) program at IISER Bhopal, to be held in person, from August 2024 to November 2024.
+  - We have plans to post notes containing the details of those sessions. 
+- To provide handouts on the topics of [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/), [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/), [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/), and [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/), and to keep it posted in an organized manner across different sub-topics.
+  - These notes may be useful to the students who would like to have a look at some of the past RMO problems before getting started, or just curious about it.
+  - These notes may also serve as a reference to anyone who would like to provide guidance to students, but may not have enough time to organize the relevant questions across the topics and sub-topics. 
+- To provide assistance to anyone on Mathematics Olympiad.
+
+## I am enthusiastic about math/math olympiads and/or teaching math to high schoolers. How may I contribute?
+
+- One may reach to schools, to high schoolers.
+- One may explain about Olympiads, and spread awareness about it.
+- One may encourage people (for instance, students, teachers or anyone enthusiastic/curious about math olympiad) to go through this website (and suggest a careful reading of the homepage!).
+- Next, a student interested in math olympiad, may browse through the handouts posted here (this will grow with time).
+- A person with passion in teaching high school students could use the handouts as a problem bag, or in other way.
+- What else? For instance, if one has interest in a science subject(s) other than (or parallel to) mathematics, then one may refer to the [webpage of HBCSE](https://olympiads.hbcse.tifr.res.in/), which has information about olympiads ([past papers](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/)) on the following subjects, and may repeat the same process as above adapted to those subjects!
+  - Astronomy
+  - Biology
+  - Chemistry
+  - Junior Science
+  - Physics
+
+## I do not have much time for the above, but I find it interesting. Is there something that I can do?
+- Yes! You could spread the message by 
+  - sharing the link [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/)
+  - and suggeting to go through this page, that is the homepage [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/), to find what all this is about!
