@@ -3,7 +3,7 @@ layout: post
 title: Invariance principle
 date: 2024-06-14 08:57:00-0400
 description: Invariance principle
-tags: algebra Invariance-principle
+tags: algebra InvariancePrinciple
 categories: algebra
 giscus_comments: true
 related_posts: false

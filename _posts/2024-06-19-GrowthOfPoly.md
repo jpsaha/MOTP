@@ -3,7 +3,7 @@ layout: post
 title: Growth of Polynomials
 date: 2024-06-19 08:57:00-0400
 description: Growth of Polynomials
-tags: algebra Growth-Of-Poly
+tags: algebra GrowthOfPoly
 categories: algebra
 giscus_comments: true
 related_posts: false

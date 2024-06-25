@@ -3,7 +3,7 @@ layout: post
 title: Binomial theorem
 date: 2024-06-22 08:57:00-0400
 description: Binomial theorem
-tags: algebra Binomial-Theorem
+tags: algebra BinomialTheorem
 categories: algebra
 giscus_comments: true
 related_posts: false
