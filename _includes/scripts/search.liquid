@@ -540,6 +540,16 @@
             },
           },
         {%- endif -%}
+        {%- if site.discord_server -%}
+          {
+            id: 'socials-discord',
+            title: 'Discord Server',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://discord.gg/{{ site.discord_server }}", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.zotero_username -%}
           {
             id: 'socials-zotero',
