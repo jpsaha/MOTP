@@ -31,7 +31,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 - The paper consists of 30 question worth 100 marks in total. 
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
 - Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
-- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/).
+- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
 
 {% endtab %}
 
