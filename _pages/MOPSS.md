@@ -18,6 +18,8 @@ giscus_comments: true
 
 ---
 
+Here is the flyer. 
+
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 ---
