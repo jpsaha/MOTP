@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jpsaha.github.io/MOT/sitemap.xml
+Sitemap: https://jpsaha.github.io/MOTPN/sitemap.xml
