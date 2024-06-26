@@ -10,13 +10,6 @@ toc:
   beginning: true
 ---
 
-## Table of contents
-
-```yml
-toc:
-  beginning: true
-```
-
 ## [Geoff Smith](https://people.bath.ac.uk/masgcs/advice.html) remarked the following in the foreword to the text [Infinity](http://prac.im.pwr.wroc.pl/~kwasnicki/pl/o/infinity.pdf) by Hojoo Lee, Tom Lovering, and Cosmin Pohoata.
 
 >The nations which do consistently well at this competition (IMO) must have at least one (and probably at least two) of the following attributes:
