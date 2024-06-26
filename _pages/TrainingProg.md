@@ -18,6 +18,8 @@ giscus_comments: true
 >
 > Alternatively, you need a cloning facility and a relaxed regulatory framework.
 
+---
+
 ## Some of the [suggestions](https://web.evanchen.cc/faq-contest.html#C-0) from [Evan Chen](https://web.evanchen.cc/) regarding the preparation of Math Olympiad. 
 
 > * Pick up any standard textbook to work through, so you learn some of the standard theory that is tested in math contests. 
@@ -27,6 +29,8 @@ giscus_comments: true
 > * As you get experience, you will automatically start to know what deep understanding feels like. 
 > * Be aware that you will see many, many problems which you can’t solve, where you read the solution and ask, “how was I supposed to think of that?”. This is okay and expected: it’s not because you’re dumb, it’s because you are learning.
 
+---
+
 ## [A few training programs]({{ site.url }}{{ site.baseurl }}/Resources/)
 
 #### The [OTIS program](https://web.evanchen.cc/otis.html)
@@ -34,7 +38,6 @@ giscus_comments: true
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
 
-  
 ##### Some of its <a href="https://web.evanchen.cc/otis.html#staff">alums</a> are
 
 | Name | IMO | APMO | EGMO | Sharygin Geometry Olympiad | Iranian Geometry Olympiad | Tournament of Towns |
@@ -47,6 +50,7 @@ giscus_comments: true
 |     |     |     |     |     |     |     |     |
 |   `Anushka Aggarwal`  |     |     |  [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B)  |     |     |     |     |
 
+---
 
 #### [The Sophie Fellowship](https://www.sophiefellowship.in/home)
   * It is a training program and fellowship for students preparing for IMO, EGMO, INMO and other national and international mathematical competitions.
@@ -56,6 +60,8 @@ giscus_comments: true
   * The [team](https://www.sophiefellowship.in/team) consists of many IMO and EGMO medalists, as well as others who have attended the Indian IMO training camp. They have previously participated in Olympiads, we understand the challenges students in the math community face and want to help them. 
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Sophie Fellowship is the gem! It provides such a nice community and so many resources!
+
+---
 
 #### [Online Math Club 2.0](https://sites.google.com/view/online-math-club)
 * To quote from [this post](https://sunainalovesmath.blogspot.com/2022/05/reflecting-on-past.html) of [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), 
@@ -68,8 +74,12 @@ giscus_comments: true
   * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
   * An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
 
+---
+
 #### [The Philomath Club](https://thephillomathclub.weebly.com/)
 * It is a math club founded by [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), which aims to motivate the elementary and middle school students to do Mathematics but in a fun way. The club wants to spread the awareness towards non-routine mathematics.
+
+---
 
 ## Contests, Programs, Camps
 

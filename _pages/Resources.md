@@ -8,7 +8,7 @@ nav_order: 6
 giscus_comments: true
 ---
 
-## References
+### References
 
 * Mathematical circles (Russian experience) by Fomin, Genkin, Itenberg.
 * Challenge and Thrill of Pre-College Mathematics by V. Krishnamurthy, C.R. Pranesachar, K.N. Ranganathan, B.J. Venkatachala
@@ -22,7 +22,9 @@ giscus_comments: true
 * [Recommendations](https://web.evanchen.cc/recommend.html) from [Evan Chen](https://web.evanchen.cc/) for [handouts](https://web.evanchen.cc/recommend.html#handouts), [books](https://web.evanchen.cc/recommend.html#books). 
 * [Handouts](https://yufeizhao.com/olympiad/) and [book recommendations](https://yufeizhao.com/olympiad/#book-recommendations) by [Yufei Zhao](https://yufeizhao.com/).
 
-## Problems and Solutions
+---
+
+### Problems and Solutions
 
 * Rustam Turdibaev and Olimjon Olimov compiled a [336-problem index](https://drive.google.com/file/d/1G9a5f6EW9cIDw5rTMI46iLlc4UMs6KRW/view) of recent problems by subject and [MOHS rating](https://web.evanchen.cc/problems.html#mohs) ([devised](https://web.evanchen.cc/upload/MOHS-hardness.pdf) by Evan Chen).
 * [Olympiad Problems and Solutions](https://web.evanchen.cc/problems.html) by [Evan Chen](https://web.evanchen.cc/).
@@ -32,14 +34,21 @@ giscus_comments: true
 * The IMO compendium by Djukić, Janković, Matić, Petrović.
 * [Contest collections](https://artofproblemsolving.com/community/c13_contests) at [AoPS](https://artofproblemsolving.com/).
 
+---
 
-## [AoPS](https://artofproblemsolving.com/)
+### [AoPS](https://artofproblemsolving.com/)
 * On [Art of Problem-Solving](https://artofproblemsolving.com/), there is an [archive](https://artofproblemsolving.com/community/c13_contest_collections) of problems from basically every Math Contest, together with community-contributed solutions.
 
+---
 
-## Additional resources/links
+### Additional resources/links
 
-#### An [Olympiad Math Blog](https://sunainalovesmath.blogspot.com/) maintained by [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), [participated](https://www.egmo.org/people/person2282/) in EGMO in 2023 (S).
+---
+
+#### [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023) 
+
+maintains an [Olympiad Math Blog](https://sunainalovesmath.blogspot.com/). She [participated](https://www.egmo.org/people/person2282/) in EGMO in 2023 (S).
+
   * A post discussing [How to prepare for RMO](https://sunainalovesmath.blogspot.com/2023/06/How%20to%20prepare%20for%20RMO%20India.html)
   * An older post on OMC discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html)
     * To quote from this post:
@@ -48,10 +57,19 @@ giscus_comments: true
     > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
   * Another post discussing [How to write a nice solution](https://www.omath.club/2022/04/how-to-write-nice-solution.html)
 
-#### [Royan Goyal](https://www.cmi.ac.in/people/student-profile.php?id=rohang) maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.imo-official.org/participant_r.aspx?id=31126) in IMO 2021 (B). 
+---
+
+#### [Royan Goyal](https://www.cmi.ac.in/people/student-profile.php?id=rohang)
+
+maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.imo-official.org/participant_r.aspx?id=31126) in IMO 2021 (B). 
+
 * [Recommendations](https://rgtdfg.blogspot.com/2022/02/recommendations-feb-22-version.html) from him. 
 
-#### [Evan Chen](https://web.evanchen.cc/) is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc/otis.html). He received a [Gold medal](https://www.imo-official.org/participant_r.aspx?id=24870) in IMO 2014. There are a lot of useful material available on his [webpage](https://web.evanchen.cc/) and [blog](https://blog.evanchen.cc/).
+---
+
+#### [Evan Chen](https://web.evanchen.cc/)
+
+is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc/otis.html). He received a [Gold medal](https://www.imo-official.org/participant_r.aspx?id=24870) in IMO 2014. There are a lot of useful material available on his [webpage](https://web.evanchen.cc/) and [blog](https://blog.evanchen.cc/).
 
 ##### Some of post from his [webpage](https://web.evanchen.cc/) are
   * [FAQs](https://web.evanchen.cc/faq-contest.html) about math contests and particularly how to go about training for them.
@@ -93,6 +111,7 @@ giscus_comments: true
 * [January newsflash](https://blog.evanchen.cc/2024/01/18/january-newsflash/)
 * [Against exploitable rubrics](https://blog.evanchen.cc/2024/02/01/rubrics/)
 
+---
 
 <!--
 #### [The Sophie Fellowship](https://www.sophiefellowship.in/home) --- Training program and fellowship for students preparing for IMO, EGMO, INMO and other national and international mathematical competitions.
@@ -107,7 +126,9 @@ giscus_comments: true
 -->
 #### [Mathematical Reflections](https://www.awesomemath.org/mathematical-reflections/)
 
-## Some links
+---
+
+### Some links
 
 * The legendary IMO 1988 P6
 * A post by [Terence Tao](https://terrytao.wordpress.com/2009/07/20/imo-2009-q6-as-a-mini-polymath-project/) related to IMO 2009 P6
