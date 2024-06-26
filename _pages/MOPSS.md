@@ -31,9 +31,9 @@ Here is the flyer.
     * 14th, 28th September, 2024.
     * 19th October, 2024.
     * 2nd, 16th, 30th November, 2024.
-  * Applications to be accepted <span style="color: royalblue"> **until 07th July, 2024** </span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
+  * Applications to be accepted <span style="color: royalblue"> **until 07th July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
   * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
-  * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024** </span>.
+  * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024**</span>.
   * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
     * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
