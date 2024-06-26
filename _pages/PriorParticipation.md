@@ -11,10 +11,9 @@ giscus_comments: true
 
 ## Participation of a few Indian contestants in some International Olympiads
 
+{% tabs participation %}
 
-{% tabs stages %}
-
-{% tab stages Anant Mudgal %}
+{% tab participation Anant Mudgal %}
 
 participated in 
 
@@ -23,7 +22,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Pranjal Srivastava %}
+{% tab participation Pranjal Srivastava %}
 
 participated in 
 
@@ -33,7 +32,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Atul Shatavart Nadig %}
+{% tab participation Atul Shatavart Nadig %}
 
 participated in 
 
@@ -43,7 +42,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Anushka Aggarwal %}
+{% tab participation Anushka Aggarwal %}
 
 participated in 
 
@@ -51,7 +50,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Ananda Bhaduri %}
+{% tab participation Ananda Bhaduri %}
 
 participated in 
 
@@ -62,7 +61,7 @@ and qualified for
 
 {% endtab %}
 
-{% tab stages Gunjan Aggarwal %}
+{% tab participation Gunjan Aggarwal %}
 
 participated in 
 
@@ -79,14 +78,14 @@ She has a
 
 {% endtab %}
 
-{% tab stages Amaan Khan %}
+{% tab participation Amaan Khan %}
 
 qualified for 
 - the Final round of Sharygin Geometry Olympiad in 2020 and won a 3rd diploma.
 
 {% endtab %}
 
-{% tab stages Adhitya Venkata Ganesh Mangudy %}
+{% tab participation Adhitya Venkata Ganesh Mangudy %}
 
 participated in 
 
@@ -96,7 +95,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Ananya Rajas Ranade %}
+{% tab participation Ananya Rajas Ranade %}
 
 participated in 
 
@@ -104,7 +103,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Kanav Talwar %}
+{% tab participation Kanav Talwar %}
 
 received a 
 
@@ -112,7 +111,7 @@ received a
 
 {% endtab %}
 
-{% tab stages Rohan Goyal %}
+{% tab participation Rohan Goyal %}
 
 received a 
 
@@ -120,7 +119,7 @@ received a
 
 {% endtab %}
 
-{% tab stages Saee Vitthal Patil %}
+{% tab participation Saee Vitthal Patil %}
 
 participated in 
 
@@ -128,7 +127,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Sanjana Philo Chacko %}
+{% tab participation Sanjana Philo Chacko %}
 
 participated in 
 
@@ -136,7 +135,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Sunaina Pati %}
+{% tab participation Sunaina Pati %}
 
 participated in 
 
@@ -144,7 +143,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Aditya Khurmi %}
+{% tab participation Aditya Khurmi %}
 
 participated in 
 
@@ -152,7 +151,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Siddharth Choppara %}
+{% tab participation Siddharth Choppara %}
 
 participated in 
 
@@ -161,7 +160,7 @@ participated in
 
 {% endtab %}
 
-{% tab stages Arjun Gupta %}
+{% tab participation Arjun Gupta %}
 
 participated in 
 
