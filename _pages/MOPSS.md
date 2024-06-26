@@ -55,6 +55,8 @@ Here is the flyer.
 > It is the aim of the IMO to bring young people together from all over the world to enjoy the challenges of mathematics in a spirit of friendly competition. This provides a stimulus for Mathematics in each of the participating countries as young people strive for selection. Whist clearly it is a competitive event, for most participants, it is the people that they meet and the shared joy of discovery that is what they regard as most worthwhile. It is common that lifelong friendships are forged at IMO events.
 {% enddetails %}
 
+---
+
 ## Participation of India in [International Mathematical Olympiads]({{ site.url }}{{ site.baseurl }}/PriorParticipation/) 
 <!--<span style="color: green"> **International Mathematical Olympiads**</span>-->
 India has been participating in the
