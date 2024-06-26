@@ -37,6 +37,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 - 📫 For any <span style="color: royalblue">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: royalblue">write to</span> <a href="mailto:{{ site.email }}?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
     </a>.
+
 ---
 
 ## Some stages of the Math Olympiad program 2024 --- 2025 are
@@ -95,6 +96,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 {% endtabs %}
 
 ---
+
 * Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
 
 * For [EGMO](https://www.egmo.org/), the stages are IOQM, RMO, INMO, EGMOTC, EGMOPDC, EGMO (along with certain criteria at the stages).
@@ -129,6 +131,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   - Chemistry
   - Junior Science
   - Physics
+
+---
 
 ## I do not have much time for the above, but I find it interesting. Is there something that I can do?
 - Yes! You could spread the message by 
