@@ -21,7 +21,8 @@ giscus_comments: true
 
 ## Handouts
 
-- 
+- [Warm up]({{ site.url }}{{ site.baseurl }}/blog/2024/CombiWarmUp/)
+- [Coloring proofs]({{ site.url }}{{ site.baseurl }}/blog/2024/ColoringProofs/) 
 
 ## These notes may be useful
 
