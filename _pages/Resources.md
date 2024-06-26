@@ -81,11 +81,65 @@ is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc
 (includes handouts by [Evan Chen](https://web.evanchen.cc/olympiad.html), [Yufei Zhao](https://yufeizhao.com/olympiad/), [Po-Shen Loh](https://www.math.cmu.edu/~ploh/olympiad.shtml), [Alex Remorov](https://alexanderrem.weebly.com/math-competitions.html), and [books](https://web.evanchen.cc/recommend.html#books), and a list of [contests](https://web.evanchen.cc/recommend.html#contests))
 
 ##### The OTIS program
-  * He runs the Olympiad Training for Individual Study ([OTIS](https://web.evanchen.cc/otis.html)), **a proof-based olympiad training program, with over [300 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**. Some of its [alums](https://web.evanchen.cc/otis.html#staff) are 
+  * He runs the Olympiad Training for Individual Study ([OTIS](https://web.evanchen.cc/otis.html)), **a proof-based olympiad training program, with over [300 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**. Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
+
+{% tabs OTISalum %}
+
+{% tab OTISalum Anant Mudgal %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
+- APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
+
+{% endtab %}
+
+{% tab OTISalum Pranjal Srivastava %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=28249) 2018 (S), 2019 (G), 2021 (G), 2022 (G),
+- APMO [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
+- IGO 2021 (B).
+
+{% endtab %}
+
+{% tab OTISalum Atul Shatavart Nadig %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31725) 2022 (B), 2023 (G),
+- APMO [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
+- IGO 2022 (S).
+
+{% endtab %}
+
+{% tab OTISalum Anushka Aggarwal %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B).
+
+{% endtab %}
+
+{% tab OTISalum Rohan Goyal %}
+
+received a 
+
+- Silver medal in IGO 2021.
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+<!--
+  Some of its [alums](https://web.evanchen.cc/otis.html#staff) are 
     * [Anant Mudgal](https://www.imo-official.org/participant_r.aspx?id=25764), participated in IMO in 2015 (HM), 2016 (B), 2017 (B), 2018 (S), and in APMO in [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S),
     * [Pranjal Srivastava](https://www.imo-official.org/participant_r.aspx?id=28249), participated in IMO in 2018 (S), 2019 (G), 2021 (G), 2022 (G), and in APMO in [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G), 
     * [Atul Shatavart Nadig](https://www.imo-official.org/participant_r.aspx?id=31725), participated in IMO in 2022 (B), 2023 (G), and in APMO in [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
     * [Anushka Aggarwal](https://www.egmo.org/people/person1429/), participated in EGMO in 2019 (B), 2020 (B), 2022 (B). 
+-->
   * He [runs](https://web.evanchen.cc/videos.html) a [Twitch stream](https://www.twitch.tv/vEnhance), where he primarily live-solves math problems.
     * The past broadcasts are on [YouTube](https://www.youtube.com/c/vEnhance). 
   * He also [maintains](https://web.evanchen.cc/discord.html) a [Discord server](https://discord.gg/KzFXYwqRFX). 
