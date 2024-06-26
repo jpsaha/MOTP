@@ -5,6 +5,7 @@ title: Prior Participations
 description: Participation of a few Indian contestants in some International Olympiads
 nav: false
 nav_order: 10
+tabs: true
 giscus_comments: true
 ---
 
