@@ -10,6 +10,170 @@ giscus_comments: true
 
 ## Participation of a few Indian contestants in some International Olympiads
 
+
+{% tabs stages %}
+
+{% tab stages Anant Mudgal %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
+- APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
+
+{% endtab %
+
+{% tab stages Pranjal Srivastava %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=28249) 2018 (S), 2019 (G), 2021 (G), 2022 (G),
+- APMO [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
+- IGO 2021 (B).
+
+{% endtab %}
+
+{% tab stages Atul Shatavart Nadig %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31725) 2022 (B), 2023 (G),
+- APMO [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
+- IGO 2022 (S).
+
+{% endtab %}
+
+{% tab stages Anushka Aggarwal %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B).
+
+{% endtab %}
+
+{% tab stages Ananda Bhaduri %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=33405) 2023 (S),
+- APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (B), 
+and qualified for 
+- the Final round of Sharygin Geometry Olympiad in 2020 and 2021.
+
+{% endtab %}
+
+{% tab stages Gunjan Aggarwal %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person1867/) 2022 (B), 2023 (S), 2024 (S).
+
+She qualified 
+- diploma in Sharygin Geometry Olympiad.
+
+She received a 
+- Silver medal in IGO. 
+
+She has a 
+- Diploma in Tournament of Towns.
+
+{% endtab %}
+
+{% tab stages Amaan Khan %}
+
+qualified for 
+- the Final round of Sharygin Geometry Olympiad in 2020 and won a 3rd diploma.
+
+{% endtab %}
+
+{% tab stages Adhitya Venkata Ganesh Mangudy %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31724) 2022 (B), 2023 (B),
+- APMO in [2022](https://www.apmo-official.org/country_report/IND/2022) (B), [2023](https://www.apmo-official.org/country_report/IND/2023) (S),
+- IGO in 2019 (G), 2023 (B).
+
+{% endtab %}
+
+{% tab stages Ananya Rajas Ranade %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person1866/) 2021 (S), 2022 (B).
+
+{% endtab %}
+
+{% tab stages Kanav Talwar %}
+
+received a 
+
+- Bronze medal in IGO.
+
+{% endtab %}
+
+{% tab stages Rohan Goyal %}
+
+received a 
+
+- Silver medal in IGO 2021.
+
+{% endtab %}
+
+{% tab stages Saee Vitthal Patil %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person2568/) 2024 (B).
+
+{% endtab %}
+
+{% tab stages Sanjana Philo Chacko %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person2283/) 2023 (B), 2024 (S) 
+
+{% endtab %}
+
+{% tab stages Sunaina Pati %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person2282/) 2023 (S).
+
+{% endtab %}}
+
+{% tab stages Aditya Khurmi %}
+
+participated in 
+
+- APMO [2020](https://www.apmo-official.org/country_report/IND/2020) (B).
+
+{% endtab %}
+
+{% tab stages Siddharth Choppara %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=33406) 2023 (S),
+- APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (B).
+
+{% endtab %}
+
+{% tab stages Arjun Gupta %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31722) 2022 (B), 2023 (G),
+- APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (S).
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+
+
 | Name | [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) | [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) | [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) | [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php) | [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO) | [Tournament of Towns](https://www.turgor.ru/en/) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |   `Anant Mudgal`   | [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S)  | [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S) |      |                            |                           |                     |
@@ -47,7 +211,6 @@ giscus_comments: true
 |   `Arjun Gupta`   |  [IMO](https://www.imo-official.org/participant_r.aspx?id=31722) 2022 (B), 2023 (G)   |   [2023](https://www.apmo-official.org/country_report/IND/2023) (S)   |      |                            |                           |                     |
 |      |     |      |      |                            |                           |                     |
 |      |     |      |      |                            |                           |                     |
-
 
 -------
 
