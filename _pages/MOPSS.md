@@ -44,9 +44,18 @@ Here is the flyer.
     </a>),
     * Manas Kar (<a href="mailto:manas@iiserb.ac.in?subject=[MOPSS]"> 
       <i class="fas fa-envelope" style="color:gray"></i> manas@iiserb.ac.in
-    </a>). 
+    </a>).
 
-## <span style="color: royalblue"> Why math olympiads are a valuable experience for high schoolers </span>
+## Why math olympiads are a valuable experience for high schoolers
+
+{% details Click here to know more %}
+* The post by Evan Chen on [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/) is worth reading.
+* In a previous post, titled [Against the “Research vs. Olympiads” Mantra](https://blog.evanchen.cc/2016/08/13/against-the-research-vs-olympiads-mantra/), Evan Chen discussed why math olympiads should not be judged by their relevance to research mathematics. He mentions that in that post, he failed to actually explain why he thinks math olympiads are a valuable experience for high schoolers. In the post [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/), he puts the amends. 
+* and the last, but not the least, could be to take a look at the following [vision](https://imof.co/) of the [IMO Foundation](https://imof.co/), which is a charity supporting the International Mathematical Olympiad ([IMO](https://www.imo-official.org/)). 
+> It is the aim of the IMO to bring young people together from all over the world to enjoy the challenges of mathematics in a spirit of friendly competition. This provides a stimulus for Mathematics in each of the participating countries as young people strive for selection. Whist clearly it is a competitive event, for most participants, it is the people that they meet and the shared joy of discovery that is what they regard as most worthwhile. It is common that lifelong friendships are forged at IMO events.
+{% enddetails %}
+
+## Why math olympiads are a valuable experience for high schoolers
 * The post by Evan Chen on [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/) is worth reading.
 * In a previous post, titled [Against the “Research vs. Olympiads” Mantra](https://blog.evanchen.cc/2016/08/13/against-the-research-vs-olympiads-mantra/), Evan Chen discussed why math olympiads should not be judged by their relevance to research mathematics. He mentions that in that post, he failed to actually explain why he thinks math olympiads are a valuable experience for high schoolers. In the post [Lessons from math olympiads](https://blog.evanchen.cc/2018/01/05/lessons-from-math-olympiads/), he puts the amends. 
 * and the last, but not the least, could be to take a look at the following [vision](https://imof.co/) of the [IMO Foundation](https://imof.co/), which is a charity supporting the International Mathematical Olympiad ([IMO](https://www.imo-official.org/)). 
