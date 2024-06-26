@@ -40,7 +40,7 @@ toc:
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
 
-##### Some of its <a href="https://web.evanchen.cc/otis.html#staff">alums</a> are
+##### Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
 
 | Name | IMO | APMO | EGMO | Sharygin Geometry Olympiad | Iranian Geometry Olympiad | Tournament of Towns |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

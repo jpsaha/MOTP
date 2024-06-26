@@ -71,7 +71,7 @@ maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.
 
 is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc/otis.html). He received a [Gold medal](https://www.imo-official.org/participant_r.aspx?id=24870) in IMO 2014. There are a lot of useful material available on his [webpage](https://web.evanchen.cc/) and [blog](https://blog.evanchen.cc/).
 
-##### Some of post from his [webpage](https://web.evanchen.cc/) are
+##### Some of the posts from his [webpage](https://web.evanchen.cc/) are
   * [FAQs](https://web.evanchen.cc/faq-contest.html) about math contests and particularly how to go about training for them.
   * [Olympiad Articles](https://web.evanchen.cc/olympiad.html)
     * [For beginners](https://web.evanchen.cc/wherestart.html)
