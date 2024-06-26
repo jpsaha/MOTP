@@ -6,6 +6,7 @@ description: Training Program
 nav: true
 nav_order: 5
 giscus_comments: true
+tabs: true
 toc:
   beginning: true
 ---
@@ -42,6 +43,57 @@ toc:
 
 ##### Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
 
+{% tabs OTISalum %}
+
+{% tab OTISalum Anant Mudgal %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
+- APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
+
+{% endtab %}
+
+{% tab OTISalum Pranjal Srivastava %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=28249) 2018 (S), 2019 (G), 2021 (G), 2022 (G),
+- APMO [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
+- IGO 2021 (B).
+
+{% endtab %}
+
+{% tab OTISalum Atul Shatavart Nadig %}
+
+participated in 
+
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31725) 2022 (B), 2023 (G),
+- APMO [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
+- IGO 2022 (S).
+
+{% endtab %}
+
+{% tab OTISalum Anushka Aggarwal %}
+
+participated in 
+
+- [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B).
+
+{% endtab %}
+
+{% tab OTISalum Rohan Goyal %}
+
+received a 
+
+- Silver medal in IGO 2021.
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+<!--
 | Name | IMO | APMO | EGMO | Sharygin Geometry Olympiad | Iranian Geometry Olympiad | Tournament of Towns |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 |   `Anant Mudgal`   | [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S)  | [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S) |
@@ -53,6 +105,7 @@ toc:
 |   `Anushka Aggarwal`  |     |     |  [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B)  |     |     |     |     |
 
 ---
+-->
 
 #### [The Sophie Fellowship](https://www.sophiefellowship.in/home)
   * It is a training program and fellowship for students preparing for IMO, EGMO, INMO and other national and international mathematical competitions.
