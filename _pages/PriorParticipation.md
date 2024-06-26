@@ -21,7 +21,7 @@ participated in
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
 - APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
 
-{% endtab %
+{% endtab %}
 
 {% tab stages Pranjal Srivastava %}
 
@@ -142,7 +142,7 @@ participated in
 
 - [EGMO](https://www.egmo.org/people/person2282/) 2023 (S).
 
-{% endtab %}}
+{% endtab %}
 
 {% tab stages Aditya Khurmi %}
 
