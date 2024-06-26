@@ -8,6 +8,8 @@ nav_order: 4
 giscus_comments: true
 ---
 
+[a]({{ site.url }}{{ site.baseurl }}/MOPSS/PS0B24Aug) 
+
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
 <div class="row mt-3">
