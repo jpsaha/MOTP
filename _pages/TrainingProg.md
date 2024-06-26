@@ -6,6 +6,8 @@ description: Training Program
 nav: true
 nav_order: 5
 giscus_comments: true
+toc:
+  beginning: true
 ---
 
 ## [Geoff Smith](https://people.bath.ac.uk/masgcs/advice.html) remarked the following in the foreword to the text [Infinity](http://prac.im.pwr.wroc.pl/~kwasnicki/pl/o/infinity.pdf) by Hojoo Lee, Tom Lovering, and Cosmin Pohoata.
