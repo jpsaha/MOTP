@@ -35,9 +35,6 @@
     {% endif %}
 
     <div class="container">
-        <div id="clustrmaps-container">
-        <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=mtrwduxJpGESYV9i_3FC2vjKpjqIPiceMLgxCxmhAm8"></script>
-        </div>
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
       {{ site.middle_name }}
@@ -48,6 +45,9 @@
       {% if site.last_updated %}
         Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
+    </div>
+    <div id="clustrmaps-container">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=mtrwduxJpGESYV9i_3FC2vjKpjqIPiceMLgxCxmhAm8"></script>
     </div>
   </footer>
 {% endif %}
