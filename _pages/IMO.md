@@ -53,11 +53,25 @@ giscus_comments: true
 -->
 
 * Some of the past [contestants](https://www.imo-official.org/country_individual_r.aspx?code=IND) are
-  * Chetan Balwe
-  * Riddhipratim Basu
-  * Ashay Burungale
-  * Subhash Ajit Khot
-  * Abhinav Kumar
-  * Kartik Prasanna
-  * Sucharit Sarkar
-  * K Soundararajan
+
+- [Chetan Balwe](https://www.imo-official.org/participant_r.aspx?id=4720), IISER Mohali
+
+- [Riddhipratim Basu](https://www.imo-official.org/participant_r.aspx?id=8641), ICTS
+
+- [Ashay Burungale](https://www.imo-official.org/participant_r.aspx?id=9036), University of Texas at Austin
+
+- [Swarnendu Datta](https://www.imo-official.org/participant_r.aspx?id=6020), IISER Kolkata
+
+- [Subhash Khot](https://www.imo-official.org/participant_r.aspx?id=920), New York University, received Rolf Nevanlinna Prize 2014, a Fellow of the Royal Society
+
+- [Abhinav Kumar](https://www.imo-official.org/participant_r.aspx?id=4714), a \href{https://abhinav-kumar.weebly.com}{mathematician} working in industry
+
+- [Kartik Prasanna](https://www.imo-official.org/participant_r.aspx?id=3192), University of Michigan, Ann Arbor
+
+- [Abhishek Saha](https://www.imo-official.org/participant_r.aspx?id=5628), Queen Mary University of London
+			
+- [Sucharit Sarkar](https://www.imo-official.org/participant_r.aspx?id=6431), University of California at Los Angeles
+			
+- [Kannan Soundararajan](https://www.imo-official.org/participant_r.aspx?id=2755), Stanford University
+			
+- [Vaibhav Vaish](https://www.imo-official.org/participant_r.aspx?id=5575), IISER Mohali
