@@ -62,3 +62,15 @@ India has been participating in the
 * [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).
 
 If you (the reader!) are aware of these Olympiads, and would like to prepare for them, then you may wish to know about [a few training programs]({{ site.url }}{{ site.baseurl }}/TrainingProg/). 
+
+---
+
+## [Geoff Smith](https://people.bath.ac.uk/masgcs/advice.html) remarked the following in the foreword to the text [Infinity](http://prac.im.pwr.wroc.pl/~kwasnicki/pl/o/infinity.pdf) by [Hojoo Lee](https://cosmogeometer.wordpress.com/problems/), [Tom Lovering](https://www.imo-official.org/participant_r.aspx?id=15875) (he maintains a [blog](https://tlovering.wordpress.com/)), and [Cosmin Pohoata](https://pohoatza.wordpress.com/).
+
+>The nations which do consistently well at this competition (IMO) must have at least one (and probably at least two) of the following attributes:
+> * A large population.
+> * A significant proportion of its population in receipt of a good education.
+> * A well-organized training infrastructure to support mathematics competitions.
+> * A culture which values intellectual achievement.
+>
+> Alternatively, you need a cloning facility and a relaxed regulatory framework.
