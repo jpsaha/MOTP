@@ -108,6 +108,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Goal of <a href="{{ site.url }}{{ site.baseurl }}/">this website</a> (aka Why another website? What is its use?!)
 
+{% details Click here to know %}
 - To provide a brief introduction to Mathematical Olympiad.
 - To serve as a website for the [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) program at IISER Bhopal, to be held in person, from August 2024 to November 2024.
   - We have plans to post notes containing the details of those sessions. 
@@ -115,11 +116,13 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   - These notes may be useful to the students who would like to have a look at some of the past RMO problems before getting started, or just curious about it.
   - These notes may also serve as a reference to anyone who would like to provide guidance to students, but may not have enough time to organize the relevant questions across the topics and sub-topics. 
 - To provide assistance to anyone on Mathematics Olympiad.
+{% enddetails %}
 
 ---
 
 ## I am enthusiastic about math/math olympiads and/or teaching math to high schoolers. How may I contribute?
 
+{% details Click here to know %}
 - One may reach to schools, to high schoolers.
 - One may explain about Olympiads, and spread awareness about it.
 - One may encourage people (for instance, students, teachers or anyone enthusiastic/curious about math olympiad) to go through this website (and suggest a careful reading of the homepage!).
@@ -131,6 +134,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
   - Chemistry
   - Junior Science
   - Physics
+{% enddetails %}
 
 ---
 

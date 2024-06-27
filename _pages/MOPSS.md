@@ -37,14 +37,11 @@ Here is the flyer.
   * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
     * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
-      <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}
-    </a>),
+      <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>),
     * Kartick Adhikari (<a href="mailto:kartick@iiserb.ac.in?subject=[MOPSS]"> 
-      <i class="fas fa-envelope" style="color:gray"></i> kartick@iiserb.ac.in
-    </a>),
+      <i class="fas fa-envelope" style="color:gray"></i> kartick@iiserb.ac.in</a>),
     * Manas Kar (<a href="mailto:manas@iiserb.ac.in?subject=[MOPSS]"> 
-      <i class="fas fa-envelope" style="color:gray"></i> manas@iiserb.ac.in
-    </a>).
+      <i class="fas fa-envelope" style="color:gray"></i> manas@iiserb.ac.in</a>).
 
 ## Why math olympiads are a valuable experience for high schoolers
 
