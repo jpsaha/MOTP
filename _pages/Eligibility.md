@@ -75,6 +75,8 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% endtabs %}
 
+---
+
 * Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
 
 * For [EGMO](https://www.egmo.org/), the stages are IOQM, RMO, INMO, EGMOTC, EGMOPDC, EGMO (along with certain criteria at the stages).
