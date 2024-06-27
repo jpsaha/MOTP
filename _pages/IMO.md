@@ -64,7 +64,7 @@ giscus_comments: true
 
 - [Subhash Khot](https://www.imo-official.org/participant_r.aspx?id=920), New York University, received Rolf Nevanlinna Prize 2014, a Fellow of the Royal Society
 
-- [Abhinav Kumar](https://www.imo-official.org/participant_r.aspx?id=4714), a \href{https://abhinav-kumar.weebly.com}{mathematician} working in industry
+- [Abhinav Kumar](https://www.imo-official.org/participant_r.aspx?id=4714), a [mathematician](https://abhinav-kumar.weebly.com) working in industry
 
 - [Kartik Prasanna](https://www.imo-official.org/participant_r.aspx?id=3192), University of Michigan, Ann Arbor
 
