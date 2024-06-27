@@ -228,3 +228,20 @@ participated in
   - [Part Two](https://eventuallyalmosteverywhere.wordpress.com/2016/07/13/imo-2016-diary-part-two/)
   - [Part Three](https://eventuallyalmosteverywhere.wordpress.com/2016/07/24/imo-2016-diary-part-three/)
   - [Part Four](https://eventuallyalmosteverywhere.wordpress.com/2016/07/28/imo-2016-diary-part-four/)
+
+##### Further links
+
+- Eventually Almost Everywhere --- A blog about probability and [olympiads](https://eventuallyalmosteverywhere.wordpress.com/olympiad/) by Dominic Yeo
+
+- [UK IMO Register](https://www.imo-register.org.uk/)
+
+- [BMOS](https://bmos.ukmt.org.uk/)
+  - National 
+    - [British Mathematical Olympiad](https://bmos.ukmt.org.uk/home/bmo.shtml)
+    - [UK MOG](https://bmos.ukmt.org.uk/home/ukmog.shtml)
+  - International 
+    - [IMO](https://bmos.ukmt.org.uk/home/imo.shtml) --- UK Team Leader’s report
+    - [Balkan Mathematical Olympiad](https://bmos.ukmt.org.uk/home/balkan.shtml) --- UK Team Leader’s report
+    - [RMM](https://bmos.ukmt.org.uk/home/rmm.shtml)
+    - [EGMO](https://bmos.ukmt.org.uk/home/egmo.shtml)
+    - [The Mathematics Ashes](https://bmos.ukmt.org.uk/home/ashes.shtml)
