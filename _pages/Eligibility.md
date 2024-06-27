@@ -27,7 +27,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 {% tab stages IOQM %}
 
 ### IOQM (Indian Olympiad Qualifier in Mathematics)
-- Scheduled on 8th September, 2024, during 10:00hrs --- 13:00hrs.
+- Scheduled on [8th September, 2024, during 10:00hrs --- 13:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 30 question worth 100 marks in total. 
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
 - Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -38,7 +38,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 {% tab stages RMO %}
 
 ### RMO (Regional Mathematical Olympiad)
-- Scheduled on 3rd November, 2024, during 13:00hrs --- 16:00hrs.
+- Scheduled on [3rd November, 2024, during 13:00hrs --- 16:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 6 questions. 
 - It requires writing detailed proofs.
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -48,7 +48,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 {% tab stages INMO %}
 
 ### INMO (Indian National Mathematical Olympiad)
-- Scheduled on 19th January, 2025, during 12:00hrs --- 16:30hrs.
+- Scheduled on [19th January, 2025, during 12:00hrs --- 16:30hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 6 questions. 
 - It requires writing detailed proofs.
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
