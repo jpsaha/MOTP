@@ -202,4 +202,29 @@ participated in
   * <iframe src="https://mathstodon.xyz/@tao/111002007618655272/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mathstodon.xyz/embed.js" async="async"></script>
   * Evan Chen on [Writing](https://blog.evanchen.cc/2015/03/14/writing/)
   > what is the purpose of writing? It turns out that there is one, and ... It’s that writing clarifies thinking.
-  * Nikhil Banerjee provides advice on [practice](https://www.youtube.com/watch?v=tXLBiQrySGA&t=939s) (during 15:39--16:31) for studying Indian Music. 
+* Nikhil Banerjee provides advice on [practice](https://www.youtube.com/watch?v=tXLBiQrySGA&t=939s) (during 15:39--16:31) for studying Indian Music. 
+
+### Diaries
+
+- IMO 2013 by Dominic Yeo
+  - [Part One: Travel and Training](https://eventuallyalmosteverywhere.wordpress.com/2013/07/17/imo-2013-part-one-travel-and-training/)
+  - [Part Two: Ashes and Santa Marta](https://eventuallyalmosteverywhere.wordpress.com/2013/07/20/imo-2013-part-two-ashes-and-santa-marta/)
+  - [Part Three: Opening Ceremony and Exams](https://eventuallyalmosteverywhere.wordpress.com/2013/07/24/imo-2013-part-three-opening-ceremony-and-exams/)
+  - [Part Four: Co-ordination and Close](https://eventuallyalmosteverywhere.wordpress.com/2013/07/29/imo-2013-part-four-co-ordination-and-close/)
+
+- IMO 2014
+  - [Part One – Introduction and Arrival](https://eventuallyalmosteverywhere.wordpress.com/2014/07/03/imo-2014-part-one-introduction-and-arrival/)
+  - [Part Two – Training Continues](https://eventuallyalmosteverywhere.wordpress.com/2014/07/08/imo-2014-part-two-training-continues/)
+  - [Part Three – Opening Ceremony and Exams](https://eventuallyalmosteverywhere.wordpress.com/2014/07/10/
+  imo-2014-part-three-opening-ceremony-and-exams/)
+  - [Part Four – Coordination and Close](https://eventuallyalmosteverywhere.wordpress.com/2014/07/14/imo-2014-part-four-coordination-and-close/)
+
+- IMO 2015 Diary
+  - [Part One](https://eventuallyalmosteverywhere.wordpress.com/2015/07/04/imo-2015-diary-part-one/)
+  - [Part Two](https://eventuallyalmosteverywhere.wordpress.com/2015/07/08/imo-2015-diary-part-two/)
+
+- IMO 2016 Diary
+  - [Part One](https://eventuallyalmosteverywhere.wordpress.com/2016/07/12/imo-2016-diary-part-one/)
+  - [Part Two](https://eventuallyalmosteverywhere.wordpress.com/2016/07/13/imo-2016-diary-part-two/)
+  - [Part Three](https://eventuallyalmosteverywhere.wordpress.com/2016/07/24/imo-2016-diary-part-three/)
+  - [Part Four](https://eventuallyalmosteverywhere.wordpress.com/2016/07/28/imo-2016-diary-part-four/)
