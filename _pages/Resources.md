@@ -206,7 +206,7 @@ participated in
 
 ### Diaries
 
-- IMO 2013 by Dominic Yeo
+- IMO 2013 by [Dominic Yeo](https://www.imo-official.org/participant_r.aspx?id=15876)
   - [Part One: Travel and Training](https://eventuallyalmosteverywhere.wordpress.com/2013/07/17/imo-2013-part-one-travel-and-training/)
   - [Part Two: Ashes and Santa Marta](https://eventuallyalmosteverywhere.wordpress.com/2013/07/20/imo-2013-part-two-ashes-and-santa-marta/)
   - [Part Three: Opening Ceremony and Exams](https://eventuallyalmosteverywhere.wordpress.com/2013/07/24/imo-2013-part-three-opening-ceremony-and-exams/)
