@@ -36,11 +36,11 @@ Here is the flyer.
   * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024**</span>.
   * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
-    * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"> 
+    * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>),
-    * Kartick Adhikari (<a href="mailto:kartick@iiserb.ac.in?subject=[MOPSS]"> 
+    * Kartick Adhikari (<a href="mailto:kartick@iiserb.ac.in?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> kartick@iiserb.ac.in</a>),
-    * Manas Kar (<a href="mailto:manas@iiserb.ac.in?subject=[MOPSS]"> 
+    * Manas Kar (<a href="mailto:manas@iiserb.ac.in?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> manas@iiserb.ac.in</a>).
 
 ## Why math olympiads are a valuable experience for high schoolers
