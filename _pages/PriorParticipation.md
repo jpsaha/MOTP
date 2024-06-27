@@ -9,6 +9,16 @@ tabs: true
 giscus_comments: true
 ---
 
+## International Olympiads
+There are several Mathematical Olympiads of International repute, where students participated from India. 
+They include 
+- [International Mathematical Olympiad](https://www.imo-official.org/) (IMO), 
+- [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO), 
+- [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO), 
+- [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php), 
+- [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO), 
+- [Tournament of Towns](https://www.turgor.ru/en/).
+
 ## Participation of a few Indian contestants in some International Olympiads
 
 {% tabs participation %}
@@ -113,9 +123,11 @@ received a
 
 {% tab participation Rohan Goyal %}
 
-received a 
+participated in 
 
-- Silver medal in IGO 2021.
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31126) 2021 (B),
+- APMO in [2020](https://www.apmo-official.org/country_report/IND/2020) (B), 
+- IGO in 2021 (S).
 
 {% endtab %}
 

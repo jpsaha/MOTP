@@ -125,9 +125,11 @@ participated in
 
 {% tab OTISalum Rohan Goyal %}
 
-received a 
+participated in 
 
-- Silver medal in IGO 2021.
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31126) 2021 (B),
+- APMO in [2020](https://www.apmo-official.org/country_report/IND/2020) (B), 
+- IGO in 2021 (S).
 
 {% endtab %}
 
