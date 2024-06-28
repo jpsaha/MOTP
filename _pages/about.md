@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Homepage
 permalink: /
 subtitle: <a href='#'>Mathematics Olympiad Problem Solving Sessions</a>.
 
