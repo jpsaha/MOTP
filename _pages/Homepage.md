@@ -179,8 +179,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ---
 
 ## I do not have much time for the above, but I find it interesting. Is there something that I can do?
+
+{% details Click here to know %}
 - Yes! You could spread the message, only if you find it worth doing and willing to do so, by 
   - sharing the link [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/),
   - and suggeting to go through the homepage [{{ site.url }}{{ site.baseurl }}/]({{ site.url }}{{ site.baseurl }}/), to find what all this is about!
+{% enddetails %}
 
 ---
