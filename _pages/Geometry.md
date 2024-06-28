@@ -16,7 +16,7 @@ giscus_comments: true
 
 ## Handouts
 
-- 
+- (under preparation, to be posted soon.)
 
 ## These notes may be useful
 

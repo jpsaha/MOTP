@@ -24,6 +24,9 @@ giscus_comments: true
 - [Warm up]({{ site.url }}{{ site.baseurl }}/blog/2024/CombiWarmUp/)
 - [Coloring proofs]({{ site.url }}{{ site.baseurl }}/blog/2024/ColoringProofs/) 
 
+- (the remaining notes are under preparation, to be posted soon.)
+
+
 ## These notes may be useful
 
 - to the students who would like to have a look at some of the past RMO problem before getting started, 
