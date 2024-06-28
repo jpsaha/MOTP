@@ -40,7 +40,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ---
 
-## Study material on Math Olympiad
+## Study material on Math Olympiad (for students in 8th, 9th, 10th, 11th, 12th standard, and anyone interested)
 
 {% tabs studymat %}
 
