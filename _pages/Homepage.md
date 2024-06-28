@@ -40,6 +40,46 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ---
 
+## Study material on Math Olympiad
+
+{% tabs studymat %}
+
+{% tab studymat Algebra %}
+
+### Algebra
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
+
+{% endtab %}
+
+{% tab studymat Combinatorics %}
+
+### Combinatorics
+
+- Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
+
+{% endtab %}
+
+{% tab studymat Geometry %}
+
+### Geometry
+
+- Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
+
+{% endtab %}
+
+{% tab studymat Number Theory %}
+
+### Number Theory
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+
 ## Some stages of the Math Olympiad program 2024 --- 2025 are
 
 {% tabs stages %}
