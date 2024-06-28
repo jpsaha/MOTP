@@ -23,6 +23,7 @@ Here is the flyer.
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 ---
+<i class="fas fa-calendar-alt" style="color:gray"></i>
 
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
