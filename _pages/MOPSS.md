@@ -23,15 +23,18 @@ Here is the flyer.
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 ---
-<i class="fas fa-calendar-alt" style="color:gray"></i>
 
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
   * The forthcoming sessions will be held on the following dates, during 9:00am to 12:00pm in IISER Bhopal in person.
-    * 3rd, 17th, 31st August, 2024.
-    * 14th, 28th September, 2024.
-    * 19th October, 2024.
-    * 2nd, 16th, 30th November, 2024.
+    
+    <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
+
+    <i class="fas fa-calendar-alt" style="color:gray"></i> 14th, 28th September, 2024.
+    
+    <i class="fas fa-calendar-alt" style="color:gray"></i> 19th October, 2024.
+    
+    <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
   * Applications to be accepted <span style="color: royalblue"> **until 07th July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
   * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
   * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **25th July, 2024**</span>.
