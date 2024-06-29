@@ -7,6 +7,8 @@ nav: false
 nav_order: 10
 tabs: true
 giscus_comments: true
+chart:
+  echarts: true
 ---
 
 ## International Olympiads
@@ -18,6 +20,32 @@ They include
 - [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php), 
 - [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO), 
 - [Tournament of Towns](https://www.turgor.ru/en/).
+
+
+```echarts
+{
+  "title": {
+    "text": "AB"
+  },
+  "responsive": true,
+  "tooltip": {},
+  "legend": {
+    "top": "30px",
+    "data": ["abc"]
+  },
+  "xAxis": {
+    "data": ["a", "v"]
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "name": "abc",
+      "type": "bar",
+      "data": [5, 20]
+    }
+  ]
+}
+```
 
 ## Participation of a few Indian contestants in some International Olympiads
 
