@@ -13,13 +13,13 @@ giscus_comments: true
 
 ---
 
-## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
+### Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
 
 {% tabs studymat %}
 
 {% tab studymat Algebra %}
 
-#### Algebra
+##### Algebra
 
 - Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
 
@@ -27,7 +27,7 @@ giscus_comments: true
 
 {% tab studymat Combinatorics %}
 
-#### Combinatorics
+##### Combinatorics
 
 - Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
 
@@ -35,7 +35,7 @@ giscus_comments: true
 
 {% tab studymat Geometry %}
 
-#### Geometry
+##### Geometry
 
 - Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
 
@@ -43,7 +43,7 @@ giscus_comments: true
 
 {% tab studymat Number Theory %}
 
-#### Number Theory
+##### Number Theory
 
 - Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
 
