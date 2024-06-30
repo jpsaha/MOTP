@@ -3,7 +3,7 @@ layout: page
 permalink: /Eligibility/
 title: Eligibility
 description: Eligibility
-nav: true
+nav: false
 nav_order: 10
 tabs: true
 giscus_comments: true
