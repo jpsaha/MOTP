@@ -11,7 +11,7 @@ toc:
   beginning: true
 ---
 
-## Study material for Math Olympiad
+## Study material for Math Olympiad (<span style="color: red">free of cost</span>)
 
 - <span style="color: green"> Available for download </span> <span style="color: red"> completely free of cost. </span>
 - <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
