@@ -11,7 +11,6 @@ toc:
   beginning: true
 ---
 
-
 ## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
 
 {% tabs studymat %}
