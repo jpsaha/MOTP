@@ -11,6 +11,47 @@ toc:
   beginning: true
 ---
 
+
+## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
+
+{% tabs studymat %}
+
+{% tab studymat Algebra %}
+
+#### Algebra
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
+
+{% endtab %}
+
+{% tab studymat Combinatorics %}
+
+#### Combinatorics
+
+- Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
+
+{% endtab %}
+
+{% tab studymat Geometry %}
+
+#### Geometry
+
+- Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
+
+{% endtab %}
+
+{% tab studymat Number Theory %}
+
+#### Number Theory
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+
 ## [Geoff Smith](https://people.bath.ac.uk/masgcs/advice.html) remarked the following in the foreword to the text [Infinity](http://prac.im.pwr.wroc.pl/~kwasnicki/pl/o/infinity.pdf) by [Hojoo Lee](https://cosmogeometer.wordpress.com/problems/), [Tom Lovering](https://www.imo-official.org/participant_r.aspx?id=15875) (he maintains a [blog](https://tlovering.wordpress.com/)), and [Cosmin Pohoata](https://pohoatza.wordpress.com/).
 
 >The nations which do consistently well at this competition (IMO) must have at least one (and probably at least two) of the following attributes:
