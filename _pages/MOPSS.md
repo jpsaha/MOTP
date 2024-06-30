@@ -52,6 +52,14 @@ giscus_comments: true
 
 {% endtab %}
 
+{% tab studymat IOQM %}
+
+#### IOQM
+
+- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
+
+{% endtab %}
+
 {% endtabs %}
 
 ---
