@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: /MathOlympiads/
 title: Math Olympiad
 nav: true
 nav_order: 2
@@ -22,4 +23,7 @@ children:
   - title: divider
   - title: Glimpse of a few problems
     permalink: /GlimpseOfAFewProblems/
+  - title: divider
+  - title: Slides
+    permalink: /Slides/
 ---
