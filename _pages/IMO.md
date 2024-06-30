@@ -164,7 +164,7 @@ option = {
   legend: {
     top: "30px",
     data: ['Gold', 'Silver', 'Bronze', 'HM'],
-    bottom: "30px",
+    bottom: "120px"
   },
   toolbox: {
     show: true,
