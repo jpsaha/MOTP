@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notes, Handouts  (<span style="color: red">free</span>)
+title: Notes, Handouts
 nav: true
 nav_order: 3
 dropdown: true
