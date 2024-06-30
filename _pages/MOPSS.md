@@ -9,10 +9,6 @@ tabs: true
 giscus_comments: true
 ---
 
-## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
-
----
-
 ## Study material for Math Olympiad (<span style="color: red">free of cost</span>)
 
 - <span style="color: green"> Available for download </span> <span style="color: red"> completely free of cost. </span>
@@ -63,6 +59,8 @@ giscus_comments: true
 {% endtabs %}
 
 ---
+
+## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
