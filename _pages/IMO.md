@@ -43,9 +43,10 @@ chart:
 <!-- ~~In 1991 - 1995, 1999 - 2000, 2003 - 2010, 2013 - 2018, there were no Gold medalists.~~ -->
 * In each IMO held during 2019 - 2023, at least one participant from India [received](https://www.imo-official.org/country_team_r.aspx?code=IND) a Gold medal.
 
+For ease of reference, one may have a brief overview of participation of India in IMO in recent times below, which relies on the information available at [this webpage]](https://www.imo-official.org/country_individual_r.aspx?code=IND). 
 
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 100%"></div>
+  <div id="container" style="height: 500%"></div>
 
   <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
 
@@ -150,6 +151,10 @@ const labelOption = {
   }
 };
 option = {
+  title: {
+    "text": "Participation of India in IMO in the recent years"
+  },
+  responsive: true,
   tooltip: {
     trigger: 'axis',
     axisPointer: {
