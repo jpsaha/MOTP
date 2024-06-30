@@ -42,7 +42,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Study material for Math Olympiad
 
-- <span style="color: purple"> Available for download. </span>
+- <span style="color: green"> Available for download. </span>
 - <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
 
 <div style="text-align: center;"><p><h3>Topics...</h3></p></div>
