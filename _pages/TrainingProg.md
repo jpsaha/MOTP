@@ -11,7 +11,10 @@ toc:
   beginning: true
 ---
 
-## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
+## Study material for Math Olympiad
+
+- <span style="color: green"> Available for download. </span>
+- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
 
 {% tabs studymat %}
 
@@ -43,7 +46,7 @@ toc:
 
 #### Number Theory
 
-- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+- Notes on Number Theory are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
 
 {% endtab %}
 

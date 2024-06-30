@@ -80,7 +80,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 #### Number Theory
 
-- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+- Notes on Number Theory are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
 
 {% endtab %}
 
