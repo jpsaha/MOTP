@@ -3,7 +3,7 @@ layout: page
 permalink: /Slides/
 title: Slides
 description: Slides
-nav: true
+nav: false
 nav_order: 11
 giscus_comments: true
 ---

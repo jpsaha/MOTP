@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /MathOlympiads/
 title: Math Olympiad
 nav: true
 nav_order: 2
