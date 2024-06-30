@@ -10,6 +10,47 @@ giscus_comments: true
 
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
+
+## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
+
+{% tabs studymat %}
+
+{% tab studymat Algebra %}
+
+#### Algebra
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
+
+{% endtab %}
+
+{% tab studymat Combinatorics %}
+
+#### Combinatorics
+
+- Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
+
+{% endtab %}
+
+{% tab studymat Geometry %}
+
+#### Geometry
+
+- Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
+
+{% endtab %}
+
+{% tab studymat Number Theory %}
+
+#### Number Theory
+
+- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+
+{% endtab %}
+
+{% endtabs %}
+
+---
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/MOPSS.jpg" title="MOPSS" class="img-fluid rounded z-depth-1" %}
