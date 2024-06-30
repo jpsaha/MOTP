@@ -5,6 +5,7 @@ title: MOPSS
 description: MOPSS
 nav: true
 nav_order: 4
+tabs: true
 giscus_comments: true
 ---
 
