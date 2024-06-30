@@ -42,6 +42,10 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
 
+<div style="text-align: center;"><p><h3>Topics...</h3></p></div>
+<div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div>
+</div>
+
 {% tabs studymat %}
 
 {% tab studymat Algebra %}
