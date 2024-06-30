@@ -46,7 +46,7 @@ chart:
 For ease of reference, one may have a brief overview of participation of India in IMO in recent times below, which relies on the information available at [this webpage](https://www.imo-official.org/country_team_r.aspx?code=IND).
 
 <body style="height: 100%; margin: 0">
-  <div id="container" style="height: 900%"></div>
+  <div id="container" style="height: 500%"></div>
 
   <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
 
@@ -162,6 +162,7 @@ option = {
     }
   },
   legend: {
+    top: "30px",
     data: ['Gold', 'Silver', 'Bronze', 'HM']
   },
   toolbox: {
@@ -174,7 +175,7 @@ option = {
       dataView: { show: false, readOnly: false },
       magicType: { show: true, type: ['line', 'bar', 'stack'] },
       restore: { show: true },
-      saveAsImage: { show: true }
+      saveAsImage: { show: false }
     }
   },
   xAxis: [
