@@ -57,7 +57,7 @@ For ease of reference, one may have a brief overview of participation of India i
       useDirtyRect: false
     });
     var app = {};
-    
+
     var option;
 
     const posList = [
@@ -238,7 +238,6 @@ option = {
     window.addEventListener('resize', myChart.resize);
   </script>
 </body>
-
 
 <!--
 * Some of the participants of the recent IMOs are

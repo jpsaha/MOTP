@@ -40,7 +40,9 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ---
 
-## Study material for Math Olympiad (students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use)
+## Study material for Math Olympiad
+
+<span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
 
 <div style="text-align: center;"><p><h3>Topics...</h3></p></div>
 
@@ -102,7 +104,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% tab stages IOQM %}
 
-#### IOQM (Indian Olympiad Qualifier in Mathematics)
+##### IOQM (Indian Olympiad Qualifier in Mathematics)
 - Scheduled on [8th September, 2024, during 10:00hrs --- 13:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 30 question worth 100 marks in total. 
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
@@ -113,7 +115,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% tab stages RMO %}
 
-#### RMO (Regional Mathematical Olympiad)
+##### RMO (Regional Mathematical Olympiad)
 - Scheduled on [3rd November, 2024, during 13:00hrs --- 16:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 6 questions. 
 - It requires writing detailed proofs.
@@ -123,7 +125,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% tab stages INMO %}
 
-#### INMO (Indian National Mathematical Olympiad)
+##### INMO (Indian National Mathematical Olympiad)
 - Scheduled on [19th January, 2025, during 12:00hrs --- 16:30hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - The paper consists of 6 questions. 
 - It requires writing detailed proofs.
@@ -133,7 +135,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% tab stages IMOTC %}
 
-#### IMOTC (International Mathematical Olympiad Training Camp)
+##### IMOTC (International Mathematical Olympiad Training Camp)
 - Held from April to May.
 - The paper consists of 6 questions. 
 - Through the TSTs (Team Selection Tests), it leads to the selection of six students to represent India at [IMO](https://www.imo-official.org/organizers.aspx).
@@ -143,7 +145,7 @@ The [Homi Bhabha Centre for Science Education](https://olympiads.hbcse.tifr.res.
 
 {% tab stages PDC %}
 
-#### PDC (Pre-Departure Camp)
+##### PDC (Pre-Departure Camp)
 - Held before leaving for [IMO](https://www.imo-official.org).
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
