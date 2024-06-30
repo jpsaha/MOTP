@@ -46,7 +46,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% tab studymat Algebra %}
 
-### Algebra
+#### Algebra
 
 - Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
 
@@ -54,7 +54,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% tab studymat Combinatorics %}
 
-### Combinatorics
+#### Combinatorics
 
 - Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
 
@@ -62,7 +62,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% tab studymat Geometry %}
 
-### Geometry
+#### Geometry
 
 - Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
 
@@ -70,7 +70,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% tab studymat Number Theory %}
 
-### Number Theory
+#### Number Theory
 
 - Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
 
