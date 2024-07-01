@@ -142,8 +142,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 {% tab stages IMOTC %}
 
 ##### IMOTC (International Mathematical Olympiad Training Camp)
-- Held from April to May.
-- The paper consists of 6 questions. 
+- A month-long training camp, held sometime during from April to May.
 - Through the TSTs (Team Selection Tests), it leads to the selection of six students to represent India at [IMO](https://www.imo-official.org/organizers.aspx).
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 
