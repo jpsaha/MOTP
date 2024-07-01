@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /TrainingProg/
-title: Training Program
-description: Training Program
+title: Training Programs
+description: Training Programs (https://web.evanchen.cc/otis.html, [Sophie Fellowship](https://www.sophiefellowship.in/home), [Online Math Club](https://sites.google.com/view/online-math-club?pli=1), ...)
 nav: true
 nav_order: 4
 giscus_comments: true
