@@ -33,14 +33,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ## Study material for Math Olympiad
 
 - <span style="color: green"> Available for download.
-  - Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
-  - Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
-  - Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
-  - Notes on Number Theory are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
-  - A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
-
-- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
-
 <!--
 <div style="text-align: center;"><p><h3>Topics...</h3></p></div>
 -->
@@ -90,6 +82,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 {% endtab %}
 
 {% endtabs %}
+
+- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
 
 ---
 
