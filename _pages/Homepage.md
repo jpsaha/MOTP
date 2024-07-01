@@ -33,7 +33,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ## Study material for Math Olympiad
 
 - <span style="color: green"> Available for download.
-  - [Algebra]]({{ site.url }}{{ site.baseurl }}/Algebra/).
+  - [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/).
   - [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
   - [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
   - [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
