@@ -33,11 +33,20 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 ## Study material for Math Olympiad
 
 - <span style="color: green"> Available for download.
+  - [Algebra]]({{ site.url }}{{ site.baseurl }}/Algebra/).
+  - [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
+  - [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
+  - [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+  - [IOQM]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
+
+- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at the above links. </span>
+
 <!--
 <div style="text-align: center;"><p><h3>Topics...</h3></p></div>
+<div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div>
 -->
 
-<div style="margin-top: -15px; text-align: center;"><p><h3><span id="typing-text"></span></h3></p></div>
+<!--
 
 {% tabs studymat %}
 
@@ -83,8 +92,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 {% endtabs %}
 
-- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
-
+-->
 ---
 
 ## Hello! I'm Jyoti Prakash Saha.
