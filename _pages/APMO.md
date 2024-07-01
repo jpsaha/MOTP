@@ -43,7 +43,7 @@ giscus_comments: true
 -->
 
 
-For ease of reference, one may have a brief overview of participation of India in APMO in recent times below, which relies on the information available at [this webpage](https://www.apmo-official.org/country_report/IND/all).
+For ease of reference, one may have a brief overview of participation of India in APMO in recent times below, which relies on the information available at [this webpage](https://www.apmo-official.org/country_report/IND/all), which is significantly more detailed.
 
 <body style="height: 100%; margin: 0">
   <div id="container" style="height: 900%"></div>

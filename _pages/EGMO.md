@@ -42,7 +42,7 @@ giscus_comments: true
   * [Sunaina Pati](https://www.egmo.org/people/person2282/), participated in 2023 (S).
 -->
 
-For ease of reference, one may have a brief overview of participation of India in EGMO in recent times below, which relies on the information available at [this webpage](https://www.egmo.org/countries/country35/).
+For ease of reference, one may have a brief overview of participation of India in EGMO in recent times below, which relies on the information available at [this webpage](https://www.egmo.org/countries/country35/), which is significantly more detailed.
 
 <body style="height: 100%; margin: 0">
   <div id="container" style="height: 900%"></div>
@@ -182,7 +182,7 @@ option = {
     {
       type: 'category',
       axisTick: { show: true },
-      data: ['2015', '\n2016', '2017', '\n2018', '2019', '\n2020', '2021', '\n2022', '2023']
+      data: ['2015', '\n2016', '2017', '\n2018', '2019', '\n2020', '2021', '\n2022', '2023', '\n 2024']
     }
   ],
   yAxis: [
