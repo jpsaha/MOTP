@@ -24,7 +24,7 @@ They include
 For ease of reference, one may have a brief overview of participation of India in IMO, APMO, EGMO in recent times below, which relies on the information available at [this webpage](https://www.imo-official.org/country_team_r.aspx?code=IND), which are significantly more detailed.
 
 <body style="height: 75%; margin: 0">
-  <div id="container" style="height: 900%"></div>
+  <div id="container" style="height: 100%"></div>
 
   <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
 
