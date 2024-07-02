@@ -21,7 +21,10 @@ They include
 - [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO), 
 - [Tournament of Towns](https://www.turgor.ru/en/).
 
-For ease of reference, one may have a brief overview of participation of India in IMO, APMO, EGMO in recent times below, which relies on the information available at [this webpage](https://www.imo-official.org/country_team_r.aspx?code=IND), which are significantly more detailed.
+For ease of reference, one may have a brief overview of participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/) in recent times below, which relies on the information available at the following webpages, which are significantly more detailed.
+- [Team results at IMO](https://www.imo-official.org/country_team_r.aspx?code=IND),
+- [Results for India at APMO](https://www.apmo-official.org/country_report/IND/all),
+- [India at EGMO](https://www.egmo.org/countries/country35/).
 
 <body style="height: 75%; margin: 0">
   <div id="container" style="height: 500%"></div>
