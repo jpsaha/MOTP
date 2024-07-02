@@ -398,7 +398,6 @@ option = {
   </script>
 </body>
 
-
 ## Participation of a few Indian contestants in some International Olympiads
 
 {% tabs participation %}
