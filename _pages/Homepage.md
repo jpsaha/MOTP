@@ -94,7 +94,17 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 -->
 ---
 
-## Participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/)
+## Participation of India in International Olympiads 
+
+There are several Mathematical Olympiads of International repute, where students participated from India. They include
+- [International Mathematical Olympiad](https://www.imo-official.org/) (IMO),
+- [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO),
+- [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO),
+- [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php),
+- [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO),
+- [Tournament of Towns](https://www.turgor.ru/en/).
+
+### Participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/)
 
 For ease of reference, here is a brief overview of participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/) in recent times, which relies on the information available at the following webpages, which are significantly more detailed.
 
@@ -473,17 +483,6 @@ option = {
     window.addEventListener('resize', myChart.resize);
   </script>
 </body>
-
----
-
-## International Olympiads
-There are several Mathematical Olympiads of International repute, where students participated from India. They include
-- [International Mathematical Olympiad](https://www.imo-official.org/) (IMO),
-- [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO),
-- [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO),
-- [Sharygin Geometry Olympiad](https://geometry.ru/olimp/olimpsharygin.php),
-- [Iranian Geometry Olympiad](https://igo-official.com/?lang=en) (IGO),
-- [Tournament of Towns](https://www.turgor.ru/en/).
 
 ---
 
