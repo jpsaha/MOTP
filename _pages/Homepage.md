@@ -214,43 +214,43 @@ option = {
       //     position: 'left'
       // },
       data: [
-        '2015-01-01',
+        '2015',
         {
-          value: '2016-01-01',
+          value: '2016',
           tooltip: {
             formatter: '{b} MO'
           },
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2017-01-01',
+        '2017',
         {
-          value: '2018-01-01',
+          value: '2018',
           tooltip: {
             formatter: '{b} MO'
           },
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2019-01-01',
+        '2019',
         {
-          value: '2020-01-01',
+          value: '2020',
           tooltip: {
             formatter: '{b} MO'
           },
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2021-01-01',
+        '2021',
         {
-          value: '2022-01-01',
+          value: '2022',
           tooltip: {
             formatter: '{b} MO'
           },
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2023-01-01',
+        '2023',
       ],
       label: {
         formatter: function (s) {
