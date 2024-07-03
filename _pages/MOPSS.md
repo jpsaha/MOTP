@@ -9,11 +9,18 @@ tabs: true
 giscus_comments: true
 ---
 
-## Study material for Math Olympiad
+## Study materials for Math Olympiad
 
 - <span style="color: green"> Available for download.
-- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use. </span>
+  - [Algebra]({{ site.url }}{{ site.baseurl }}/Algebra/).
+  - [Combinatorics]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
+  - [Geometry]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
+  - [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
+  - [IOQM]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
 
+- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at the above links. </span>
+
+<!--
 {% tabs studymat %}
 
 {% tab studymat Algebra %}
@@ -58,6 +65,7 @@ giscus_comments: true
 
 {% endtabs %}
 
+-->
 ---
 
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
