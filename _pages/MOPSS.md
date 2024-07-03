@@ -18,7 +18,7 @@ giscus_comments: true
   - [Number Theory]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
   - [IOQM]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
 
-- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at the above links. </span>
+- <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at</span> <span style="color: red">the above links. </span>
 
 <!--
 {% tabs studymat %}
