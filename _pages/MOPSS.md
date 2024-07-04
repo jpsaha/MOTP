@@ -309,7 +309,7 @@ option = {
     yAxis: [
       {
         type: 'value',
-        name: 'IMO, APMO, EGMO'
+        name: '  IMO, APMO, EGMO'
       }
     ],
     series: [
