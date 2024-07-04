@@ -67,6 +67,14 @@ giscus_comments: true
 
 -->
 ---
+<!--
+## Participation of India in [International Mathematical Olympiads]({{ site.url }}{{ site.baseurl }}/PriorParticipation/)
+
+India has been participating in the
+* [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) since [1989](https://www.imo-official.org/country_team_r.aspx?code=IND).
+* [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) since [2015](https://www.apmo-official.org/country_report/IND/all). 
+* [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).
+-->
 
 ### Participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/)
 
@@ -483,6 +491,8 @@ option = {
   </script>
 </body>
 
+If you (the reader!) are aware of these Olympiads, and would like to prepare for them, then you may wish to know about [a few training programs]({{ site.url }}{{ site.baseurl }}/TrainingProg/).
+
 ---
 
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
@@ -538,17 +548,6 @@ Here is the flyer.
 * and the last, but not the least, could be to take a look at the following [vision](https://imof.co/) of the [IMO Foundation](https://imof.co/), which is a charity supporting the International Mathematical Olympiad ([IMO](https://www.imo-official.org/)). 
 > It is the aim of the IMO to bring young people together from all over the world to enjoy the challenges of mathematics in a spirit of friendly competition. This provides a stimulus for Mathematics in each of the participating countries as young people strive for selection. Whist clearly it is a competitive event, for most participants, it is the people that they meet and the shared joy of discovery that is what they regard as most worthwhile. It is common that lifelong friendships are forged at IMO events.
 {% enddetails %}
-
----
-
-## Participation of India in [International Mathematical Olympiads]({{ site.url }}{{ site.baseurl }}/PriorParticipation/) 
-<!--<span style="color: green"> **International Mathematical Olympiads**</span>-->
-India has been participating in the
-* [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) since [1989](https://www.imo-official.org/country_team_r.aspx?code=IND).
-* [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) since [2015](https://www.apmo-official.org/country_report/IND/all). 
-* [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).
-
-If you (the reader!) are aware of these Olympiads, and would like to prepare for them, then you may wish to know about [a few training programs]({{ site.url }}{{ site.baseurl }}/TrainingProg/). 
 
 ---
 
