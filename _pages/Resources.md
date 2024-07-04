@@ -197,6 +197,8 @@ participated in
   * A [Quanta Magazine article](https://www.quantamagazine.org/po-shen-loh-led-the-u-s-math-team-back-to-first-place-20210216) featuring Po-Shen Loh
   * Po-Shen Loh: Mathematics, Math Olympiad, Combinatorics & Contact Tracing --- a [Lex Fridman Podcast](https://www.youtube.com/watch?v=6z1JwZbX4dQ)
 * Evan Chen @ Texas Math Mundo [link](https://www.youtube.com/watch?v=SWx-E3VqloY)
+* 
+[Secrets from International Math Olympiad Winner](https://www.youtube.com/watch?v=SHWGvC3SvK8) - an interview of [Ram Goel](https://www.imo-official.org/participant_r.aspx?id=31808) by [Rishab Jain](https://www.rishabjaink.com)
 * Writing math
   * [Write down what you’ve done](https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/) by Terence Tao
   * [What are some useful, but little-known, features of the tools used in professional mathematics?](https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/) by Terence Tao
