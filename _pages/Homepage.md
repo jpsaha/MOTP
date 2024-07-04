@@ -94,7 +94,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 -->
 ---
 
-## Participation of India in International Olympiads
+## International Olympiads
 
 ### Participation of India in [IMO](https://www.imo-official.org/), [APMO](https://www.apmo-official.org/), [EGMO](https://www.egmo.org/)
 
