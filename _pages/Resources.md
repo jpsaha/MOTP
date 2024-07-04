@@ -197,8 +197,8 @@ participated in
   * A [Quanta Magazine article](https://www.quantamagazine.org/po-shen-loh-led-the-u-s-math-team-back-to-first-place-20210216) featuring Po-Shen Loh
   * Po-Shen Loh: Mathematics, Math Olympiad, Combinatorics & Contact Tracing --- a [Lex Fridman Podcast](https://www.youtube.com/watch?v=6z1JwZbX4dQ)
 * Writing math
-  * [Write down what you’ve done](https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/)
-  * [What are some useful, but little-known, features of the tools used in professional mathematics?](https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/)
+  * [Write down what you’ve done](https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/) by Terence Tao
+  * [What are some useful, but little-known, features of the tools used in professional mathematics?](https://terrytao.wordpress.com/2017/07/07/what-are-some-useful-but-little-known-features-of-the-tools-used-in-professional-mathematics/) by Terence Tao
   * <iframe src="https://mathstodon.xyz/@tao/111002007618655272/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://mathstodon.xyz/embed.js" async="async"></script>
   * Evan Chen on [Writing](https://blog.evanchen.cc/2015/03/14/writing/)
   > what is the purpose of writing? It turns out that there is one, and ... It’s that writing clarifies thinking.

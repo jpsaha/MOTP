@@ -214,7 +214,14 @@ option = {
       //     position: 'left'
       // },
       data: [
-        '2015',
+        {
+          value: '2015',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'square',
+          symbolSize: 16
+        },
         {
           value: '2016',
           tooltip: {
