@@ -178,7 +178,14 @@ option = {
       //     position: 'left'
       // },
       data: [
-        '2015',
+        {
+          value: '2015',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
+          symbolSize: 16
+        },
         {
           value: '2016',
           tooltip: {
@@ -187,7 +194,14 @@ option = {
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2017',
+        {
+          value: '2017',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
+          symbolSize: 16
+        },
         {
           value: '2018',
           tooltip: {
@@ -196,7 +210,14 @@ option = {
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2019',
+        {
+          value: '2019',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
+          symbolSize: 16
+        },
         {
           value: '2020',
           tooltip: {
@@ -205,7 +226,14 @@ option = {
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2021',
+        {
+          value: '2021',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
+          symbolSize: 16
+        },
         {
           value: '2022',
           tooltip: {
@@ -214,7 +242,14 @@ option = {
           symbol: 'diamond',
           symbolSize: 16
         },
-        '2023',
+        {
+          value: '2023',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'circle',
+          symbolSize: 16
+        },
       ],
       label: {
         formatter: function (s) {
