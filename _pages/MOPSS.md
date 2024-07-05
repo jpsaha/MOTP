@@ -561,7 +561,7 @@ Here is the flyer.
 >
 > Alternatively, you need a cloning facility and a relaxed regulatory framework.
 
-Here is an excerpt from his [Advice for young mathematicians](https://people.bath.ac.uk/masgcs/advice.html).
+Geoff Smith, is a British mathematician. He has been the leader of the UK IMO team during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014). Here is an excerpt from his [Advice for young mathematicians](https://people.bath.ac.uk/masgcs/advice.html).
 
 > From time to time I am approached by students interested in advice about becoming more effective contestants in mathematics olympiads. Here it is.
 
