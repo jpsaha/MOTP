@@ -22,6 +22,7 @@ giscus_comments: true
 - [Functional equations]({{ site.url }}{{ site.baseurl }}/blog/2024/FuncEq/)
 - [Binomial theorem]({{ site.url }}{{ site.baseurl }}/blog/2024/BinomialThm/)
 - [More on polynomials]({{ site.url }}{{ site.baseurl }}/blog/2024/MorePoly/)
+- [Arithmetic progressions]({{ site.url }}{{ site.baseurl }}/blog/2024/AP/)
 
 ## These notes may be useful
 
