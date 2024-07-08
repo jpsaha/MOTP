@@ -53,7 +53,7 @@ giscus_comments: true
 
 He maintains a [webpage](https://www.rushilmathur.com/home).
 - [An Exploration of Olympiad Combinatorics](https://www.rushilmathur.com/combinatorics-book), authored by Rushil Mathur. 
-- [Overview](https://www.rushilmathur.com/math-olympiads/overview)
+- [Overview of Math Olympiads](https://www.rushilmathur.com/math-olympiads/overview)
 - [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
 - [My Experiences](https://www.rushilmathur.com/math-olympiads/my-experiences), is an interesting post on his journey from the 7th standard till 2022--2023.
 - [FAQs](https://www.rushilmathur.com/faq). 
