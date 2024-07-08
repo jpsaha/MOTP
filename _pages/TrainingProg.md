@@ -584,7 +584,7 @@ received a
 - He is an [interesting post](https://www.rushilmathur.com/math-olympiads/my-experiences) on his journey from the 7th standard till 2022--2023.
 - He also maintains a blog. 
   - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is worth reading.
-  - [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
+- [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
 
 {% endtab %}
 
