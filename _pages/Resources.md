@@ -61,7 +61,7 @@ He maintains a [webpage](https://www.rushilmathur.com/home).
   > Are math olympiads = SOF IMO?
   > 
   > 
-  > No!! Check my page on math olympiads for more information.
+  > No!! Check my page on [math olympiads](https://www.rushilmathur.com/math-olympiads/overview) for more information.
 
 He also maintains a blog. 
 - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is a post worth reading.
