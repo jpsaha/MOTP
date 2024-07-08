@@ -533,6 +533,7 @@ is a British mathematician. He has been the [leader of the UK IMO team](https://
    > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
   * In [an interview with the Times of India](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms), Rushil Mathur remarked the following.
     > The OTIS program run by Evan Chen is also a wonderful forum with a variety of different resources for Olympiad preparation.
+
 ##### Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
 
 {% tabs OTISalum %}
