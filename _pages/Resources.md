@@ -48,6 +48,22 @@ giscus_comments: true
 
 #### [Rushil Mathur](https://www.rushilmathur.com/home)
 
+- He is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024.
+- He is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
+- He maintains a [webpage](https://www.rushilmathur.com/home).
+  - [An Exploration of Olympiad Combinatorics](https://www.rushilmathur.com/combinatorics-book), authored by Rushil Mathur. 
+  - Math Olympiads
+    - [Overview](https://www.rushilmathur.com/math-olympiads/overview)
+    - [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
+    - [My Experiences](https://www.rushilmathur.com/math-olympiads/my-experiences), is an interesting post on his journey from the 7th standard till 2022--2023.
+    - [FAQs](https://www.rushilmathur.com/faq). 
+      - [Here is one](https://www.rushilmathur.com/faq#h.gehfcha0idr0) the FAQs. 
+      > Are math olympiads = SOF IMO?
+      > No!! Check my page on math olympiads for more information.
+- He also maintains a blog. 
+  - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is worth reading.
+
+---
 
 #### [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023) 
 
@@ -141,10 +157,6 @@ participated in
 - is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, and 
 - is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
 - He has [authored](https://www.rushilmathur.com/combinatorics-book) **An Exploration of Olympiad Combinatorics**.
-- He is an [interesting post](https://www.rushilmathur.com/math-olympiads/my-experiences) on his journey from the 7th standard till 2022--2023.
-- He also maintains a blog. 
-  - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is worth reading.
-- [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
 
 {% endtab %}
 
