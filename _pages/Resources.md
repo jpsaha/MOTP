@@ -133,6 +133,18 @@ participated in
 
 {% endtab %}
 
+{% tab OTISalum Rushil Mathur %}
+
+- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, and 
+- is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
+- He has [authored](https://www.rushilmathur.com/combinatorics-book) **An Exploration of Olympiad Combinatorics**.
+- He is an [interesting post](https://www.rushilmathur.com/math-olympiads/my-experiences) on his journey from the 7th standard till 2022--2023.
+- He also maintains a blog. 
+  - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is worth reading.
+- [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
+
+{% endtab %}
+
 {% endtabs %}
 
 ---
