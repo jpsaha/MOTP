@@ -60,6 +60,7 @@ He maintains a [webpage](https://www.rushilmathur.com/home).
   - [Here is one](https://www.rushilmathur.com/faq#h.gehfcha0idr0) of the FAQs. 
   > Are math olympiads = SOF IMO?
   > 
+  > 
   > No!! Check my page on math olympiads for more information.
 
 He also maintains a blog. 
