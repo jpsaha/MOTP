@@ -59,6 +59,7 @@ giscus_comments: true
     - [FAQs](https://www.rushilmathur.com/faq). 
       - [Here is one](https://www.rushilmathur.com/faq#h.gehfcha0idr0) the FAQs. 
       > Are math olympiads = SOF IMO?
+      > 
       > No!! Check my page on math olympiads for more information.
 - He also maintains a blog. 
   - [Maybe a Deewangi is all we need](https://whyofmath.blogspot.com/2023/07/maybe-deewangi-is-all-we-need.html) is worth reading.
