@@ -526,7 +526,8 @@ is a British mathematician. He has been the [leader of the UK IMO team](https://
   * Olympiad Training for Individual Study, run by [Evan Chen](https://web.evanchen.cc/) and [people](https://web.evanchen.cc/otis.html#people), is **a proof-based olympiad training program, with over [300 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**.
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
    > Do join OTIS! It is simply so good. Evan is also very kind with financial aid. Moreover, do not be scared of applying! And if there is some financial burden, do tell to Evan.
-
+  * In [an interview with the Times of India](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms), Rushil Mathur remarked the following.
+    > The OTIS program run by Evan Chen is also a wonderful forum with a variety of different resources for Olympiad preparation.
 ##### Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
 
 {% tabs OTISalum %}
@@ -579,7 +580,7 @@ received a
 {% tab OTISalum Rushil Mathur %}
 
 - is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, and 
-- is an instructor at [OTIS](https://web.evanchen.cc/otis.html).
+- is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
 - He has [authored](https://www.rushilmathur.com/combinatorics-book) **An Exploration of Olympiad Combinatorics**.
 - He is an [interesting post](https://www.rushilmathur.com/math-olympiads/my-experiences) on his journey from the 7th standard till 2022--2023.
 - He also maintains a blog. 
@@ -612,7 +613,9 @@ received a
   * It is run by a bunch of students who really like math and want to spread it further in the country. They aim to improve the quality of math education in India by making Olympiad math more accessible, as well as improve the gender ratio in the mathematical community.
   * The [team](https://www.sophiefellowship.in/team) consists of many IMO and EGMO medalists, as well as others who have attended the Indian IMO training camp. They have previously participated in Olympiads, we understand the challenges students in the math community face and want to help them. 
   * [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023), who [received](https://www.egmo.org/people/person2282/) a Silver medal in [EGMO 2023](https://www.egmo.org/egmos/egmo12/), remarked the following in a post discussing [How to start with Math olympiads](https://www.omath.club/2022/03/how%20to%20start%20with%20math%20olympiads.html).
-   > Sophie Fellowship is the gem! It provides such a nice community and so many resources!
+    > Sophie Fellowship is the gem! It provides such a nice community and so many resources!
+  * In [an interview with the Times of India](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms), Rushil Mathur remarked the following.
+    > The Sophie Fellowship community is an amazing place to be too, with the additional advantage of weekly problem sets and more personalized attention, so do consider applying for the program.
 
 ---
 
@@ -622,6 +625,8 @@ received a
 * The [Online Math Club 2.0](https://sites.google.com/view/online-math-club/home?authuser=0) is a student-run mathematical program that aims to help students from all over India and internationally prepare for mathematical olympiads. The team consists of a group of math enthusiasts who have taken part in these math olympiads in the past, many of whom are also IMO and EGMO medallists and awardees from the Indian National Mathematical Olympiad. The classes run on a Discord server.
   * There are weekly olympiad mathematics sessions on each Saturday and Sunday. Through these classes, a wide range of olympiad mathematical topics are covered that are required for RMO and INMO preparation in each of Combinatorics, Geometry, Number Theory and Algebra, starting from the basics and building up to several advanced topics over the course of the year. [This page](https://sites.google.com/view/online-math-club/overview?authuser=0) contains further details. 
 
+* In [an interview with the Times of India](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms), Rushil Mathur remarked the following.
+  > Online Math Club is a great online forum with a wide range of classes available online publicly on their YouTube channel.
 * [Blog](https://www.omath.club/)
 * On [YouTube](https://www.youtube.com/@omath)
   * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
