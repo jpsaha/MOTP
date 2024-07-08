@@ -46,6 +46,9 @@ giscus_comments: true
 
 ---
 
+#### [Rushil Mathur](https://www.rushilmathur.com/home)
+
+
 #### [Sunaina Pati](https://www.cmi.ac.in/people/student-profile.php?id=sunaina.ug2023) 
 
 maintains an [Olympiad Math Blog](https://sunainalovesmath.blogspot.com/). She [participated](https://www.egmo.org/people/person2282/) in EGMO in 2023 (S).
