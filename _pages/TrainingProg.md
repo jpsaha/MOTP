@@ -570,9 +570,16 @@ participated in
 
 {% tab OTISalum Rohan Goyal %}
 
-received a 
+received a
 
 - Silver medal in IGO 2021.
+
+{% endtab %}
+
+{% tab OTISalum Rushil Mathur %}
+
+- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, and 
+- is an instructor at [OTIS](https://web.evanchen.cc/otis.html).
 
 {% endtab %}
 
