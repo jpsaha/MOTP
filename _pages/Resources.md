@@ -57,7 +57,7 @@ He maintains a [webpage](https://www.rushilmathur.com/home).
 - [Curated Resources for Maths Olympiad Preparation](https://www.rushilmathur.com/math-olympiads/curated-resources) could be of great help for anyone intereted in Olympiads.
 - [My Experiences](https://www.rushilmathur.com/math-olympiads/my-experiences), is an interesting post on his journey from the 7th standard till 2022--2023.
 - [FAQs](https://www.rushilmathur.com/faq). 
-  - [Here is one](https://www.rushilmathur.com/faq#h.gehfcha0idr0) the FAQs. 
+  - [Here is one](https://www.rushilmathur.com/faq#h.gehfcha0idr0) of the FAQs. 
   > Are math olympiads = SOF IMO?
   > 
   > No!! Check my page on math olympiads for more information.
