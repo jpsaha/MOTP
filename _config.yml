@@ -307,7 +307,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["algebra", "combinatorics", "geometry", "number theory", "formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["algebra", "combinatorics", "geometry", "number theory", "external-services"] # these categories will be displayed on the front page of your blog
+display_categories: ["algebra", "combinatorics", "geometry", "number theory"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
