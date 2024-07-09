@@ -505,7 +505,7 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 
 ---
 
-Here is the flyer. 
+Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
@@ -531,7 +531,7 @@ Here is the flyer.
   * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
   * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **the end of July, 2024**</span>.
 
-  * Please refer to the [flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
+  * Please refer to [the flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
   * For more information, you may write to
     * Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]">
       <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>),
