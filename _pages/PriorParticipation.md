@@ -409,8 +409,7 @@ participated in
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
 - APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
 
-He is an alumni of the \href{https://www.cmi.ac.in/people/alumni-profile.php?id=amudgal}{Chennai Mathematical Society}. 
-Currently, he is a student at the University of California San Diego.
+[He is](https://www.linkedin.com/in/anant-mudgal-987982223/) an alumni of the \href{https://www.cmi.ac.in/people/alumni-profile.php?id=amudgal}{Chennai Mathematical Society}.
 
 {% endtab %}
 
@@ -422,7 +421,8 @@ participated in
 - APMO [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
 - IGO 2021 (B).
 
-Currently, he is a [student](https://www.linkedin.com/in/pranjal-srivastava-a48158271) at MIT.
+Currently, [he is](https://www.linkedin.com/in/pranjal-srivastava-a48158271/) a student at MIT.
+
 {% endtab %}
 
 {% tab participation Atul Shatavart Nadig %}
@@ -433,7 +433,7 @@ participated in
 - APMO [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
 - IGO 2022 (S).
 
-Currently, he is a [student](https://in.linkedin.com/in/atul-shatavart-nadig-610ba1248) at MIT.
+Currently, [he is](https://www.linkedin.com/in/atul-shatavart-nadig-610ba1248/) a student at MIT.
 {% endtab %}
 
 {% tab participation Anushka Aggarwal %}
@@ -461,20 +461,20 @@ participated in
 
 - [EGMO](https://www.egmo.org/people/person1867/) 2022 (B), 2023 (S), 2024 (S).
 
-She qualified 
-- diploma in Sharygin Geometry Olympiad.
+She [qualified](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/)
+- diploma in Sharygin Geometry Olympiad in 2019.
 
-She received a 
-- Silver medal in IGO. 
+She [received](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/) a
+- Silver medal in IGO.
 
-She has a 
+She [obtained](https://www.linkedin.com/in/gunjan-aggarwal-5551b4232/) a
 - Diploma in Tournament of Towns.
 
 {% endtab %}
 
 {% tab participation Amaan Khan %}
 
-qualified for 
+qualified for
 - the Final round of Sharygin Geometry Olympiad in 2020 and won a 3rd diploma.
 
 {% endtab %}
@@ -491,7 +491,7 @@ participated in
 
 {% tab participation Ananya Rajas Ranade %}
 
-participated in 
+participated in
 
 - [EGMO](https://www.egmo.org/people/person1866/) 2021 (S), 2022 (B).
 
