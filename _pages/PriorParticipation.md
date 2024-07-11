@@ -409,7 +409,7 @@ participated in
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
 - APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
 
-[He is](https://www.linkedin.com/in/anant-mudgal-987982223/) an alumni of the \href{https://www.cmi.ac.in/people/alumni-profile.php?id=amudgal}{Chennai Mathematical Society}.
+[He is](https://www.linkedin.com/in/anant-mudgal-987982223/) an alumni of the [Chennai Mathematical Society](https://www.cmi.ac.in/people/alumni-profile.php?id=amudgal).
 
 {% endtab %}
 
