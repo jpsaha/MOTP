@@ -545,6 +545,8 @@ participated in
 
 - APMO [2020](https://www.apmo-official.org/country_report/IND/2020) (B).
 
+Currently, [he is](https://www.linkedin.com/in/adityakhurmi/) a student at the University of Massachusetts Amherst.
+
 {% endtab %}
 
 {% tab participation Siddharth Choppara %}
