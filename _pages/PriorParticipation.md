@@ -409,31 +409,36 @@ participated in
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S),
 - APMO [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S).
 
+He is an alumni of the \href{https://www.cmi.ac.in/people/alumni-profile.php?id=amudgal}{Chennai Mathematical Society}. 
+Currently, he is a student at the University of California San Diego.
+
 {% endtab %}
 
 {% tab participation Pranjal Srivastava %}
 
-participated in 
+participated in
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=28249) 2018 (S), 2019 (G), 2021 (G), 2022 (G),
 - APMO [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
 - IGO 2021 (B).
 
+Currently, he is a [student](https://www.linkedin.com/in/pranjal-srivastava-a48158271) at MIT.
 {% endtab %}
 
 {% tab participation Atul Shatavart Nadig %}
 
-participated in 
+participated in
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=31725) 2022 (B), 2023 (G),
 - APMO [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
 - IGO 2022 (S).
 
+Currently, he is a [student](https://in.linkedin.com/in/atul-shatavart-nadig-610ba1248) at MIT.
 {% endtab %}
 
 {% tab participation Anushka Aggarwal %}
 
-participated in 
+participated in
 
 - [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B).
 
