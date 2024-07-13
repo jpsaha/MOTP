@@ -315,8 +315,8 @@ display_categories: ["algebra", "combinatorics", "geometry", "number theory"] # 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Saha]
+  first_name: [Jyoti Prakash]
 
   style: apa
   locale: en
