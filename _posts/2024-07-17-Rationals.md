@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rational and irrational numbers
-date: 2024-07-17 08:57:00-0400
+date: 2024-07-17 05:57:00-0400
 description: Rational and irrational numbers
 tags: algebra Rationals
 categories: algebra
