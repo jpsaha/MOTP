@@ -23,6 +23,7 @@ giscus_comments: true
 - [Binomial theorem]({{ site.url }}{{ site.baseurl }}/blog/2024/BinomialThm/)
 - [More on polynomials]({{ site.url }}{{ site.baseurl }}/blog/2024/MorePoly/)
 - [Arithmetic progressions]({{ site.url }}{{ site.baseurl }}/blog/2024/AP/)
+- [Rational and irrational numbers]({{ site.url }}{{ site.baseurl }}/blog/2024/Rationals/)
 
 ## These notes may be useful
 
