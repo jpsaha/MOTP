@@ -124,7 +124,7 @@ function dataFormatter(obj) {
   // prettier-ignore
   var pList = ['IMO', 'APMO', 'EGMO'];
   var temp;
-  for (var year = 2015; year <= 2023; year++) {
+  for (var year = 2015; year <= 2024; year++) {
     var max = 0;
     var sum = 0;
     temp = obj[year];
