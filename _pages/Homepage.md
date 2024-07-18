@@ -551,7 +551,7 @@ There are several Mathematical Olympiads of International repute, where students
 ---
 
 ## Hello! I'm Jyoti Prakash Saha.
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+there+👋,+I+am+Jyoti+Prakash+Saha+;+Welcome+to+this+page!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?width=600&lines=Hi+there+👋,+I+am+Jyoti+Prakash+Saha+;+Welcome+to+this+page!)](https://git.io/typing-svg)
 
 - 🔭 I’m an Assistant Professor at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/).
 - I am the <span style="color: royalblue">Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. 
