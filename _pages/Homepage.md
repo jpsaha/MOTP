@@ -282,6 +282,14 @@ option = {
           symbol: 'circle',
           symbolSize: 16
         },
+        {
+          value: '2024',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'diamond',
+          symbolSize: 16
+        },
       ],
       label: {
         formatter: function (s) {
