@@ -582,15 +582,20 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 ## Admission to the Chennai Mathematical Society (CMI)
 
-To quote from the webpage of CMI regarding [admissions](https://www.cmi.ac.in/admissions/) (please refer to this page for the precise details and their updated versions)
+To quote from the webpage of CMI regarding [admissions](https://www.cmi.ac.in/admissions/) (please refer to this page and any other relevant page for the precise and updated details),
 
 > Students with exceptionally good performance in the National Olympiads in Mathematics and Physics conducted by [HBSCE](https://olympiads.hbcse.tifr.res.in/) and the Indian Computing Olympiad conducted by [IARCS](https://www.iarcs.org.in/inoi/) are exempted from writing the BSc entrance examination.
-
 > Typically, the following categories of students qualify for direct admission:
-
-> - Students who have qualified for the International Mathematical Olympiad Training Camp (IMOTC) or European Girls Mathematical Olympiad Training Camp (EGMOOTC) in Class 11 or Class 12.
+> - Students who have qualified for the International Mathematical Olympiad Training Camp (IMOTC) or European Girls Mathematical Olympiad Training Camp (EGMOTC) in Class 11 or Class 12.
 > - Students who have qualified for the Orientation Cum Selection Camp (OCSC) in Physics in Class 11 or Class 12.
 > - Students who have qualified for the International Olympiad in Informatics Training Camp (IOITC), or have received a gold or silver medal at the Indian National Olympiad in Informatics (INOI) in Class 11 or Class 12.
+{: .block-tip }
+
+## Admission to the Indian Statistical Institute (ISI)
+
+To quote from the webpage of ISI regarding [admissions](https://www.isical.ac.in/~admission/index.html) (please refer to this page and any other relevant page for the precise and updated details),
+
+> There is a separate provision for applicants of B.Stat.--B.Math. programmes who have been selected as INMO AWARDEES to participate in the International Mathematics Olympiad Training Camp (IMOTC) in the years 2023 and 2024 based on their performance in the Indian National Mathematics Olympiad (INMO), conducted by the National Board of Higher Mathematics, Department of Atomic Energy, Government of India. The number of seats for INMO AWARDEES is supernumerary, subject to a maximum of 5 seats. There will be no Written Test, and the selection to these supernumerary seats will be based on interview.
 {: .block-tip }
 
 ## [Geoff Smith](https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician))
