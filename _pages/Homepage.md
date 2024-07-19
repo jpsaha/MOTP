@@ -20,6 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 tabs: true
 giscus_comments: true
+pretty_table: true
 ---
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
@@ -638,6 +639,24 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 {: .block-tip }
 
 ---
+
+<table
+  data-click-to-select="true"
+  data-height="460"
+  data-pagination="true"
+  data-search="true"
+  data-toggle="table"
+  data-url="{{ '/assets/json/pp.json' | relative_url }}">
+  <thead>
+    <tr>
+      <th data-checkbox="true"></th>
+      <th data-field="year" data-halign="left" data-align="center" data-sortable="true">Year</th>
+      <th data-field="PRMOIOQM" data-halign="center" data-align="right" data-sortable="true">Pre-RMO/IOQM</th>
+      <th data-field="RMO" data-halign="right" data-align="left" data-sortable="true">RMO</th>
+      <th data-field="INMO" data-halign="right" data-align="left" data-sortable="true">INMO</th>
+    </tr>
+  </thead>
+</table>
 
 ## [Geoff Smith](https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician))
 is a British mathematician. He has been the [leader of the UK IMO team](https://www.imo-official.org/country_team_r.aspx?code=UNK) during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014). 
