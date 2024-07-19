@@ -543,18 +543,13 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
   
-  * The plan for MOPSS is spread across the **following 9 dates**.
-  The sessions will be held **during 9:00am to 12:00pm in IISER Bhopal in person classroom meetings**.  
-    
-    <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
-
-    <i class="fas fa-calendar-alt" style="color:gray"></i> 14th, 28th September, 2024.
-    
-    <i class="fas fa-calendar-alt" style="color:gray"></i> 19th October, 2024.
-    
-    <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
-
-  * A student will get the **maximum benefit** out of MOPSS if he/she attends **all the above 9 sessions**.
+  > The plan for MOPSS is spread across the **following 9 dates**. The sessions will be held **during 9:00am to 12:00pm in IISER Bhopal in person classroom meetings**.
+  > <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
+  > <i class="fas fa-calendar-alt" style="color:gray"></i> 14th, 28th September, 2024.
+  > <i class="fas fa-calendar-alt" style="color:gray"></i> 19th October, 2024.
+  > <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
+  > A student will get the **maximum benefit** out of MOPSS if he/she attends **all the above 9 sessions**. 
+{: .block-warning }
 
   *  Applications to be accepted <span style="color: royalblue"> **until 21st July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
   * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
