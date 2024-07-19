@@ -104,7 +104,7 @@ function dataFormatter(obj) {
   // prettier-ignore
   var pList = ['IMO', 'APMO', 'EGMO'];
   var temp;
-  for (var year = 2015; year <= 2023; year++) {
+  for (var year = 2015; year <= 2024; year++) {
     var max = 0;
     var sum = 0;
     temp = obj[year];
@@ -124,6 +124,7 @@ function dataFormatter(obj) {
 // prettier-ignore Gold
 dataMap.dataGold = dataFormatter({
     //max : 60000,
+    2024: [0, 0, 0],
     2023: [2, 1, 0],
     2022: [1, 1, 0],
     2021: [1, 0, 0],
@@ -137,6 +138,7 @@ dataMap.dataGold = dataFormatter({
 // prettier-ignore Silver
 dataMap.dataSilver = dataFormatter({
     //max : 4000,
+    2024: [0, 0, 2],
     2023: [2, 2, 2],
     2022: [0, 2, 0],
     2021: [1, 0, 1],
@@ -150,6 +152,7 @@ dataMap.dataSilver = dataFormatter({
 // prettier-ignore Bronze
 dataMap.dataBronze = dataFormatter({
     //max : 26600,
+    2024: [0, 0, 2],
     2023: [2, 4, 1],
     2022: [5, 4, 4],
     2021: [3, 0, 0],
@@ -163,6 +166,7 @@ dataMap.dataBronze = dataFormatter({
 // prettier-ignore HM
 dataMap.dataHM = dataFormatter({
     //max : 25000,
+    2024: [0, 0, 0],
     2023: [0, 3, 1],
     2022: [0, 3, 0],
     2021: [1, 0, 1],
@@ -256,6 +260,14 @@ option = {
             formatter: '{b} MO'
           },
           symbol: 'circle',
+          symbolSize: 16
+        },
+        {
+          value: '2024',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'diamond',
           symbolSize: 16
         },
       ],
