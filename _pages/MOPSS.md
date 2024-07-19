@@ -491,6 +491,23 @@ option = {
           ]
         }
       ]
+    },
+    {
+      title: { text: '2024' },
+      series: [
+        { data: dataMap.dataGold['2024'] },
+        { data: dataMap.dataSilver['2024'] },
+        { data: dataMap.dataBronze['2024'] },
+        { data: dataMap.dataHM['2024'] },
+        {
+          data: [
+            { name: 'Gold', value: dataMap.dataGold['2024sum'] },
+            { name: 'Silver', value: dataMap.dataSilver['2024sum'] },
+            { name: 'Bronze', value: dataMap.dataBronze['2024sum'] },
+            { name: 'HM', value: dataMap.dataHM['2024sum'] }
+          ]
+        }
+      ]
     }
   ]
 };
