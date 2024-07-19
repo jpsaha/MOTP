@@ -545,13 +545,13 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
   
   > - The plan for MOPSS is spread across the **following 9 dates**. The sessions will be held **during 9:00am to 12:00pm in IISER Bhopal in person classroom meetings**.
   >
-  >  <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
+  >   <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
   >
-  >  <i class="fas fa-calendar-alt" style="color:gray"></i> 14th, 28th September, 2024.
+  >   <i class="fas fa-calendar-alt" style="color:gray"></i> 14th, 28th September, 2024.
   >
-  >  <i class="fas fa-calendar-alt" style="color:gray"></i> 19th October, 2024.
+  >   <i class="fas fa-calendar-alt" style="color:gray"></i> 19th October, 2024.
   >
-  >  <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
+  >   <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
   >
   > - A student will get the **maximum benefit** out of MOPSS if he/she attends **all the above 9 sessions**. 
 {: .block-tip }
