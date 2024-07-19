@@ -580,6 +580,19 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 ---
 
+## Admission to the Chennai Mathematical Society (CMI)
+
+To quote from the webpage of CMI regarding [admissions](https://www.cmi.ac.in/admissions/) (please refer to this page for the precise details and their updated versions)
+
+> Students with exceptionally good performance in the National Olympiads in Mathematics and Physics conducted by [HBSCE](https://olympiads.hbcse.tifr.res.in/) and the Indian Computing Olympiad conducted by [IARCS](https://www.iarcs.org.in/inoi/) are exempted from writing the BSc entrance examination.
+
+> Typically, the following categories of students qualify for direct admission:
+
+> - Students who have qualified for the International Mathematical Olympiad Training Camp (IMOTC) or European Girls Mathematical Olympiad Training Camp (EGMOOTC) in Class 11 or Class 12.
+> - Students who have qualified for the Orientation Cum Selection Camp (OCSC) in Physics in Class 11 or Class 12.
+> - Students who have qualified for the International Olympiad in Informatics Training Camp (IOITC), or have received a gold or silver medal at the Indian National Olympiad in Informatics (INOI) in Class 11 or Class 12.
+{: .block-tip }
+
 ## [Geoff Smith](https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician))
 is a British mathematician. He has been the [leader of the UK IMO team](https://www.imo-official.org/country_team_r.aspx?code=UNK) during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014). 
 #### He remarked the following in the foreword to the text [Infinity](http://prac.im.pwr.wroc.pl/~kwasnicki/pl/o/infinity.pdf) by [Hojoo Lee](https://cosmogeometer.wordpress.com/problems/), [Tom Lovering](https://www.imo-official.org/participant_r.aspx?id=15875) (he maintains a [blog](https://tlovering.wordpress.com/)), and [Cosmin Pohoata](https://pohoatza.wordpress.com/).
