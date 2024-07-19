@@ -590,7 +590,7 @@ To quote from the webpage of CMI regarding [admissions](https://www.cmi.ac.in/ad
 
 To quote from the [Prospectus 2024--25](https://www.isical.ac.in/~admission/Documents/IsiAdmission2024/ISI-Prospectus-2024.pdf) of ISI (please refer to this page and any other relevant page for the precise and updated details), 
 
-**The following applies to admissions in a specific academic year.**
+**The following applies to admissions in a particular academic year.**
 
 > There is a separate provision for applicants of B.Stat.--B.Math. programmes who have been selected as INMO AWARDEES to participate in the International Mathematics Olympiad Training Camp (IMOTC) in the years 2023 and 2024 based on their performance in the Indian National Mathematics Olympiad (INMO), conducted by the National Board of Higher Mathematics, Department of Atomic Energy, Government of India. The number of seats for INMO AWARDEES is supernumerary, subject to a maximum of 5 seats. There will be no Written Test, and the selection to these supernumerary seats will be based on interview.
 {: .block-tip }
