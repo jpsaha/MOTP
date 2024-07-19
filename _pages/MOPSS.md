@@ -580,7 +580,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 ---
 
-## Admission to the Chennai Mathematical Society (CMI)
+## Admission to the Chennai Mathematical Institute (CMI)
 
 To quote from the webpage of CMI regarding [admissions](https://www.cmi.ac.in/admissions/) (please refer to this page and any other relevant page for the precise and updated details),
 
