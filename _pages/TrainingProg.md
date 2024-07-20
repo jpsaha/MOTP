@@ -615,7 +615,8 @@ received a
 
 {% tab OTISalum Rushil Mathur %}
 
-- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024,
+- received a Gold medal in [IMO](https://www.imo-official.org/participant_r.aspx?id=34562) 2024, 
+<!-- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, -->
 - is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis),
 - has authored [An Exploration of Olympiad Combinatorics](https://www.rushilmathur.com/combinatorics-book).
 
