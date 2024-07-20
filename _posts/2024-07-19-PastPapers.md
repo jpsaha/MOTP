@@ -73,9 +73,36 @@ related_posts: false
         - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/02/sol-inmo-20.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c1051295_2020_india_national_olympiad)
 
+- 2018--2019
+    - Pre-RMO 2018
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/08/PRMO18_Question_Paper.pdf)
+        - [Answer keys](https://olympiads.hbcse.tifr.res.in/answer-key-to-prmo-2018/)
+        - [AoPS](https://artofproblemsolving.com/community/c918743_2018_india_prmo)
+    - RMO 2018
+        - [Question paper with Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/solutions-crmo-18.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c749890_2018_india_regional_mathematical_olympiad)
+    - INMO 2019
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2019/02/Inmo-2019-Solutions.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c831794_2019_india_national_oiympiad)
+
+- 2017--2018
+    - Pre-RMO 2017
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/08/prmo2017.pdf)
+        - [Answer keys](https://olympiads.hbcse.tifr.res.in/key-for-prmo-2017/)
+        - [AoPS](https://artofproblemsolving.com/community/c918956_2017_india_prmo)
+    - RMO 2017
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/rmo2017.pdf)
+        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/sol-crmo-20171.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c545380_2017_india_regional_mathematical_olympiad)
+    - INMO 2018
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS](https://artofproblemsolving.com/community/c596374_2018_india_national_olympiad)
+<!--
 - 201
     - Pre-RMO 201
-        - [Question paper with answer keys]()
+        - [Question paper]()
+        - [Answer keys]()
         - [AoPS]()
     - RMO 201
         - [Question paper]()
@@ -86,4 +113,143 @@ related_posts: false
         - [Solutions]()
         - [AoPS]()
 
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
 
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper]()
+        - [Answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - [Question paper]()
+        - [Solution]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+-->
