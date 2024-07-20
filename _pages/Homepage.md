@@ -640,7 +640,9 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ---
 
-{% details Click below %}
+
+
+{% details Click below%}
 
 | Year | Pre-RMO/IOQM | RMO | INMO |
 | :----------- | :------------: | :------------: | :------------: |

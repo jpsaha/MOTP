@@ -556,9 +556,9 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
   > - A student will get the **maximum benefit** out of MOPSS if he/she attends **all the above 9 sessions**. 
 {: .block-tip }
 
-  > *  Applications to be accepted <span style="color: royalblue"> **until 21st July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
-  > * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
-  > * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **the end of July, 2024**</span>.
+> *  Applications to be accepted <span style="color: royalblue"> **until 21st July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
+> * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
+> * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **the end of July, 2024**</span>.
 {: .block-warning }
 
   * Please refer to [the flyer](../assets/pdf/MOPSS/flyer.pdf) for further information.
