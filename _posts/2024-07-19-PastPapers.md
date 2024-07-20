@@ -43,7 +43,7 @@ related_posts: false
             - [AoPS](https://artofproblemsolving.com/community/c3007444_2022_ioqm_india)
         - Part B
             - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/Part_B_2022_Solutions_revised.pdf)
-        - [AoPS](https://artofproblemsolving.com/community/c3006124_2022_india_national_olympiad)
+            - [AoPS](https://artofproblemsolving.com/community/c3006124_2022_india_national_olympiad)
     - INMO 2022
         - [Question paper]()
         - [Solutions]()
