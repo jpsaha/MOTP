@@ -11,7 +11,7 @@ related_posts: false
 
 - 2023--2024
     - IOQM 2023
-        - [Question paper with answer key](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)
+        - [Question paper with answer keys](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c3531959_202324_ioqm_india)
     - RMO 2023
         - Question paper
@@ -26,11 +26,43 @@ related_posts: false
         - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/02/INMO_2024_final_solutions.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c3733470_2024_india_national_olympiad)
 
-- 202
-    - IOQM 202
-        - [Question paper with answer key]()
+- 2022--2023
+    - IOQM 2022
+        - [Question paper with answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/12/IOQM_22_finalversion_for_publish.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c3007444_2022_ioqm_india)
+    - INMO 2023
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/01/INMO23_qp.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/03/solutions.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c3259889_2023_india_national_olympiad)
+
+- 2021--2022
+    - IOQM 2021
+        - Part A
+            - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/IOQM2021_partA_final.pdf)
+            - [Answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/IOQM-Part-A-answer-key-.pdf)
+        - Part B
+            - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/Part_B_2022_Solutions_revised.pdf)
         - [AoPS]()
-    - RMO 202
+    - INMO 2022
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS](https://artofproblemsolving.com/community/c3006124_2022_india_national_olympiad)
+
+- 2020--2021
+    - IOQM 2020
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/IOQM-question-paper.pdf)
+        - [Answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/IOQM2021Anskey.pdf)
+        - [AoPS]()
+    - INMO 2021
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/INMO21FINAL.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/04/INMO_2021_solutions.pdf)
+        - [AoPS]()
+
+- 2019--2020
+    - Pre-RMO 2019
+        - [Question paper with answer keys]()
+        - [AoPS]()
+    - RMO 2019
         - Question paper
             - [Non-KV and Non-JNV]()
             - [KV or JNV]()
@@ -38,7 +70,26 @@ related_posts: false
             - [Non-KV and Non-JNV]()
             - [KV or JNV]()
         - [AoPS]()
-    - INMO 202
+    - INMO 2020
         - [Question paper]()
         - [Solutions]()
         - [AoPS]()
+
+- 201
+    - Pre-RMO 201
+        - [Question paper with answer keys]()
+        - [AoPS]()
+    - RMO 201
+        - Question paper
+            - [Non-KV and Non-JNV]()
+            - [KV or JNV]()
+        - Solution
+            - [Non-KV and Non-JNV]()
+            - [KV or JNV]()
+        - [AoPS]()
+    - INMO 201
+        - [Question paper]()
+        - [Solutions]()
+        - [AoPS]()
+
+
