@@ -640,7 +640,8 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ---
 
-
+> For links to the past Question papers,
+{: .block-warning }
 
 {% details Click below%}
 
