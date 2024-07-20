@@ -29,7 +29,7 @@ related_posts: false
 - 2022--2023
     - IOQM 2022
         - [Question paper with answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/12/IOQM_22_finalversion_for_publish.pdf)
-        - [AoPS](https://artofproblemsolving.com/community/c3007444_2022_ioqm_india)
+        - [AoPS](https://artofproblemsolving.com/community/c3188416_202223_ioqm_india)
     - INMO 2023
         - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/01/INMO23_qp.pdf)
         - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/03/solutions.pdf)
