@@ -640,14 +640,14 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ---
 
-> For links to the past Question papers,
+> For links to the past Question papers, please click below.
 {: .block-warning }
 
 {% details Click below%}
 
 | Year | Pre-RMO/IOQM | RMO | INMO |
 | :----------- | :------------: | :------------: | :------------: |
-| 2023--2024        |    [IOQM 2023](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)   |   [RMO 2023 Non-KV and Non-JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/10/rmo-combined.pdf)    | [INMO 2024](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/03/INMO2024-Q.-Paper.pdf)   |
+| 2023--2024        |    [IOQM 2023](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)   |   RMO 2023 Question paper ([Non-KV and Non-JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/10/rmo-combined.pdf), [KV or JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/10/KVJNV_Bilingual.pdf)), Solutions ([Non-KV and Non-JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/NonKV-or-Non-JNV.pdf), [KV or JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/11/KV-n-JNV.pdf))  | INMO 2024 [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/03/INMO2024-Q.-Paper.pdf), [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/02/INMO_2024_final_solutions.pdf)   |
 
 
 {% enddetails %}
