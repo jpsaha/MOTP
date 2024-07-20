@@ -78,6 +78,7 @@ For ease of reference, here is a brief overview of participation of India in [IM
 - [Results for India at APMO](https://www.apmo-official.org/country_report/IND/all),
 - [India at EGMO](https://www.egmo.org/countries/country35/).
 
+
 <body style="height: 75%; margin: 0">
   <div id="container" style="height: 500%"></div>
 
@@ -98,7 +99,7 @@ function dataFormatter(obj) {
   // prettier-ignore
   var pList = ['IMO', 'APMO', 'EGMO'];
   var temp;
-  for (var year = 2015; year <= 2023; year++) {
+  for (var year = 2015; year <= 2024; year++) {
     var max = 0;
     var sum = 0;
     temp = obj[year];
@@ -118,6 +119,7 @@ function dataFormatter(obj) {
 // prettier-ignore Gold
 dataMap.dataGold = dataFormatter({
     //max : 60000,
+    2024: [1, 0, 0],
     2023: [2, 1, 0],
     2022: [1, 1, 0],
     2021: [1, 0, 0],
@@ -131,6 +133,7 @@ dataMap.dataGold = dataFormatter({
 // prettier-ignore Silver
 dataMap.dataSilver = dataFormatter({
     //max : 4000,
+    2024: [1, 0, 2],
     2023: [2, 2, 2],
     2022: [0, 2, 0],
     2021: [1, 0, 1],
@@ -144,6 +147,7 @@ dataMap.dataSilver = dataFormatter({
 // prettier-ignore Bronze
 dataMap.dataBronze = dataFormatter({
     //max : 26600,
+    2024: [0, 0, 2],
     2023: [2, 4, 1],
     2022: [5, 4, 4],
     2021: [3, 0, 0],
@@ -157,6 +161,7 @@ dataMap.dataBronze = dataFormatter({
 // prettier-ignore HM
 dataMap.dataHM = dataFormatter({
     //max : 25000,
+    2024: [1, 0, 0],
     2023: [0, 3, 1],
     2022: [0, 3, 0],
     2021: [1, 0, 1],
@@ -252,6 +257,14 @@ option = {
           symbol: 'circle',
           symbolSize: 16
         },
+        {
+          value: '2024',
+          tooltip: {
+            formatter: '{b} MO'
+          },
+          symbol: 'diamond',
+          symbolSize: 16
+        },
       ],
       label: {
         formatter: function (s) {
@@ -303,7 +316,7 @@ option = {
     yAxis: [
       {
         type: 'value',
-        name: 'IMO, APMO, EGMO'
+        name: '     IMO, APMO, EGMO'
       }
     ],
     series: [
@@ -470,6 +483,23 @@ option = {
             { name: 'Silver', value: dataMap.dataSilver['2023sum'] },
             { name: 'Bronze', value: dataMap.dataBronze['2023sum'] },
             { name: 'HM', value: dataMap.dataHM['2023sum'] }
+          ]
+        }
+      ]
+    },
+    {
+      title: { text: '2024' },
+      series: [
+        { data: dataMap.dataGold['2024'] },
+        { data: dataMap.dataSilver['2024'] },
+        { data: dataMap.dataBronze['2024'] },
+        { data: dataMap.dataHM['2024'] },
+        {
+          data: [
+            { name: 'Gold', value: dataMap.dataGold['2024sum'] },
+            { name: 'Silver', value: dataMap.dataSilver['2024sum'] },
+            { name: 'Bronze', value: dataMap.dataBronze['2024sum'] },
+            { name: 'HM', value: dataMap.dataHM['2024sum'] }
           ]
         }
       ]
