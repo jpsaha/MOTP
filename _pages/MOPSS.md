@@ -124,7 +124,7 @@ function dataFormatter(obj) {
 // prettier-ignore Gold
 dataMap.dataGold = dataFormatter({
     //max : 60000,
-    2024: [1, 0, 0],
+    2024: [4, 0, 0],
     2023: [2, 1, 0],
     2022: [1, 1, 0],
     2021: [1, 0, 0],
