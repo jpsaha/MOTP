@@ -638,6 +638,10 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 {: .block-tip }
 
 ---
+| Year | Pre-RMO/IOQM | RMO | INMO |
+| :----------- | :------------: | :------------: | :------------: |
+| 2023         |    [IOQM 2023](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)   |   [RMO 2023 Non-KV and Non-JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/10/rmo-combined.pdf)    | [INMO 2024](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/03/INMO2024-Q.-Paper.pdf)   |
+
 
 ## [Geoff Smith](https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician))
 is a British mathematician. He has been the [leader of the UK IMO team](https://www.imo-official.org/country_team_r.aspx?code=UNK) during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014). 
