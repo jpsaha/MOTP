@@ -66,7 +66,7 @@ related_posts: false
         - [AoPS](https://artofproblemsolving.com/community/c920896_2019_india_prmo)
     - RMO 2019
         - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/10/rmoengfirst2019.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/10/rmosolutions2019.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/10/rmosolutions2019.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c989116_2019_india_regional_mathematical_olympiad)
     - INMO 2020
         - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/04/inmo-20-QP-4_0.pdf)
@@ -79,7 +79,7 @@ related_posts: false
         - [Answer keys](https://olympiads.hbcse.tifr.res.in/answer-key-to-prmo-2018/)
         - [AoPS](https://artofproblemsolving.com/community/c918743_2018_india_prmo)
     - RMO 2018
-        - [Question paper with Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/solutions-crmo-18.pdf)
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/solutions-crmo-18.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c749890_2018_india_regional_mathematical_olympiad)
     - INMO 2019
         - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2019/02/Inmo-2019-Solutions.pdf)
@@ -92,7 +92,7 @@ related_posts: false
         - [AoPS](https://artofproblemsolving.com/community/c918956_2017_india_prmo)
     - RMO 2017
         - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/rmo2017.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/sol-crmo-20171.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/sol-crmo-20171.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c545380_2017_india_regional_mathematical_olympiad)
     - INMO 2018
         - [Question paper]()
@@ -104,13 +104,13 @@ related_posts: false
         - [AoPS](https://artofproblemsolving.com/community/c919482_2016_india_prmo)
     - RMO 2016
         - [Question paper 1](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_1.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/1sol.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/1sol.pdf)
         - [Question paper 2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_2.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/2sol.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/2sol.pdf)
         - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_3.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/3sol.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/3sol.pdf)
         - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/crmo-16_4.pdf)
-        - [Solution](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/4sol.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/4sol.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c353903_2016_india_regional_mathematical_olympiad)
     - INMO 2017
         - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/01/inmo2017.pdf)
@@ -160,115 +160,45 @@ related_posts: false
         - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmosol-15.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c4941_2015_india_national_olympiad)
 
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
+- 2013--2014
+    - Pre-RMO 2013
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/prermo2013.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c918945_2013_india_prmo)
+    - RMO 2013
+        - [Question paper 1](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-paper-1.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-solutions-1.pdf)
+        - [Question paper 2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-paper-2.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-solutions-2.pdf)
+        - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-paper-3.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-solutions-3.pdf)
+        - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-paper-4.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-2013-solutions-4.pdf)
+        - [Question paper ](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2013-mumbai-region.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/solutions-to-rmo-2013-mumbai-region.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4994_2013_india_regional_mathematical_olympiad)
+    - INMO 2014
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2014.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4940_2014_india_national_olympiad)
 
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
+- 2012--2013
+    - Pre-RMO 2012
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/prermo2012.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c893400_2012_india_prmo)
+    - RMO 2012
+        - [Question paper 1 with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmosol-12-1.pdf)
+        - [Question paper 2 with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmosol-12-2.pdf)
+        - [Question paper 3 with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmosol-12-3.pdf)
+        - [Question paper 4 with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmosol-12-4.pdf)
+        - [Question paper 5 with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2012-mumbai-region.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4993_2012_india_regional_mathematical_olympiad)
+    - INMO 2013
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo2013-solutions.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4939_2013_india_national_olympiad)
 
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
+- 2011--2012
     - RMO 201
-        - [Question paper]()
-        - [Solution]()
+        - [Question paper with Solutions]()
         - [AoPS]()
     - INMO 201
-        - [Question paper]()
-        - [Solutions]()
+        - [Question paper with Solutions]()
         - [AoPS]()
-
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
-
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
-
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
-
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
-
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
--->
