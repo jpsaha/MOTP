@@ -640,7 +640,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ---
 
-> The links to the past Question papers along with further details are available at [this page]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
+> The links to the past Question papers along with further details are available at [this page]({{ site.url }}{{ site.baseurl }}/blog/2024/PastPapers/).
 {: .block-warning }
 
 {% details Click below%}
