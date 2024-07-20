@@ -40,9 +40,10 @@ related_posts: false
         - Part A
             - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/IOQM2021_partA_final.pdf)
             - [Answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/IOQM-Part-A-answer-key-.pdf)
+            - [AoPS](https://artofproblemsolving.com/community/c3007444_2022_ioqm_india)
         - Part B
             - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/07/Part_B_2022_Solutions_revised.pdf)
-        - [AoPS]()
+        - [AoPS](https://artofproblemsolving.com/community/c3006124_2022_india_national_olympiad)
     - INMO 2022
         - [Question paper]()
         - [Solutions]()
@@ -52,11 +53,11 @@ related_posts: false
     - IOQM 2020
         - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/IOQM-question-paper.pdf)
         - [Answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/IOQM2021Anskey.pdf)
-        - [AoPS]()
+        - [AoPS](https://artofproblemsolving.com/community/c1757660_202021_ioqm_india)
     - INMO 2021
         - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/03/INMO21FINAL.pdf)
         - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2021/04/INMO_2021_solutions.pdf)
-        - [AoPS]()
+        - [AoPS](https://artofproblemsolving.com/community/c1962669_2021_india_national_olympiad)
 
 - 2019--2020
     - Pre-RMO 2019
