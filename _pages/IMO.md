@@ -200,7 +200,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2]
+      data: [2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 2, 4]
     },
     {
       name: 'Silver',
@@ -209,7 +209,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [3, 2, 1, 1, 1, 0, 3, 4, 1, 0, 2]
+      data: [3, 2, 1, 1, 1, 0, 3, 4, 1, 0, 2, 1]
     },
     {
       name: 'Bronze',
@@ -218,7 +218,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [0, 3, 3, 2, 5, 3, 2, 0, 3, 5, 2]
+      data: [0, 3, 3, 2, 5, 3, 2, 0, 3, 5, 2, 0]
     },
     {
       name: 'HM',
@@ -227,7 +227,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [1, 0, 2, 3, 0, 3, 1, 1, 1, 0, 0]
+      data: [1, 0, 2, 3, 0, 3, 1, 1, 1, 0, 0, 1]
     }
   ]
 };
