@@ -196,9 +196,113 @@ related_posts: false
         - [AoPS](https://artofproblemsolving.com/community/c4939_2013_india_national_olympiad)
 
 - 2011--2012
-    - RMO 201
+    - RMO 2011
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2011-solutions.pdf)
+        - [AoPS]()
+    - INMO 2012
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2012.pdf)
+        - [AoPS]()
+
+- 2010--2011
+    - RMO 2010
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2010.pdf)
+        - [AoPS]()
+    - INMO 2011
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-sol-2011.pdf)
+        - [AoPS]()
+
+- 2009--2010
+    - RMO 2009
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2009.pdf)
+        - [AoPS]()
+    - INMO 2010
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/12/INMO2010.pdf)
+        - [AoPS]()
+
+- 2008--2009
+    - RMO 2008
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2008.pdf)
+        - [AoPS]()
+    - INMO 2009
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2009-1.pdf)
+        - [AoPS]()
+
+- 2007--2008
+    - RMO 2007
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2007.pdf)
+        - [AoPS]()
+    - INMO 2008
         - [Question paper with Solutions]()
         - [AoPS]()
-    - INMO 201
+
+- 2006--2007
+    - RMO 2006
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2006.pdf)
+        - [AoPS]()
+    - INMO 2007
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2007.pdf)
+        - [AoPS]()
+
+- 2005--2006
+    - RMO 2005
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2005.pdf)
+        - [AoPS]()
+    - INMO 2006
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2006.pdf)
+        - [AoPS]()
+
+- 2004--2005
+    - RMO 2004
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2004.pdf)
+        - [AoPS]()
+    - INMO 2005
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2005.pdf)
+        - [AoPS]()
+
+- 2003--2004
+    - RMO 2003
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-sol-2003.pdf)
+        - [AoPS]()
+    - INMO 2004
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2004.pdf)
+        - [AoPS]()
+
+- 2002--2003
+    - RMO 2002
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-sol-2002.pdf)
+        - [AoPS]()
+    - INMO 2003
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2003.pdf)
+        - [AoPS]()
+
+- 2001--2002
+    - RMO 2001
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo2001.pdf)
+        - [AoPS]()
+    - INMO 2002
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-2002.pdf)
+        - [AoPS]()
+
+- 2000--2001
+    - RMO 2000
+        - [Question paper with Solutions]()
+        - [AoPS]()
+    - INMO 2001
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-sol-2001.pdf)
+        - [AoPS]()
+
+- 1999--2000
+    - RMO 1999
+        - [Question paper with Solutions]()
+        - [AoPS]()
+    - INMO 2001
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-sol-2000.pdf)
+        - [AoPS]()
+
+- 200
+    - RMO 200
+        - [Question paper with Solutions]()
+        - [AoPS]()
+    - INMO 200
         - [Question paper with Solutions]()
         - [AoPS]()
