@@ -39,7 +39,8 @@ chart:
   * 7th in 2001 (G, G, S, S, B, B),
   * 9th in 2002 (G, S, S, S, B, B),
   * 11th in 2012 (G, G, S, S, S, HM),
-  * 9th in 2023 (G, G, S, S, B, B).
+  * 9th in 2023 (G, G, S, S, B, B),
+  * 4th in 2024 (G, G, G, G, S, HM).
 <!-- ~~In 1991 - 1995, 1999 - 2000, 2003 - 2010, 2013 - 2018, there were no Gold medalists.~~ -->
 * In each IMO held during 2019 - 2023, at least one participant from India [received](https://www.imo-official.org/country_team_r.aspx?code=IND) a Gold medal.
 
