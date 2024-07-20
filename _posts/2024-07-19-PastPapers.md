@@ -78,8 +78,8 @@ related_posts: false
         - [Question paper with answer keys]()
         - [AoPS]()
     - RMO 201
-        - Question paper
-        - Solution
+        - [Question paper]()
+        - [Solution]()
         - [AoPS]()
     - INMO 201
         - [Question paper]()
