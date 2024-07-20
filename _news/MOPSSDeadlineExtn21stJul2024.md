@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The deadline for submitting application for [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) has been extened to **21st July, 2024**. The students enrolled in the 11th or 12th standard may  write to Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>) if they would like to participate in MOPSS. 
+The deadline for submitting application for [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/) has been extened to **21st July, 2024**. The students enrolled in the 11th or 12th standard may  write to Jyoti Prakash Saha (<a href="mailto:jpsaha@iiserb.ac.in?subject=[MOPSS]"><i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>) if they would like to participate in [MOPSS]({{ site.url }}{{ site.baseurl }}/MOPSS/).
