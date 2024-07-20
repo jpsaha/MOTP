@@ -140,19 +140,25 @@ related_posts: false
         - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-inmo16.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c211903_2016_india_national_olympiad)
 
-- 201
-    - Pre-RMO 201
-        - [Question paper]()
-        - [Answer keys]()
-        - [AoPS]()
-    - RMO 201
-        - [Question paper]()
-        - [Solution]()
-        - [AoPS]()
-    - INMO 201
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
+- 2014--2015
+    - Pre-RMO 2014
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/prermo2014.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c918954_2014_india_prmo)
+    - RMO 2014
+        - [Question paper 1](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2022/05/sol_crmo_14_1.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo-14-1.pdf)
+        - [Question paper 2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-14-2.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo-14-2.pdf)
+        - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-14-3.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo-14-3.pdf)
+        - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-14-4.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo-14-4.pdf)
+        - [Question paper 5](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-14-5.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo-14-5.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4995_2014_india_regional_mathematical_olympiad)
+    - INMO 2015
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmosol-15.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4941_2015_india_national_olympiad)
 
 - 201
     - Pre-RMO 201
