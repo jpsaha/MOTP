@@ -61,20 +61,17 @@ related_posts: false
 
 - 2019--2020
     - Pre-RMO 2019
-        - [Question paper with answer keys]()
-        - [AoPS]()
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/08/PRMO-2019-Question-Paper.pdf)
+        - [Answer keys](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/08/PRMO-2019-ans-key-19.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c920896_2019_india_prmo)
     - RMO 2019
-        - Question paper
-            - [Non-KV and Non-JNV]()
-            - [KV or JNV]()
-        - Solution
-            - [Non-KV and Non-JNV]()
-            - [KV or JNV]()
-        - [AoPS]()
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/10/rmoengfirst2019.pdf)
+        - [Solution](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2019/10/rmosolutions2019.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c989116_2019_india_regional_mathematical_olympiad)
     - INMO 2020
-        - [Question paper]()
-        - [Solutions]()
-        - [AoPS]()
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/04/inmo-20-QP-4_0.pdf)
+        - [Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/02/sol-inmo-20.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c1051295_2020_india_national_olympiad)
 
 - 201
     - Pre-RMO 201
@@ -82,11 +79,7 @@ related_posts: false
         - [AoPS]()
     - RMO 201
         - Question paper
-            - [Non-KV and Non-JNV]()
-            - [KV or JNV]()
         - Solution
-            - [Non-KV and Non-JNV]()
-            - [KV or JNV]()
         - [AoPS]()
     - INMO 201
         - [Question paper]()
