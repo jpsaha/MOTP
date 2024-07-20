@@ -145,7 +145,7 @@ function dataFormatter(obj) {
 // prettier-ignore Gold
 dataMap.dataGold = dataFormatter({
     //max : 60000,
-    2024: [0, 0, 0],
+    2024: [4, 0, 0],
     2023: [2, 1, 0],
     2022: [1, 1, 0],
     2021: [1, 0, 0],
@@ -159,7 +159,7 @@ dataMap.dataGold = dataFormatter({
 // prettier-ignore Silver
 dataMap.dataSilver = dataFormatter({
     //max : 4000,
-    2024: [0, 0, 2],
+    2024: [1, 0, 2],
     2023: [2, 2, 2],
     2022: [0, 2, 0],
     2021: [1, 0, 1],
@@ -187,7 +187,7 @@ dataMap.dataBronze = dataFormatter({
 // prettier-ignore HM
 dataMap.dataHM = dataFormatter({
     //max : 25000,
-    2024: [0, 0, 0],
+    2024: [1, 0, 0],
     2023: [0, 3, 1],
     2022: [0, 3, 0],
     2021: [1, 0, 1],
