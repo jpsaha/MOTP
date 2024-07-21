@@ -580,7 +580,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ##### IOQM (Indian Olympiad Qualifier in Mathematics)
 - Scheduled on [8th September, 2024, during 10:00hrs --- 13:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
-- The paper consists of 30 question worth 100 marks in total. 
+- The paper consists of 30 questions worth 100 marks in total. 
 - There are 10 questions worth 2 marks, 10 questions worth 3 marks, 10 questions worth 5 marks. 
 - Websites: [MTAI](https://www.mtai.org.in), [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
 - A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
