@@ -624,6 +624,14 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
+{% tab stages Past Question Papers %}
+
+##### Past Question papers
+
+The past papers are available at [the webpage of HBCSE](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/). The links to the past Question papers along with AoPS links are available at [this page]({{ site.url }}{{ site.baseurl }}/blog/2024/PastPapers/).
+
+{% endtab %}
+
 {% endtabs %}
 
 ---
@@ -637,11 +645,6 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 > - [INMOTC](https://olympiads.hbcse.tifr.res.in/faq/) is a camp, organized before INMO.
 {: .block-tip }
-
----
-
-> The past papers are available at [the webpage of HBCSE](https://olympiads.hbcse.tifr.res.in/how-to-prepare/past-papers/). The links to the past Question papers along with AoPS links are available at [this page]({{ site.url }}{{ site.baseurl }}/blog/2024/PastPapers/).
-{: .block-warning }
 
 ---
 
