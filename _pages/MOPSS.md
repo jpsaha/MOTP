@@ -543,7 +543,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
   
-  > - The plan for MOPSS is spread across the **following 9 dates**. The sessions will be held **during 9:00am to 12:00pm in IISER Bhopal in person classroom meetings**. The venue for these sessions is the [Multimedia Classroom](https://cs2.iiserb.ac.in/multimedia_classroom.php), on the first floor of the building AB1-B, at [IISER Bhopal](https://www.iiserb.ac.in/).
+  > - The plan for MOPSS is spread across the **following 9 dates**. The sessions will be held **during 9:00am to 12:00pm at IISER Bhopal in person offline classroom meetings**. The venue for these sessions is the [Multimedia Classroom](https://cs2.iiserb.ac.in/multimedia_classroom.php), on the first floor of the building AB1-B, at [IISER Bhopal](https://www.iiserb.ac.in/).
   >
   >   <i class="fas fa-calendar-alt" style="color:gray"></i> 3rd, 17th, 31st August, 2024.
   >
