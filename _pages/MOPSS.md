@@ -556,6 +556,46 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
   > - A student will get the **maximum benefit** out of MOPSS if he/she attends **all the above 9 sessions**. 
 {: .block-tip }
 
+
+
+> ## FAQs (Frequently Asked Questions)
+>
+>
+> - **Will MOPSS be held offline or online?**
+>   - As mentioned above, MOPSS will be held offline.
+>
+>
+> - **What is the procedure to participate in these sessions?**
+>   - By being present at the venue, a student may participate in MOPSS provided he/she has been selected for it.
+>
+>
+> - **Will there be an online session for MOPSS apart from the in person classroom meetings?**
+>   - No.
+>
+>
+> - **Can one participate in some of the sessions of MOPSS if one cannot participate in all the sessions?**
+>   - As stated above, a student, selected for participation in MOPSS, will get the **maximum benefit** out of MOPSS if he/she attends **all the 9 sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then may join those sessions.
+>
+>
+> - **Will refreshments be provided to the participants?**
+>   - Yes.
+>
+>
+> - **Are there any suggestions for the students living far from Bhopal?**
+>   - The problem sets, that will be discussed in MOPSS, will also be posted online. Anyone may have a look at them, including the students who live in Bhopal, or far from Bhopal.
+>
+>
+> - **What are the fees for MOPSS?**
+>   - MOPSS is free of cost. The **only** aim of MOPSS is to develop an interest for mathematics among the students by encouraging them to work on problems falling broadly within the scope of Mathematics Olympiad.
+>
+>
+>
+>
+{: .block-danger }
+
+
+
+
 > *  Applications to be accepted <span style="color: royalblue"> **until 21st July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
 > * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
 > * The students, selected for participation in the session, will be informed by <span style="color: royalblue"> **the end of July, 2024**</span>.
