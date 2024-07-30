@@ -512,7 +512,7 @@ qualified for
 
 participated in 
 
-- [IMO](https://www.imo-official.org/participant_r.aspx?id=31724) 2022 (B), 2023 (B),
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31724) 2022 (B), 2023 (B), 2024 (G),
 - APMO in [2022](https://www.apmo-official.org/country_report/IND/2022) (B), [2023](https://www.apmo-official.org/country_report/IND/2023) (S),
 - IGO in 2019 (G), 2023 (B).
 
@@ -530,6 +530,7 @@ participated in
 
 received a 
 
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=34561) 2024 (G),
 - Bronze medal in IGO.
 
 {% endtab %}
@@ -580,9 +581,9 @@ Currently, [he is](https://www.linkedin.com/in/adityakhurmi/) a student at the U
 
 {% tab participation Siddharth Choppara %}
 
-participated in 
+participated in
 
-- [IMO](https://www.imo-official.org/participant_r.aspx?id=33406) 2023 (S),
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=33406) 2023 (S), 2024 (HM),
 - APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (B).
 
 {% endtab %}
@@ -591,7 +592,7 @@ participated in
 
 participated in 
 
-- [IMO](https://www.imo-official.org/participant_r.aspx?id=31722) 2022 (B), 2023 (G),
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=31722) 2022 (B), 2023 (G), 2024 (S),
 - APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (S).
 
 {% endtab %}
