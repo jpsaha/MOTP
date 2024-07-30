@@ -582,7 +582,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 >
 >
 > - **Are there any suggestions for the students living far from Bhopal?**
->   - The problem sets, that will be discussed in MOPSS, will also be posted online. Anyone may have a look at them, including the students who live in Bhopal, or far from Bhopal.
+>   - The problem sets, that will be discussed in MOPSS, will also be posted online. Anyone may have a look at them, including the students living in Bhopal, or far from Bhopal.
 >
 >
 > - **What are the fees for MOPSS?**
