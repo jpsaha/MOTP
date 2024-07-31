@@ -475,18 +475,18 @@ participated in
 
 {% tab participation Ananda Bhaduri %}
 
-participated in 
+participated in
 
-- [IMO](https://www.imo-official.org/participant_r.aspx?id=33405) 2023 (S),
-- APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (B), 
-and qualified for 
+- [IMO](https://www.imo-official.org/participant_r.aspx?id=33405) 2023 (S), 2024 (G),
+- APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (B),
+and qualified for
 - the Final round of Sharygin Geometry Olympiad in 2020 and 2021.
 
 {% endtab %}
 
 {% tab participation Gunjan Aggarwal %}
 
-participated in 
+participated in
 
 - [EGMO](https://www.egmo.org/people/person1867/) 2022 (B), 2023 (S), 2024 (S).
 
