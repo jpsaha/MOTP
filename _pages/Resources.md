@@ -85,9 +85,10 @@ maintains an [Olympiad Math Blog](https://sunainalovesmath.blogspot.com/). She [
 
 #### [Royan Goyal](https://www.cmi.ac.in/people/student-profile.php?id=rohang)
 
-maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.imo-official.org/participant_r.aspx?id=31126) in IMO 2021 (B). 
+maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.imo-official.org/participant_r.aspx?id=31126) in IMO 2021 (B).
 
-* [Recommendations](https://rgtdfg.blogspot.com/2022/02/recommendations-feb-22-version.html) from him. 
+* [Recommendations](https://rgtdfg.blogspot.com/2022/02/recommendations-feb-22-version.html) from him.
+* [Handouts](https://rgtdfg.blogspot.com/p/handouts.html) prepared by him.
 
 ---
 
