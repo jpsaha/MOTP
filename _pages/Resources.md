@@ -50,7 +50,6 @@ giscus_comments: true
 
 - He received a Gold medal in [IMO](https://www.imo-official.org/participant_r.aspx?id=34562) 2024, 
 <!-- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, -->
-
 - He is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
 
 He maintains a [webpage](https://www.rushilmathur.com/home).
