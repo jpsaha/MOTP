@@ -586,15 +586,12 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 >
 >
 > - **What are the fees for MOPSS?**
->   - MOPSS is free of cost. The **only** aim of MOPSS is to develop an interest for mathematics among the students by encouraging them to work on problems falling broadly within the scope of Mathematics Olympiad.
+>   - MOPSS is free of cost. The **only** aim of MOPSS is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of Mathematics Olympiad.
 >
 >
 >
 >
 {: .block-danger }
-
-
-
 
 > *  Applications to be accepted <span style="color: royalblue"> **until 21st July, 2024**</span> through the [Google form](https://forms.gle/B9wQteEtGXvCj3AH9) posted at [this link](https://forms.gle/B9wQteEtGXvCj3AH9). 
 > * In the Google form, the link to [this problem set]({{ site.url }}{{ site.baseurl }}/assets/pdf/MOPSS/PS0B24Aug.pdf) has been provided. While filling in the form, the solutions to these problems (or the details of the progress made) are to be submitted.
