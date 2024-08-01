@@ -574,7 +574,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 >
 >
 > - **Can one participate in some of the sessions of MOPSS if one cannot participate in all the sessions?**
->   - As stated above, a student, selected for participation in MOPSS, will get the **maximum benefit** out of MOPSS if he/she attends **all the 9 sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then may join those sessions.
+>   - As stated above, a student, selected for participation in MOPSS, will get the **maximum benefit** out of MOPSS if he/she attends **all the 9 sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then one may join those sessions.
 >
 >
 > - **Will refreshments be provided to the participants?**
