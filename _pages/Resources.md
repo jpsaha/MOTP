@@ -82,7 +82,7 @@ maintains an [Olympiad Math Blog](https://sunainalovesmath.blogspot.com/). She [
 
 ---
 
-#### [Royan Goyal](https://www.cmi.ac.in/people/student-profile.php?id=rohang)
+#### [Rohan Goyal](https://www.cmi.ac.in/people/student-profile.php?id=rohang)
 
 maintains a [blog](https://rgtdfg.blogspot.com/). He [participated](https://www.imo-official.org/participant_r.aspx?id=31126) in IMO 2021 (B).
 
