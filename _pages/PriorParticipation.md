@@ -528,7 +528,7 @@ participated in
 
 {% tab participation Kanav Talwar %}
 
-received a 
+received a
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=34561) 2024 (G),
 - Bronze medal in IGO.
@@ -547,7 +547,7 @@ participated in
 
 {% tab participation Saee Vitthal Patil %}
 
-participated in 
+participated in
 
 - [EGMO](https://www.egmo.org/people/person2568/) 2024 (B).
 
@@ -555,15 +555,15 @@ participated in
 
 {% tab participation Sanjana Philo Chacko %}
 
-participated in 
+participated in
 
-- [EGMO](https://www.egmo.org/people/person2283/) 2023 (B), 2024 (S) 
+- [EGMO](https://www.egmo.org/people/person2283/) 2023 (B), 2024 (S).
 
 {% endtab %}
 
 {% tab participation Sunaina Pati %}
 
-participated in 
+participated in
 
 - [EGMO](https://www.egmo.org/people/person2282/) 2023 (S).
 
@@ -571,7 +571,7 @@ participated in
 
 {% tab participation Aditya Khurmi %}
 
-participated in 
+participated in
 
 - APMO [2020](https://www.apmo-official.org/country_report/IND/2020) (B).
 
@@ -590,7 +590,7 @@ participated in
 
 {% tab participation Arjun Gupta %}
 
-participated in 
+participated in
 
 - [IMO](https://www.imo-official.org/participant_r.aspx?id=31722) 2022 (B), 2023 (G), 2024 (S),
 - APMO [2023](https://www.apmo-official.org/country_report/IND/2023) (S).
