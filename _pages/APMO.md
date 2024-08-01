@@ -28,7 +28,8 @@ giscus_comments: true
   * 12th in 2019 (G, S, S, B, B, B, B, HM, HM, HM),
   * 8th in 2020 (G, S, S, B, B, B, B, HM, HM, HM),
   * 6th in 2022 (G, S, S, B, B, B, B, HM, HM, HM),
-  * 6th in 2023 (G, S, S, B, B, B, B, HM, HM, HM).
+  * 6th in 2023 (G, S, S, B, B, B, B, HM, HM, HM),
+  * 7th in 2024 (G, S, S, B, B, B, B, HM, HM, HM).
 
 <!--
 * Some of the past contestants are
@@ -183,7 +184,7 @@ option = {
     {
       type: 'category',
       axisTick: { show: true },
-      data: ['2015', '\n2016', '2017', '\n2018', '2019', '\n2020', '2022', '\n2023']
+      data: ['2015', '\n2016', '2017', '\n2018', '2019', '\n2020', '2022', '\n2023', '2024']
     }
   ],
   yAxis: [
@@ -200,7 +201,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [0, 0, 0, 0, 1, 1, 1, 1]
+      data: [0, 0, 0, 0, 1, 1, 1, 1, 1]
     },
     {
       name: 'Silver',
@@ -209,7 +210,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [1, 3, 3, 0, 2, 2, 2, 2]
+      data: [1, 3, 3, 0, 2, 2, 2, 2, 2]
     },
     {
       name: 'Bronze',
@@ -218,7 +219,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [5, 4, 4, 7, 4, 4, 4, 4]
+      data: [5, 4, 4, 7, 4, 4, 4, 4, 4]
     },
     {
       name: 'HM',
@@ -227,7 +228,7 @@ option = {
       emphasis: {
         focus: 'series'
       },
-      data: [3, 1, 3, 3, 3, 3, 3, 3]
+      data: [3, 1, 3, 3, 3, 3, 3, 3, 3]
     }
   ]
 };
