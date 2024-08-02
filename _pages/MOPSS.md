@@ -9,6 +9,9 @@ tabs: true
 giscus_comments: true
 ---
 
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=On+03.08.2024,+MOPSS+will+be+held+in+L2,+LHC,+IISER+Bhopal.)](https://git.io/typing-svg)
+
 ## Study materials for Math Olympiad
 
 - <span style="color: green"> Available for download.
