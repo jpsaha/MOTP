@@ -24,6 +24,10 @@ giscus_comments: true
 
 - <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at</span> <span style="color: red">the above links. </span>
 
+> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
+>
+{: .block-danger }
+
 <!--
 {% tabs studymat %}
 
@@ -527,6 +531,10 @@ option = {
 If you (the reader!) are aware of these Olympiads, and would like to prepare for them, then you may wish to know about [a few training programs]({{ site.url }}{{ site.baseurl }}/TrainingProg/).
 
 ---
+
+> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
+>
+{: .block-danger }
 
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
