@@ -9,8 +9,9 @@ tabs: true
 giscus_comments: true
 ---
 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=On+03.08.2024,+MOPSS+will+be+held+in+L2,+LHC,+IISER+Bhopal.)](https://git.io/typing-svg)
+> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
+>
+{: .block-danger }
 
 ## Study materials for Math Olympiad
 
@@ -537,11 +538,19 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 
 ---
 
+> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
+>
+{: .block-danger }
+
 Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 ---
+
+> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
+>
+{: .block-danger }
 
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
@@ -563,7 +572,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 > ## FAQs (Frequently Asked Questions)
 >
-> # The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex)** instead of the Multimedia Classroom.
+> # The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex)** instead of the *Multimedia Classroom, IISER Bhopal*.
 >
 > - **Will MOPSS be held offline or online?**
 >   - As mentioned above, MOPSS will be held offline.
@@ -591,9 +600,6 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 >
 > - **What are the fees for MOPSS?**
 >   - MOPSS is free of cost. The **only** aim of MOPSS is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of Mathematics Olympiad.
->
->
->
 >
 {: .block-danger }
 
