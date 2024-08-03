@@ -9,10 +9,6 @@ tabs: true
 giscus_comments: true
 ---
 
-> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
->
-{: .block-danger }
-
 ## Study materials for Math Olympiad
 
 - <span style="color: green"> Available for download.
@@ -23,11 +19,6 @@ giscus_comments: true
   - [IOQM]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
 
 - <span style="color: green"> Students enrolled in 8th, 9th, 10th, 11th, 12th standard, or anyone interested may use the notes posted at</span> <span style="color: red">the above links. </span>
-
-> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
->
-{: .block-danger }
-
 <!--
 {% tabs studymat %}
 
@@ -532,10 +523,6 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 
 ---
 
-> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
->
-{: .block-danger }
-
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
 <div class="row mt-3">
@@ -546,19 +533,11 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 
 ---
 
-> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
->
-{: .block-danger }
-
 Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 <iframe src="{{ site.baseurl }}/assets/pdf/MOPSS/flyer.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
 ---
-
-> The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex), IISER Bhopal** instead of the *Multimedia Classroom, IISER Bhopal*.
->
-{: .block-danger }
 
   * The Department of Mathematics, IISER Bhopal, would be organizing a series of Mathematics Olympiad Problem Solving Sessions (MOPSS). 
   * The aim is to develop an interest in mathematics among the students by encouraging them to work on problems falling broadly within the scope of the Mathematical Olympiad.
@@ -579,8 +558,6 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 
 > ## FAQs (Frequently Asked Questions)
->
-> # The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex)** instead of the *Multimedia Classroom, IISER Bhopal*.
 >
 > - **Will MOPSS be held offline or online?**
 >   - As mentioned above, MOPSS will be held offline.
