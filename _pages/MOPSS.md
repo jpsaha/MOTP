@@ -559,8 +559,6 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 
 > ## FAQs (Frequently Asked Questions)
 >
-> # The session scheduled on 03.08.2024 will be held in **L2, LHC (Lecture Hall Complex)** instead of the *Multimedia Classroom, IISER Bhopal*.
->
 > - **Will MOPSS be held offline or online?**
 >   - As mentioned above, MOPSS will be held offline.
 >
