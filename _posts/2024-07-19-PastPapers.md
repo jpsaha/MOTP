@@ -105,9 +105,9 @@ related_posts: false
     - RMO 2016
         - [Question paper 1](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_1.pdf) (Mumbai?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/1sol.pdf)
         - [Question paper 2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_2.pdf) (Telangana?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/2sol.pdf)
-        - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_3.pdf) (Karnataka and WB?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/3sol.pdf)
+        - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_3.pdf) (Karnataka and West Bengal?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/3sol.pdf)
         - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/crmo-16_4.pdf) (Odisha?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/4sol.pdf)
-        - [AoPS](https://artofproblemsolving.com/community/c353903_2016_india_regional_mathematical_olympiad)
+        - [AoPS](https://artofproblemsolving.com/community/c353903_2016_india_regional_mathematical_olympiad) (Delhi?, Maharashtra and Goa?, Chandigrah?,...)
     - INMO 2017
         - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/01/inmo2017.pdf)
         - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/01/sol-inmo_17.pdf)
@@ -125,7 +125,7 @@ related_posts: false
         - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-15-3.pdf) (West Bengal?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo15-3.pdf)
         - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-15-4.pdf) (Karnataka?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo15-4.pdf)
         - [Question paper 5](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/crmo-15-5.pdf) (Mumbai), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-crmo15-5.pdf)
-        - [AoPS](https://artofproblemsolving.com/community/c854399_2015_india_regional_mathematicai_olympiad)
+        - [AoPS](https://artofproblemsolving.com/community/c854399_2015_india_regional_mathematicai_olympiad) (Tamil Nadu?, ...)
     - INMO 2016
         - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/INMO-2016-English-Version.pdf)
         - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/sol-inmo16.pdf)
