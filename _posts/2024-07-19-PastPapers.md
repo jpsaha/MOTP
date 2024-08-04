@@ -107,7 +107,7 @@ related_posts: false
         - [Question paper 2](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_2.pdf) (Telangana?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/2sol.pdf)
         - [Question paper 3](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/QPcrmo-16_3.pdf) (Karnataka and West Bengal?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/3sol.pdf)
         - [Question paper 4](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/crmo-16_4.pdf) (Odisha?), [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/11/4sol.pdf)
-        - [AoPS](https://artofproblemsolving.com/community/c353903_2016_india_regional_mathematical_olympiad) (Delhi?, Maharashtra and Goa?, Chandigrah?,...)
+        - [AoPS](https://artofproblemsolving.com/community/c353903_2016_india_regional_mathematical_olympiad) (Delhi?, Maharashtra and Goa?, Chandigarh?,...)
     - INMO 2017
         - [Question paper](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/01/inmo2017.pdf)
         - [Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/01/sol-inmo_17.pdf)
