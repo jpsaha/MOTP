@@ -266,7 +266,7 @@ related_posts: false
 
 - 2000--2001
     - RMO 2000
-        - [Question paper with Solutions]()
+        - [Question paper with Solutions](https://www.isical.ac.in/~rmo/papers/rmo/rmo-2000.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c4981_2000_india_regional_mathematical_olympiad)
     - INMO 2001
         - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-sol-2001.pdf)
@@ -274,8 +274,102 @@ related_posts: false
 
 - 1999--2000
     - RMO 1999
-        - [Question paper with Solutions]()
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1999.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c4980_1999_india_regional_mathematical_olympiad)
     - INMO 2000
         - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/inmo-sol-2000.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c4926_2000_india_national_olympiad)
+
+- 1998--1999
+    - RMO 1998
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1998.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4979_1998_india_regional_mathematical_olympiad)
+    - INMO 1999
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1999.pdf)
+        - [AoPS]()
+
+- 1997--1998
+    - RMO 1997
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1997.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4978_1997_india_regional_mathematical_olympiad)
+    - INMO 1998
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1998.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4924_1998_india_national_olympiad)
+
+- 1996--1997
+    - RMO 1996
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1996.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4977_1996_india_regional_mathematical_olympiad)
+    - INMO 1997
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1997.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4923_1997_india_national_olympiad)
+
+- 1995--1996
+    - RMO 1995
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1995.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4976_1995_india_regional_mathematical_olympiad)
+    - INMO 1996
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1996.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4922_1996_india_national_olympiad)
+
+- 1994--1995
+    - RMO 1994
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1994.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4975_1994_india_regional_mathematical_olympiad)
+    - INMO 1995
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1995.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4921_1995_india_national_olympiad)
+
+- 1993--1994
+    - RMO 1993
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1993.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4974_1993_india_regional_mathematical_olympiad)
+    - INMO 1994
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1994.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4920_1994_india_national_olympiad)
+
+- 1992--1993
+    - RMO 1992
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1992.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4973_1992_india_regional_mathematical_olympiad)
+    - INMO 1993
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1993.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4919_1993_india_national_olympiad)
+
+- 1991--1992
+    - RMO 1991
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1991.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4972_1991_india_regional_mathematical_olympiad)
+    - INMO 1992
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1992.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4918_1992_india_national_olympiad)
+
+- 1990--1991
+    - RMO 1990
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/rmo/rmo-1990.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4971_1990_india_regional_mathematical_olympiad)
+    - INMO 1991
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1991.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4917_1991_india_national_olympiad)
+
+- 1989--1990
+    - INMO 1990
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1990.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4916_1990_india_national_olympiad)
+
+- 1988--1989
+    - INMO 1989
+        - [Question paper](https://www.isical.ac.in/~rmo/papers/inmo/inmo-1989.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4915_1989_india_national_olympiad)
+
+- 1988
+    - INMO 1988
+        - [AoPS](https://artofproblemsolving.com/community/c4914_1988_india_national_olympiad)
+
+- 1987
+    - INMO 1987
+        - [AoPS](https://artofproblemsolving.com/community/c4913_1987_india_national_olympiad)
+
+- 1986
+    - INMO 1986
+        - [AoPS](https://artofproblemsolving.com/community/c4912_1986_india_national_olympiad)
