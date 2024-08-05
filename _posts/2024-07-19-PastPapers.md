@@ -13,6 +13,7 @@ related_posts: false
     - IOQM 2023
         - [Question paper with answer keys](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)
         - [AoPS](https://artofproblemsolving.com/community/c3531959_202324_ioqm_india)
+        - [Discussion](https://jpsaha.github.io/MOTP/blog/2024/IOQM/)
     - RMO 2023
         - Question paper
             - [Non-KV and Non-JNV](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2023/10/rmo-combined.pdf)
