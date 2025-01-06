@@ -34,7 +34,7 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - Yes.
 >
 >
-> - **Will the parents be provided an accommodation?**
+> - **Will a parent be provided an accommodation?**
 >   - No.
 >
 >
