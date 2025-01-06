@@ -594,9 +594,10 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ##### RMO (Regional Mathematical Olympiad)
 - Scheduled on [3rd November, 2024, during 13:00hrs --- 16:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
-- The paper consists of 6 questions. 
+- The paper consists of 6 questions.
 - It requires writing detailed proofs.
 - Websites: [HBCSE](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
+- The result of RMO 2024 may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
 
 {% endtab %}
 
