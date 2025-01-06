@@ -10,7 +10,7 @@ giscus_comments: true
 
 ## [Indian National Mathematical Olympiad Training Camp 2025]({{ site.url }}{{ site.baseurl }}/INMOTC25/)
 
-The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the Madhya Pradesh region will be held at [IISER Bhopal](https://www.iiserb.ac.in/) from 09.01.2025 to 12.01.2025. In the following, INMOTC refers to this camp. Please refer to FAQs below if you are interested in it and/or have questions about it. The FAQs are updated from time-to-time, when a query about INMOTC is received (and the existing FAQs do not answer it).
+The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the Madhya Pradesh region will be held at [IISER Bhopal](https://www.iiserb.ac.in/) from 09.01.2025 to 12.01.2025. In the following, INMOTC refers to this camp. Please refer to FAQs below if you are interested in it and/or have questions about it. The FAQs are updated from time to time, when a query about INMOTC is received (and the existing FAQs do not answer it).
 
 ---
 
