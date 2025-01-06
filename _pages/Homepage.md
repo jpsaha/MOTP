@@ -574,12 +574,11 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 > - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the [webpage](https://olympiads.hbcse.tifr.res.in/) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit [this webpage](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/) for the updates and further details.
 {: .block-tip }
 
-
 #### Some stages of the Math Olympiad program 2024 --- 2025 are
 
-{% tabs stages %}
+{% tabs stagesD %}
 
-{% tab stages IOQM %}
+{% tab stagesD IOQM %}
 
 ##### IOQM (Indian Olympiad Qualifier in Mathematics)
 - Scheduled on [8th September, 2024, during 10:00hrs --- 13:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -590,7 +589,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stages RMO %}
+{% tab stagesD RMO %}
 
 ##### RMO (Regional Mathematical Olympiad)
 - Scheduled on [3rd November, 2024, during 13:00hrs --- 16:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -601,14 +600,14 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stages INMOTC %}
+{% tab stagesD INMOTC %}
 
 ##### INMOTC (Indian National Mathematical Olympiad Training Camp)
 - The schedule of the INMO Training Camps, prior to INMO 2025, may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
 
 {% endtab %}
 
-{% tab stages INMO %}
+{% tab stagesD INMO %}
 
 ##### INMO (Indian National Mathematical Olympiad)
 - Scheduled on [19th January, 2025, during 12:00hrs --- 16:30hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -618,7 +617,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stages IMOTC %}
+{% tab stagesD IMOTC %}
 
 ##### IMOTC (International Mathematical Olympiad Training Camp)
 - A month-long training camp, held sometime during from April to May.
@@ -627,7 +626,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stages PDC %}
+{% tab stagesD PDC %}
 
 ##### PDC (Pre-Departure Camp)
 - Held before leaving for [IMO](https://www.imo-official.org).
@@ -635,7 +634,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stages Past Question Papers %}
+{% tab stagesD Past Question Papers %}
 
 ##### Past Question papers
 
