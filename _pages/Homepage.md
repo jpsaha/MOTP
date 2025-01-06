@@ -604,7 +604,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 {% tab stagesD INMOTC %}
 
 ##### INMOTC (Indian National Mathematical Olympiad Training Camp)
-- The schedule of the INMO Training Camps, prior to INMO 2025, may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
+- The schedule of the INMO Training Camps, to be held prior to INMO 2025, may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
 
 {% endtab %}
 
