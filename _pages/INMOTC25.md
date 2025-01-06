@@ -30,7 +30,7 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - Any government-issued photo identity card along with the admit card for RMO 2024.
 >
 >
-> - **If a student cannot attend all the lectures during INMOTC (for instance, due to delay in arriving in Bhopal), can he/she may attend the remaining lectures?**
+> - **If a student cannot attend all the lectures during INMOTC (for instance, due to delay in arriving in Bhopal), can he/she attend the remaining lectures?**
 >   - Yes.
 >
 >
