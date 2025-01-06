@@ -5,6 +5,7 @@ title: INMOTC 2025
 description: INMOTC 2025 (Madhya Pradesh region)
 nav: false
 nav_order: 38
+giscus_comments: true
 ---
 
 ## [Indian National Mathematical Olympiad Training Camp 2025]({{ site.url }}{{ site.baseurl }}/INMOTC25/)
