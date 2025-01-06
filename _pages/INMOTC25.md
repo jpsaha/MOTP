@@ -42,6 +42,10 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - Accommodation will be provided to those students **only** who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. The students, who have registered for accommodation during the camp, will also be provided food.
 >
 >
+> - **Is it mandatory to avail the accommodation facility for participating at INMOTC?**
+>   - No.
+>
+>
 > - **Will a pariticipant be provided food if he/she has not opted for accommodation?**
 >   - Any such participant will be provided lunch and snacks during the camp.
 >
