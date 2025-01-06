@@ -577,9 +577,9 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 #### Some stages of the Math Olympiad program 2024 --- 2025 are
 
-{% tabs stagesDum %}
+{% tabs stages %}
 
-{% tab stagesDum IOQM %}
+{% tab stages IOQM %}
 
 ##### IOQM (Indian Olympiad Qualifier in Mathematics)
 - Scheduled on [8th September, 2024, during 10:00hrs --- 13:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -590,7 +590,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stagesDum RMO %}
+{% tab stages RMO %}
 
 ##### RMO (Regional Mathematical Olympiad)
 - Scheduled on [3rd November, 2024, during 13:00hrs --- 16:00hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -601,14 +601,14 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stagesDum INMOTC %}
+{% tab stages INMOTC %}
 
 ##### INMOTC (Indian National Mathematical Olympiad Training Camp)
 - The schedule of the INMO Training Camps, prior to INMO 2025, may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
 
 {% endtab %}
 
-{% tab stagesDum INMO %}
+{% tab stages INMO %}
 
 ##### INMO (Indian National Mathematical Olympiad)
 - Scheduled on [19th January, 2025, during 12:00hrs --- 16:30hrs](https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/).
@@ -618,7 +618,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stagesDum IMOTC %}
+{% tab stages IMOTC %}
 
 ##### IMOTC (International Mathematical Olympiad Training Camp)
 - A month-long training camp, held sometime during from April to May.
@@ -627,7 +627,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stagesDum PDC %}
+{% tab stages PDC %}
 
 ##### PDC (Pre-Departure Camp)
 - Held before leaving for [IMO](https://www.imo-official.org).
@@ -635,7 +635,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 {% endtab %}
 
-{% tab stagesDum Past Question Papers %}
+{% tab stages Past Question Papers %}
 
 ##### Past Question papers
 
