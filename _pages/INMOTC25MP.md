@@ -30,6 +30,16 @@ giscus_comments: true
 
 ---
 
+
+> - Accommodation will be provided to those students only who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. 
+>
+>
+> - Accommodation has been arranged at VH, IISER Bhopal.
+>
+{: .block-warning }
+
+
+
 In the following, INMOTC refers to this camp. Please refer to FAQs below if you are interested in it and/or have questions about it. The FAQs are updated from time to time, soon after receiving a query about INMOTC (in case the existing FAQs do not answer it).
 
 ---
