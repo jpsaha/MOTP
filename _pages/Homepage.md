@@ -605,6 +605,7 @@ The [Math Olympiad program organized by HBCSE](https://olympiads.hbcse.tifr.res.
 
 ##### INMOTC (Indian National Mathematical Olympiad Training Camp)
 - The schedule of the INMO Training Camps, to be held prior to INMO 2025, may be found at [this link](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/).
+- The INMO Training Camp 2025 for the Madhya Pradesh region is scheduled from 09.01.2025 to 12.01.2025 at IISER Bhopal. Details may be found at [this page](https://jpsaha.github.io/MOTP/INMOTC25MP/).
 
 {% endtab %}
 
