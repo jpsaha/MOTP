@@ -52,7 +52,7 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 > - **Is it mandatory to avail the accommodation facility for participating at INMOTC?**
 >   - No.
 >
-> - **If accommodation is provided to a student, will blanket be also provided?**
+> - **If accommodation is provided to a student, will blanket also be provided?**
 >  - Yes. 
 >
 >
