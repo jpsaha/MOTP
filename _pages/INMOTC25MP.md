@@ -17,10 +17,11 @@ giscus_comments: true
 >
 > - The lectures during this camp will be held at the **Seminar Hall, VH, IISER Bhopal**. 
 >
->
-> - Here is the schedule of the camp.
->
 {: .block-tip }
+
+---
+
+Here is the schedule of the camp.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
