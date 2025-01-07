@@ -30,6 +30,9 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - Any government-issued photo identity card along with the admit card for RMO 2024.
 >
 >
+> - **Will any transport facility be provided to reach IISER Bhopal?**
+>   - No.
+>
 > - **If a student cannot attend all the lectures during INMOTC (for instance, due to delay in arriving in Bhopal), can he/she attend the remaining lectures?**
 >   - Yes.
 >
@@ -45,12 +48,11 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 > - **Is it mandatory to avail the accommodation facility for participating at INMOTC?**
 >   - No.
 >
+> - **If accommodation is provided to a student, will blanket be also provided?**
+>  - Yes. 
+>
 >
 > - **Will a pariticipant be provided food if he/she has not opted for accommodation?**
 >   - Any such participant will be provided lunch and snacks during the camp.
->
->
-> - **Will any transport facility be provided to reach IISER Bhopal?**
->   - No.
 >
 {: .block-danger }
