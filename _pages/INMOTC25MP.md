@@ -45,6 +45,14 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - Accommodation will be provided to those students **only** who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. The students, who have registered for accommodation during the camp, will also be provided food.
 >
 >
+> - **How to reach the classroom (Seminar Hall, VH, IISER Bhopal) after arriving at IISER Bhopal?**
+>   - At the entry gate of IISER Bhopal, the candidates will be given directions to reach VH. The Seminar Hall is located on the first floor of VH.
+>
+>
+> - **How to reach the place where the accommodation has been arranged?**
+>   - At the entry gate of IISER Bhopal, the candidates, registered for having accommodation during the camp, will be given directions to reach VH. At the reception desk of VH, one may ask for directions to the rooms.
+>
+>
 > - **Will a student receive an email confirming accommodation during the camp if he/she has filled out the above-mentioned Google form requesting for accommodation?**
 >   - No. 
 >
