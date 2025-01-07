@@ -31,7 +31,7 @@ giscus_comments: true
 ---
 
 
-> - Accommodation will be provided to those students only who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. 
+> - Accommodation will be provided to those students **only** who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. 
 >
 >
 > - Accommodation has been arranged at VH, IISER Bhopal.
