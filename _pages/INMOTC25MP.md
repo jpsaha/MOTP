@@ -53,7 +53,7 @@ Here is [the schedule of the camp](../assets/pdf/INMOTC/INMOTC25Sch.pdf).
 >   - No.
 >
 > - **If accommodation is provided to a student, will blanket also be provided?**
->  - Yes. 
+>   - Yes. 
 >
 >
 > - **Will a pariticipant be provided food if he/she has not opted for accommodation?**
