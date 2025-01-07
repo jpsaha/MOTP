@@ -31,7 +31,8 @@ Here is the schedule of the camp.
 
 ---
 
-
+> ## Accommodation
+>
 > - Accommodation will be provided to those students **only** who have registered for accommodation by filling out the Google form, which was circulated among the students who qualified for INMO 2025 from the Madhya Pradesh region. 
 >
 >
