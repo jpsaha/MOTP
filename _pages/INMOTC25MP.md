@@ -12,6 +12,8 @@ giscus_comments: true
 
 ---
 
+> ## Schedule and Venue
+>
 > - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** will be held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
 >
 >
