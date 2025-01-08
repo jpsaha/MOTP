@@ -82,7 +82,7 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >   - At the entry gate of IISER Bhopal, the candidates will be given directions to reach VH. The Seminar Hall is located on the first floor of VH.
 >
 >
-> - **How to reach the place where the accommodation has been arranged?**
+> - **How to reach the place (VH, IISER Bhopal) where the accommodation has been arranged?**
 >   - At the entry gate of IISER Bhopal, the candidates, registered for having accommodation during the camp, will be given directions to reach VH. At the reception desk of VH, one may ask for directions to the rooms.
 >
 >
