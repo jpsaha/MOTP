@@ -21,8 +21,6 @@ giscus_comments: true
 >
 {: .block-tip }
 
----
-
 Here is the schedule of the camp.
 
 <div class="row mt-3">
