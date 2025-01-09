@@ -103,6 +103,6 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 | :----------- | :------------: | :------------: | :------------: | :------------: |
 |        | Number Theory | Number Theory | Combinatorics | Geometry |
 |        | Number Theory | Number Theory | Combinatorics | Geometry |
-|        | Lunch ||||
+|01:00pm-02:30pm  | Lunch | | | |
 |        | Algebra | Algebra | Geometry | Combinatorics |
 |        | Algebra | Algebra | Geometry | Combinatorics |
