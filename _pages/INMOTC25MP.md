@@ -110,7 +110,7 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 |04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
 
 | :----------- | :------------: |
-| Algebra | Jyoti Prakash Saha |
-| Combinatorics | Amir Kumar Mallik |
-| Geometry | Srikanth Pai B |
-| Number Theory | Mainak Ghosh |
+| Algebra | [Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/) |
+| Combinatorics | [Amir Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281) |
+| Geometry | [Srikanth Pai B](https://www.mse.ac.in/faculty/srikanthbpaimse-ac-in/) |
+| Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |
