@@ -99,8 +99,9 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >
 {: .block-danger }
 
-|  | 09.01.2025 | 10.01.2025 | 11.01.2025 | 12.01.2025 |
+|  |  |  |  |  |
 | :----------- | :------------: | :------------: | :------------: | :------------: |
+|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
 |        | Number Theory | Number Theory | Combinatorics | Geometry |
 |        | Number Theory | Number Theory | Combinatorics | Geometry |
 |01:00pm-02:30pm  | Lunch | | | |
