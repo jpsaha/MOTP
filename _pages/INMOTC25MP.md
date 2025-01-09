@@ -103,7 +103,7 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 | :----------- | :------------: | :------------: | :------------: | :------------: |
 |  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
 |09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
-|        | Number Theory | Number Theory | Combinatorics | Geometry |
+|11:30am-01:00pm | Number Theory | Number Theory | Combinatorics | Geometry |
 |01:00pm-02:30pm  | Lunch ||||
-|        | Algebra | Algebra | Geometry | Combinatorics |
-|        | Algebra | Algebra | Geometry | Combinatorics |
+|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
+|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
