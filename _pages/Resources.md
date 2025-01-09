@@ -169,7 +169,7 @@ participated in
 
 - received a Gold medal in [IMO](https://www.imo-official.org/participant_r.aspx?id=34561) 2024,
 - participated in APMO in [2023](https://www.apmo-official.org/country_report/IND/2023) (B), [2024](https://www.apmo-official.org/country_report/IND/2024) (S),
-- is an instructor at [OTIS](https://web.evanchen.cc/otis.html) (X).
+- is an instructor at [OTIS](https://web.evanchen.cc/otis.html).
 
 {% endtab %}
 
