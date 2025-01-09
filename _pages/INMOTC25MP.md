@@ -6,6 +6,7 @@ description: INMOTC 2025 (Madhya Pradesh region)
 nav: false
 nav_order: 38
 giscus_comments: true
+pretty_table: true
 ---
 
 ## [Indian National Mathematical Olympiad Training Camp 2025 (MP)]({{ site.url }}{{ site.baseurl }}/INMOTC25MP/)
@@ -97,3 +98,11 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >   - Any such participant will be provided lunch and snacks during the camp.
 >
 {: .block-danger }
+
+|  | 09.01.2025 | 10.01.2025 | 11.01.2025 | 12.01.2025 |
+| :----------- | :------------: | :------------: | :------------: | :------------: |
+|        | Number Theory | Number Theory | Combinatorics | Geometry |
+|        | Number Theory | Number Theory | Combinatorics | Geometry |
+|        | Lunch ||||
+|        | Algebra | Algebra | Geometry | Combinatorics |
+|        | Algebra | Algebra | Geometry | Combinatorics |
