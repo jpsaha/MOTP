@@ -32,6 +32,7 @@ pretty_table: true
 >|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
 >
 {: .block-tip }
+
 <!--
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -39,7 +40,6 @@ pretty_table: true
     </div>
 </div>
 -->
----
 
 > ## Link to problem sets, etc.
 >
