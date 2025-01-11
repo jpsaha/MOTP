@@ -2,7 +2,7 @@
 layout: post
 title: INMOTC 2025 (MP region), Algebra
 date: 2025-01-10 08:57:00-0400
-description: Quadratic polynomials
+description: INMOTC 2025 (MP region), Algebra
 tags: algebra 
 categories: algebra
 giscus_comments: true
