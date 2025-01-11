@@ -38,11 +38,11 @@ pretty_table: true
 > - Algebra ([Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/))
 >      - [Problem set](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/)
 > - Combinatorics ([Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281))
->      - 
+>      -
 > - Geometry ([Srikanth B. Pai](https://srikanthbpai.github.io/))
 >      - [Problem set 1](../assets/pdf/INMOTC/INMOTC25MPgeo1.pdf), [Problem set 2](../assets/pdf/INMOTC/INMOTC25MPgeo2.pdf). (Several lectures on Geometry by Srikanth are available on [YouTube](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg?app=desktop).)
 > - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
->      - 
+>      -
 >
 {: .block-tip }
 
