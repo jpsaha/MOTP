@@ -13,6 +13,7 @@ pretty_table: true
 
 ---
 
+
 > ## Schedule and Venue
 >
 > - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** will be held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
@@ -29,6 +30,18 @@ pretty_table: true
 </div>
 
 ---
+
+> ## Link to problem sets, etc.
+>
+>|   | Instructor  | Problem sets etc. |
+>| :-----------: | :------------: | :------------: |
+>| Algebra | [Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/) |  https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/ |
+>| Combinatorics | [Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281) |  |
+>| Geometry | [Srikanth Pai B](https://www.mse.ac.in/faculty/srikanthbpaimse-ac-in/) |  |
+>| Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |  |
+>
+{: .block-tip }
+
 
 > ## Accommodation
 >
@@ -108,14 +121,3 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 |02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
 |04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
 |04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
-
----
-
-a 
-
-|   |   |
-| :-----------: | :------------: |
-| Algebra | [Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/) |
-| Combinatorics | [Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281) |
-| Geometry | [Srikanth Pai B](https://www.mse.ac.in/faculty/srikanthbpaimse-ac-in/) |
-| Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |
