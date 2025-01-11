@@ -39,7 +39,7 @@ pretty_table: true
 >      - [Problem set](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/)
 > - Combinatorics ([Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281))
 >      - 
-> - Geometry ([Srikanth Pai B](https://srikanthbpai.github.io/))
+> - Geometry ([Srikanth B. Pai](https://srikanthbpai.github.io/))
 >      - 
 > - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
 >      - 
@@ -113,10 +113,8 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >
 {: .block-danger }
 
-<!--
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/INMOTC/INMOTC25Sch.png" title="Schedule of INMOTC 2025, MP region" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
--->
