@@ -33,8 +33,8 @@ pretty_table: true
 
 > ## Link to problem sets, etc.
 >
->|   | Instructor  | Problem sets etc. |
 >| :-----------: | :------------: | :------------: |
+>|   | Instructor  | Problem sets etc. |
 >| Algebra | [Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/) |  [link](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/) |
 >| Combinatorics | [Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281) |  |
 >| Geometry | [Srikanth Pai B](https://www.mse.ac.in/faculty/srikanthbpaimse-ac-in/) |  |
