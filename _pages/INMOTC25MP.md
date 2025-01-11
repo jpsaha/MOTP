@@ -30,7 +30,7 @@ pretty_table: true
 >|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
 >|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
 >
->{: .block-tip }
+{: .block-tip }
 
 --- 
 
@@ -43,7 +43,7 @@ pretty_table: true
 >| Geometry | [Srikanth Pai B](https://srikanthbpai.github.io/) |  |
 >| Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |  |
 >
->{: .block-tip }
+{: .block-tip }
 
 > ## Accommodation
 >
