@@ -39,12 +39,10 @@ pretty_table: true
 >      - [Problem set](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/)
 > - Combinatorics ([Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281))
 >      - 
->| :-----------: | :------------: | :------------: |
->|               | **Instructor**  | **Problem sets etc.** |
->|Algebra |  |  [Problem set](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/) |
->|Combinatorics | [Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281) |  |
->|Geometry | [Srikanth Pai B](https://srikanthbpai.github.io/) |  |
->|Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |  |
+> - Geometry ([Srikanth Pai B](https://srikanthbpai.github.io/))
+>      - 
+> Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
+>      - 
 >
 {: .block-tip }
 
