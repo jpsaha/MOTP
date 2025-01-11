@@ -34,7 +34,6 @@ pretty_table: true
 
 --- 
 
-> ## Link to problem sets, etc.
 >
 >| :-----------: | :------------: | :------------: |
 >|               | Instructor  | Problem sets etc. |
