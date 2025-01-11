@@ -41,7 +41,7 @@ pretty_table: true
 >      - 
 > - Geometry ([Srikanth Pai B](https://srikanthbpai.github.io/))
 >      - 
-> Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
+> - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
 >      - 
 >
 {: .block-tip }
