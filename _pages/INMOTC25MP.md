@@ -19,16 +19,26 @@ pretty_table: true
 > - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** will be held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
 >
 >
-> - The lectures during this camp will be held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule. 
+> - The lectures during this camp will be held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule.
+>
+>| :----------- | :------------: | :------------: | :------------: | :------------: |
+>|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
+>|09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
+>|11:00am-11:30am  | Break | Break | Break | Break |
+>|11:30am-01:00pm | Number Theory | Number Theory | Combinatorics | Geometry |
+>|01:00pm-02:30pm  | Lunch | Lunch | Lunch | Lunch |
+>|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
+>|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
+>|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
 >
 {: .block-tip }
-
+<!--
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/INMOTC/INMOTC25Sch.png" title="Schedule of INMOTC 2025, MP region" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+-->
 ---
 
 > ## Link to problem sets, etc.
@@ -51,8 +61,6 @@ pretty_table: true
 > - Accommodation has been arranged at **VH, IISER Bhopal**.
 >
 {: .block-warning }
-
-
 
 In the following, INMOTC refers to this camp. Please refer to FAQs below if you are interested in it and/or have questions about it. The FAQs are updated from time to time, soon after receiving a query about INMOTC (in case the existing FAQs do not answer it).
 
@@ -111,13 +119,3 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >   - Any such participant will be provided lunch and snacks during the camp.
 >
 {: .block-danger }
-
-| :----------- | :------------: | :------------: | :------------: | :------------: |
-|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
-|09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
-|11:00am-11:30am  | Break | Break | Break | Break |
-|11:30am-01:00pm | Number Theory | Number Theory | Combinatorics | Geometry |
-|01:00pm-02:30pm  | Lunch | Lunch | Lunch | Lunch |
-|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
-|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
-|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
