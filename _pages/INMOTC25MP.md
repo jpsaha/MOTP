@@ -13,7 +13,6 @@ pretty_table: true
 
 ---
 
-
 > ## Schedule and Venue
 >
 > - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** will be held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
@@ -31,7 +30,9 @@ pretty_table: true
 >|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
 >|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
 >
-{: .block-tip }
+>{: .block-tip }
+
+--- 
 
 > ## Link to problem sets, etc.
 >
@@ -42,8 +43,7 @@ pretty_table: true
 >| Geometry | [Srikanth Pai B](https://srikanthbpai.github.io/) |  |
 >| Number Theory | [Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/) |  |
 >
-{: .block-tip }
-
+>{: .block-tip }
 
 > ## Accommodation
 >
@@ -104,10 +104,18 @@ In the following, INMOTC refers to this camp. Please refer to FAQs below if you 
 >   - No.
 >
 > - **If accommodation is provided to a student, will blanket also be provided?**
->   - Yes. 
+>   - Yes.
 >
 >
 > - **Will a pariticipant be provided food if he/she has not opted for accommodation?**
 >   - Any such participant will be provided lunch and snacks during the camp.
 >
 {: .block-danger }
+
+<!--
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/INMOTC/INMOTC25Sch.png" title="Schedule of INMOTC 2025, MP region" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+-->
