@@ -33,16 +33,6 @@ pretty_table: true
 >
 {: .block-tip }
 
-<!--
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/INMOTC/INMOTC25Sch.png" title="Schedule of INMOTC 2025, MP region" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
--->
-
 > ## Link to problem sets, etc.
 >
 >| :-----------: | :------------: | :------------: |
