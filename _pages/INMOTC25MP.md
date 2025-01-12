@@ -35,16 +35,25 @@ pretty_table: true
 --- 
 
 > ## Link to problem sets, etc.
+>
 > - Algebra ([Jyoti Prakash Saha](https://jpsaha.github.io/MOTP/))
 >      - [Problem set](https://jpsaha.github.io/MOTP/blog/2025/INMOTC25MPalg/)
+>
 > - Combinatorics ([Amit Kumar Mallik](http://www.imo-official.org/participant_r.aspx?id=28281))
 >      - [Invariants and Monoinvariants](../assets/pdf/INMOTC/INMOTC25MPcombInv.pdf)
 >      - [Coloring problems](../assets/pdf/INMOTC/INMOTC25MPcombColor.pdf)
+>      - [Games](../assets/pdf/INMOTC/INMOTC25MPcombGames.pdf)
+>      - [Optimization problems](../assets/pdf/INMOTC/INMOTC25MPcombOpti.pdf)
+>
 > - Geometry ([Srikanth B. Pai](https://srikanthbpai.github.io/))
 >      - [Problem set 1](../assets/pdf/INMOTC/INMOTC25MPgeo1.pdf), [Problem set 2](../assets/pdf/INMOTC/INMOTC25MPgeo2.pdf). Several lectures on Geometry by Srikanth are available on [this YouTube channel](https://www.youtube.com/channel/UCte6PsCjmIJXqVOgSEmO_vg?app=desktop).
-> - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
->      -
 >
+> - Number Theory ([Mainak Ghosh](https://sites.google.com/view/mainak-ghosh-math/))
+>      - [Order and primitive roots](../assets/pdf/INMOTC/INMOTC25MPntPrimRoot.pdf) by [Rijul Saini](https://www.imo-official.org/participant_r.aspx?id=21714)
+>      - [Problem set 1](../assets/pdf/INMOTC/INMOTC25MPntPset1.pdf)
+>      - [Problem set 2](../assets/pdf/INMOTC/INMOTC25MPntPset2.pdf)
+>
+> - [Writing proofs](../assets/pdf/INMOTC/INMOTC25MPWriting.pdf)
 {: .block-tip }
 
 > ## Accommodation
