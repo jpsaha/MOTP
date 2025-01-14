@@ -21,17 +21,16 @@ pretty_table: true
 > - The lectures during this camp was held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule.
 >
 > {% details Schedule of INMOTC 2025 (MP region) %}
->
->| :----------- | :------------: | :------------: | :------------: | :------------: |
->|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
->|09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
->|11:00am-11:30am  | Break | Break | Break | Break |
->|11:30am-01:00pm | Number Theory | Number Theory | Combinatorics | Geometry |
->|01:00pm-02:30pm  | Lunch | Lunch | Lunch | Lunch |
->|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
->|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
->|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
-> {% enddetails %}
+| :----------- | :------------: | :------------: | :------------: | :------------: |
+|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
+|09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
+|11:00am-11:30am  | Break | Break | Break | Break |
+|11:30am-01:00pm | Number Theory | Number Theory | Combinatorics | Geometry |
+|01:00pm-02:30pm  | Lunch | Lunch | Lunch | Lunch |
+|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
+|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
+|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
+ {% enddetails %}
 >
 {: .block-tip }
 
