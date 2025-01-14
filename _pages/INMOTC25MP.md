@@ -9,7 +9,7 @@ giscus_comments: true
 pretty_table: true
 ---
 
-## [Indian National Mathematical Olympiad Training Camp 2025 (MP)]({{ site.url }}{{ site.baseurl }}/INMOTC25MP/)
+## [Indian National Mathematical Olympiad Training Camp 2025 (MP region)]({{ site.url }}{{ site.baseurl }}/INMOTC25MP/)
 
 ---
 
