@@ -20,7 +20,10 @@ pretty_table: true
 >
 > - The lectures during this camp was held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule.
 >
-> {% details Schedule of INMOTC 2025 (MP region) %}
+{: .block-tip }
+
+{% details Schedule of INMOTC 2025 (MP region) %}
+
 | :----------- | :------------: | :------------: | :------------: | :------------: |
 |  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
 |09:30am-11:00am  | Number Theory | Number Theory | Combinatorics | Geometry |
@@ -30,9 +33,8 @@ pretty_table: true
 |02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
 |04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
 |04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
+
  {% enddetails %}
->
-{: .block-tip }
 
 --- 
 
