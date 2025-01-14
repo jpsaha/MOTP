@@ -15,10 +15,12 @@ pretty_table: true
 
 > ## Schedule and Venue
 >
-> - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** will be held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
+> - The [INMO Training Camp 2025](https://olympiads.hbcse.tifr.res.in/rmo-2024-results/) for the **Madhya Pradesh region** was held at [IISER Bhopal](https://www.iiserb.ac.in/) **from 09.01.2025 to 12.01.2025**. 
 >
 >
-> - The lectures during this camp will be held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule.
+> - The lectures during this camp was held at the **Seminar Hall, VH, IISER Bhopal**, as per the following schedule.
+>
+> {% details Schedule of INMOTC 2025 (MP region) %}
 >
 >| :----------- | :------------: | :------------: | :------------: | :------------: |
 >|  | **09.01.2025** | **10.01.2025** | **11.01.2025** | **12.01.2025** |
@@ -29,6 +31,7 @@ pretty_table: true
 >|02:30pm-04:00pm | Algebra | Algebra | Geometry | Combinatorics |
 >|04:00pm-04:30pm  | Snacks | Snacks | Snacks | Snacks |
 >|04:30pm-06:00pm | Algebra | Algebra | Geometry | Combinatorics |
+> {% enddetails %}
 >
 {: .block-tip }
 
