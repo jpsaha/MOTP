@@ -9,6 +9,19 @@ giscus_comments: true
 related_posts: false
 ---
 
+- 2024--2025
+    - IOQM 2024
+        - [Question paper](https://drive.google.com/file/d/1z7-3fJuk5BW9zx9SUEumcnuuE080pQJq/view)
+        - [Answer keys](https://drive.google.com/file/d/1Li9nwrQ5to5OEkyEbCL9Q1AM2oa5rYsm/view)
+        - [AoPS](https://artofproblemsolving.com/community/c4002279_202425_ioqm_india)
+    - RMO 2024
+        - [Question paper with Solutions](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/11/Official-Solutions-for-RMO-2024.pdf)
+        - [AoPS](https://artofproblemsolving.com/community/c4087242_2024_india_regional_mathematical_olympiad)
+    - INMO 2025
+        - [Question paper](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2025/01/INMO2025_Hindi_English.pdf)
+        - [Solutions]()
+        - [AoPS](https://artofproblemsolving.com/community/c4179180_2025_india_national_olympiad)
+
 - 2023--2024
     - IOQM 2023
         - [Question paper with answer keys](https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf)
