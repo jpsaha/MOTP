@@ -13,6 +13,8 @@ giscus_comments: true
 - [Warm up]({{ site.url }}{{ site.baseurl }}/blog/2024/CombiWarmUp/)
 - [Coloring proofs]({{ site.url }}{{ site.baseurl }}/blog/2024/ColoringProofs/)
 - [Auxiliary configuration]({{ site.url }}{{ site.baseurl }}/blog/2025/AuxConfig/)
+- [Induction]({{ site.url }}{{ site.baseurl }}/blog/2025/Induction/)
+
 
 - (the remaining notes are under preparation, to be posted soon.)
 
