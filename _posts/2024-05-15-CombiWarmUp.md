@@ -13,6 +13,6 @@ related_posts: false
 
 ---
 
-Some illustrations of Example 1.7 of the above handout may be found in the pdf below. 
+Some illustrations of Example 1.10 of the above handout may be found in the pdf below. 
 
 <iframe src="{{ site.baseurl }}/assets/pdf/Combinatorics/WarmUpCircum.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
