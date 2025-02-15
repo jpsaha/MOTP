@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coloring proofs
+title: Auxiliary configuration
 date: 2025-02-14 08:57:00-0400
 description: Auxiliary configuration
 tags: combinatorics AuxiliaryConfiguration
