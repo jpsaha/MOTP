@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Induction
-date: 2025-02-14 08:57:00-0400
+date: 2025-02-15 08:57:00-0400
 description: Induction
 tags: combinatorics Induction
 categories: combinatorics
