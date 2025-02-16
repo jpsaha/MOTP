@@ -14,9 +14,17 @@ giscus_comments: true
 - [Coloring proofs]({{ site.url }}{{ site.baseurl }}/blog/2024/ColoringProofs/)
 - [Auxiliary configuration]({{ site.url }}{{ site.baseurl }}/blog/2025/AuxConfig/)
 - [Induction]({{ site.url }}{{ site.baseurl }}/blog/2025/Induction/)
-
-
-- (the remaining notes are under preparation, to be posted soon.)
+- [Inclusion-exclusion principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Pigeonhole principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Extremal principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting via bijections]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting the complement]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting in two different ways]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Generating functions]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Miscellaneous]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 
 ## References/Resources
 * Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts)
