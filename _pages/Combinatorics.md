@@ -15,7 +15,7 @@ giscus_comments: true
 - [Auxiliary configuration]({{ site.url }}{{ site.baseurl }}/blog/2025/AuxConfig/)
 - [Induction]({{ site.url }}{{ site.baseurl }}/blog/2025/Induction/)
 - [Inclusion-exclusion principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
-- [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Invariance/)
 - [Pigeonhole principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Extremal principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
