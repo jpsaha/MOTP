@@ -17,7 +17,7 @@ giscus_comments: true
 - [Inclusion-exclusion principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Invariance/)
 - [Pigeonhole principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Pigeon/)
-- [Extremal principle]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Extremal principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Extremal/)
 - [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting via bijections]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
