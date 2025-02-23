@@ -18,7 +18,7 @@ giscus_comments: true
 - [Invariance principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Invariance/)
 - [Pigeonhole principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Pigeon/)
 - [Extremal principle]({{ site.url }}{{ site.baseurl }}/blog/2025/Extremal/)
-- [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/GrpPairs/)
 - [Counting]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting via bijections]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting the complement]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
