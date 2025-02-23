@@ -21,7 +21,7 @@ giscus_comments: true
 - [Grouping in pairs]({{ site.url }}{{ site.baseurl }}/blog/2025/GrpPairs/)
 - [Counting]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting via bijections]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
-- [Counting the complement]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting the complement]({{ site.url }}{{ site.baseurl }}/blog/2025/CountComple/)
 - [Counting in two different ways]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Generating functions]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Miscellaneous]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
