@@ -22,7 +22,7 @@ giscus_comments: true
 - [Counting]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting via bijections]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Counting the complement]({{ site.url }}{{ site.baseurl }}/blog/2025/CountComple/)
-- [Counting in two different ways]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
+- [Counting in two different ways]({{ site.url }}{{ site.baseurl }}/blog/2025/CountTwoDiff/)
 - [Generating functions]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 - [Miscellaneous]({{ site.url }}{{ site.baseurl }}/blog/2025/IncluExclu/)
 
