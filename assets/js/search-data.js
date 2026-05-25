@@ -93,6 +93,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/MOTP/pastpapers/";
           },
+        },{id: "nav-pyqs",
+          title: "PYQs",
+          description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/MOTP/PastPapers/";
+          },
         },{id: "dropdown-prior-participations",
               title: "Prior Participations",
               description: "",
@@ -163,7 +170,139 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/MOTP/eligibility/";
               },
-            },{id: "alg-a-3-b-3-c-3-3abc",
+            },{id: "post-inmotc-2025-mp-region-algebra",
+        
+          title: "INMOTC 2025 (MP region), Algebra",
+        
+        description: "INMOTC 2025 (MP region), Algebra",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2025/inmotc25mpalg/";
+          
+        },
+      },{id: "post-past-question-papers-of-pre-rmo-ioqm-rmo-inmo-egmotc-imotc",
+        
+          title: "Past Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        
+        description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/pastpapers/";
+          
+        },
+      },{id: "post-problem-set-for-mopss",
+        
+          title: "Problem set for MOPSS",
+        
+        description: "Link to the problem set for MOPSS",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/ps0b24aug/";
+          
+        },
+      },{id: "post-outreach-program-iiser-bhopal-08-may-2024",
+        
+          title: "Outreach program, IISER Bhopal, 08 May, 2024",
+        
+        description: "Outreach program, IISER Bhopal, 08 May, 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/outreach-iiserb-24may/";
+          
+        },
+      },{id: "post-rmo-question-papers-solutions-discussions",
+        
+          title: "RMO Question papers, Solutions, Discussions",
+        
+        description: "Regional Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/rmo/";
+          
+        },
+      },{id: "post-ioqm-question-papers-solutions-discussions",
+        
+          title: "IOQM Question papers, Solutions, Discussions",
+        
+        description: "Indian Olympiad Qualifier in Mathematics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/ioqm/";
+          
+        },
+      },{id: "post-inmo-question-papers-solutions-discussions",
+        
+          title: "INMO Question papers, Solutions, Discussions",
+        
+        description: "Indian National Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/inmo/";
+          
+        },
+      },{id: "post-notes-on-rmo",
+        
+          title: "Notes on RMO",
+        
+        description: "Regional Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesrmo/";
+          
+        },
+      },{id: "post-notes-on-ioqm",
+        
+          title: "Notes on IOQM",
+        
+        description: "Indian Olympiad Qualifier in Mathematics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesioqm/";
+          
+        },
+      },{id: "post-notes-on-inmo",
+        
+          title: "Notes on INMO",
+        
+        description: "Indian National Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesinmo/";
+          
+        },
+      },{id: "post-mathematics-olympiad-handouts",
+        
+          title: "Mathematics Olympiad Handouts",
+        
+        description: "Mathematics Olympiad handouts. IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/mohandout/";
+          
+        },
+      },{id: "post-lecture-notes-on-mathematical-olympiad",
+        
+          title: "Lecture notes on Mathematical Olympiad",
+        
+        description: "Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/lnmo/";
+          
+        },
+      },{id: "alg-a-3-b-3-c-3-3abc",
           title: '$$ a^3+b^3+c^3 - 3abc $$',
           description: "",
           section: "Alg",handler: () => {
