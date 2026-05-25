@@ -9,7 +9,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "jpsaha/mot",
+    "data-repo": "jpsaha/MOTP",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
