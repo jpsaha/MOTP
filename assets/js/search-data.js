@@ -9,7 +9,481 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/mot/";
     },
-  },{
+  },{id: "nav-algebra",
+          title: "Algebra",
+          description: "Algebra notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/alg/";
+          },
+        },{id: "nav-combinatorics",
+          title: "Combinatorics",
+          description: "Combinatorics notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/comb/";
+          },
+        },{id: "nav-geometry",
+          title: "Geometry",
+          description: "Geometry notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/geo/";
+          },
+        },{id: "nav-number-theory",
+          title: "Number Theory",
+          description: "Number Theory notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/nt/";
+          },
+        },{id: "nav-ioqm",
+          title: "IOQM",
+          description: "Indian Olympiad Qualifier in Mathematics. Links to Past Question Papers, Previous Years’ Question papers of IOQM, Answer keys. Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/ioqm/";
+          },
+        },{id: "nav-rmo",
+          title: "RMO",
+          description: "Regional Mathematical Olympiad. Links to Past Question Papers, Previous Years’ Question papers of RMO, Solutions. Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/rmo/";
+          },
+        },{id: "nav-inmotc",
+          title: "INMOTC",
+          description: "INMO Training Camp, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/inmotc/";
+          },
+        },{id: "nav-inmo",
+          title: "INMO",
+          description: "Indian National Mathematical Olympiad. Links to Past Question Papers, Previous Years’ Question papers of INMO, Solutions. Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/inmo/";
+          },
+        },{id: "nav-imotc",
+          title: "IMOTC",
+          description: "IMOTC, held at the Chennai Mathematical Institute. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/imotc/";
+          },
+        },{id: "nav-smmc",
+          title: "SMMC",
+          description: "SMMC Training Camp. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/smmc/";
+          },
+        },{id: "nav-mopss",
+          title: "MOPSS",
+          description: "Mathematics Olympiad Problem Solving Sessions",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/mopss/";
+          },
+        },{id: "nav-pyqs",
+          title: "PYQs",
+          description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mot/pastpapers/";
+          },
+        },{id: "dropdown-prior-participations",
+              title: "Prior Participations",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/priorparticipation/";
+              },
+            },{id: "dropdown-imo",
+              title: "IMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/imo/";
+              },
+            },{id: "dropdown-apmo",
+              title: "APMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/apmo/";
+              },
+            },{id: "dropdown-egmo",
+              title: "EGMO",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/egmo/";
+              },
+            },{id: "dropdown-further-olympiads",
+              title: "Further Olympiads",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/moreolympiads/";
+              },
+            },{id: "dropdown-resources",
+              title: "Resources",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/resources/";
+              },
+            },{id: "dropdown-training",
+              title: "Training",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/trainingprog/";
+              },
+            },{id: "dropdown-glimpse-of-a-few-problems",
+              title: "Glimpse of a few problems",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/glimpseofafewproblems/";
+              },
+            },{id: "dropdown-slides",
+              title: "Slides",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/slides/";
+              },
+            },{id: "dropdown-eligibility",
+              title: "Eligibility",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/mot/eligibility/";
+              },
+            },{id: "alg-a-3-b-3-c-3-3abc",
+          title: '$$ a^3+b^3+c^3 - 3abc $$',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/a3b3c3-3abc/";
+            },},{id: "alg-arithmetic-progressions",
+          title: 'Arithmetic progressions',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/ap/";
+            },},{id: "alg-binomial-theorem",
+          title: 'Binomial theorem',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/binomial/";
+            },},{id: "alg-complex-numbers",
+          title: 'Complex numbers',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/complex/";
+            },},{id: "alg-cubic-polynomials",
+          title: 'Cubic polynomials',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/cubic/";
+            },},{id: "alg-differentiation-and-multiple-roots",
+          title: 'Differentiation and multiple roots',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/diffmultroot/";
+            },},{id: "alg-finite-differences",
+          title: 'Finite differences',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/finitediff/";
+            },},{id: "alg-functional-equations",
+          title: 'Functional equations',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/funceq/";
+            },},{id: "alg-functions",
+          title: 'Functions',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/functions/";
+            },},{id: "alg-gauss-39-s-lemma",
+          title: 'Gauss&amp;#39;s lemma',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/gauss/";
+            },},{id: "alg-crossing-the-x-axis",
+          title: 'Crossing the $$ x $$-axis',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/imvt/";
+            },},{id: "alg-inequalities",
+          title: 'Inequalities',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/ineq/";
+            },},{id: "alg-integer-divisibility",
+          title: 'Integer divisibility',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/intdiv/";
+            },},{id: "alg-invariance-principle",
+          title: 'Invariance principle',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/invariance/";
+            },},{id: "alg-irreducibility",
+          title: 'Irreducibility',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/irred/";
+            },},{id: "alg-lagrange-interpolation",
+          title: 'Lagrange interpolation',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/lagrangeint/";
+            },},{id: "alg-growth-of-polynomials",
+          title: 'Growth of Polynomials',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/polygrowth/";
+            },},{id: "alg-polynomials",
+          title: 'Polynomials',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/polynomials/";
+            },},{id: "alg-quadratic-polynomials",
+          title: 'Quadratic polynomials',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/quadratic/";
+            },},{id: "alg-quartics",
+          title: 'Quartics',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/quartic/";
+            },},{id: "alg-rational-and-irrational-numbers",
+          title: 'Rational and irrational numbers',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/rationals/";
+            },},{id: "alg-size-of-the-roots",
+          title: 'Size of the roots',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/rootsize/";
+            },},{id: "alg-roots-of-unity",
+          title: 'Roots of unity',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/rootsunity/";
+            },},{id: "alg-system-of-equations",
+          title: 'System of equations',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/syseqn/";
+            },},{id: "alg-telescoping",
+          title: 'Telescoping',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/tele/";
+            },},{id: "alg-viete-39-s-relations",
+          title: 'Viete&amp;#39;s relations',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/viete/";
+            },},{id: "alg-warm-up",
+          title: 'Warm up',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/mot/alg/warmup/";
+            },},{id: "comb-arrange-in-order",
+          title: 'Arrange in order',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/arrangeinorder/";
+            },},{id: "comb-auxiliary-configuration",
+          title: 'Auxiliary configuration',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/auxconfig/";
+            },},{id: "comb-coloring-proofs",
+          title: 'Coloring proofs',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/coloringproofs/";
+            },},{id: "comb-counting",
+          title: 'Counting',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/count/";
+            },},{id: "comb-counting-via-bijections",
+          title: 'Counting via bijections',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/countbijec/";
+            },},{id: "comb-counting-the-complement",
+          title: 'Counting the complement',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/countcomple/";
+            },},{id: "comb-counting-in-two-different-ways",
+          title: 'Counting in two different ways',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/counttwodiff/";
+            },},{id: "comb-extremal-principle",
+          title: 'Extremal principle',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/extremal/";
+            },},{id: "comb-games",
+          title: 'Games',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/games/";
+            },},{id: "comb-generating-functions",
+          title: 'Generating functions',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/genfun/";
+            },},{id: "comb-grouping-in-pairs",
+          title: 'Grouping in pairs',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/grppairs/";
+            },},{id: "comb-inclusion-exclusion-principle",
+          title: 'Inclusion-exclusion principle',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/incluexclu/";
+            },},{id: "comb-induction",
+          title: 'Induction',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/induction/";
+            },},{id: "comb-invariance-principle",
+          title: 'Invariance principle',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/invariance/";
+            },},{id: "comb-optimization-problems",
+          title: 'Optimization problems',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/opti/";
+            },},{id: "comb-pigeonhole-principle",
+          title: 'Pigeonhole principle',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/pigeon/";
+            },},{id: "comb-warm-up",
+          title: 'Warm up',
+          description: "",
+          section: "Comb",handler: () => {
+              window.location.href = "/mot/comb/warmup/";
+            },},{id: "geo-parallelograms",
+          title: 'Parallelograms',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/mot/geo/parallelograms/";
+            },},{id: "geo-polygons",
+          title: 'Polygons',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/mot/geo/polygons/";
+            },},{id: "geo-pythagoras-39-theorem",
+          title: 'Pythagoras&amp;#39; theorem',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/mot/geo/pythagoras/";
+            },},{id: "imotc-imotc-2025",
+          title: 'IMOTC 2025',
+          description: "International Mathematical Olympiad Training Camp 2025. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Imotc",handler: () => {
+              window.location.href = "/mot/imotc/2025/";
+            },},{id: "imotc-imotc-2026",
+          title: 'IMOTC 2026',
+          description: "International Mathematical Olympiad Training Camp 2026. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Imotc",handler: () => {
+              window.location.href = "/mot/imotc/2026/";
+            },},{id: "inmotc-inmotc-2025",
+          title: 'INMOTC 2025',
+          description: "Indian National Mathematical Olympiad (INMO) Training Camp 2025, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Inmotc",handler: () => {
+              window.location.href = "/mot/inmotc/2025mp/";
+            },},{id: "inmotc-inmotc-2026",
+          title: 'INMOTC 2026',
+          description: "Indian National Mathematical Olympiad (INMO) Training Camp 2026, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+          section: "Inmotc",handler: () => {
+              window.location.href = "/mot/inmotc/2026mp/";
+            },},{id: "nt-binomial-coefficients",
+          title: 'Binomial coefficients',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/binco/";
+            },},{id: "nt-primes-divisors-and-congruences",
+          title: 'Primes, divisors, and congruences',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/cong/";
+            },},{id: "nt-chinese-remainder-theorem",
+          title: 'Chinese remainder theorem',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/crt/";
+            },},{id: "nt-cubic-polynomials",
+          title: 'Cubic polynomials',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/cubic/";
+            },},{id: "nt-using-identities",
+          title: 'Using identities',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/iden/";
+            },},{id: "nt-induction",
+          title: 'Induction',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/indnt/";
+            },},{id: "nt-infinite-descent",
+          title: 'Infinite descent',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/infdes/";
+            },},{id: "nt-lifting-the-exponent",
+          title: 'Lifting the exponent',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/lte/";
+            },},{id: "nt-orders",
+          title: 'Orders',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/orders/";
+            },},{id: "nt-quadratic-polynomials",
+          title: 'Quadratic polynomials',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/quad/";
+            },},{id: "nt-quadratic-reciprocity",
+          title: 'Quadratic reciprocity',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/quadreci/";
+            },},{id: "nt-system-of-equations",
+          title: 'System of equations',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/syseqnnt/";
+            },},{id: "nt-warm-up",
+          title: 'Warm up',
+          description: "",
+          section: "Nt",handler: () => {
+              window.location.href = "/mot/nt/warmup/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
