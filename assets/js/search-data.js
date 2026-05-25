@@ -86,6 +86,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/MOTP/mopss/";
           },
+        },{id: "nav-mopss",
+          title: "MOPSS",
+          description: "Mathematics Olympiad Problem Solving Sessions",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/MOTP/MOPSS/";
+          },
         },{id: "nav-pyqs",
           title: "PYQs",
           description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
