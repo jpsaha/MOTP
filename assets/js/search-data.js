@@ -218,6 +218,61 @@ ninja.data = [{
             window.location.href = "/MOTP/blog/2024/outreach-iiserb-24may/";
           
         },
+      },{id: "post-mathematics-olympiad-handouts",
+        
+          title: "Mathematics Olympiad Handouts",
+        
+        description: "Mathematics Olympiad handouts. IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/mohandout/";
+          
+        },
+      },{id: "post-lecture-notes-on-mathematical-olympiad",
+        
+          title: "Lecture notes on Mathematical Olympiad",
+        
+        description: "Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/lnmo/";
+          
+        },
+      },{id: "post-notes-on-rmo",
+        
+          title: "Notes on RMO",
+        
+        description: "Regional Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesrmo/";
+          
+        },
+      },{id: "post-notes-on-ioqm",
+        
+          title: "Notes on IOQM",
+        
+        description: "Indian Olympiad Qualifier in Mathematics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesioqm/";
+          
+        },
+      },{id: "post-notes-on-inmo",
+        
+          title: "Notes on INMO",
+        
+        description: "Indian National Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/notesinmo/";
+          
+        },
       },{id: "post-rmo-question-papers-solutions-discussions",
         
           title: "RMO Question papers, Solutions, Discussions",
@@ -259,7 +314,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/MOTP/blog/2024/notesrmo/";
+            window.location.href = "/MOTP/blog/2024/NotesRMO/";
           
         },
       },{id: "post-notes-on-ioqm",
@@ -270,7 +325,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/MOTP/blog/2024/notesioqm/";
+            window.location.href = "/MOTP/blog/2024/NotesIOQM/";
           
         },
       },{id: "post-notes-on-inmo",
@@ -281,29 +336,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/MOTP/blog/2024/notesinmo/";
-          
-        },
-      },{id: "post-mathematics-olympiad-handouts",
-        
-          title: "Mathematics Olympiad Handouts",
-        
-        description: "Mathematics Olympiad handouts. IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/MOTP/blog/2024/mohandout/";
-          
-        },
-      },{id: "post-lecture-notes-on-mathematical-olympiad",
-        
-          title: "Lecture notes on Mathematical Olympiad",
-        
-        description: "Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/MOTP/blog/2024/lnmo/";
+            window.location.href = "/MOTP/blog/2024/NotesINMO/";
           
         },
       },{id: "alg-a-3-b-3-c-3-3abc",
