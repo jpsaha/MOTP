@@ -182,6 +182,17 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
+            window.location.href = "/MOTP/blog/2024/PastPapers/";
+          
+        },
+      },{id: "post-past-question-papers-of-pre-rmo-ioqm-rmo-inmo-egmotc-imotc",
+        
+          title: "Past Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        
+        description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC",
+        section: "Posts",
+        handler: () => {
+          
             window.location.href = "/MOTP/blog/2024/pastpapers/";
           
         },
