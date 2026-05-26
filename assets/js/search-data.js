@@ -540,6 +540,16 @@ ninja.data = [{
           description: "International Mathematical Olympiad Training Camp 2026. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
           section: "Imotc",handler: () => {
               window.location.href = "/MOTP/imotc/2026/";
+            },},{id: "inmo-inmo-2025-questions-solutions-discussions",
+          title: 'INMO 2025 Questions, Solutions, Discussions',
+          description: "",
+          section: "Inmo",handler: () => {
+              window.location.href = "/MOTP/inmo/2025/";
+            },},{id: "inmo-inmo-2026-questions-solutions-discussions",
+          title: 'INMO 2026 Questions, Solutions, Discussions',
+          description: "",
+          section: "Inmo",handler: () => {
+              window.location.href = "/MOTP/inmo/2026/";
             },},{id: "inmotc-inmotc-2025",
           title: 'INMOTC 2025',
           description: "Indian National Mathematical Olympiad (INMO) Training Camp 2025, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
@@ -550,6 +560,111 @@ ninja.data = [{
           description: "Indian National Mathematical Olympiad (INMO) Training Camp 2026, Madhya Pradesh region. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
           section: "Inmotc",handler: () => {
               window.location.href = "/MOTP/inmotc/2026mp/";
+            },},{id: "ioqm-ioqm-2023-questions-solutions-discussions",
+          title: 'IOQM 2023 Questions, Solutions, Discussions',
+          description: "",
+          section: "Ioqm",handler: () => {
+              window.location.href = "/MOTP/ioqm/2023/";
+            },},{id: "mopss-mopss-9th-august-2025",
+          title: 'MOPSS, 9th August 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 9th August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25aug09/";
+            },},{id: "mopss-mopss-23rd-august-2025",
+          title: 'MOPSS, 23rd August 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 23rd August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25aug23/";
+            },},{id: "mopss-mopss-13th-december-2025",
+          title: 'MOPSS, 13th December 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 13th December 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25dec13/";
+            },},{id: "mopss-mopss-5th-july-2025",
+          title: 'MOPSS, 5th July 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25jul05/";
+            },},{id: "mopss-mopss-8th-november-2025",
+          title: 'MOPSS, 8th November 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 8th November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25nov08/";
+            },},{id: "mopss-mopss-22nd-november-2025",
+          title: 'MOPSS, 22nd November 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 22nd November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25nov22/";
+            },},{id: "mopss-mopss-29th-november-2025",
+          title: 'MOPSS, 29th November 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 29th November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25nov29/";
+            },},{id: "mopss-mopss-11th-october-2025",
+          title: 'MOPSS, 11th October 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 11th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25oct11/";
+            },},{id: "mopss-mopss-18th-october-2025",
+          title: 'MOPSS, 18th October 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 18th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25oct18/";
+            },},{id: "mopss-mopss-25th-october-2025",
+          title: 'MOPSS, 25th October 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 25th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25oct25/";
+            },},{id: "mopss-mopss-27th-september-2025",
+          title: 'MOPSS, 27th September 2025',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 27th September 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/25sep27/";
+            },},{id: "mopss-mopss-4th-april-2026",
+          title: 'MOPSS, 4th April, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 4th April 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26apr04/";
+            },},{id: "mopss-mopss-14th-february-2026",
+          title: 'MOPSS, 14th February, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 14th February 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26feb14/";
+            },},{id: "mopss-mopss-21st-february-2026",
+          title: 'MOPSS, 21st February, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 21st February 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26feb21/";
+            },},{id: "mopss-mopss-31st-january-2026",
+          title: 'MOPSS, 31st January, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 31st January 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26jan31/";
+            },},{id: "mopss-mopss-7th-march-2026",
+          title: 'MOPSS, 7th March, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 7th March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26mar07/";
+            },},{id: "mopss-mopss-14th-march-2026",
+          title: 'MOPSS, 14th March, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 14th March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26mar14/";
+            },},{id: "mopss-mopss-21st-march-2026",
+          title: 'MOPSS, 21st March, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 21st March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26mar21/";
+            },},{id: "mopss-mopss-28th-march-2026",
+          title: 'MOPSS, 28th March, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 28th March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26mar28/";
+            },},{id: "mopss-mopss-2nd-may-2026",
+          title: 'MOPSS, 2nd May, 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 2nd May 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26may02/";
             },},{id: "nt-binomial-coefficients",
           title: 'Binomial coefficients',
           description: "",
@@ -615,6 +730,171 @@ ninja.data = [{
           description: "",
           section: "Nt",handler: () => {
               window.location.href = "/MOTP/nt/warmup/";
+            },},{id: "rmo-rmo-1990-questions-solutions-discussions",
+          title: 'RMO 1990 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1990/";
+            },},{id: "rmo-rmo-1991-questions-solutions-discussions",
+          title: 'RMO 1991 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1991/";
+            },},{id: "rmo-rmo-1992-questions-solutions-discussions",
+          title: 'RMO 1992 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1992/";
+            },},{id: "rmo-rmo-1993-questions-solutions-discussions",
+          title: 'RMO 1993 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1993/";
+            },},{id: "rmo-rmo-1994-questions-solutions-discussions",
+          title: 'RMO 1994 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1994/";
+            },},{id: "rmo-rmo-1995-questions-solutions-discussions",
+          title: 'RMO 1995 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1995/";
+            },},{id: "rmo-rmo-1996-questions-solutions-discussions",
+          title: 'RMO 1996 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1996/";
+            },},{id: "rmo-rmo-1997-questions-solutions-discussions",
+          title: 'RMO 1997 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1997/";
+            },},{id: "rmo-rmo-1998-questions-solutions-discussions",
+          title: 'RMO 1998 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1998/";
+            },},{id: "rmo-rmo-1999-questions-solutions-discussions",
+          title: 'RMO 1999 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/1999/";
+            },},{id: "rmo-rmo-2000-questions-solutions-discussions",
+          title: 'RMO 2000 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2000/";
+            },},{id: "rmo-rmo-2001-questions-solutions-discussions",
+          title: 'RMO 2001 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2001/";
+            },},{id: "rmo-rmo-2002-questions-solutions-discussions",
+          title: 'RMO 2002 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2002/";
+            },},{id: "rmo-rmo-2003-questions-solutions-discussions",
+          title: 'RMO 2003 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2003/";
+            },},{id: "rmo-rmo-2004-questions-solutions-discussions",
+          title: 'RMO 2004 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2004/";
+            },},{id: "rmo-rmo-2005-questions-solutions-discussions",
+          title: 'RMO 2005 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2005/";
+            },},{id: "rmo-rmo-2006-questions-solutions-discussions",
+          title: 'RMO 2006 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2006/";
+            },},{id: "rmo-rmo-2007-questions-solutions-discussions",
+          title: 'RMO 2007 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2007/";
+            },},{id: "rmo-rmo-2008-questions-solutions-discussions",
+          title: 'RMO 2008 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2008/";
+            },},{id: "rmo-rmo-2009-questions-solutions-discussions",
+          title: 'RMO 2009 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2009/";
+            },},{id: "rmo-rmo-2010-questions-solutions-discussions",
+          title: 'RMO 2010 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2010/";
+            },},{id: "rmo-rmo-2011-questions-solutions-discussions",
+          title: 'RMO 2011 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2011/";
+            },},{id: "rmo-rmo-2012-questions-solutions-discussions",
+          title: 'RMO 2012 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2012/";
+            },},{id: "rmo-rmo-2013-questions-solutions-discussions",
+          title: 'RMO 2013 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2013/";
+            },},{id: "rmo-rmo-2014-questions-solutions-discussions",
+          title: 'RMO 2014 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2014/";
+            },},{id: "rmo-rmo-2015-questions-solutions-discussions",
+          title: 'RMO 2015 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2015/";
+            },},{id: "rmo-rmo-2016-questions-solutions-discussions",
+          title: 'RMO 2016 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2016/";
+            },},{id: "rmo-rmo-2017-questions-solutions-discussions",
+          title: 'RMO 2017 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2017/";
+            },},{id: "rmo-rmo-2018-questions-solutions-discussions",
+          title: 'RMO 2018 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2018/";
+            },},{id: "rmo-rmo-2019-questions-solutions-discussions",
+          title: 'RMO 2019 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2019/";
+            },},{id: "rmo-rmo-2023-questions-solutions-discussions",
+          title: 'RMO 2023 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2023/";
+            },},{id: "rmo-rmo-2024-questions-solutions-discussions",
+          title: 'RMO 2024 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2024/";
+            },},{id: "rmo-rmo-2025-questions-solutions-discussions",
+          title: 'RMO 2025 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2025/";
             },},{
         id: 'social-email',
         title: 'email',
