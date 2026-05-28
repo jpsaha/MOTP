@@ -273,6 +273,17 @@ ninja.data = [{
             window.location.href = "/MOTP/blog/2024/notesinmo/";
           
         },
+      },{id: "post-rmo-pyq",
+        
+          title: "RMO PYQ",
+        
+        description: "Regional Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/rmopyq/";
+          
+        },
       },{id: "post-rmo-question-papers-solutions-discussions",
         
           title: "RMO Question papers, Solutions, Discussions",
@@ -284,6 +295,17 @@ ninja.data = [{
             window.location.href = "/MOTP/blog/2024/rmo/";
           
         },
+      },{id: "post-ioqm-pyq",
+        
+          title: "IOQM PYQ",
+        
+        description: "Indian Olympiad Qualifier in Mathematics. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/ioqmpyq/";
+          
+        },
       },{id: "post-ioqm-question-papers-solutions-discussions",
         
           title: "IOQM Question papers, Solutions, Discussions",
@@ -293,6 +315,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/MOTP/blog/2024/ioqm/";
+          
+        },
+      },{id: "post-inmo-pyq",
+        
+          title: "INMO PYQ",
+        
+        description: "Indian National Mathematical Olympiad. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2024/inmopyq/";
           
         },
       },{id: "post-inmo-question-papers-solutions-discussions",
