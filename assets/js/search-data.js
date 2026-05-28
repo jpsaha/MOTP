@@ -339,6 +339,17 @@ ninja.data = [{
             window.location.href = "/MOTP/blog/2024/NotesINMO/";
           
         },
+      },{id: "post-a-post-with-diagrams",
+        
+          title: "a post with diagrams",
+        
+        description: "an example of a blog post with diagrams",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/MOTP/blog/2021/diagrams/";
+          
+        },
       },{id: "alg-a-3-b-3-c-3-3abc",
           title: '$$ a^3+b^3+c^3 - 3abc $$',
           description: "",
