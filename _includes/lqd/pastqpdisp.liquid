@@ -1,0 +1,103 @@
+{%- if tst == 'ioqm' or tst == 'rmo' or tst == 'inmo' or tst == 'mopss' or tst == 'inmotc' or tst == 'imotc' -%}
+  {%- if tst != 'mopss' -%}
+    <div class="resources-grid">
+      {% for file in site[tst] %}
+        <div class="resource-card">
+          <a
+            href="{{ site.url }}{{ site.baseurl }}/{{ tst }}/{{ file.yr }}{{ file.p }}/"
+            rel="noopener noreferrer"
+            class="icon-link"
+          >
+            <i class="fa-solid fa-globe fa-2x"></i>
+          </a>
+          <div class="resource-meta">
+            <span class="resource-tst">{{ tst | upcase }}</span>
+            <span class="resource-file">
+              {{- file.yr -}}
+              {{- file.p | upcase -}}
+            </span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {%- else -%}
+    <div class="resources-grid">
+      {%- comment -%}
+        Outer loop over months ensures chronological order.
+      {%- endcomment -%}
+      {% assign years = site[tst] | map: 'yr' | uniq | sort %}
+      {%- assign months = 'jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec' | split: ',' -%}
+      {%- assign month_names = 'January,February,March,April,May,June,July,August,September,October,November,December' | split: ',' -%}
+      {% assign prev_year = null %}
+
+      {% for y in years %}
+        {% if prev_year != y %}
+          <div class="year-divider">
+            {{ 2000 | plus: y }}
+          </div>
+        {% endif %}
+
+        {% assign prev_year = y %}
+
+        {% for m in months %}
+          {% assign current_month = m %}
+          {% assign current_month_files = site[tst] | where_exp: 'f', 'f.yr == y and f.p contains current_month' %}
+
+          {%- comment -%}
+            Sort current month's files by numeric day.
+          {%- endcomment -%}
+          {% assign sorted_files = current_month_files | sort: 'p' %}
+
+          {% for file in sorted_files %}
+            {% assign yr = 2000 | plus: file.yr %}
+            {% assign file_p = file.p | strip | downcase %}
+            {% assign month_abbr = file_p | slice: 0, 3 %}
+            {% assign day_str = file_p | slice: 3, file_p.size %}
+            {% assign day = day_str | plus: 0 %}
+
+            {%- comment -%}
+              Find full month name
+            {%- endcomment -%}
+            {% assign month_index = forloop.parentloop.index0 %}
+            {% assign month_full = month_names[month_index] %}
+
+            {%- comment -%}
+              Day suffix
+            {%- endcomment -%}
+            {% if day == 1 or day == 21 or day == 31 %}
+              {% assign suffix = 'st' %}
+            {% elsif day == 2 or day == 22 %}
+              {% assign suffix = 'nd' %}
+            {% elsif day == 3 or day == 23 %}
+              {% assign suffix = 'rd' %}
+            {% else %}
+              {% assign suffix = 'th' %}
+            {% endif %}
+
+            <div class="resource-card">
+              <a
+                href="{{ site.url }}{{ site.baseurl }}/{{ tst }}/{{ file.yr }}{{ file.p }}/"
+                rel="noopener noreferrer"
+                class="icon-link"
+              >
+                <i class="fa-solid fa-globe fa-2x"></i>
+              </a>
+
+              <div class="resource-meta">
+                <span class="resource-tst">{{ tst | upcase }}</span>
+                <span class="resource-file">
+                  {{- day -}}
+                  {{- suffix -}}</span
+                ><br>
+                <span class="resource-file">{{ month_full }}</span><br>
+                {%- comment -%}
+                  <span class="resource-file">{{ yr }}</span>
+                {%- endcomment -%}
+              </div>
+            </div>
+          {% endfor %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  {%- endif -%}
+{%- endif -%}

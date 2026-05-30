@@ -1,0 +1,79 @@
+{% comment %}
+  contest-cell-sp.liquid
+  Used in: _layouts/page.liquid
+{% endcomment %}
+{% assign contest = include.contest %}
+<table class="table table-bordered text-center align-middle">
+  <thead>
+    <tr>
+      <th colspan="4" class="text-center bg-light">
+        <strong>
+          {{- page.ctst | upcase }}
+          {{ page.yr -}}
+        </strong>
+      </th>
+    </tr>
+    <tr>
+      <th>Question</th>
+      <th>Solution</th>
+      <th>Discussion</th>
+      <th>AoPS</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for member in item[contest].qn %}
+      <tr>
+        <td>
+          {% if member.qq %}
+            <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-file-pdf fa-2x"></i>
+            </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if member.sol %}
+            <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-file-pdf fa-2x"></i>
+            </a>
+          {% endif %}
+        </td>
+        <td>
+          {% if member.disc %}
+            {% for ite in member.disc %}
+              {%- capture mysuj -%}
+                    {%- if ite.suj == 'a' -%}
+                    Algebra
+                    {%- elsif ite.suj == 'c' -%}
+                    Combinatorics
+                    {%- elsif ite.suj == 'g' -%}
+                    Geometry
+                    {%- elsif ite.suj == 'n' -%}
+                    NumberTheory
+                    {%- endif -%}
+                    {%- endcapture -%}
+              {% if ite.topic %}
+                <a
+                  href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-solid fa-file-lines"></i>
+                </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        </td>
+        <td>
+          {% for member in item[contest].aops %}
+            {% if member.qq %}
+              {{ member.src }}
+              <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-globe fa-2x"></i>
+              </a>
+            {% endif %}
+          {% endfor %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

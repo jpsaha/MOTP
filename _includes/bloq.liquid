@@ -1,0 +1,193 @@
+{%- comment -%}
+_block.liquid_
+Usage:
+  {% include block.liquid type="thm" title="Pythagoras" %}
+Depends on:
+  _data/types.yml
+{%- endcomment -%}
+
+{%- comment -%}
+{%- assign type_data = site.data.types[include.type] -%}
+{%- assign mytype = type_data.name | default: include.type -%}
+{%- endcomment -%}
+
+
+{%- comment -%}
+Block class: from YAML if provided, otherwise "<prefix>-block"
+{%- assign myblock = type_data.block | default: prefix | append: "-block" -%}
+{%- endcomment -%}
+
+{%- comment -%}
+ID priority:
+1. include.id (explicit override)
+2. include.title (fallback)
+3. prefix + "-" + forloop.index (final fallback)
+Always slugified, and scoped by page.url
+{%- endcomment -%}
+
+{%- comment -%}
+This one is older one, and uses include.title as a fallback. The next one does not use include.title, 
+and uses comp yr pr type to generate title.
+{%- assign base_id = include.id | default: include.title | default: prefix | append: "-" | append: forloop.index -%}
+{%- assign myid = base_id | slugify -%}
+{%- endcomment -%}
+
+
+
+{%- comment -%}
+<div id="{{ myid }}" class="{{ myblock }}">
+  <strong class="block-title">{{ mytype | capitalize }}</strong>
+  {%- if include.title and include.id == nil -%}
+    : <span class="block-subtitle">{{ include.title }}</span>
+  {%- endif -%}
+  <div class="block-body">
+    {{ include.content }}
+  </div>
+</div>
+{%- endcomment -%}
+
+
+{%- comment -%}
+  block.liquid
+  Unified include for eg / soln / watru / default
+{%- endcomment -%}
+
+
+
+
+
+
+
+
+{%- comment -%} STEP 1: Setup {%- endcomment -%}
+{%- assign compyr = include.comp | append: include.yr | downcase -%}
+{%- assign type_list = include.type | split: "," -%}
+{%- assign spoiler_types = "soln,altsoln,watru" | split: "," -%}
+
+{%- for t in type_list -%}
+  {%- assign t = t | strip -%}
+  {%- assign type_data = site.data.types[t] -%}
+  {%- assign mytype = type_data.name | default: t -%}
+  {%- assign prefix = type_data.prefix | default: t -%}
+  {%- assign myblock = type_data.block | default: prefix | append: "-block" -%}
+
+  {%- if include.content and forloop.first -%}
+    {%- capture block_content -%}{{ include.content }}{%- endcapture -%}
+  {%- else -%}
+    {%- capture block_content -%}{{ site.data[include.comp][compyr][include.pr][t] }}{%- endcapture -%}
+  {%- endif -%}
+
+  {%- if include.id -%}
+    {%- assign myid = include.id | append: "-" | append: t | slugify -%}
+  {%- else -%}
+    {%- assign myid = include.comp | append: include.yr | append: include.pr | append: "-" | append: t | slugify -%}
+  {%- endif -%}
+
+  <div class="{{ mytype }}-block" id="{{ myid }}">
+    <span class="block-title"></span>
+    <a class="anchor-link" href="#{{ myid }}" title="Link to this {{ mytype }}">🔗</a>
+    {%- if spoiler_types contains t -%}
+      {%- details Click here for the spoiler! -%}
+      {{ block_content | markdownify }}
+      {%- enddetails -%}
+    {%- else -%}
+      {% include lqd/env/mylin-supq.liquid %}
+      {%- capture full_content -%}{{ mylin_supp }} {{ block_content }}{%- endcapture -%}
+      {{ full_content | markdownify }}
+    {%- endif -%}
+    {% include lqd/env/bloq-images.liquid %}
+  </div>
+{%- endfor -%}
+
+
+
+
+
+
+
+{%- comment -%}
+{%- comment -%} STEP 1: Capture content into myvar {%- endcomment -%}
+{% if include.content %}
+  {% capture myvar %}{{ include.content }}{% endcapture %}
+{% else %}
+  {%- assign compyr = include.comp | append: include.yr | downcase -%}
+  {% capture myvar %}{{ site.data[include.comp][compyr][include.pr].[include.type] }}{% endcapture %}
+{% endif %}
+
+{%- comment -%} STEP 2: Special case for eg (needs mylin + mysupp) {%- endcomment -%}
+{% if include.type == "eg" %}
+  {% include lqd/env/mylin-supp.liquid %}
+  {%- capture myvar -%}{{ mylin_supp }} {{ site.data[include.comp][compyr][include.pr].[include.type] }}{%- endcapture -%}
+{% endif %}
+
+
+{%- comment -%} STEP 3: Rendering {%- endcomment -%}
+
+<div class="{{ mytype }}-block" id="{{ myid }}">
+  <span class="block-title"></span>
+  <a class="anchor-link" href="#{{ myid }}" title="Link to this {{ mytype }}">🔗</a>
+  {% if include.type == "soln" or include.type == "watru" %}
+  {%- details Click here for the spoiler! -%}
+  {{ myvar | markdownify }}
+  {%- enddetails -%}
+  {% else %}
+  {{ myvar | markdownify }}
+  {% endif %}
+  {% include lqd/env/block-images.liquid %}
+</div>
+{%- endcomment -%}
+
+{%- comment -%}
+3rd way to write the code: 
+    {%- if include.content -%}
+      {%- capture myvar -%}{{ include.content }}{%- endcapture -%}
+    {%- else -%}
+      {% include lqd/env/mylin-supp.liquid %}
+      {%- capture myvar -%}{{ mylin_supp }} {{ site.data[include.comp][include.yr][include.pr][include.type] }}{%- endcapture -%}
+    {%- endif -%}
+    {%- if include.type == "watru" or include.type == "soln" -%}
+      {%- details Click here for the spoiler! -%}
+      {{ myvar | markdownify }}
+      {%- enddetails -%}
+    {%- else -%}
+      {{ myvar | markdownify }}
+    {%- endif -%}
+{%- endcomment -%}
+{%- comment -%}
+2nd way to write the code: 
+    {%- if include.content -%}
+      {%- capture myvar -%}{{ include.content }}{%- endcapture -%}
+    {%- else -%}
+      {%- capture myvar -%}{{ site.data[include.comp][include.yr][include.pr][include.type] }}{%- endcapture -%}
+    {%- endif -%}
+    {%- if include.type == "eg" -%}
+      {%- include lqd/env/mylin-supp.liquid -%}
+    {% capture myvar -%}
+      ({% if mylin %}{{ mylin }}{% endif %}{% if mysupp %}{{ mysupp }}{% endif %})
+      {{ site.data.[include.comp].[include.yr].[include.pr].[include.type] }}
+    {%- endcapture %}
+    {%- endif -%}
+    {%- if include.type == "watru" or include.type == "soln" -%}
+      {%- details Click here for the spoiler! -%}
+      {{ myvar | markdownify }}
+      {%- enddetails -%}
+    {%- else -%}
+      {{ myvar | markdownify }}
+    {%- endif -%}
+{%- endcomment -%}
+
+{%- comment -%}
+1st way to write the code:
+    {% if include.type == "eg" %}
+    {% include lqd/env/mylin-supp.liquid %}
+    {% capture myvar -%}
+      ({% if mylin %}{{ mylin }}{% endif %}{% if mysupp %}{{ mysupp }}{% endif %})
+      {{ site.data.[include.comp].[include.yr].[include.pr].[include.type] }}
+    {%- endcapture %}
+    {% else %}
+      {% capture myvar -%}
+        {{ include.content | default: site.data.[include.comp].[include.yr].[include.pr].[include.type] }}
+      {%- endcapture %}
+    {% endif %}
+    {{ myvar | markdownify }}
+{%- endcomment -%}

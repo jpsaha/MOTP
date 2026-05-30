@@ -1,7 +1,7 @@
 {% if site.enable_google_verification or site.enable_bing_verification %}
   <!-- Website verification -->
   {% if site.enable_google_verification %}
-    <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
   {% endif %}
   {% if site.enable_bing_verification %}
     <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
@@ -100,6 +100,9 @@
       {% when 'discord_id' %}
         {% capture link %}https://discord.com/users/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'discord_server' %}
+        {% capture link %}https://discord.gg/{{ social[1] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'email' %}
         {% comment %}
           {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
@@ -148,6 +151,9 @@
         {% capture link %}https://www.linkedin.com/in/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'mastodon_username' %}
+        {% capture link %}https://{{ social[1] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'mathstodon_username' %}
         {% capture link %}https://{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'medium_username' %}

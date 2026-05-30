@@ -131,6 +131,10 @@ ninja.data = [
           {%- assign social_id = "social-discord" -%}
           {%- assign social_title = "Discord" -%}
           {%- capture social_url %}"https://discord.com/users/{{ social[1] }}"{% endcapture -%}
+        {%- when "discord_server" -%}
+          {%- assign social_id = "social-discord" -%}
+          {%- assign social_title = "Discord Server" -%}
+          {%- capture social_url %}"https://discord.gg/{{ social[1] }}"{% endcapture -%}
         {%- when "email" -%}
           {%- assign social_id = "social-email" -%}
           {%- assign social_title = "email" -%}
@@ -194,6 +198,10 @@ ninja.data = [
         {%- when "mastodon_username" -%}
           {%- assign social_id = "social-mastodon" -%}
           {%- assign social_title = "Mastodon" -%}
+          {%- capture social_url %}"https://{{ social[1] }}"{% endcapture -%}
+        {%- when "mathstodon_username" -%}
+          {%- assign social_id = "social-mathstodon" -%}
+          {%- assign social_title = "Mathstodon" -%}
           {%- capture social_url %}"https://{{ social[1] }}"{% endcapture -%}
         {%- when "medium_username" -%}
           {%- assign social_id = "social-medium" -%}

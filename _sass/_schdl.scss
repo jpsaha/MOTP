@@ -1,0 +1,68 @@
+/* Schedule footer */
+/* Responsive wrapper */
+.schedule-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.schedule {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  min-width: 600px; /* ensures columns don't shrink too much */
+}
+
+.schedule th,
+.schedule td {
+  border: 3px solid #959292;
+  padding: 0.5rem;
+}
+
+.schedule th {
+  background-color: #f8f9fa;
+  font-weight: 700;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Color codes per subject */
+.nt {
+  background-color: #fee599; /* #94a7f4; /* light yellow */
+  font-weight: 500;
+}
+.alg {
+  background-color: #a4c2f4; /* #78ec7c; /* light blue */
+  font-weight: 500;
+}
+.geo {
+  background-color: #b4a7d6; /* #e8612fca; /* light green */
+  font-weight: 500;
+}
+.comb {
+  background-color: #b6d7a8; /*#f5ce59; /* light pink */
+  font-weight: 500;
+}
+.break {
+  background-color: #f2f3f4; /* light gray */
+  color: #555;
+}
+.lunch {
+  background-color: #f2f3f4; /* orange */
+}
+.snack {
+  background-color: #f2f3f4; /* lavender */
+}
+
+/* Responsive text */
+@media (max-width: 600px) {
+  .schedule th,
+  .schedule td {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+  }
+}

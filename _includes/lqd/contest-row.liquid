@@ -1,0 +1,149 @@
+{% comment %}
+  contest-row.liquid
+  Usage:
+  {% include contest-row.liquid contest="rmo" %}
+  {% include contest-row.liquid contest="inmo" %}
+  Used in: _includes/lqd/pastpapers.liquid
+{% endcomment %}
+
+<!-- <td>{{ item.yr }}</td> -->
+
+<!-- QN column -->
+<td>
+  {% if item[include.contest].yr %}
+    {% for member in item[include.contest].qn %}
+      {% comment %}{{ member.src }}{% endcomment %}
+      {{ tst | upcase }}
+      {% if item[include.contest].qn.size == 1 %}
+        {{ item[include.contest].yr }}
+      {% else %}
+        {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
+        {{ item[include.contest].yr -}}
+        {{- letters[forloop.index0] }}
+      {% endif %}
+      {% if member.qq %}
+        <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf fa-2x"></i>
+        </a>
+      {% endif %}
+      {% if member.sol %}
+        <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf fa-2x"></i>
+        </a>
+      {% endif %}
+      {% if member.disc %}
+        {% for ite in member.disc %}
+          {%- capture mysuj -%}
+          {%- if ite.suj == 'a' -%}
+          Algebra
+          {%- elsif ite.suj == 'c' -%}
+          Combinatorics
+          {%- elsif ite.suj == 'g' -%}
+          Geometry
+          {%- elsif ite.suj == 'n' -%}
+          NumberTheory
+          {%- endif -%}
+          {%- endcapture -%}
+          {% if ite.topic %}
+            <a
+              href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-file-lines"></i>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if member.omc %}
+        {% if member.omc contains 'youtube' %}
+          <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC <i class="fa-brands fa-youtube"></i> </a>
+        {% else %}
+          <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC </a>
+        {% endif %}
+      {% endif %}
+      {%- if forloop.last == false and forloop.length > 1 -%}
+        <hr>
+      {%- endif -%}
+    {% endfor %}
+    {%- if item[include.contest].rk -%}
+      <hr>
+      {%- capture rk -%}{{ item[include.contest].rk }}{%- endcapture -%}
+      {{ rk | markdownify }}
+    {%- endif -%}
+  {% endif %}
+</td>
+
+<!-- AoPS column -->
+<td class="align-middle">
+  {% if item[include.contest].aops %}
+    {% for member in item[include.contest].aops %}
+      {% if member.qq %}
+        {{ member.src }}
+        <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-globe fa-2x"></i>
+        </a>
+      {% endif %}
+      {% unless forloop.last %}<br>{% endunless %}
+    {% endfor %}
+  {% endif %}
+</td>
+{% comment %}
+  <!-- Discussion / Rank column -->
+  <td>
+    {%- if item[include.contest].rk -%}
+      {%- capture rk -%}{{ item[include.contest].rk }}{%- endcapture -%}
+      {{ rk | markdownify }}
+    {%- endif -%}
+
+    {% if item[include.contest].discussion %}
+      <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ tst | upcase }}/{{ item[include.contest].discussion }}.pdf"
+         target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file"></i>
+      </a>
+      {% if item[include.contest].yr %}
+        {% if item[include.contest].qn %}
+          {% assign total_disc = 0 %}
+          {% for member in item[include.contest].qn %}
+            {% if member.disc %}
+              {% assign total_disc = total_disc | plus: member.disc.size %}
+            {% endif %}
+          {% endfor %}
+          {% if total_disc > 0 %}
+            <br>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    {% if item[include.contest].yr %}
+      {% if item[include.contest].qn %}
+        {% for member in item[include.contest].qn %}
+          {% if member.disc %}
+            {% for ite in member.disc %}
+              {%- capture mysuj -%}
+              {%- if ite.suj == 'a' -%}
+              Algebra
+              {%- elsif ite.suj == 'c' -%}
+              Combinatorics
+              {%- elsif ite.suj == 'g' -%}
+              Geometry
+              {%- elsif ite.suj == 'n' -%}
+              NumberTheory
+              {%- endif -%}
+              {%- endcapture -%}
+              {% if ite.topic %}
+                <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-file-lines"></i>
+              </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+
+  </td>
+{% endcomment %}

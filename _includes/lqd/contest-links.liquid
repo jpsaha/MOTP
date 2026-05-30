@@ -1,0 +1,46 @@
+{% comment %}
+  contest-links.liquid
+  Used in: _includes/lqd/pastpapersall.liquid
+{% endcomment %}
+{% assign contest = include.contest %}
+
+{% if item[contest] %}
+  <!-- QN -->
+  {% for member in item[contest].qn %}
+    {% if member.qq %}
+      {{ member.src }}
+      <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file-pdf fa-2x"></i>
+      </a>
+    {% endif %}
+
+    {% if member.sol %}
+      <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file-pdf fa-2x"></i>
+      </a>
+    {% endif %}
+
+    {% unless forloop.last %}<br>{% endunless %}
+  {% endfor %}
+
+  <!-- AoPS -->
+  {% for member in item[contest].aops %}
+    {% if member.qq %}
+      {{ member.src }}
+      <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-globe fa-2x"></i>
+      </a>
+    {% endif %}
+    {% unless forloop.last %}<br>{% endunless %}
+  {% endfor %}
+  <!-- OMC -->
+  {% for member in item[contest].qn %}
+    {% if member.omc %}
+      {% if member.omc contains 'youtube' %}
+        <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC <i class="fa-brands fa-youtube"></i> </a>
+      {% else %}
+        <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endif %}

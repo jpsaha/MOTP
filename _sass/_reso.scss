@@ -1,0 +1,86 @@
+/* qp Grid */
+
+@use "variables" as v;
+@use "sass:color";
+
+.resources-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* earlier version: 1.5rem */
+  justify-content: flex-start;
+}
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px; /* earlier version: 120px; with this the tiles look like squares*/ /* keeps cards uniform */
+  padding: 0.25rem; /* earlier version: 1rem */
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.icon-link {
+  color: #0077cc;
+  margin-bottom: 0.5rem;
+}
+
+.icon-link:hover {
+  color: #005fa3;
+}
+
+.resource-meta {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.resource-tst {
+  font-weight: 600;
+  display: block;
+}
+
+.resource-file {
+  color: #555;
+  font-size: 0.85rem;
+}
+
+.year-divider {
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 1rem 0 0.4rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Further stuff */
+
+#markdown-content .doc-link {
+  margin: 0 0.1rem;
+  color: #{v.$purple-color}; /* red for PDFs (earlier #c00)*/
+  text-decoration: none;
+}
+
+#markdown-content .doc-link .fa-globe {
+  color: #{v.$purple-color}; /* blue for globe links (earlier #0077cc)*/
+}
+
+#markdown-content .doc-link:hover {
+  opacity: 0.8;
+}
+#markdown-content .doc-link:visited {
+  color: #551a8b; /* purple for visited links */
+}
+#markdown-content .doc-link:visited .fa-globe {
+  color: #551a8b; /* purple for visited links */
+}

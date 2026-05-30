@@ -1,0 +1,62 @@
+subj,topic,blog,pdf
+Algebra,Warm up,2024/WarmUpAlg,WarmUp
+Algebra,$$ a^3+b^3+c^3 - 3abc $$,2024/a3b3c3-3abc,a3b3c3-3abc
+Algebra,Invariance principle,2024/Invariance,Invariance
+Algebra,Polynomials,2024/Polynomials,Polynomials
+Algebra,Quadratic polynomials,2024/Quadratic,Quadratic
+Algebra,Cubic polynomials,2024/Cubic,Cubic
+Algebra,Quartics,2024/Quartic,Quartic
+Algebra,Viete's relations,2025/Viete,Viete
+Algebra,Differentiation and multiple roots,2025/DiffMultRoot,DiffMultRoot
+Algebra,Finite differences,2025/FiniteDiff,FiniteDiff
+Algebra,Telescoping,2025/Tele,Tele
+Algebra,Growth of Polynomials,2024/GrowthOfPoly,PolyGrowth
+Algebra,Gauss's lemma,2025/Gauss,Gauss
+Algebra,Irreducibility,2025/Irred,Irred
+Algebra,Binomial theorem,2024/Binomial,Binomial
+Algebra,Arithmetic progressions,2024/AP,AP
+Algebra,Rational and irrational numbers,2024/Rationals,Rationals
+Algebra,Size of the roots,2025/RootSize,RootSize
+Algebra,Roots of unity,2025/RootsUnity,RootsUnity
+Algebra,Complex numbers,2025/Complex,Complex
+Algebra,Crossing the $$ x $$-axis,2025/IMVT,IMVT
+Algebra,Lagrange interpolation,2025/LagrangeInt,LagrangeInt
+Algebra,Integer divisibility,2025/IntDiv,IntDiv
+Algebra,Functional equations,2024/FuncEq,FuncEq
+Algebra,System of equations,2025/SysEqn,SysEqn
+Algebra,Induction,,
+Algebra,Inequalities,2025/Ineq,Ineq
+Algebra,Functions,2025/Functions,Functions
+Combinatorics,Warm up,2024/WarmUpCombi,WarmUp
+Combinatorics,Games,2024/Games,Games
+Combinatorics,Optimization problems,2024/Opti,Opti
+Combinatorics,Coloring proofs,2024/ColoringProofs,ColoringProofs
+Combinatorics,Auxiliary configuration,2025/AuxConfig,AuxConfig
+Combinatorics,Induction,2025/Induction,Induction
+Combinatorics,Inclusion-exclusion principle,2025/IncluExclu,IncluExclu
+Combinatorics,Invariance principle,2025/Invariance,Invariance
+Combinatorics,Pigeonhole principle,2025/Pigeon,Pigeon
+Combinatorics,Extremal principle,2025/Extremal,Extremal
+Combinatorics,Arrange in order,2025/ArrangeInOrder,ArrangeInOrder
+Combinatorics,Grouping in pairs,2025/GrpPairs,GrpPairs
+Combinatorics,Counting,2025/Count,Count
+Combinatorics,Counting via bijections,2025/CountBijec,CountBijec
+Combinatorics,Counting the complement,2025/CountComple,CountComple
+Combinatorics,Counting in two different ways,2025/CountTwoDiff,CountTwoDiff
+Combinatorics,Generating functions,2025/GenFun,GenFun
+Geometry,Polygons,2025/Polygons,Polygons
+Geometry,Parallelograms,2025/Parallelograms,Parallelograms
+Geometry,Pythagoras' theorem,2025/Pythagoras,Pythagoras
+Number Theory,Warm up,2025/WarmUp,WarmUp
+Number Theory,Infinite descent,2025/InfDes,InfDes
+Number Theory,Induction,2025/IndNT,IndNT
+Number Theory,Quadratic polynomials,2025/Quad,Quad
+Number Theory,Cubic polynomials,2025/Cubic,Cubic
+Number Theory,Using identities,2025/Iden,Iden
+Number Theory,Binomial coefficients,2025/BinCo,BinCo
+Number Theory,"Primes, divisors, and congruences",2025/Cong,Cong
+Number Theory,System of equations,2025/SysEqnNT,SysEqnNT
+Number Theory,Chinese remainder theorem,2025/CRT,CRT
+Number Theory,Orders,2025/Orders,Orders
+Number Theory,Lifting the exponent,2025/LTE,LTE
+Number Theory,Quadratic reciprocity,2025/QuadReci,QuadReci
