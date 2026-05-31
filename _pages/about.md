@@ -33,10 +33,6 @@ mermaid:
   zoomable: true
 ---
 
-<!-- > #### Practice problems, Problem Set, Questions, Answers, Problems, Solutions, Discussions, Walkthroughs, Hints, IOQM, RMO, INMO, Study material, Resources, Olympiad Notes, Olympiad Problems -->
-
-<!-- > #### Study materials for Math Olympiad (IOQM, RMO, INMO) -->
-
 {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}
 

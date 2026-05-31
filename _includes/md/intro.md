@@ -5,7 +5,7 @@
 -->
 
 - 🔭 I’m an Assistant Professor at the [Department of Mathematics](https://maths.iiserb.ac.in/), [IISER Bhopal](https://www.iiserb.ac.in/).
-- I am the [Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/08/RCs.pdf). <!--<span style="color: royalblue">Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. -->
-- For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the [Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/08/RCs.pdf). <!--<span style="color: royalblue">Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region</span>. -->
+- I am the [Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/08/RCs.pdf).
+- For regional coordination, I work together with Dr. [Kartick Adhikari](https://sites.google.com/site/kartickmath/), who is the [Joint Regional Coordinator of the Mathematics Olympiad program for the Madhya Pradesh region](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/08/RCs.pdf).
 - 📫 For any <span style="color: royalblue">queries related to the Mathematics Olympiad</span> program, please feel free to <span style="color: royalblue">write to</span> <a href="mailto:{{ site.email }}?subject=[Mathematics Olympiad]"> <i class="fas fa-envelope" style="color:gray"></i> {{ site.email }}</a>
   or <a href="mailto:{{ site.email1 }}?subject=[Mathematics Olympiad]"> <i class="fas fa-envelope" style="color:gray"></i> {{ site.email1 }}</a>.

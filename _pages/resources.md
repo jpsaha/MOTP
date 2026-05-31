@@ -72,8 +72,8 @@ giscus_comments: true
 #### [Rushil Mathur](https://www.rushilmathur.com/home)
 
 - He received a Gold medal in [IMO](https://www.imo-official.org/participant_r.aspx?id=34562) 2024,
-<!-- is a [member](https://timesofindia.indiatimes.com/life-style/parenting/moments/rushil-mathur-3-time-math-olympiad-awardee-on-how-to-become-a-maths-genius/articleshow/111488430.cms) of the India IMO team 2024, -->
 - He is an instructor at [OTIS](https://www.rushilmathur.com/teaching-and-blogs/otis).
+- A [video](https://www.youtube.com/watch?v=DGaO7L1SOzA) featuring him.
 
 He maintains a [webpage](https://www.rushilmathur.com/home).
 
@@ -132,24 +132,16 @@ is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc
 
 ##### The OTIS program
 
-- Olympiad Training for Individual Study ([OTIS](https://web.evanchen.cc/otis.html)), run by Evan Chen, is **a proof-based olympiad training program, with over [300 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**. Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
+- Olympiad Training for Individual Study ([OTIS](https://web.evanchen.cc/otis.html)), run by Evan Chen, is **a proof-based olympiad training program, with over [700 students](https://web.evanchen.cc/upload/public-CV.pdf) per year from across the world**. Some of the <a href="https://web.evanchen.cc/otis.html#staff">alums</a> of the [OTIS program](https://web.evanchen.cc/otis.html) are
 
 {% capture lnmo %}{% include md/otisalum.md %}{% endcapture %}
 {{ lnmo | markdownify }}
 
 ---
 
-<!--
-  Some of its [alums](https://web.evanchen.cc/otis.html#staff) are
-    * [Anant Mudgal](https://www.imo-official.org/participant_r.aspx?id=25764), participated in IMO in 2015 (HM), 2016 (B), 2017 (B), 2018 (S), and in APMO in [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S),
-    * [Pranjal Srivastava](https://www.imo-official.org/participant_r.aspx?id=28249), participated in IMO in 2018 (S), 2019 (G), 2021 (G), 2022 (G), and in APMO in [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G),
-    * [Atul Shatavart Nadig](https://www.imo-official.org/participant_r.aspx?id=31725), participated in IMO in 2022 (B), 2023 (G), and in APMO in [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G),
-    * [Anushka Aggarwal](https://www.egmo.org/people/person1429/), participated in EGMO in 2019 (B), 2020 (B), 2022 (B).
--->
-
 - Evan Chen [runs](https://web.evanchen.cc/videos.html) a [Twitch stream](https://www.twitch.tv/vEnhance), where he primarily live-solves math problems.
   - The past broadcasts are on [<i class="fa-brands fa-youtube"></i> YouTube](https://www.youtube.com/c/vEnhance).
-- He also [maintains](https://web.evanchen.cc/discord.html) a [Discord server](https://discord.gg/KzFXYwqRFX).
+- He also [maintains](https://web.evanchen.cc/discord.html) a [Discord server](https://discord.gg/8JeSem2MNv).
 
 ##### Some of the posts from his blog [Power Overwhelming](https://blog.evanchen.cc/)
 
@@ -173,18 +165,6 @@ is a graduate student at MIT and a math olympiad [coach](https://web.evanchen.cc
 - [Against exploitable rubrics](https://blog.evanchen.cc/2024/02/01/rubrics/)
 
 ---
-
-<!--
-#### [The Sophie Fellowship](https://www.sophiefellowship.in/home) --- Training program and fellowship for students preparing for IMO, EGMO, INMO and other national and international mathematical competitions.
-  * It is run by a bunch of students who really like math and want to spread it further in the country.
-  * The [team](https://www.sophiefellowship.in/team) consists of many IMO and EGMO medalists, as well as others who have attended the Indian IMO training camp. They have previously participated in Olympiads, we understand the challenges students in the math community face and want to help them.
-* [Online Math Club 2.0](https://sites.google.com/view/online-math-club) is a student-run mathematical program.
-* Online Math Club
-  * [Blog](https://www.omath.club/)
-  * On [YouTube](https://www.youtube.com/@omath)
-    * An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
-    * An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
--->
 
 ### [Mathematical Reflections](https://www.awesomemath.org/mathematical-reflections/)
 

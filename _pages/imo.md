@@ -56,17 +56,6 @@ chart:
 - with [IMO 2023 contestants](https://www.youtube.com/watch?v=HSuWLw4l_yY)
 - with [IMO 2024 contestants](https://www.youtube.com/watch?v=sMadzwi1UQE)
 
-<!--
-* Some of the participants of the recent IMOs are
-  * [Anant Mudgal](https://www.imo-official.org/participant_r.aspx?id=25764), participated in 2015 (HM), 2016 (B), 2017 (B), 2018 (S),
-  * [Pranjal Srivastava](https://www.imo-official.org/participant_r.aspx?id=28249), participated in 2018 (S), 2019 (G), 2021 (G), 2022 (G). He appears in IMO's [Hall of Fame](https://www.imo-official.org/hall.aspx). [He](https://www.npskrm.com/hall-of-fame-pranjal.html) is the first participant from India to receive three Gold medals in IMO. He also received a bronze medal in [IOI 2021](https://stats.ioinformatics.org/people/7475).
-  * [Atul Nadig](https://www.imo-official.org/participant_r.aspx?id=31725), participated in 2022 (B), 2023 (G),
-  * [Arjun Gupta](https://www.imo-official.org/participant_r.aspx?id=31722), participated in 2022 (B), 2023 (G),
-  * [Ananda Bhaduri](https://www.imo-official.org/participant_r.aspx?id=33405), participated in 2023 (S),
-  * [Siddharth Choppara](https://www.imo-official.org/participant_r.aspx?id=33406), participated in 2023 (S),
-  * [Adhitya Mangudy](https://www.imo-official.org/participant_r.aspx?id=31724), participated in 2022 (B), 2023 (B).
--->
-
 - Some of the past [contestants](https://www.imo-official.org/country_individual_r.aspx?code=IND) are
   - [Chetan Balwe](https://www.imo-official.org/participant_r.aspx?id=4720), IISER Mohali
   - [Riddhipratim Basu](https://www.imo-official.org/participant_r.aspx?id=8641), ICTS

@@ -15,53 +15,6 @@ toc:
 {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}
 
-<!--
-{% tabs studymat %}
-
-{% tab studymat Algebra %}
-
-#### Algebra
-
-- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
-
-{% endtab %}
-
-{% tab studymat Combinatorics %}
-
-#### Combinatorics
-
-- Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
-
-{% endtab %}
-
-{% tab studymat Geometry %}
-
-#### Geometry
-
-- Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
-
-{% endtab %}
-
-{% tab studymat Number Theory %}
-
-#### Number Theory
-
-- Notes on Number Theory are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
-
-{% endtab %}
-
-{% tab studymat IOQM %}
-
-#### IOQM
-
-- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
-
-{% endtab %}
-
-{% endtabs %}
-
--->
-
 ---
 
 ## [Geoff Smith](<https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician)>)
@@ -104,20 +57,6 @@ is a British mathematician. He has been the [leader of the UK IMO team](https://
 {{ lnmo | markdownify }}
 
 ---
-
-<!--
-| Name | IMO | APMO | EGMO | Sharygin Geometry Olympiad | Iranian Geometry Olympiad | Tournament of Towns |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-|   `Anant Mudgal`   | [IMO](https://www.imo-official.org/participant_r.aspx?id=25764)  2015 (HM), 2016 (B), 2017 (B), 2018 (S)  | [2016](https://www.apmo-official.org/country_report/IND/2016) (B), [2017](https://www.apmo-official.org/country_report/IND/2017) (S) |
-|     |     |     |     |     |     |     |     |
-|  `Pranjal Srivastava`   |  [IMO](https://www.imo-official.org/participant_r.aspx?id=28249) 2018 (S), 2019 (G), 2021 (G), 2022 (G)  |   [2018](https://www.apmo-official.org/country_report/IND/2018) (HM), [2019](https://www.apmo-official.org/country_report/IND/2019) (G), [2022](https://www.apmo-official.org/country_report/IND/2022) (G)  |     |
-|     |     |     |     |     |     |     |     |
-|  `Atul Shatavart Nadig`   | [IMO](https://www.imo-official.org/participant_r.aspx?id=31725) 2022 (B), 2023 (G)   |   [2022](https://www.apmo-official.org/country_report/IND/2022) (S), [2023](https://www.apmo-official.org/country_report/IND/2023) (G)  |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |
-|   `Anushka Aggarwal`  |     |     |  [EGMO](https://www.egmo.org/people/person1429/) 2019 (B), 2020 (B), 2022 (B)  |     |     |     |     |
-
----
--->
 
 #### [The Sophie Fellowship](https://www.sophiefellowship.in/home)
 

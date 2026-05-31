@@ -8,8 +8,6 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 - [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO)
 - [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO)
 
-<!-- <span style="color: green"> IMO, APMO, EGMO</span>.  -->
-
 #### <span style="color: red"> No other contests are recognized. </span>
 
 ## [Eligibility](https://olympiads.hbcse.tifr.res.in/how-to-participate/eligibility/mathematical-olympiad/)
@@ -98,12 +96,3 @@ The past papers are available at the webpages of
 {% endtabs %}
 
 ---
-
-<!-- > - For [EGMO](https://www.egmo.org/), the stages are IOQM, RMO, INMO, EGMOTC, EGMOPDC, EGMO (along with certain criteria at the stages).
-> - For [APMO](https://www.apmo-official.org/), the stages are IOQM, RMO, INMO, APMO (along with certain criteria at the stages).
->   {: .block-tip }
-
-> - [INMOTC](https://olympiads.hbcse.tifr.res.in/faq/) is a camp, organized before INMO.
->   {: .block-tip }
-
---- -->

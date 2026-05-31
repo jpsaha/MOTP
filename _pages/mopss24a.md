@@ -18,63 +18,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}
 
-<!--
-{% tabs studymat %}
-
-{% tab studymat Algebra %}
-
-#### Algebra
-
-- Notes on Algebra are available at [this link]({{ site.url }}{{ site.baseurl }}/Algebra/).
-
-{% endtab %}
-
-{% tab studymat Combinatorics %}
-
-#### Combinatorics
-
-- Notes on Combinatorics are available at [this link]({{ site.url }}{{ site.baseurl }}/Combinatorics/).
-
-{% endtab %}
-
-{% tab studymat Geometry %}
-
-#### Geometry
-
-- Notes on Geometry are available at [this link]({{ site.url }}{{ site.baseurl }}/Geometry/) (to be posted soon).
-
-{% endtab %}
-
-{% tab studymat Number Theory %}
-
-#### Number Theory
-
-- Notes on Number Theory are available at [this link]({{ site.url }}{{ site.baseurl }}/NumberTheory/) (to be posted soon).
-
-{% endtab %}
-
-{% tab studymat IOQM %}
-
-#### IOQM
-
-- A few problems from IOQM 2023 have been discussed [here]({{ site.url }}{{ site.baseurl }}/blog/2024/IOQM/).
-
-{% endtab %}
-
-{% endtabs %}
-
--->
-
 ---
-
-<!--
-## Participation of India in [International Mathematical Olympiads]({{ site.url }}{{ site.baseurl }}/PriorParticipation/)
-
-India has been participating in the
-* [International Mathematical Olympiad](https://www.imo-official.org/) (IMO) since [1989](https://www.imo-official.org/country_team_r.aspx?code=IND).
-* [Asian Pacific Mathematics Olympiad](https://www.apmo-official.org/) (APMO) since [2015](https://www.apmo-official.org/country_report/IND/all).
-* [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO) since [2015](https://www.egmo.org/countries/country35/).
--->
 
 ## [Mathematics Olympiad Problem Solving Sessions]({{ site.url }}{{ site.baseurl }}/MOPSS/) (MOPSS)
 
