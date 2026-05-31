@@ -36,6 +36,9 @@ jsujet: INMOTC
 lnmo: true
 giscus_comments: true
 pretty_table: true
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 {% assign tst = "inmotc" %}
