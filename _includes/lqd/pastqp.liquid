@@ -1,14 +1,14 @@
 {% comment %}
   pastqp.liquid
   Used in: _pages/rmo.md, _pages/inmo.md, _pages/ioqm.md
-  Renders past question papers for the respective contest, 
+  Renders past question papers for the respective contest,
   using _includes/lqd/pastqpdisp.liquid, _includes/lqd/pastpapers.liquid
 {% endcomment %}
 
 {% for element in tsts %}
-{% assign tst = element %}
-{%- capture mycom -%}{{ tst }}{%- endcapture -%}
-{%- capture mycomful -%}
+  {% assign tst = element %}
+  {%- capture mycom -%}{{ tst }}{%- endcapture -%}
+  {%- capture mycomful -%}
 {%- if tst == 'rmo' -%}
 Regional Mathematical Olympiad
 {%- elsif tst == 'ioqm' -%}
@@ -19,21 +19,20 @@ Indian National Mathematical Olympiad
 Pre-Regional Mathematical Olympiad
 {%- endif -%}
 {%- endcapture -%}
-{% capture jlink %}{% include mdcode/qp-aops-disc.md %}{% endcapture %}
-{% capture jlinktable %}{% include lqd/pastpapers.liquid %}{% endcapture %}
-<!-- {{ jlink | markdownify }} -->
+  {% capture jlink %}{% include mdcode/qp-aops-disc.md %}{% endcapture %}
+  {% capture jlinktable %}{% include lqd/pastpapers.liquid %}{% endcapture %}
+  <!-- {{ jlink | markdownify }} -->
 
-{% include lqd/pastqpdisp.liquid %}
+  {% include lqd/pastqpdisp.liquid %}
 
-{% comment %}
-> ##### Links to Past Question Papers, Previous Years’ Question papers of {% if tst != 'prmo' %}{{ mycom | upcase }}{% else %}Pre-RMO{% endif %} ({{ mycomful }})
-{% endcomment %}
+  {% comment %}
+    > ##### Links to Past Question Papers, Previous Years’ Question papers of {% if tst != 'prmo' %}{{ mycom | upcase }}{% else %}Pre-RMO{% endif %} ({{ mycomful }})
+  {% endcomment %}
 
-{% capture ppsrc %}{% include mdcontent/pastsrc.md %}{% endcapture %}
-{%- if tst != 'prmo' -%}
-{{ ppsrc | markdownify }}
-{%- endif -%}
+  {% capture ppsrc %}{% include mdcontent/pastsrc.md %}{% endcapture %}
+  {%- if tst != 'prmo' -%}
+    {{ ppsrc | markdownify }}
+  {%- endif -%}
 
-{{ jlinktable | markdownify }}
-
+  {{ jlinktable | markdownify }}
 {% endfor %}
