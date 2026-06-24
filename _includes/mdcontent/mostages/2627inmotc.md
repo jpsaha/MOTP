@@ -1,0 +1,3 @@
+- The [INMO Training Camps]({{ site.data.lnk.molink_2627 }}) are held prior to INMO 2027. 
+<!-- The schedule of some of these camps are available at [this link]({{ site.data.lnk.rmolink_2526 }}). -->
+<!-- - The INMO Training Camp 2026 for the Madhya Pradesh region is scheduled from 02.01.2026 to 06.01.2026 at [IISER Bhopal](https://www.iiserb.ac.in/). Details may be found at [this page]({{ site.url }}{{ site.baseurl }}/inmotc/2026mp/). -->

@@ -1,8 +1,13 @@
 # Mathematical Olympiad program in India
 
-The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (HBCSE) organizes the [Math Olympiad program]({{ site.data.lnk.molink }}) in India.
+The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (HBCSE) organizes the {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[Math Olympiad program]({{ site.data.lnk[key] }}) in India.
 
-##### The [Math Olympiad program organized by HBCSE]({{ site.data.lnk.mobro }}), is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+{% assign key = "mobro_" | append: site.data.lnk.moyrabbr %}
+{% if site.data.lnk[key] %}
+##### The [Math Olympiad program organized by HBCSE]({{ site.data.lnk[key] }}), is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+{% else %}
+##### The Math Olympiad program organized by HBCSE, is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+{% endif %}
 
 - [International Mathematical Olympiad](https://www.imo-official.org/) (IMO)
 - [European Girls’ Mathematical Olympiad](https://www.egmo.org/) (EGMO)
@@ -12,10 +17,10 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ## [Eligibility](https://olympiads.hbcse.tifr.res.in/how-to-participate/eligibility/mathematical-olympiad/)
 
-> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the [webpage]({{ site.data.lnk.hbcselink }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit [this webpage]({{ site.data.lnk.molink }}) for the updates and further details.
+> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[webpage]({{ site.data.lnk[key] }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[this webpage]({{ site.data.lnk[key] }}) for the updates and further details.
 >   {: .block-tip }
 
-## Some [stages]({{ site.data.lnk.molink }}) of the Math Olympiad program {{ site.data.lnk.moyr }}
+## Some {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[stages]({{ site.data.lnk[key] }}) of the Math Olympiad program {{ site.data.lnk.moyr }}
 
 {% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
 {{ content | markdownify }}
@@ -74,7 +79,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 ### PDC (Pre-Departure Camp)
 
 - Held before leaving for [IMO](https://www.imo-official.org).
-- Websites: [HBCSE]({{ site.data.lnk.molink }}).
+- Websites: {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[HBCSE]({{ site.data.lnk[key] }}).
 
 {% endtab %}
 
