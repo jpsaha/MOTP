@@ -4,9 +4,13 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 {% assign key = "mobro_" | append: site.data.lnk.moyrabbr %}
 {% if site.data.lnk[key] %}
+
 ##### The [Math Olympiad program organized by HBCSE]({{ site.data.lnk[key] }}), is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+
 {% else %}
+
 ##### The Math Olympiad program organized by HBCSE, is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+
 {% endif %}
 
 - [International Mathematical Olympiad](https://www.imo-official.org/) (IMO)
