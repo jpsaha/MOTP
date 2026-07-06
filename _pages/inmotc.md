@@ -89,12 +89,12 @@ mermaid:
 
 ---
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ### INMOTC (Indian National Mathematical Olympiad Training Camp)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}inmotc.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/inmotc.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ---

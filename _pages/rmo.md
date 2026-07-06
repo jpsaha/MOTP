@@ -18,12 +18,12 @@ mermaid:
 
 ---
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ### RMO (Regional Mathematical Olympiad)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}rmo.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/rmo.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ---

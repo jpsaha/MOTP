@@ -82,12 +82,12 @@ mermaid:
 
 ---
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ### IMOTC (International Mathematical Olympiad Training Camp)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}imotc.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/imotc.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ---

@@ -16,10 +16,10 @@ related_posts: false
 
 ---
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
 ### INMO (Indian National Mathematical Olympiad)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}inmo.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/inmo.md %}{% endcapture %}
 {{ content | markdownify }}

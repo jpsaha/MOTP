@@ -1,11 +1,11 @@
 # Mathematical Olympiad program in India
 
-The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (HBCSE) organizes the {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[Math Olympiad program]({{ site.data.lnk[key] }}) in India.
+The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (HBCSE) organizes the {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[Math Olympiad program]({{ site.data.lnk[key] }}) in India.
 
-{% assign key = "mobro_" | append: site.data.lnk.moyrabbr %}
-{% if site.data.lnk[key] %}
+{% assign brochure = "mobro_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}
+{% if site.data.lnk[brochure] %}
 
-##### The [Math Olympiad program organized by HBCSE]({{ site.data.lnk[key] }}), is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
+##### The [Math Olympiad program organized by HBCSE]({{ site.data.lnk[brochure] }}), is the <span style="color: red"> only one </span> leading to participation in the following <span style="color: green"> International </span> Mathematical Olympiads.
 
 {% else %}
 
@@ -21,12 +21,20 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ## [Eligibility](https://olympiads.hbcse.tifr.res.in/how-to-participate/eligibility/mathematical-olympiad/)
 
-> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[webpage]({{ site.data.lnk[key] }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[this webpage]({{ site.data.lnk[key] }}) for the updates and further details.
+> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[webpage]({{ site.data.lnk[key] }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[this webpage]({{ site.data.lnk[key] }}) for the updates and further details.
 >   {: .block-tip }
 
-## Some {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[stages]({{ site.data.lnk[key] }}) of the Math Olympiad program {{ site.data.lnk.moyr }}
+{% if site.data.lnk[brochure] %}
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}stages.md %}{% endcapture %}
+## Some {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[stages]({{ site.data.lnk[key] }}) of the [Math Olympiad program {{ site.data.lnk.moyr }}]({{ site.data.lnk[brochure] }})
+
+{% else %}
+
+## Some {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[stages]({{ site.data.lnk[key] }}) of the Math Olympiad program {{ site.data.lnk.moyr }}
+
+{% endif %}
+
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
 <!-- https://mermaid.js.org/syntax/examples  -->
@@ -37,7 +45,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ### IOQM (Indian Olympiad Qualifier in Mathematics)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}ioqm.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/ioqm.md %}{% endcapture %}
 {{ content | markdownify }}
 
 {% endtab %}
@@ -46,7 +54,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ### RMO (Regional Mathematical Olympiad)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}rmo.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/rmo.md %}{% endcapture %}
 {{ content | markdownify }}
 
 {% endtab %}
@@ -55,7 +63,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ##### INMOTC (Indian National Mathematical Olympiad Training Camp)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}inmotc.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/inmotc.md %}{% endcapture %}
 {{ content | markdownify }}
 
 {% endtab %}
@@ -64,7 +72,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ### INMO (Indian National Mathematical Olympiad)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}inmo.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/inmo.md %}{% endcapture %}
 {{ content | markdownify }}
 
 {% endtab %}
@@ -73,7 +81,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ### IMOTC (International Mathematical Olympiad Training Camp)
 
-{% capture content %}{% include mdcontent/mostages/{{ site.data.lnk.moyrabbr }}imotc.md %}{% endcapture %}
+{% capture content %}{% include mdcontent/mostages/imotc.md %}{% endcapture %}
 {{ content | markdownify }}
 
 {% endtab %}
@@ -83,7 +91,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 ### PDC (Pre-Departure Camp)
 
 - Held before leaving for [IMO](https://www.imo-official.org).
-- Websites: {% assign key = "molink_" | append: site.data.lnk.moyrabbr %}[HBCSE]({{ site.data.lnk[key] }}).
+- Websites: {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[HBCSE]({{ site.data.lnk[key] }}).
 
 {% endtab %}
 

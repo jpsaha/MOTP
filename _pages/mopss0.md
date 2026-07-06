@@ -51,6 +51,8 @@ pretty_table: true
 >
 >   <tbody>
 > {% for item in site.data.mopss -%}
+    {%- assign ym = item.date | date: "%F" | replace: "-", "" | slice: 0, 6 | plus: 0 -%} 
+    {%- if ym >= 202601 %}
     {%- assign d = item.date | date: "%-d" | plus: 0 -%}
     {%- assign suffix = "th" -%}
     {%- if d == 1 or d == 21 or d == 31 -%}
@@ -85,6 +87,7 @@ pretty_table: true
 >       </td>
 >
 >     </tr>
+>   {% endif %}
 >   {% endfor %}
 >   </tbody>
 > </table>
