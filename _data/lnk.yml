@@ -1,0 +1,29 @@
+# -----------------------------------------------------------------------------
+# MO links
+# -----------------------------------------------------------------------------
+
+hbcselink: https://olympiads.hbcse.tifr.res.in/ # HBCSE homepage link
+moyr: 2026--2027 # MO program year
+
+molink_2627: https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2026-2027/ # MO program page link
+mobro_2627: # MO brochure link
+ioqm_2627_date: 6th September, 2026
+rmo_2627_date: 15th November, 2026
+rmolink_2627: # RMO results page link
+inmotc_2627_sch: # INMO training camp schedule link
+inmotc_2627_mp_date: # 02.01.2026 to 06.01.2026
+inmo_2627_date: 17th January, 2027
+inmolink_2627: # INMO results page link
+imotc_2627_date: #__th May to __th June, 2027
+
+molink_2526: https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2025-2026/ # MO program page link
+mobro_2526: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2025/09/Brochure-Maths-Olympiad-2025-26.pdf # MO brochure link
+rmolink_2526: https://olympiads.hbcse.tifr.res.in/rmo-2025-results/ # RMO results page link
+inmolink_2526: https://olympiads.hbcse.tifr.res.in/inmo-results-2026/ # INMO results page link
+
+molink_2425: https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2024-2025/ # MO 2024--2025 program page link
+mobro_2425: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2024/12/Brochure-maths-Olympiad-2024-25_updated.pdf # MO 2024--2025 brochure link
+rmolink_2425: https://olympiads.hbcse.tifr.res.in/rmo-2024-results/ # RMO 2024--2025 results page link
+inmolink_2425: https://olympiads.hbcse.tifr.res.in/inmo2025-result/ # INMO 2024--2025 results page link
+
+rmolink_2324: https://olympiads.hbcse.tifr.res.in/rmo-2023-results/ # RMO 2023--2024 results page link

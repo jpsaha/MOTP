@@ -1,0 +1,112 @@
+{% comment %}
+block-images.liquid
+Renders images for include.type == 'soln' or 'watru'
+Expects: include.comp, include.yr, include.pr, include.title, include.type
+{% endcomment %}
+
+<div class="row mt-3 text-center">
+  {% assign members = site.data[include.comp][compyr][include.pr].img %}
+  {% for member in members %}
+  {% if members %}
+
+
+    {%- assign olympiads = "IOQM,RMO,INMO,USAJMO,USAMO,BXMO" | downcase | split: "," -%}
+    {%- assign comp_lower = include.comp | downcase -%}
+    {%- assign comp_upper = include.comp | upcase -%}
+    {%- assign matched = olympiads | where_exp: "o", "comp_lower contains o" -%}
+    {%- capture myprnoupcase -%}{{ include.pr | upcase }}{%- endcapture -%}
+    
+    {%- if matched.size > 0 -%}
+      {% assign mypath = 'assets/img/' | append: include.comp | append: '/' | append: member.path %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.comp][compyr].source.yr | prepend: " " | prepend: comp_upper | prepend: " " %}
+    {% else %}
+      {% assign mypath = member.path | prepend: 'assets/img/' %}
+      {% assign mycap = member.caption | default: "" | prepend: " " | prepend: myprnoupcase | prepend: " " | prepend: site.data.[include.comp][compyr].source.yr %}
+    {% endif %}
+
+    {% assign mycap_prefix = "Fig. " | append: forloop.index %}
+    {% assign mycap_prefix_slugged = mycap_prefix | slugify %}
+
+    {% capture mycap_linked %}
+    <a href="#{{ myid }}-{{ mycap_prefix_slugged }}">{{ mycap_prefix }}</a>: {{ mycap }}
+    {% endcapture %}
+
+    {% assign mycap_withlink = mycap_linked %}
+    {% assign mycap_sanslink = mycap_prefix | append: ": " | append: mycap %}
+
+    {% assign filtered_members = members | where: "ref", t %}
+    {% assign count = filtered_members | size %}
+
+    {% if member.ref == t %}
+      {% assign is_last = forloop.last %}
+      {% assign is_odd = forloop.length | modulo: 2 %}
+      
+      {% if is_last and is_odd == 1 %}
+        <!-- Last single item (odd count): center it -->
+        <div class="col-12 mt-3 d-flex justify-content-center">
+          <div style="width:50%;"> <!-- make it bigger since it's alone -->
+            {% include figure.liquid 
+              loading="eager"
+              path=mypath
+              class="img-fluid rounded z-depth-1"
+              width="100%"
+              caption=mycap
+              zoomable=member.zoomable
+            %}
+          </div>
+        </div>
+      {% else %}
+        <!-- Normal two per row -->
+        <div class="col-12 col-md-6 mt-3 d-flex justify-content-center">
+          <div style="width:80%;">
+            {% include figure.liquid 
+              loading="eager"
+              path=mypath
+              class="img-fluid rounded z-depth-1"
+              width="100%"
+              caption=mycap
+              zoomable=member.zoomable
+            %}
+          </div>
+        </div>
+      {% endif %}
+    {% endif %}
+    
+    {% comment %}
+    {% if count > 0 %}
+      {% assign col_width = 12 | divided_by: count %}
+      {% if member.ref == t %}
+        {% if count == 1 %}
+          <div class="col-sm mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width:70%;">
+              {% include figure.liquid 
+                loading="eager"
+                path=mypath
+                class="img-fluid rounded z-depth-1"
+                width="100%"
+                caption=mycap
+                zoomable=member.zoomable
+              %}
+            </div>
+          </div>
+        {% else %}
+          <div class="col-md-{{ col_width }} mt-3 mt-md-0 d-flex justify-content-center">
+            <div style="width:70%;">
+              {% include figure.liquid 
+                loading="eager"
+                path=mypath
+                class="img-fluid rounded z-depth-1"
+                width="100%"
+                caption=mycap
+                zoomable=member.zoomable
+              %}
+            </div>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+    {% endcomment %}
+
+  {% endif %}
+  {% endfor %}
+</div>

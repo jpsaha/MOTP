@@ -1,0 +1,124 @@
+{%- assign mylin = "" -%}
+{%- assign mysupp = "" -%}
+
+{%- if t == "eg" -%}
+  {%- capture mycomp -%}
+    {{ include.comp }}
+  {%- endcapture -%}
+  {%- capture mypr -%}
+    {{ include.pr }}
+  {%- endcapture -%}
+
+  {%- assign olympiads = site.data.contests | downcase -%}
+  {% comment %}
+    {%- assign olympiads = "IOQM,RMO,INMO,USAJMO,USAMO,SMMC,tot,ukbmo,brazilmo,mexicomo,canadamo,mmo,vmo,kurs,hunsp,moldovamo,japanmo,belarusmo,belarustst,columbiamo,kosovomo,bxmo,jbalkanmo" | downcase | split: "," -%}
+  {% endcomment %}
+  {%- assign comp_lower = include.comp | downcase -%}
+  {%- assign matched = olympiads | where_exp: "o", "comp_lower contains o" -%}
+  
+  {%- assign src = site.data[include.comp][compyr].source -%}
+  {%- assign comp_title = site.data.contests[include.comp] -%}
+  {%- unless comp_title -%}
+    {%- assign comp_title = mycomp | upcase -%}
+  {%- endunless -%}
+
+  {%- if matched != empty -%}
+    {%- capture mylin -%}
+
+      {%- if src.qn -%}
+        [{{ comp_title }} {{ src.yr }}]({{ src.qn }})
+      {%- else -%}
+        {{ comp_title }} {{ src.yr }}
+      {%- endif -%}
+
+      {% comment %}
+        The above code is a more concise and maintainable way to generate the competition title and link. It uses a predefined list of competitions to check for matches and retrieves the title from the data file, falling back to the original component name if not found. This eliminates the need for multiple if-else statements and makes it easier to add new competitions in the future.
+      
+      {%- if site.data[include.comp][compyr].source.qn -%}
+        {%- if include.comp == "tot" -%}
+          [Tournament of Towns {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "ukbmo" -%}
+          [British Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "brazilmo" -%}
+          [Brazil National Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "mexicomo" -%}
+          [Mexico National Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "canadamo" -%}
+          [Canadian Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "mmo" -%}
+          [Moscow Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "vmo" -%}
+          [All-Russian Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "kurs" -%}
+          [Kurschak Competition {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "hunsp" -%}
+          [Hungarian Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "moldovamo" -%}
+          [Moldova National Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "japanmo" -%}
+          [Japan Mathematical Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- elsif include.comp == "belarusmo" -%}
+          [Belarus National Olympiad {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- else -%}
+          [{{ mycomp | upcase }} {{ site.data[include.comp][compyr].source.yr }}]({{ site.data[include.comp][compyr].source.qn }})
+        {%- endif -%}
+      {%- else -%}
+        {{ mycomp | upcase }} {{ site.data[include.comp][compyr].source.yr }}
+      {%- endif -%}
+      {% endcomment %}
+
+      {%- if site.data[include.comp][compyr].source.aops -%}
+        {{ }} [{{ mypr | upcase }}]({{ site.data[include.comp][compyr].source.aops }})
+      {%- else -%}
+        {{ }} {{ mypr | upcase }}
+      {%- endif -%}
+      {%- if site.data[include.comp][compyr][include.pr].aops -%}
+        , [AoPS]({{ site.data[include.comp][compyr][include.pr].aops }})
+      {%- endif -%}
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- if site.data[include.comp][compyr][include.pr].supp -%}
+    {%- capture mysupp -%}
+      {%- for member in site.data[include.comp][compyr][include.pr].supp -%}
+        {%- if member.name %}, cf. {% endif -%}
+        {%- if member.url -%}
+          [{{ member.name }}]({{ member.url }})
+        {%- else -%}
+          {{ member.name }}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+  {%- endif -%}
+
+
+  {%- assign myprop = "" -%}
+  {%- if site.data[include.comp][compyr][include.pr].prop -%}
+  {%- assign props = site.data[include.comp][compyr][include.pr].prop -%}
+    {%- if props.size > 0 -%}
+        {%- capture myprop -%}
+        , proposed by{% raw %} {% endraw %}
+        {%- for member in props -%}
+          {%- assign name = member.name -%}
+          {%- if member.url -%}
+            {%- assign name = "[" | append: member.name | append: "](" | append: member.url | append: ")" -%}
+          {%- endif -%}
+
+          {%- if forloop.first -%}
+            {{ name }}
+          {%- elsif forloop.last -%}
+            {% if forloop.length == 2 %} and {% else %}, and {% endif %}{{ name }}
+          {%- else -%}
+            , {{ name }}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- endcapture -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+
+
+
+
+{%- capture mylin_supp -%}{% if mylin != "" or myprop != "" or mysupp != "" %}({{ mylin }}{{ myprop }}{{ mysupp }}){% endif %}{%- endcapture -%}

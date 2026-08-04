@@ -1,0 +1,119 @@
+{% comment %}
+  contest-cell.liquid
+  Usage:
+  {% include contest-cell.liquid contest="rmo" %}
+  {% include contest-cell.liquid contest="inmo" %}
+  Used in: _includes/lqd/pastpapersall.liquid, which is used in PastPapers.md post
+{% endcomment %}
+
+<td>
+  {% assign contest = include.contest %}
+  {% if item[contest].yr %}
+    {%- for member in item[contest].qn -%}
+      {% assign total_disc = 0 %}
+      {% if member.disc %}
+        {% assign total_disc = total_disc | plus: member.disc.size %}
+      {% endif %}
+      {% comment %}{{ member.src }}{% endcomment %}
+      {% comment %}
+        {% if contest == 'rmo' and item[contest].qn.size != 1 %}
+          {% assign letters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" | split: "," %}
+          {{ item[contest].yr }}{{ letters[forloop.index0] }}
+        {% endif %}
+      {% endcomment %}
+      {%- if member.qq or member.sol or total_disc > 0 -%}
+        {%- if member.qq -%}
+          <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf fa-2x"></i>
+          </a>
+        {%- endif -%}
+        {%- if member.sol -%}
+          <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf fa-2x"></i>
+          </a>
+        {%- endif -%}
+        {% if member.disc %}
+          {% for ite in member.disc %}
+            {%- capture mysuj -%}
+            {%- if ite.suj == 'a' -%}
+              Algebra
+              {%- elsif ite.suj == 'c' -%}
+              Combinatorics
+              {%- elsif ite.suj == 'g' -%}
+              Geometry
+              {%- elsif ite.suj == 'n' -%}
+              NumberTheory
+            {%- endif -%}
+            {%- endcapture -%}
+            {% if ite.topic %}
+              <a
+                href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-file-lines"></i>
+              </a>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {%- if forloop.last == false and forloop.length > 1 -%}
+          <hr>
+        {%- endif -%}
+      {%- endif -%}
+      {%- if forloop.last -%}
+        {%- if member.qq or member.sol or total_disc > 0 -%}
+          <hr>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {% for member in item[contest].aops %}
+      {% if member.qq %}
+        {{ member.src }}
+        <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-globe fa-2x"></i>
+        </a>
+      {% endif %}
+      {% unless forloop.last %}<br>{% endunless %}
+    {% endfor %}
+    {% for member in item[contest].qn %}
+      {% if member.omc %}
+        {% if member.omc contains 'youtube' %}
+          <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC <i class="fa-brands fa-youtube"></i> </a>
+        {% else %}
+          <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  {% comment %}
+    <br>
+    {% if item[include.contest].yr %}
+      {% if item[include.contest].qn %}
+        {% for member in item[include.contest].qn %}
+          {% if member.disc %}
+            {% for ite in member.disc %}
+              {%- capture mysuj -%}
+              {%- if ite.suj == 'a' -%}
+              Algebra
+              {%- elsif ite.suj == 'c' -%}
+              Combinatorics
+              {%- elsif ite.suj == 'g' -%}
+              Geometry
+              {%- elsif ite.suj == 'n' -%}
+              NumberTheory
+              {%- endif -%}
+              {%- endcapture -%}
+              {% if ite.topic %}
+                <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
+                  target="_blank" rel="noopener noreferrer">
+                  <i class="fa-solid fa-file-lines"></i>
+              </a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endcomment %}
+</td>

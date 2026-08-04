@@ -1,0 +1,357 @@
+/*******************************************************************************
+ * MTH
+ ******************************************************************************/
+
+.math-blocks {
+  counter-reset: definition example lemma claim proposition theorem hint walkthrough proof remark problem solution exercise bogus;
+}
+
+/* Distinct, elegant colors for each block type */
+
+.definition-block {
+  counter-increment: definition;
+  border-left: 5px solid #0072b5;
+  background: #e3f1fa;
+  color: #1a3556;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(0, 114, 181, 0.07);
+  position: relative;
+}
+.definition-block .block-title::before {
+  content: "Definition " counter(definition) ". ";
+  color: #0072b5;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.example-block {
+  counter-increment: example;
+  border-left: 5px solid #b84592;
+  background: #fbe7f3;
+  color: #6d2a54;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 2px 10px rgba(184, 69, 146, 0.07);
+  position: relative;
+}
+.example-block .block-title::before {
+  content: "Example " counter(example) ". ";
+  color: #b84592;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.lemma-block {
+  counter-increment: lemma;
+  border-left: 5px solid #845ec2;
+  background: #f1edfa;
+  color: #392b5f;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(132, 94, 194, 0.07);
+  position: relative;
+}
+.lemma-block .block-title::before {
+  content: "Lemma " counter(lemma) ". ";
+  color: #845ec2;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.claim-block {
+  counter-increment: claim;
+  border-left: 5px solid #3a86ff;
+  background: #eaf1ff;
+  color: #20306a;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(58, 134, 255, 0.07);
+  position: relative;
+}
+.claim-block .block-title::before {
+  content: "Claim " counter(claim) ". ";
+  color: #3a86ff;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.proposition-block {
+  counter-increment: proposition;
+  border-left: 5px solid #00897b;
+  background: #e0f2f1;
+  color: #1a4844;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(0, 137, 123, 0.07);
+  position: relative;
+}
+.proposition-block .block-title::before {
+  content: "Proposition " counter(proposition) ". ";
+  color: #00897b;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.theorem-block {
+  counter-increment: theorem;
+  border-left: 5px solid #3949ab;
+  background: #e8eaf6;
+  color: #232963;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(57, 73, 171, 0.07);
+  position: relative;
+}
+.theorem-block .block-title::before {
+  content: "Theorem " counter(theorem) ". ";
+  color: #3949ab;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.corollary-block {
+  counter-increment: corollary;
+  border-left: 5px solid #7897ab;
+  background: #f6fafd;
+  color: #25405b;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(120, 151, 171, 0.06);
+  position: relative;
+}
+.corollary-block .block-title::before {
+  content: "Corollary " counter(corollary) ". ";
+  color: #456376;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.hint-block {
+  counter-increment: hint;
+  border-left: 5px solid #43aa8b;
+  background: #e6f7f1;
+  color: #265a4b;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(67, 170, 139, 0.07);
+  position: relative;
+}
+.hint-block .block-title::before {
+  content: "Hint " counter(hint) ". ";
+  color: #43aa8b;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.walkthrough-block {
+  counter-increment: walkthrough;
+  border-left: 5px solid #118ab2;
+  background: #e6f6fa;
+  color: #1b4d5c;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(17, 138, 178, 0.07);
+  position: relative;
+}
+.walkthrough-block .block-title::before {
+  content: "Walkthrough " counter(walkthrough) ". ";
+  color: #118ab2;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.proof-block {
+  counter-increment: proof;
+  border-left: 5px solid #2e7d32;
+  background: #e8f5e9;
+  color: #174825;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(46, 125, 50, 0.07);
+  position: relative;
+}
+.proof-block .block-title::before {
+  content: "Proof " counter(proof) ". ";
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.remark-block {
+  counter-increment: remark;
+  border-left: 5px solid #f94144;
+  background: #fff0f0;
+  color: #7c2323;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(249, 65, 68, 0.07);
+  position: relative;
+}
+.remark-block .block-title::before {
+  content: "Remark " counter(remark) ". ";
+  color: #f94144;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.problem-block {
+  counter-increment: problem;
+  border-left: 5px solid #763857;
+  background: #f5ebf1;
+  color: #3f2131;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(118, 56, 87, 0.07);
+  position: relative;
+}
+.problem-block .block-title::before {
+  content: "Problem " counter(problem) ". ";
+  color: #763857;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.solution-block {
+  counter-increment: solution;
+  border-left: 5px solid #2e7d32;
+  background: #e8f5e9;
+  color: #174825;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(46, 125, 50, 0.07);
+  position: relative;
+}
+.solution-block .block-title::before {
+  content: "Solution " counter(solution) ". ";
+  color: #2e7d32;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.exercise-block {
+  counter-increment: exercise;
+  border-left: 5px solid #22223b;
+  background: #f1f1f3;
+  color: #22223b;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(34, 34, 59, 0.07);
+  position: relative;
+}
+.exercise-block .block-title::before {
+  content: "Exercise " counter(exercise) ". ";
+  color: #22223b;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+.bogus-block {
+  counter-increment: bogus;
+  border-left: 5px solid #f1f1f3;
+  background: #f1f1f3;
+  color: #f1f1f3;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 0.7em;
+  box-shadow: 0 3px 12px rgba(34, 34, 59, 0.07);
+  position: relative;
+}
+.bogus-block .block-title::before {
+  content: "Bogus solution " counter(bogus) ". ";
+  color: #ceced4;
+  font-weight: bold;
+  font-size: 1.12em;
+}
+
+/* Anchor Link Icon for all math blocks */
+.definition-block .anchor-link,
+.example-block .anchor-link,
+.lemma-block .anchor-link,
+.claim-block .anchor-link,
+.proposition-block .anchor-link,
+.theorem-block .anchor-link,
+.corollary-block .anchor-link,
+.hint-block .anchor-link,
+.walkthrough-block .anchor-link,
+.proof-block .anchor-link,
+.remark-block .anchor-link,
+.problem-block .anchor-link,
+.solution-block .anchor-link,
+.exercise-block .anchor-link,
+.bogus-block .anchor-link {
+  float: right;
+  font-size: 0.95em;
+  color: #bbb;
+  text-decoration: none;
+  margin-left: 0.5em;
+  margin-top: -0.12em;
+  opacity: 0.5;
+  transition:
+    opacity 0.2s,
+    color 0.2s;
+}
+
+.definition-block:hover .anchor-link,
+.example-block:hover .anchor-link,
+.lemma-block:hover .anchor-link,
+.claim-block:hover .anchor-link,
+.proposition-block:hover .anchor-link,
+.theorem-block:hover .anchor-link,
+.corollary-block:hover .anchor-link,
+.hint-block:hover .anchor-link,
+.walkthrough-block:hover .anchor-link,
+.proof-block:hover .anchor-link,
+.remark-block:hover .anchor-link,
+.problem-block:hover .anchor-link,
+.solution-block:hover .anchor-link,
+.exercise-block:hover .anchor-link,
+.bogus-block .anchor-link {
+  opacity: 1;
+  color: #5ab9ea;
+}
+
+.lemma-block:hover .anchor-link {
+  color: #b088f9;
+}
+.proposition-block:hover .anchor-link {
+  color: #ffd6ba;
+}
+.theorem-block:hover .anchor-link {
+  color: #8860d0;
+}
+.corollary-block:hover .anchor-link {
+  color: #f7b267;
+}
+.hint-block:hover .anchor-link {
+  color: #b0efeb;
+}
+.walkthrough-block:hover .anchor-link {
+  color: #f8c291;
+}
+.proof-block:hover .anchor-link {
+  color: #7897ab;
+}
+.remark-block:hover .anchor-link {
+  color: #ffe066;
+}
+.problem-block:hover .anchor-link {
+  color: #ffb4a2;
+}
+.solution-block:hover .anchor-link {
+  color: #a3c9a8;
+}
