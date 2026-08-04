@@ -13,6 +13,9 @@
 
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
+  max-height: 300px; /* adjust to your preference */
+  overflow-y: scroll; /* enable vertical scrolling */
+  overflow-x: hidden;
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
 
@@ -61,6 +64,7 @@
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 0.65rem;
 
     &:hover {
       color: var(--global-hover-color);

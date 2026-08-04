@@ -3,23 +3,24 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+first_name: Jyoti Prakash
+middle_name:
+last_name: Saha
+email: jpsaha@iiserb.ac.in
+email1: kartick@iiserb.ac.in
+email2: manas@iiserb.ac.in
+contact_note: > # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  IOQM, RMO, INMOTC, INMO, IMOTC, Math Olympiad, Notes, Handouts, Problems, Discussions, Hints, Solutions, MOPSS.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: algebra, combinatorics, geometry, number theory, IOQM, RMO, INMOTC, INMO, IMOTC, Math, Olympiad, Math Olympiad, Mathematics Olympiad, Notes, Problem set, Questions, Answers, Problems, Solutions, Discussions, Handouts, Lecture Notes, pdf # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: mop.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://jpsaha.github.io # the base hostname & protocol for your site
+baseurl: /MOTP # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -68,9 +69,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # false # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # false # Include Schema.org in the HTML head
+og_image: /assets/img/mop.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -91,8 +92,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Mathematics Olympiad # blog_name will be displayed in your blog page
+blog_description: Notes on Mathematics Olympiad, IOQM, RMO, INMO
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -107,10 +108,10 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
-  repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
+  repo: jpsaha/MOTP # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOMNPYwg # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
-  category_id: # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: DIC_kwDOMNPYws4CtUvK # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
@@ -121,7 +122,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -129,16 +130,16 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
+  #   categories: [external-posts]
+  #   tags: [medium]
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
+  #   categories: [external-posts]
+  #   tags: [google]
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -164,6 +165,26 @@ collections:
     output: true
   teachings:
     output: true
+  alg:
+    output: true
+  comb:
+    output: true
+  geo:
+    output: true
+  nt:
+    output: true
+  ioqm:
+    output: true
+  rmo:
+    output: true
+  inmotc:
+    output: true
+  inmo:
+    output: true
+  imotc:
+    output: true
+  mopss:
+    output: true
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -186,6 +207,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - _books/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -199,11 +221,65 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - _news/announcement_1.md
+  - _news/announcement_2.md
+  - _news/announcement_3.md
   - _pages/about_einstein.md
+  - _pages/books.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _posts/2015-03-15-formatting-and-links.md
+  - _posts/2015-05-15-images.md
+  - _posts/2015-07-15-code.md
+  - _posts/2015-10-20-disqus-comments.md
+  - _posts/2015-10-20-math.md
+  - _posts/2018-12-22-distill.md
+  - _posts/2020-09-28-twitter.md
+  - _posts/2021-07-04-diagrams.md
+  - _posts/2022-02-01-redirect.md
+  - _posts/2022-12-10-giscus-comments.md
+  - _posts/2023-03-20-table-of-contents.md
+  - _posts/2023-03-21-tables.md
+  - _posts/2023-04-24-videos.md
+  - _posts/2023-04-25-audios.md
+  - _posts/2023-04-25-sidebar-table-of-contents.md
+  - _posts/2023-05-12-custom-blockquotes.md
+  - _posts/2023-07-04-jupyter-notebook.md
+  - _posts/2023-07-12-post-bibliography.md
+  - _posts/2023-12-12-tikzjax.md
+  - _posts/2024-01-26-chartjs.md
+  - _posts/2024-01-26-echarts.md
+  - _posts/2024-01-26-geojson-map.md
+  - _posts/2024-01-27-advanced-images.md
+  - _posts/2024-01-27-code-diff.md
+  - _posts/2024-01-27-vega-lite.md
+  - _posts/2024-04-15-pseudocode.md
+  - _posts/2024-04-28-post-citation.md
+  - _posts/2024-04-29-typograms.md
+  - _posts/2024-05-01-tabs.md
+  - _posts/2024-12-04-photo-gallery.md
+  - _posts/2025-03-26-plotly.md
+  - _projects/1_project.md
+  - _projects/2_project.md
+  - _projects/3_project.md
+  - _projects/4_project.md
+  - _projects/5_project.md
+  - _projects/6_project.md
+  - _projects/7_project.md
+  - _projects/8_project.md
+  - _projects/9_project.md
+  - _teachings/data-science-fundamentals.md
+  - _teachings/introduction-to-machine-learning.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -271,16 +347,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["algebra", "combinatorics", "geometry", "number theory", "IOQM", "RMO", "INMO", "notes", "handouts", "problems", "solutions"] # ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_categories: ["algebra", "combinatorics", "geometry", "number theory", "IOQM", "RMO", "INMO"] # ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Saha]
+  first_name: [Jyoti Prakash]
 
   style: apa
   locale: en
@@ -380,6 +456,7 @@ imagemagick:
     - ".png"
     - ".tiff"
     - ".gif"
+    - ".svg"
   output_formats:
     webp: "-auto-orient -quality 85"
 

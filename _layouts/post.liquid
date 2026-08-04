@@ -15,7 +15,18 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">
+      {{ page.title }}
+      {% if page.jpdf %}
+        <a
+          href="{{ '.pdf' | prepend: page.jpdf | prepend: '/' |prepend: page.jsujet | prepend: 'assets/pdf/' | relative_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+          ><i class="fa-solid fa-file-pdf"></i
+        ></a>
+      {% endif %}
+    </h1>
     <p class="post-meta">
       Created on {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}
@@ -67,7 +78,33 @@ layout: default
       <hr>
     {% endif %}
     <div id="markdown-content">
+      {% if page.jpdf %}
+        <h2 class="post-title">
+          <a
+            href="{{ '.pdf' | prepend: page.jpdf | prepend: '/' | prepend: page.jsujet | prepend: 'assets/pdf/' | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-solid fa-file-pdf"></i
+          ></a>
+        </h2>
+        {% if page.jpdfsauf %}
+        {% else %}
+          <iframe
+            src="{{ '.pdf' | prepend: page.jpdf | prepend: '/' | prepend: page.jsujet | prepend: 'assets/pdf/' | relative_url }}"
+            width="100%"
+            height="700"
+            frameborder="no"
+            border="0"
+            marginwidth="0"
+            marginheight="0"
+          ></iframe>
+        {% endif %}
+      {% endif %}
       {{ content }}
+      {% if page.lnmo %}
+        {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
+        {{ lnmo | markdownify }}
+      {% endif %}
     </div>
   </article>
 
