@@ -43,7 +43,7 @@ Here is [the flyer](../assets/pdf/MOPSS/flyer.pdf).
 >
 >   <i class="fas fa-calendar-alt" style="color:gray"></i> 2nd, 16th, 30th November, 2024.
 >
-> - A student will get the **maximum benefit** out of [MOPSS]() if he/she attends **all the above 9 sessions**.
+> - A student will get the **maximum benefit** out of [MOPSS]() if they attend **all the above 9 sessions**.
 
 If you (the reader!) are aware of these Olympiads, and would like to prepare for them, then you may wish to know about [a few training programs]({{ site.url }}{{ site.baseurl }}/TrainingProg/).
 
@@ -54,11 +54,11 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 > - **Will MOPSS be held offline or online?**
 >   - As mentioned above, MOPSS will be held offline.
 > - **What is the procedure to participate in these sessions?**
->   - By being present at the venue, a student may participate in MOPSS provided he/she has been selected for it.
+>   - By being present at the venue, a student may participate in MOPSS provided they have been selected for it.
 > - **Will there be an online session for MOPSS apart from the in person classroom meetings?**
 >   - No.
 > - **Can one participate in some of the sessions of MOPSS if one cannot participate in all the sessions?**
->   - As stated above, a student, selected for participation in MOPSS, will get the **maximum benefit** out of MOPSS if he/she attends **all the 9 sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then one may join those sessions.
+>   - As stated above, a student, selected for participation in MOPSS, will get the **maximum benefit** out of MOPSS if they attend **all the 9 sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then one may join those sessions.
 > - **Will refreshments be provided to the participants?**
 >   - Yes.
 > - **Are there any suggestions for the students living far from Bhopal?**

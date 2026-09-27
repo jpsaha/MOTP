@@ -92,7 +92,7 @@ pretty_table: true
 >   </tbody>
 > </table>
 >
-> - A student will get the **maximum benefit** out of [MOPSS]() if he/she attends **all the above sessions**.
+> - A student will get the **maximum benefit** out of [MOPSS]() if they attend **all the above sessions**.
 
 {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
 {{ lnmo | markdownify }}
@@ -116,7 +116,7 @@ If you (the reader!) are aware of these Olympiads, and would like to prepare for
 >
 >
 > - **Can one participate in some of the sessions of MOPSS if one cannot participate in all the sessions?**
->   - As stated above, a student, participating in MOPSS, will get the **maximum benefit** out of MOPSS if he/she attends **all the sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then one may join those sessions.
+>   - As stated above, a student, participating in MOPSS, will get the **maximum benefit** out of MOPSS if they attend **all the sessions**. However, if one cannot participate in all the sessions, and would like participate in the remaining, then one may join those sessions.
 >
 >
 > - **Will refreshments be provided to the participants?**
