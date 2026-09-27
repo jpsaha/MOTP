@@ -6,7 +6,7 @@ hbcselink: https://olympiads.hbcse.tifr.res.in/ # HBCSE homepage link
 moyr: 2026--2027 # MO program year
 
 molink_2627: https://olympiads.hbcse.tifr.res.in/mathematical-olympiad-2026-2027/ # MO program page link
-mobro_2627: # MO brochure link
+mobro_2627: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/09/Brochure-Maths-Olympiad-2026-27-1.pdf # MO brochure link
 ioqm_2627_date: 6th September, 2026
 rmo_2627_date: 15th November, 2026
 rmolink_2627: # RMO results page link

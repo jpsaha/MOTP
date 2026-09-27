@@ -21,7 +21,7 @@ The [Homi Bhabha Centre for Science Education]({{ site.data.lnk.hbcselink }}) (H
 
 ## [Eligibility](https://olympiads.hbcse.tifr.res.in/how-to-participate/eligibility/mathematical-olympiad/)
 
-> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate in IOQM, provided certain additional conditions are met. The precise details are available at the {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[webpage]({{ site.data.lnk[key] }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[this webpage]({{ site.data.lnk[key] }}) for the updates and further details.
+> - The students enrolled in the 8th, 9th, 10th, 11th or 12th standard may participate, provided certain additional conditions are met. The precise details are available at the {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[webpage]({{ site.data.lnk[key] }}) of the Homi Bhabha Centre for Science Education (HBCSE). Please visit {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}[this webpage]({{ site.data.lnk[key] }}) for the updates and further details.
 >   {: .block-tip }
 
 {% if site.data.lnk[brochure] %}
