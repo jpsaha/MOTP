@@ -376,7 +376,7 @@ ninja.data = [{
           title: '$$ a^3+b^3+c^3 - 3abc $$',
           description: "",
           section: "Alg",handler: () => {
-              window.location.href = "/MOTP/alg/a3b3c3-3abc/";
+              window.location.href = "/MOTP/alg/a3b3c33abc/";
             },},{id: "alg-arithmetic-progressions",
           title: 'Arithmetic progressions',
           description: "",
