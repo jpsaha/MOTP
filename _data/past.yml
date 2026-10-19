@@ -108,6 +108,16 @@
         cmt:
     discussion:
     rk:
+  egmotc:
+    yr: 2025
+    aops:
+      - qq: https://artofproblemsolving.com/community/c4656276_india_egmo_2026_tst
+        cmt:
+  imotc:
+    yr: 2026
+    aops:
+      - qq: https://artofproblemsolving.com/community/c4952335_2026_india_tst
+        cmt:
 
 - yr: 2024-2025
   ioqm:
