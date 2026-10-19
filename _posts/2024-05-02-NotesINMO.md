@@ -9,6 +9,9 @@ lnmo: true
 giscus_comments: true
 pretty_table: true
 related_posts: false
+mermaid:
+  enabled: true
+  zoomable: true
 ---
 
 {% assign tsts = "inmo" | split: "," %}
