@@ -38,6 +38,20 @@
           {% endif %}
         </td>
         <td>
+          {% if contest == 'rmo' %}
+            {% assign suffix = '' %}
+            {% if item[contest].qn.size != 1 %}
+              {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
+              {% assign suffix = letters[forloop.index0] %}
+            {% endif %}
+            <a
+              href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{- page.ctst | upcase }}/{{- page.ctst | downcase }}{{ page.yr -}}{{ suffix }}.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-regular fa-file-pdf fa-2x"></i>
+            </a>
+          {% endif %}
           {% if member.disc %}
             {% for ite in member.disc %}
               {%- capture mysuj -%}
@@ -56,8 +70,9 @@
                   href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
+                  title="P{{ forloop.index }}"
                 >
-                  <i class="fa-solid fa-file-lines"></i>
+                  <i class="fa-regular fa-file-lines"></i>
                 </a>
               {% endif %}
             {% endfor %}
