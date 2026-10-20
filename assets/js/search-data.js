@@ -947,6 +947,11 @@ ninja.data = [{
           description: "MOPSS Problems, Walkthroughs, Solutions from 2nd May 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26may02/";
+            },},{id: "mopss-mopss-17th-october-2026",
+          title: 'MOPSS, 17th October 2026',
+          description: "MOPSS Problems, Walkthroughs, Solutions from 17th October 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          section: "Mopss",handler: () => {
+              window.location.href = "/MOTP/mopss/26oct17/";
             },},{id: "nt-binomial-coefficients",
           title: 'Binomial coefficients',
           description: "",
