@@ -1,6 +1,6 @@
 {% assign key = "molink_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" %}
 
-- The [INMO Training Camps]({{ site.data.lnk[key] }}) are held prior to INMO {{ site.data.lnk.moyr | split: "--" | last }}.
+- The [INMO Training Camps]({{ site.data.lnk[key] }}) to be held prior to INMO {{ site.data.lnk.moyr | split: "--" | last }}.
   {%- assign tc = "inmotc_" | append: site.data.lnk.moyr | remove: "20" | remove: "--" | append: "_sch" -%}
   {%- if site.data.lnk[tc] %}
 - The schedule of some of these camps are available at [this link]({{ site.data.lnk[tc] }}).
