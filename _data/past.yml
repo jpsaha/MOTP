@@ -33,11 +33,11 @@
         omc:
         disc:
           - p1:
-            suj:
-            topic:
+            suj: n
+            topic: SysEqnNT
           - p2:
-            suj:
-            topic:
+            suj: a
+            topic: Ineq
           - p3:
             suj:
             topic:
@@ -48,8 +48,8 @@
             suj:
             topic:
           - p6:
-            suj:
-            topic:
+            suj: n
+            topic: IndNT
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2025/11/RMO-2025-Paper-1.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2025/12/RMO-2025-solutions.pdf
         src: Non-KV and Non-JNV
