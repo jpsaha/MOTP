@@ -53,11 +53,7 @@
               <i class="fa-regular fa-file-pdf fa-2x"></i>
             </a>
           {% endif %}
-
-          {% assign manifest = site.data.olymp %}
-          {% if contest == 'inmo' %}
-            {% assign manifest = site.data.olymp.inmo %}
-          {% endif %}
+          {% assign manifest = site.data.olymp[contest] %}
 
           {% assign manifest_year = manifest[page.yr] %}
           {% assign manifest_variant = suffix | default: 'default' %}
