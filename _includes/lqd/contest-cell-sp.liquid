@@ -52,32 +52,44 @@
               <i class="fa-regular fa-file-pdf fa-2x"></i>
             </a>
           {% endif %}
-          {% if member.disc %}
-            {% for ite in member.disc %}
-              {%- capture mysuj -%}
-                    {%- if ite.suj == 'a' -%}
-                    Algebra
-                    {%- elsif ite.suj == 'c' -%}
-                    Combinatorics
-                    {%- elsif ite.suj == 'g' -%}
-                    Geometry
-                    {%- elsif ite.suj == 'n' -%}
-                    NumberTheory
-                    {%- endif -%}
-                    {%- endcapture -%}
-              {% if ite.topic %}
-                <a
-                  href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ mysuj }}/{{ ite.topic }}.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="P{{ forloop.index }}"
-                >
-                  <i class="fa-regular fa-file-lines"></i>
-                </a>
-              {% endif %}
-            {% endfor %}
+
+          {% if contest == 'rmo' %}
+            {% assign manifest_year = site.data.rmo_manifest[page.yr] %}
+            {% assign manifest_variant = suffix | default: 'default' %}
+            {% assign manifest_problems = manifest_year[manifest_variant] %}
+
+            {% if manifest_problems %}
+              {% for problem in manifest_problems %}
+                {% for usage in problem.usages %}
+                  {% assign problem_subject = '' %}
+                  {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
+
+                  {% if usage.subject == 'MOTPA' %}
+                    {% assign problem_subject = 'Algebra' %}
+                  {% elsif usage.subject == 'MOTPC' %}
+                    {% assign problem_subject = 'Combinatorics' %}
+                  {% elsif usage.subject == 'MOTPG' %}
+                    {% assign problem_subject = 'Geometry' %}
+                  {% elsif usage.subject == 'MOTPNT' %}
+                    {% assign problem_subject = 'NumberTheory' %}
+                  {% endif %}
+
+                  {% if problem_subject != '' and problem_topic != '' %}
+                    <a
+                      href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ problem_subject }}/{{ problem_topic }}.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="P{{ problem.problem }}"
+                    >
+                      <i class="fa-regular fa-file-lines"></i>
+                    </a>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
           {% endif %}
         </td>
+
         <td>
           {% for member in item[contest].aops %}
             {% if member.qq %}
