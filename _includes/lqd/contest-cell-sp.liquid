@@ -53,40 +53,43 @@
             </a>
           {% endif %}
 
-          {% if contest == 'rmo' %}
-            {% assign manifest_year = site.data.rmo_manifest[page.yr] %}
-            {% assign manifest_variant = suffix | default: 'default' %}
-            {% assign manifest_problems = manifest_year[manifest_variant] %}
+          {% assign manifest = site.data.olymp %}
+          {% if contest == 'inmo' %}
+            {% assign manifest = site.data.olymp.inmo %}
+          {% endif %}
 
-            {% if manifest_problems %}
-              {% for problem in manifest_problems %}
-                {% for usage in problem.usages %}
-                  {% assign problem_subject = '' %}
-                  {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
+          {% assign manifest_year = manifest[page.yr] %}
+          {% assign manifest_variant = suffix | default: 'default' %}
+          {% assign manifest_problems = manifest_year[manifest_variant] %}
 
-                  {% if usage.subject == 'MOTPA' %}
-                    {% assign problem_subject = 'Algebra' %}
-                  {% elsif usage.subject == 'MOTPC' %}
-                    {% assign problem_subject = 'Combinatorics' %}
-                  {% elsif usage.subject == 'MOTPG' %}
-                    {% assign problem_subject = 'Geometry' %}
-                  {% elsif usage.subject == 'MOTPNT' %}
-                    {% assign problem_subject = 'NumberTheory' %}
-                  {% endif %}
+          {% if manifest_problems %}
+            {% for problem in manifest_problems %}
+              {% for usage in problem.usages %}
+                {% assign problem_subject = '' %}
+                {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
 
-                  {% if problem_subject != '' and problem_topic != '' %}
-                    <a
-                      href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ problem_subject }}/{{ problem_topic }}.pdf"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="P{{ problem.problem }}"
-                    >
-                      <i class="fa-regular fa-file-lines"></i>
-                    </a>
-                  {% endif %}
-                {% endfor %}
+                {% if usage.subject == 'MOTPA' %}
+                  {% assign problem_subject = 'Algebra' %}
+                {% elsif usage.subject == 'MOTPC' %}
+                  {% assign problem_subject = 'Combinatorics' %}
+                {% elsif usage.subject == 'MOTPG' %}
+                  {% assign problem_subject = 'Geometry' %}
+                {% elsif usage.subject == 'MOTPNT' %}
+                  {% assign problem_subject = 'NumberTheory' %}
+                {% endif %}
+
+                {% if problem_subject != '' and problem_topic != '' %}
+                  <a
+                    href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ problem_subject }}/{{ problem_topic }}.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="P{{ problem.problem }}"
+                  >
+                    <i class="fa-regular fa-file-lines"></i>
+                  </a>
+                {% endif %}
               {% endfor %}
-            {% endif %}
+            {% endfor %}
           {% endif %}
         </td>
 
