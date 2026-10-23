@@ -3,7 +3,8 @@
   Usage:
   {% include contest-row.liquid contest="rmo" %}
   {% include contest-row.liquid contest="inmo" %}
-  Used in: _includes/lqd/pastpapers.liquid
+  Used in: _includes/lqd/pastpapers.liquid -> pastqp.liquid -> _pages/rmo.md, _pages/inmo.md
+  This file renders a single row of the table for a given contest (RMO or INMO) in the past question papers page.
   Effect in: /rmo/,  /inmo/
 {% endcomment %}
 
@@ -12,45 +13,48 @@
 <!-- QN column -->
 <td>
   {% if item[include.contest].yr %}
-    {% for member in item[include.contest].qn %}
+    {% assign contest = include.contest %}
+
+    {% for member in item[contest].qn %}
       {% comment %}{{ member.src }}{% endcomment %}
       {{ tst | upcase }}
-      {% if item[include.contest].qn.size == 1 %}
-        {{ item[include.contest].yr }}
+
+      {% if item[contest].qn.size == 1 %}
+        {{ item[contest].yr }}
       {% else %}
         {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
-        {{ item[include.contest].yr -}}
+        {{ item[contest].yr -}}
         {{- letters[forloop.index0] }}
       {% endif %}
+
       {% if member.qq %}
         <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
-          <i class="fa-solid fa-file-pdf fa-2x"></i>
+          <i class="fa-solid fa-file-pdf fa-5x"></i>
         </a>
       {% endif %}
+
       {% if member.sol %}
         <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
           <i class="fa-solid fa-file-pdf fa-2x"></i>
         </a>
       {% endif %}
-      {% assign contest = include.contest %}
+
+      {% assign suffix = '' %}
+      {% if contest == 'rmo' and item[contest].qn.size != 1 %}
+        {% assign suffix = letters[forloop.index0] %}
+      {% endif %}
 
       {% assign rmo_year = item[contest].yr %}
       {% assign rmo_total = item[contest].qn.size %}
       {% assign rmo_index = forloop.index0 %}
-
-      {% if contest == 'rmo' %}
-        {% include lqd/rmo-pdf-link.liquid contest=contest year=rmo_year total=rmo_total index=rmo_index %}
-      {% endif %}
+      {% include lqd/rmo-pdf-link.liquid contest=contest year=rmo_year total=rmo_total index=rmo_index %}
+      
 
       {% assign manifest_year = item[contest].yr %}
-      {% assign manifest_variant = 'default' %}
-
-      {% if contest == 'rmo' and item[contest].qn.size != 1 %}
-        {% assign manifest_variant = letters[forloop.index0] %}
-      {% endif %}
+      {% assign manifest_variant = suffix | default: 'default' %}
 
       {% include lqd/manifest-discussion-links.liquid contest=contest year=manifest_year variant=manifest_variant %}
-     
+
       {% if member.omc %}
         {% if member.omc contains 'youtube' %}
           <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC <i class="fa-brands fa-youtube"></i> </a>
@@ -58,13 +62,15 @@
           <a href="{{ member.omc }}" target="_blank" rel="noopener noreferrer"> OMC </a>
         {% endif %}
       {% endif %}
+
       {%- if forloop.last == false and forloop.length > 1 -%}
         <hr>
       {%- endif -%}
     {% endfor %}
-    {%- if item[include.contest].rk -%}
+
+    {%- if item[contest].rk -%}
       <hr>
-      {%- capture rk -%}{{ item[include.contest].rk }}{%- endcapture -%}
+      {%- capture rk -%}{{ item[contest].rk }}{%- endcapture -%}
       {{ rk | markdownify }}
     {%- endif -%}
   {% endif %}
