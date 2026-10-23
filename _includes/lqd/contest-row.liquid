@@ -33,22 +33,14 @@
         </a>
       {% endif %}
       {% assign contest = include.contest %}
+
+      {% assign rmo_year = item[contest].yr %}
+      {% assign rmo_total = item[contest].qn.size %}
+      {% assign rmo_index = forloop.index0 %}
+
       {% if contest == 'rmo' %}
-        {% assign suffix = '' %}
-        {% if item[contest].qn.size != 1 %}
-          {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
-          {% assign suffix = letters[forloop.index0] %}
-        {% endif %}
-        <a
-          href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ contest | upcase }}/{{ contest | downcase }}{{ item[contest].yr }}{{ suffix }}.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-regular fa-file-pdf fa-2x"></i>
-        </a>
+        {% include lqd/rmo-pdf-link.liquid contest=contest year=rmo_year total=rmo_total index=rmo_index %}
       {% endif %}
-      
-      
 
       {% assign manifest = site.data.olymp[contest] %}
       {% assign year_key = item[contest].yr %}
