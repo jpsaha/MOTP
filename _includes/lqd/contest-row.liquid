@@ -44,10 +44,11 @@
         {% assign suffix = letters[forloop.index0] %}
       {% endif %}
 
-      {% assign rmo_year = item[contest].yr %}
-      {% assign rmo_total = item[contest].qn.size %}
-      {% assign rmo_index = forloop.index0 %}
-      {% include lqd/rmo-pdf-link.liquid contest=contest year=rmo_year total=rmo_total index=rmo_index %}
+      {% assign paper_year = item[contest].yr %}
+      {% assign paper_total = item[contest].qn.size %}
+      {% assign paper_index = forloop.index0 %}
+
+      {% include lqd/contest-pdf-link.liquid contest=contest year=paper_year total=paper_total index=paper_index %}
       
 
       {% assign manifest_year = item[contest].yr %}

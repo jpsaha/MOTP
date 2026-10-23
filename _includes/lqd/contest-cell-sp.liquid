@@ -43,7 +43,7 @@
           {% assign rmo_index = forloop.index0 %}
 
           {% if contest == 'rmo' %}
-            {% include lqd/rmo-pdf-link.liquid contest=page.ctst year=page.yr total=rmo_total index=rmo_index %}
+            {% include lqd/contest-pdf-link.liquid contest=page.ctst year=page.yr total=rmo_total index=rmo_index %}
           {% endif %}          
           {% include lqd/manifest-discussion-links.liquid contest=contest year=page.yr variant=suffix %}
         </td>
