@@ -42,59 +42,15 @@
           {% include lqd/rmo-pdf-link.liquid contest=contest year=rmo_year total=rmo_total index=rmo_index %}
         {% endif %}        
 
-        {% assign manifest = site.data.olymp[contest] %}
-        {% assign year_key = item[contest].yr %}
-        {% assign manifest_year = manifest[year_key] %}
-
+        {% assign manifest_year = item[contest].yr %}
         {% assign manifest_variant = 'default' %}
+
         {% if contest == 'rmo' and item[contest].qn.size != 1 %}
-          {% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
           {% assign manifest_variant = letters[forloop.index0] %}
         {% endif %}
 
-        {% assign manifest_problems = manifest_year[manifest_variant] %}
+        {% include lqd/manifest-discussion-links.liquid contest=contest year=manifest_year variant=manifest_variant %}
 
-        {% comment %}
-        <pre>
-        contest: {{ contest }}
-        year: {{ item[contest].yr }}
-        year_key: {{ year_key }}
-        manifest_year size: {{ manifest_year.size }}
-        variant: {{ manifest_variant }}
-        problems: {{ manifest_problems.size }}
-        DEBUG: {{ manifest_problems.size }}
-        </pre>
-        {% endcomment %}
-        {% if manifest_problems %}
-          {% for problem in manifest_problems %}
-            {% for usage in problem.usages %}
-              {% assign problem_subject = '' %}
-              {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
-
-              {% if usage.subject == 'MOTPA' %}
-                {% assign problem_subject = 'Algebra' %}
-              {% elsif usage.subject == 'MOTPC' %}
-                {% assign problem_subject = 'Combinatorics' %}
-              {% elsif usage.subject == 'MOTPG' %}
-                {% assign problem_subject = 'Geometry' %}
-              {% elsif usage.subject == 'MOTPNT' %}
-                {% assign problem_subject = 'NumberTheory' %}
-              {% endif %}
-
-              {% if problem_subject != '' and problem_topic != '' %}
-                <a
-                  href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ problem_subject }}/{{ problem_topic }}.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="P{{ problem.problem }}"
-                >
-                  <i class="fa-regular fa-file-lines"></i>
-                </a>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-        {% endif %}        
-        
         {%- if forloop.last == false and forloop.length > 1 -%}
           <hr>
         {%- endif -%}

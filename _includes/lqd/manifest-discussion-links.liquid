@@ -1,0 +1,46 @@
+{% assign manifest = site.data.olymp[include.contest] %}
+{% assign manifest_year = manifest[include.year] %}
+{% assign manifest_variant = include.variant | default: 'default' %}
+{% assign manifest_problems = manifest_year[manifest_variant] %}
+
+{% comment %}
+<pre>
+contest: {{ contest }}
+year: {{ item[contest].yr }}
+year_key: {{ year_key }}
+manifest_year size: {{ manifest_year.size }}
+variant: {{ manifest_variant }}
+problems: {{ manifest_problems.size }}
+DEBUG: {{ manifest_problems.size }}
+</pre>
+{% endcomment %}
+
+{% if manifest_problems %}
+  {% for problem in manifest_problems %}
+    {% for usage in problem.usages %}
+      {% assign problem_subject = '' %}
+      {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
+
+      {% if usage.subject == 'MOTPA' %}
+        {% assign problem_subject = 'Algebra' %}
+      {% elsif usage.subject == 'MOTPC' %}
+        {% assign problem_subject = 'Combinatorics' %}
+      {% elsif usage.subject == 'MOTPG' %}
+        {% assign problem_subject = 'Geometry' %}
+      {% elsif usage.subject == 'MOTPNT' %}
+        {% assign problem_subject = 'NumberTheory' %}
+      {% endif %}
+
+      {% if problem_subject != '' and problem_topic != '' %}
+        <a
+          href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ problem_subject }}/{{ problem_topic }}.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="P{{ problem.problem }}"
+        >
+          <i class="fa-regular fa-file-lines"></i>
+        </a>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
