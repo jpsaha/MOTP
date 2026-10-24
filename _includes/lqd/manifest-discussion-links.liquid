@@ -4,15 +4,15 @@
 {% assign manifest_problems = manifest_year[manifest_variant] %}
 
 {% comment %}
-<pre>
-contest: {{ contest }}
-year: {{ item[contest].yr }}
-year_key: {{ year_key }}
-manifest_year size: {{ manifest_year.size }}
-variant: {{ manifest_variant }}
-problems: {{ manifest_problems.size }}
-DEBUG: {{ manifest_problems.size }}
-</pre>
+  <pre>
+  contest: {{ contest }}
+  year: {{ item[contest].yr }}
+  year_key: {{ year_key }}
+  manifest_year size: {{ manifest_year.size }}
+  variant: {{ manifest_variant }}
+  problems: {{ manifest_problems.size }}
+  DEBUG: {{ manifest_problems.size }}
+  </pre>
 {% endcomment %}
 
 {% if manifest_problems %}
@@ -26,7 +26,7 @@ DEBUG: {{ manifest_problems.size }}
         {% assign problem_topic = 'Ineq' %}
       {% else %}
         {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
-      {% endif %}   
+      {% endif %}
 
       {% if usage.subject == 'MOTPA' %}
         {% assign problem_subject = 'Algebra' %}
