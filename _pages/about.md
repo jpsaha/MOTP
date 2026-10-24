@@ -74,7 +74,7 @@ There are several Mathematical Olympiads of International repute, where students
 
 ## [Geoff Smith](<https://en.wikipedia.org/wiki/Geoff_Smith_(mathematician)>)
 
-is a British mathematician. He has been the [leader of the UK IMO team](https://www.imo-official.org/country_team_r.aspx?code=UNK) during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014).
+is a British mathematician. He has been the [leader of the UK IMO team](https://www.imo-official.org/results/team/country/UNK/) during 2002--2010, 2013--2018, 2022. He [has been awarded](https://www.imo-register.org.uk/golden-microphone.html) the IMO Golden Microphone thrice (during 2006, 2009, 2014).
 
 {% details Click here to know more %}
 
