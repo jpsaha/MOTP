@@ -19,7 +19,14 @@ DEBUG: {{ manifest_problems.size }}
   {% for problem in manifest_problems %}
     {% for usage in problem.usages %}
       {% assign problem_subject = '' %}
-      {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
+
+      <!-- <p>DEBUG: usage.includer = {{ usage.includer }}</p> -->
+
+      {% if usage.includer contains 'ineq' %}
+        {% assign problem_topic = 'Ineq' %}
+      {% else %}
+        {% assign problem_topic = usage.includer | split: '/' | last | split: '.' | first %}
+      {% endif %}   
 
       {% if usage.subject == 'MOTPA' %}
         {% assign problem_subject = 'Algebra' %}
