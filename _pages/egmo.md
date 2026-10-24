@@ -22,13 +22,14 @@ giscus_comments: true
 - In [2025](https://www.egmo.org/egmos/egmo14/), 56 countries participated in EGMO.
 - Participation in the EGMO is by invitation only. Each invited country sends a team consisting of up to four contestants.
 - In the recent past,
+  - France was the host for [EGMO2026](https://www.egmo.org/egmos/egmo15/).
   - Kosovo is the host for [EGMO2025](https://www.egmo.org/egmos/egmo14/).
   - Georgia was the host for [EGMO2024](https://www.egmo.org/egmos/egmo13/),
   - Slovenia was the host for [EGMO2023](https://www.egmo.org/egmos/egmo12/),
   - Hungary was the host for [EGMO2022](https://www.egmo.org/egmos/egmo11/).
 - The forthcoming EGMOs have been scheduled.
-  - [EGMO2026](https://www.egmo.org/egmos/egmo15/) will take place in France.
   - [EGMO2027](https://www.egmo.org/egmos/egmo16/) will take place in Croatia.
+  - [EGMO2028](https://www.egmo.org/egmos/egmo17/) will take place in Lithuania.
 - [EGMO](https://www.egmo.org/) is held over two days. Since 2013,
   - each of the two contest papers consists of three problems,
   - each day, the contest lasts for four-and-a-half hours,
@@ -37,4 +38,4 @@ giscus_comments: true
 ## [Participation of India in EGMO](https://www.egmo.org/countries/country35/)
 
 - India has been participating in EGMO since [2015](https://www.egmo.org/countries/country35/).
-- India has received 8 Silver medals (S), 17 Bronze medals (B), and 4 Honourable mentions (HM).
+- India has received 1 Gold medal (G), 9 Silver medals (S), 18 Bronze medals (B), and 4 Honourable mentions (HM).

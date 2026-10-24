@@ -25,11 +25,12 @@ giscus_comments: true
 ## [Participation of India in APMO](https://www.apmo-official.org/country_report/IND/all)
 
 - India has been participating in APMO [since 2015](https://www.apmo-official.org/country_report/IND/all).
-- India has received 6 Gold medals (G), 19 Silver medals (S), 44 Bronze medals (B), and 28 Honourable mentions (HM).
+- India has received 7 Gold medals (G), 21 Silver medals (S), 48 Bronze medals (B), and 31 Honourable mentions (HM).
 - [India](https://www.apmo-official.org/country_report/IND/all) ranked
   - 12th in 2019 (G, S, S, B, B, B, B, HM, HM, HM),
   - 8th in 2020 (G, S, S, B, B, B, B, HM, HM, HM),
   - 6th in 2022 (G, S, S, B, B, B, B, HM, HM, HM),
   - 6th in 2023 (G, S, S, B, B, B, B, HM, HM, HM),
   - 7th in 2024 (G, S, S, B, B, B, B, HM, HM, HM),
-  - 9th in 2025 (G, S, S, B, B, B, B, HM, HM, HM).
+  - 9th in 2025 (G, S, S, B, B, B, B, HM, HM, HM),
+  - 4th in 2026 (G, S, S, B, B, B, B, HM, HM, HM).
