@@ -83,10 +83,10 @@ is a British mathematician. He has been the [leader of the UK IMO team](https://
   > Online Math Club is a great online forum with a wide range of classes available online publicly on their [<i class="fa-brands fa-youtube"></i> YouTube channel](https://www.youtube.com/@omath).
 - [Blog](https://www.omath.club/)
 - On [<i class="fa-brands fa-youtube"></i> YouTube](https://www.youtube.com/@omath)
-  - An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/team_r.aspx?code=IND&year=2022)
-  - An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/team_r.aspx?code=IND&year=2023)
+  - An [interview](https://www.youtube.com/watch?v=OwZ8nx54a20) with the [Indian IMO team 2022](https://www.imo-official.org/results/team/year/2022/country/IND/)
+  - An [interview](https://www.youtube.com/watch?v=HSuWLw4l_yY) with the [Indian IMO team 2023](https://www.imo-official.org/results/team/year/2023/country/IND/)
   - An [interview](https://www.youtube.com/watch?v=nF2H9bTSXa8) with the [Indian EGMO team 2024](https://www.egmo.org/egmos/egmo13/countries/country35/).
-  - An [interview](https://www.youtube.com/watch?v=sMadzwi1UQE) with the [Indian IMO team 2024](https://www.imo-official.org/team_r.aspx?code=IND&year=2024)
+  - An [interview](https://www.youtube.com/watch?v=sMadzwi1UQE) with the [Indian IMO team 2024](https://www.imo-official.org/results/team/year/2024/country/IND/)
 
 ---
 
