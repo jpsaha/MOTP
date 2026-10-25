@@ -1,7 +1,8 @@
-{% assign manifest = site.data.olymp[include.contest] %}
+{% assign manifest = site.data.merged[include.contest] %}
 {% assign manifest_year = manifest[include.year] %}
 {% assign manifest_variant = include.variant | default: 'default' %}
-{% assign manifest_problems = manifest_year[manifest_variant] %}
+{% assign manifest_entry = manifest_year[manifest_variant] %}
+{% assign manifest_problems = manifest_entry.problems %}
 
 {% comment %}
   <pre>
