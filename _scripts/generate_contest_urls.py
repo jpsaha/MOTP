@@ -12,7 +12,7 @@ import re
 ROOT = Path(__file__).resolve().parent.parent
 
 PAST_FILE = ROOT / "_data" / "past.yml"
-OUTPUT_FILE = ROOT / "_data" / "contest_pdfs.yml"
+OUTPUT_FILE = ROOT / "_data" / "contest_urls.yml"
 
 LETTERS = "abcdefghijklmnopqrstuvwxyz"
 
@@ -81,11 +81,11 @@ def parse_questions(lines):
     return questions
 
 
-def generate_contest_pdfs():
+def generate_contest_urls():
     """Extract contest question URLs and metadata from past.yml."""
 
     lines = PAST_FILE.read_text(encoding="utf-8").splitlines()
-    contest_pdfs = {}
+    contest_urls = {}
 
     i = 0
 
@@ -146,9 +146,9 @@ def generate_contest_pdfs():
                 for index, question in enumerate(questions)
             }
 
-        contest_pdfs.setdefault(contest, {})[year] = variants
+        contest_urls.setdefault(contest, {})[year] = variants
 
-    return contest_pdfs
+    return contest_urls
 
 
 # ============================================================
@@ -204,22 +204,22 @@ def write_yaml(data: dict) -> None:
 # ============================================================
 
 def main() -> None:
-    """Generate _data/contest_pdfs.yml from _data/past.yml."""
+    """Generate _data/contest_urls.yml from _data/past.yml."""
 
     if not PAST_FILE.is_file():
         raise SystemExit(f"Error: Input file not found: {PAST_FILE}")
 
-    contest_pdfs = generate_contest_pdfs()
-    write_yaml(contest_pdfs)
+    contest_urls = generate_contest_urls()
+    write_yaml(contest_urls)
 
     total_entries = sum(
         len(variants)
-        for years in contest_pdfs.values()
+        for years in contest_urls.values()
         for variants in years.values()
     )
 
     print(f"Generated: {OUTPUT_FILE.relative_to(ROOT)}")
-    print(f"Contests: {len(contest_pdfs)}")
+    print(f"Contests: {len(contest_urls)}")
     print(f"Question entries: {total_entries}")
 
 
