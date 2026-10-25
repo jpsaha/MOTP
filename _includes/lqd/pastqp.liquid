@@ -19,9 +19,6 @@ Indian National Mathematical Olympiad
 Pre-Regional Mathematical Olympiad
 {%- endif -%}
 {%- endcapture -%}
-{% capture jlink %}{% include mdcode/qp-aops-disc.md %}{% endcapture %}
-{% capture jlinktable %}{% include lqd/pastpapers.liquid %}{% endcapture %}
-<!-- {{ jlink | markdownify }} -->
 
 {% include lqd/pastqpdisp.liquid %}
 
@@ -33,6 +30,8 @@ Pre-Regional Mathematical Olympiad
 {%- if tst != 'prmo' -%}
 {{ ppsrc | markdownify }}
 {%- endif -%}
+
+{% capture jlinktable %}{% include lqd/pastpapers.liquid %}{% endcapture %}
 
 {{ jlinktable | markdownify }}
 

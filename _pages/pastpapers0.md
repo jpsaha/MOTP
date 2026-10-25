@@ -17,5 +17,5 @@ giscus_comments: true
 {% capture ppsrc %}{% include mdcontent/pastsrc.md %}{% endcapture %}
 {{ ppsrc | markdownify }}
 
-{% capture table %}{% include lqd/pastpapersall.liquid %}{% endcapture %}
+{% capture table %}{% include lqd/pastpapersallcomb.liquid %}{% endcapture %}
 {{ table | markdownify }}

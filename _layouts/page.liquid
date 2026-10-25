@@ -32,7 +32,7 @@ layout: default
         {% for item in site.data.past %}
           {% if item[tst].yr == page.yr %}
             {% if tst != 'inmotc' and tst != 'imotc' %}
-              {% include lqd/contest-cell-sp.liquid contest=tst %}
+              {% include lqd/contest-yr.liquid contest=tst %}
             {% endif %}
           {% endif %}
         {% endfor %}

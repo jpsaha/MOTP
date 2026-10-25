@@ -39,7 +39,7 @@
         </a>
       {% endif %}
 
-      {% include lqd/contest-problem-links.liquid contest=contest item=item index=forloop.index0 %}
+      {% include lqd/contest-qn-sol-prob-links.liquid contest=contest item=item index=forloop.index0 %}
 
       {% if member.omc %}
         {% if member.omc contains 'youtube' %}

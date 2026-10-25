@@ -1,9 +1,9 @@
 {% comment %}
-  contest-cell.liquid
+  contest-cell-ri.liquid
   Usage:
-  {% include contest-cell.liquid contest="rmo" %}
-  {% include contest-cell.liquid contest="inmo" %}
-  Used in: _includes/lqd/pastpapersall.liquid, which is used in PastPapers.md post
+  {% include contest-cell-ri.liquid contest="rmo" %}
+  {% include contest-cell-ri.liquid contest="inmo" %}
+  Used in: _includes/lqd/pastpapersallcomb.liquid, which is used in PastPapers.md post
   Effect in: /pastpapers/
 {% endcomment %}
 
@@ -34,7 +34,7 @@
           </a>
         {%- endif -%}
 
-        {% include lqd/contest-problem-links.liquid contest=contest item=item index=forloop.index0 %}
+        {% include lqd/contest-qn-sol-prob-links.liquid contest=contest item=item index=forloop.index0 %}
 
         {%- if forloop.last == false and forloop.length > 1 -%}
           <hr>

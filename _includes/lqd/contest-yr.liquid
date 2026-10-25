@@ -1,5 +1,5 @@
 {% comment %}
-  contest-cell-sp.liquid
+  contest-yr.liquid
   Used in: _layouts/page.liquid
   Effect in: rmo/yyyy/, inmo/yyyy/
 {% endcomment %}
@@ -39,7 +39,7 @@
           {% endif %}
         </td>
         <td>
-          {% include lqd/contest-problem-links.liquid contest=contest item=item index=forloop.index0 %}
+          {% include lqd/contest-qn-sol-prob-links.liquid contest=contest item=item index=forloop.index0 %}
         </td>
         <td>
           {% for member in item[contest].aops %}

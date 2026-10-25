@@ -1,7 +1,7 @@
 {% comment %}
-  pastpapersall.liquid
+  pastpapersallcomb.liquid
   Used in: _pages/pastpapers.md
-  Uses _includes/lqd/contest-cell.liquid, _includes/lqd/contest-links.liquid
+  Uses _includes/lqd/contest-cell-ri.liquid, _includes/lqd/contest-cell-ip.liquid
 {% endcomment %}
 <!-- Column Toggle Checkboxes -->
 <div id="column-controls" style="float: right; margin-left: 1rem;">
@@ -42,13 +42,13 @@
         <td class="align-middle text-center">{{ item.yr }}</td>
         <td class="align-middle">
           {% if item.ioqm.yr -%}
-            {%- include lqd/contest-links.liquid contest="ioqm" -%}
+            {%- include lqd/contest-cell-ip.liquid contest="ioqm" -%}
           {%- else -%}
-            {%- if item.prmo.yr %}{% include lqd/contest-links.liquid contest="prmo" %}{% endif -%}
+            {%- if item.prmo.yr %}{% include lqd/contest-cell-ip.liquid contest="prmo" %}{% endif -%}
           {%- endif %}
         </td>
-        {% include lqd/contest-cell.liquid contest="rmo" %}
-        {% include lqd/contest-cell.liquid contest="inmo" %}
+        {% include lqd/contest-cell-ri.liquid contest="rmo" %}
+        {% include lqd/contest-cell-ri.liquid contest="inmo" %}
         <td class="align-middle text-center">
           {% if item.imotc.yr %}
             {% for member in item.imotc.aops -%}

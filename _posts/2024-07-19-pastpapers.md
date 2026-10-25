@@ -20,5 +20,5 @@ related_posts: false
 
 ---
 
-{% capture table %}{% include lqd/pastpapersall.liquid %}{% endcapture %}
+{% capture table %}{% include lqd/pastpapersallcomb.liquid %}{% endcapture %}
 {{ table | markdownify }}
