@@ -427,6 +427,11 @@ ninja.data = [{
           description: "",
           section: "Alg",handler: () => {
               window.location.href = "/MOTP/alg/imvt/";
+            },},{id: "alg-induction",
+          title: 'Induction',
+          description: "",
+          section: "Alg",handler: () => {
+              window.location.href = "/MOTP/alg/induction/";
             },},{id: "alg-inequalities",
           title: 'Inequalities',
           description: "",
