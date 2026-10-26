@@ -34,7 +34,7 @@ mermaid:
 >
 > |           Topic           |       Notes        |
 > | :-----------------------: | :----------------: | ------------------ | ------------ | -------------------- | ---------------------- | ---------------------------------------------------------------------------------------------------------- |
-> | Algebra and Number Theory | <a href="{{ '.pdf' | prepend: page.jpdf | prepend: '/' | prepend: page.jsujet | prepend: 'assets/pdf/' | relative_url }}" target="\_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a> |
+> | Algebra and Number Theory | <a href="{{ '.pdf' | prepend: 'IMOTC25Alg' | prepend: '/' | prepend: page.jsujet | prepend: 'assets/pdf/' | relative_url }}" target="\_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf fa-2x"></i></a> |
 
 <iframe src="{{ site.baseurl }}/assets/pdf/IMOTC/IMOTC25Alg.pdf" width="100%" height="700" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
