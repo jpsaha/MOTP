@@ -3136,6 +3136,21 @@ inmo:
               inclusion_chain:
                 - "MOTPC/src/GrpPairs.tex"
                 - "7QS/INMO/inmo2013p4.tex"
+  2015:
+    default:
+      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
+      sol: ""
+      src: ""
+      omc: ""
+      problems:
+        - file: "inmo2015p6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPC"
+              includer: "MOTPC/src/Pigeon.tex"
+              inclusion_chain:
+                - "MOTPC/src/Pigeon.tex"
+                - "7QS/INMO/inmo2015p6.tex"
   2016:
     default:
       qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/INMO-2016-English-Version.pdf
