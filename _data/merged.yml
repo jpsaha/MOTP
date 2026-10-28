@@ -12,6 +12,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo1990p1.tex"
         - file: "rmo1990p2.tex"
@@ -198,6 +199,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo1993p3.tex"
         - file: "rmo1993p4.tex"
@@ -296,6 +298,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/GrpPairs.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/GrpPairs.tex"
                 - "7QS/RMO/rmo1994p7.tex"
         - file: "rmo1994p8.tex"
@@ -358,6 +361,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo1995p6.tex"
         - file: "rmo1995p7.tex"
@@ -429,6 +433,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo1996p7.tex"
   1997:
@@ -482,6 +487,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo1997p6.tex"
   1998:
@@ -613,6 +619,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2000p4.tex"
         - file: "rmo2000p6.tex"
@@ -664,6 +671,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2001p4.tex"
         - file: "rmo2001p6.tex"
@@ -822,6 +830,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountComple.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountComple.tex"
                 - "7QS/RMO/rmo2004p4.tex"
         - file: "rmo2004p6.tex"
@@ -883,6 +892,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2005p4.tex"
         - file: "rmo2005p6.tex"
@@ -988,6 +998,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2007p4.tex"
         - file: "rmo2007p5.tex"
@@ -1035,6 +1046,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2008p4.tex"
         - file: "rmo2008p5.tex"
@@ -1077,6 +1089,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountComple.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountComple.tex"
                 - "7QS/RMO/rmo2009p4.tex"
         - file: "rmo2009p5.tex"
@@ -1120,6 +1133,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2010p3.tex"
         - file: "rmo2010p4.tex"
@@ -1153,6 +1167,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2011ap2.tex"
         - file: "rmo2011ap3.tex"
@@ -1170,6 +1185,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2011ap4.tex"
         - file: "rmo2011ap6.tex"
@@ -1211,6 +1227,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2011bp4.tex"
         - file: "rmo2011bp5.tex"
@@ -1263,6 +1280,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012ap4.tex"
         - file: "rmo2012ap6.tex"
@@ -1271,6 +1289,7 @@ rmo:
             - subject: "MOTPA"
               includer: "MOTPA/src/Quartic.tex"
               inclusion_chain:
+                - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Quartic.tex"
                 - "7QS/RMO/rmo2012ap6.tex"
     b:
@@ -1312,6 +1331,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012bp4.tex"
         - file: "rmo2012bp6.tex"
@@ -1362,6 +1382,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012cp4.tex"
         - file: "rmo2012cp6.tex"
@@ -1412,6 +1433,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012dp4.tex"
         - file: "rmo2012dp6.tex"
@@ -1519,6 +1541,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/GrpPairs.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/GrpPairs.tex"
                 - "7QS/RMO/rmo2012fp6.tex"
         - file: "rmo2012fp8.tex"
@@ -1614,6 +1637,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2013bp6.tex"
     c:
@@ -1628,6 +1652,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2013cp1.tex"
         - file: "rmo2013cp2.tex"
@@ -1697,6 +1722,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2013dp6.tex"
     e:
@@ -1720,6 +1746,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2013ep3.tex"
         - file: "rmo2013ep5.tex"
@@ -1771,6 +1798,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2014ap4.tex"
         - file: "rmo2014ap6.tex"
@@ -1934,6 +1962,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2014ep4.tex"
         - file: "rmo2014ep5.tex"
@@ -1977,6 +2006,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015ap4.tex"
         - file: "rmo2015ap6.tex"
@@ -2018,6 +2048,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015bp4.tex"
         - file: "rmo2015bp6.tex"
@@ -2041,6 +2072,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015cp2.tex"
         - file: "rmo2015cp3.tex"
@@ -2073,6 +2105,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2015cp6.tex"
         - file: "rmo2015cp7.tex"
@@ -2115,6 +2148,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015dp4.tex"
         - file: "rmo2015dp6.tex"
@@ -2155,6 +2189,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015ep4.tex"
         - file: "rmo2015ep6.tex"
@@ -2241,6 +2276,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2016ap4.tex"
         - file: "rmo2016ap6.tex"
@@ -2283,6 +2319,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2016bp4.tex"
         - file: "rmo2016bp6.tex"
@@ -2443,6 +2480,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2016fp2.tex"
         - file: "rmo2016fp3.tex"
@@ -2634,6 +2672,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2018ap4.tex"
         - file: "rmo2018ap5.tex"
@@ -2766,6 +2805,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2019bp4.tex"
         - file: "rmo2019bp5.tex"
@@ -2857,6 +2897,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2023bp6.tex"
   2024:
@@ -2899,6 +2940,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2024ap6.tex"
     b:
@@ -2941,6 +2983,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/CountBijec.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2024bp6.tex"
   2025:
@@ -2975,6 +3018,7 @@ rmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Count.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2025ap4.tex"
         - file: "rmo2025ap6.tex"
@@ -3134,6 +3178,7 @@ inmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/GrpPairs.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/GrpPairs.tex"
                 - "7QS/INMO/inmo2013p4.tex"
   2015:
@@ -3149,6 +3194,7 @@ inmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/INMO/inmo2015p6.tex"
   2016:
@@ -3164,6 +3210,7 @@ inmo:
             - subject: "MOTPC"
               includer: "MOTPC/src/Pigeon.tex"
               inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/INMO/inmo2016p4.tex"
   2018:
