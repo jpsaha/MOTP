@@ -34,7 +34,45 @@
           </a>
         {%- endif -%}
 
-        {% include lqd/contest-qn-sol-prob-links.liquid contest=contest item=item index=forloop.index0 %}
+{% assign letters = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z' | split: ',' %}
+
+{% assign suffix = '' %}
+{% if contest == 'rmo' and item[contest].qn.size != 1 %}
+  {% assign suffix = letters[forloop.index0] %}
+{% endif %}
+
+{% assign paper_year = item[contest].yr %}
+{% assign paper_total = item[contest].qn.size %}
+{% assign paper_index = forloop.index0 %}
+{% comment %}
+  {% include lqd/contest-qn-sol-link.liquid contest=contest year=paper_year total=paper_total index=paper_index %}
+{% endcomment %}
+
+{% assign manifest_variant = suffix | default: 'default' %}
+
+{% assign manifest = site.data.olymp[contest] %}
+{% assign manifest_year = manifest[paper_year] %}
+{% assign manifest_problems = manifest_year[manifest_variant] %}
+
+{% comment %}
+  <pre>
+  contest: {{ contest }}
+  year: {{ item[contest].yr }}
+  manifest_year size: {{ manifest_year.size }}
+  problems: {{ manifest_problems.size }}
+  </pre>
+{% endcomment %}
+
+{% if manifest_problems.size > 0 %}
+  {% include lqd/contest-qn-sol-link.liquid contest=contest year=paper_year total=paper_total index=paper_index %}
+{% endif %}
+
+{% include lqd/contest-prob-links.liquid contest=contest year=paper_year variant=manifest_variant %}
+{% comment %}
+  {% if manifest_problems.size > 0 %}
+  {% include lqd/contest-qn-sol-link.liquid contest=contest year=paper_year total=paper_total index=paper_index %}
+  {% endif %}
+{% endcomment %}
 
         {%- if forloop.last == false and forloop.length > 1 -%}
           <hr>
