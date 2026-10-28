@@ -32,12 +32,14 @@ cd ../prooly
 # ------------------------------------------------------------
 python find_olympiad_inputs.py --manifest olymp.yml
 
+# python3 latexparallel.py MOTPA MOTPC MOTPG MOTPNT MOPSS 10RMO 10INMO
 
 # ------------------------------------------------------------
 # 3. Return to the MOTP directory
 # ------------------------------------------------------------
 cd ../MOTP
 
+python3 replace_pdfs.py --apply
 
 # ------------------------------------------------------------
 # 4. Copy the generated olymp.yml into MOTP's _data directory
