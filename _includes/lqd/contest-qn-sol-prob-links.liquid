@@ -5,7 +5,7 @@
   {% assign suffix = letters[forloop.index0] %}
 {% endif %}
 
-{% assign paper_year = item[contest].yr | append: '' %}
+{% assign paper_year = item[contest].yr %}
 {% assign paper_total = item[contest].qn.size %}
 {% assign paper_index = forloop.index0 %}
 {% comment %}
@@ -29,28 +29,13 @@
 <pre>
   contest: [{{ contest }}]
   suffix: [{{ suffix }}]
+  manifest: [{{ manifest }}]
   manifest_year: [{{ manifest_year }}]
   manifest_problems: [{{ manifest_problems }}]
   manifest_variant: [{{ manifest_variant }}]
   paper_year: [{{ paper_year }}]
   paper_total: [{{ paper_total }}]
   forloop.index0: [{{ forloop.index0 }}]
-</pre>
-<pre>
-  contest: [{{ contest }}]
-  paper_year: [{{ paper_year }}]
-  paper_year type: {{ paper_year | inspect }}
-
-  manifest exists: {% if manifest %}yes{% else %}no{% endif %}
-  manifest size: {{ manifest.size }}
-
-  manifest_year: {{ manifest_year | inspect }}
-  manifest_year size: {{ manifest_year.size }}
-
-  suffix: [{{ suffix }}]
-  manifest_variant: [{{ manifest_variant }}]
-
-  manifest_problems: {{ manifest_problems | inspect }}
 </pre>
 {% if manifest_problems.size > 0 %}
   a
