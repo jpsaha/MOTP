@@ -3,19 +3,28 @@
 Replace PDFs in MOTP from the corresponding prooly directories.
 
 Mapping:
-    prooly/MOTPA/pdf/ -> MOTP/assets/pdf/Algebra/
-    prooly/MOTPC/pdf/ -> MOTP/assets/pdf/Combinatorics/
+    prooly/MOTPA/pdf/   -> MOTP/assets/pdf/Algebra/
+    prooly/MOTPC/pdf/   -> MOTP/assets/pdf/Combinatorics/
+    prooly/MOTPG/pdf/   -> MOTP/assets/pdf/Geometry/
+    prooly/MOTPNT/pdf/  -> MOTP/assets/pdf/NumberTheory/
+    prooly/10RMO/pdf/   -> MOTP/assets/pdf/RMO/
+    prooly/10INMO/pdf/  -> MOTP/assets/pdf/INMO/
+    prooly/MOPSS25/pdf/ -> MOTP/assets/pdf/MOPSS/
+    prooly/MOPSS26/pdf/ -> MOTP/assets/pdf/MOPSS/
 
 Behavior:
     - Dry-run by default.
     - --apply performs the actual copies.
-    - Matching filenames are overwritten.
-    - New PDFs are added.
+    - SHA-256 hashes determine whether PDF contents differ.
+    - Matching filenames with identical contents are skipped.
+    - Matching filenames with different contents are replaced.
+    - Source PDFs missing from the destination are reported, not added.
     - Destination-only PDFs are preserved.
     - Non-PDF files are ignored.
 """
 
 import argparse
+import hashlib
 import shutil
 import sys
 from pathlib import Path
@@ -64,9 +73,26 @@ DIRECTORY_MAP = {
 
 RED = "\033[91m"
 GREEN = "\033[92m"
-YELLOW = "\033[93m"
+MAGENTA = "\033[95m"
 CYAN = "\033[96m"
 RESET = "\033[0m"
+
+
+# ============================================================
+# Hashing
+# ============================================================
+
+def sha256_file(path: Path) -> str:
+    """Return the SHA-256 hash of a file's contents."""
+
+    digest = hashlib.sha256()
+
+    # Read in chunks to avoid loading large PDFs entirely into memory.
+    with path.open("rb") as file:
+        for chunk in iter(lambda: file.read(1024 * 1024), b""):
+            digest.update(chunk)
+
+    return digest.hexdigest()
 
 
 # ============================================================
@@ -77,11 +103,19 @@ def replace_pdfs(
     source: Path,
     destination: Path,
     apply: bool,
-) -> tuple[int, int]:
-    """Replace matching PDFs and report destination-only PDFs.
+) -> tuple[int, int, int, int]:
+    """Compare source PDFs with matching destination PDFs.
 
     Returns:
-        (replaced_count, destination_only_count)
+        (
+            replaced_count,
+            identical_count,
+            missing_destination_count,
+            destination_only_count,
+        )
+
+    A replacement is counted only when the source and destination
+    have matching filenames but different SHA-256 hashes.
     """
 
     if not source.is_dir():
@@ -100,23 +134,26 @@ def replace_pdfs(
         )
 
     destination_pdfs = sorted(
-        (
-            path for path in destination.iterdir()
-            if path.is_file() and path.suffix.lower() == ".pdf"
-        )
+        path for path in destination.iterdir()
+        if path.is_file() and path.suffix.lower() == ".pdf"
     ) if destination.is_dir() else []
 
     source_names = {path.name for path in source_pdfs}
     destination_names = {path.name for path in destination_pdfs}
 
     replaced = 0
-    destination_only = 0
+    identical = 0
+    missing_destination = 0
+
+    # Storree filenames of PDFs whose contents differ.
+    
+    replaced_files = []
 
     print(f"\nSource:      {source}")
     print(f"Destination: {destination}")
 
     # --------------------------------------------------------
-    # Replace PDFs with matching filenames
+    # Compare matching PDFs using SHA-256 hashes
     # --------------------------------------------------------
 
     if not source_pdfs:
@@ -125,12 +162,30 @@ def replace_pdfs(
     for src in source_pdfs:
         dst = destination / src.name
 
+        # Preserve the existing behavior: do not add new PDFs.
         if not dst.is_file():
-            print(f"  {RED}[SKIP]    {src.name}{RESET} (not in destination)")
+            missing_destination += 1
+            print(
+                f"  {RED}[SKIP]    {src.name}{RESET} "
+                "(not in destination)"
+            )
+            continue
+
+        # Compare actual file contents, not timestamps or file sizes.
+        if sha256_file(src) == sha256_file(dst):
+            identical += 1
+            print(
+                f"  {CYAN}[UNCHANGED]{RESET} {src.name} "
+                "(identical)"
+            )
             continue
 
         replaced += 1
-        print(f"  {GREEN}[REPLACE]{RESET} {src.name}")
+        replaced_files.append(src.name)
+        print(
+            f"  {GREEN}[REPLACE]{RESET} {src.name} "
+            "(content differs)"
+        )
 
         if apply:
             shutil.copy2(src, dst)
@@ -139,8 +194,18 @@ def replace_pdfs(
     # Report PDFs present only in the destination
     # --------------------------------------------------------
 
+    # For shared destinations, compare against PDFs from all
+    # source directories that map to the same destination.
+    all_source_names = {
+        path.name
+        for mapped_source, mapped_destination in DIRECTORY_MAP.items()
+        if mapped_destination == destination
+        for path in mapped_source.iterdir()
+        if path.is_file() and path.suffix.lower() == ".pdf"
+    }
+
     destination_only_pdfs = sorted(
-        destination_names - source_names
+        destination_names - all_source_names
     )
 
     destination_only = len(destination_only_pdfs)
@@ -151,37 +216,77 @@ def replace_pdfs(
     )
 
     for filename in destination_only_pdfs:
-        print(f"    {YELLOW}[DESTINATION ONLY]{RESET} {filename}")
+        print(
+            f"    {MAGENTA}[DESTINATION ONLY]{RESET} "
+            f"{filename}"
+        )
 
-    return replaced, destination_only
+    return (
+        replaced,
+        identical,
+        missing_destination,
+        destination_only,
+        replaced_files,
+    )
 
+
+# ============================================================
+# Main
+# ============================================================
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Replace matching MOTP PDFs using PDFs from prooly."
+        description=(
+            "Replace differing MOTP PDFs using PDFs from prooly, "
+            "with SHA-256 content comparison."
+        )
     )
+
     parser.add_argument(
         "--apply",
         action="store_true",
-        help="Actually copy files. Without this flag, only preview changes.",
+        help=(
+            "Actually copy differing PDFs. Without this flag, "
+            "only preview changes."
+        ),
     )
+
     args = parser.parse_args()
 
     mode = "APPLY" if args.apply else "DRY RUN"
     print(f"Mode: {mode}")
 
     total_replaced = 0
+    total_identical = 0
+    total_missing_destination = 0
     total_destination_only = 0
+
+    # Store destination paths of PDFs that need replacing.
+    all_replaced_files = []
 
     try:
         for source, destination in DIRECTORY_MAP.items():
-            replaced, destination_only = replace_pdfs(
+            (
+                replaced,
+                identical,
+                missing_destination,
+                destination_only,
+                replaced_files,
+            ) = replace_pdfs(
                 source=source,
                 destination=destination,
                 apply=args.apply,
             )
+
             total_replaced += replaced
+            total_identical += identical
+            total_missing_destination += missing_destination
             total_destination_only += destination_only
+
+            all_replaced_files.extend(
+                (destination, filename)
+                for filename in replaced_files
+            )
 
     except (FileNotFoundError, OSError) as exc:
         print(f"\nERROR: {exc}", file=sys.stderr)
@@ -189,8 +294,25 @@ def main() -> int:
 
     print("\n" + "=" * 50)
     print("Summary")
-    print(f"  PDFs to replace / replaced: {total_replaced}")
-    print(f"  PDFs present only in destination: {total_destination_only}")
+    print(
+        f"  PDFs to replace / replaced: "
+        f"{total_replaced}"
+    )
+
+    for destination, filename in all_replaced_files:
+        print(f"    {destination / filename}")
+    print(
+        f"  PDFs skipped (identical): "
+        f"{total_identical}"
+    )
+    print(
+        f"  PDFs absent from destination: "
+        f"{total_missing_destination}"
+    )
+    print(
+        f"  PDFs present only in destination: "
+        f"{total_destination_only}"
+    )
 
     if not args.apply:
         print("\nDry run only. No files were copied.")
@@ -200,9 +322,6 @@ def main() -> int:
 
     return 0
 
-
-if __name__ == "__main__":
-    raise SystemExit(main())
 
 if __name__ == "__main__":
     raise SystemExit(main())
