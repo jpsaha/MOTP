@@ -53,6 +53,12 @@ DIRECTORY_MAP = {
     PROOLY_ROOT / "MOTPNT" / "pdf":
         MOTP_ROOT / "assets" / "pdf" / "NumberTheory",
 
+    PROOLY_ROOT / "IMOTC25" / "pdf":
+        MOTP_ROOT / "assets" / "pdf" / "IMOTC",
+
+    PROOLY_ROOT / "IMOTC26" / "pdf":
+        MOTP_ROOT / "assets" / "pdf" / "IMOTC",
+
     PROOLY_ROOT / "10RMO" / "pdf":
         MOTP_ROOT / "assets" / "pdf" / "RMO",
 
