@@ -18,12 +18,14 @@
 {% assign manifest_year = manifest[paper_year] %}
 {% assign manifest_problems = manifest_year[manifest_variant] %}
 
+{% comment %}
   <pre>
   contest: {{ contest }}
   year: {{ item[contest].yr }}
   manifest_year size: {{ manifest_year.size }}
   problems: {{ manifest_problems.size }}
   </pre>
+{% endcomment %}
 
 {% if manifest_problems.size > 0 %}
   a
