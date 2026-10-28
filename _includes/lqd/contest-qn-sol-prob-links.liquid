@@ -18,6 +18,7 @@
 {% assign manifest_year = manifest[paper_year] %}
 {% assign manifest_problems = manifest_year[manifest_variant] %}
 
+{% comment %}
   <pre>
   contest: {{ contest }}
   year: {{ item[contest].yr }}
@@ -54,8 +55,9 @@
 
   manifest_problems: {{ manifest_problems | inspect }}
 </pre>
+{% endcomment %}
+
 {% if manifest_problems.size > 0 %}
-  a
   {% include lqd/contest-qn-sol-link.liquid contest=contest year=paper_year total=paper_total index=paper_index %}
 {% endif %}
 
