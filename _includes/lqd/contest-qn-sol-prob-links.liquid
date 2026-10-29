@@ -14,7 +14,7 @@
 
 {% assign manifest_variant = suffix | default: 'default' %}
 
-{% assign manifest = site.data.olymp[contest] %}
+{% assign manifest = site.data.merged[contest] %}
 {% assign manifest_year = manifest[paper_year] %}
 {% assign manifest_problems = manifest_year[manifest_variant] %}
 
