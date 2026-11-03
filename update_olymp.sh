@@ -46,10 +46,16 @@ echo "============================================================"
 python find_olympiad_inputs.py --manifest olymp.yml
 
 echo
-echo "Building TeX sources for the specified projects..."
-echo "Command: python3 build_tex.py MOTPA MOTPC MOTPG MOTPNT MOPSS25 MOPSS26 IMOTC25 IMOTC26 10RMO 10INMO"
+echo "Building TeX sources for the past rmo questions across subjects..."
+echo "Command: python3 generate_rmo_tex.py"
 
-python3 build_tex.py MOTPA MOTPC MOTPG MOTPNT MOPSS25 MOPSS26 IMOTC25 IMOTC26 10RMO 10INMO
+python3 generate_rmo_tex.py
+
+echo
+echo "Building TeX sources for the specified projects..."
+echo "Command: python3 build_tex.py MOTPA MOTPC MOTPG MOTPNT MOPSS25 MOPSS26 IMOTC25 IMOTC26 10RMO 10INMO 11rmo"
+
+python3 build_tex.py MOTPA MOTPC MOTPG MOTPNT MOPSS25 MOPSS26 IMOTC25 IMOTC26 10RMO 10INMO 11rmo
 
 echo "Completed: olymp.yml generated and TeX sources built."
 
