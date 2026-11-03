@@ -28,6 +28,7 @@ import hashlib
 import shutil
 import sys
 from pathlib import Path
+from typing import Tuple
 
 
 # ============================================================
@@ -109,7 +110,7 @@ def replace_pdfs(
     source: Path,
     destination: Path,
     apply: bool,
-) -> tuple[int, int, int, int]:
+) -> Tuple[int, int, int, int]:
     """Compare source PDFs with matching destination PDFs.
 
     Returns:
