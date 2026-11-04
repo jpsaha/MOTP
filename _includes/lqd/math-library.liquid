@@ -1,0 +1,73 @@
+
+{% assign subject = page.title %}
+{% assign subject_path = subject | replace: ' ', '' %}
+
+{% case subject %}
+  {% when 'Algebra' %}
+    {% assign prefix = 'alg' %}
+    {% assign subject_icon = 'fa-superscript' %}
+  {% when 'Combinatorics' %}
+    {% assign prefix = 'com' %}
+    {% assign subject_icon = 'fa-shapes' %}
+  {% when 'Geometry' %}
+    {% assign prefix = 'geo' %}
+    {% assign subject_icon = 'fa-draw-polygon' %}
+  {% when 'Number Theory' %}
+    {% assign prefix = 'nt' %}
+    {% assign subject_icon = 'fa-infinity' %}
+  {% else %}
+    {% assign prefix = '' %}
+    {% assign subject_icon = 'fa-book-open' %}
+{% endcase %}
+
+
+{% if page.title != 'Geometry' %}
+<div class="math-library">
+
+  <div class="math-library-heading">
+    <span class="math-library-heading-icon">
+      <i class="fas {{ subject_icon }}"></i>
+    </span>
+    <h2>Past {{ subject }} Problems</h2>
+  </div>
+
+  <div class="math-library-navigation">
+
+    <a href="{{ '/assets/pdf/' | append: subject_path | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}"
+       class="math-library-card">
+
+      <span class="math-library-icon">
+        <i class="fas fa-calendar-alt"></i>
+      </span>
+
+      <span class="math-library-card-content">
+        <span class="math-library-card-title">By Year</span>
+        <span class="math-library-card-description">
+          Browse problems by year
+        </span>
+      </span>
+
+      <i class="fas fa-arrow-right math-library-arrow"></i>
+    </a>
+
+    <a href="{{ '/assets/pdf/' | append: subject_path | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}"
+       class="math-library-card">
+
+      <span class="math-library-icon">
+        <i class="fas fa-book-open"></i>
+      </span>
+
+      <span class="math-library-card-content">
+        <span class="math-library-card-title">By Topic</span>
+        <span class="math-library-card-description">
+          Browse problems by topic
+        </span>
+      </span>
+
+      <i class="fas fa-arrow-right math-library-arrow"></i>
+    </a>
+
+  </div>
+</div>
+
+{% endif %}
