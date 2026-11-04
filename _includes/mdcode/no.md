@@ -1,3 +1,6 @@
+
+{% include lqd/math-library.liquid %}
+
 ##### Lecture notes on {{ page.title }} (for Math Olympiad --- [IOQM]({{ site.url }}{{ site.baseurl }}/ioqm/), [RMO]({{ site.url }}{{ site.baseurl }}/rmo/), [INMO]({{ site.url }}{{ site.baseurl }}/inmo/))
 
 <table
