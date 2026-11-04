@@ -3115,7 +3115,13 @@ inmo:
       problems:
         - file: "inmo1991p10.tex"
           problem: 10
-          usages: []
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/Cong.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/Cong.tex"
+                - "7QS/INMO/inmo1991p10.tex"
   1996:
     default:
       qq: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-1996.pdf
