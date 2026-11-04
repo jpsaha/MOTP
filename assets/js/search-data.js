@@ -854,112 +854,112 @@ ninja.data = [{
               window.location.href = "/MOTP/ioqm/2026/";
             },},{id: "mopss-mopss-9th-august-2025",
           title: 'MOPSS, 9th August 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 9th August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 9th August 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25aug09/";
             },},{id: "mopss-mopss-23rd-august-2025",
           title: 'MOPSS, 23rd August 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 23rd August 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 23rd August 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25aug23/";
             },},{id: "mopss-mopss-13th-december-2025",
           title: 'MOPSS, 13th December 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 13th December 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 13th December 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25dec13/";
             },},{id: "mopss-mopss-5th-july-2025",
           title: 'MOPSS, 5th July 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 5th July 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25jul05/";
             },},{id: "mopss-mopss-19th-july-2025",
           title: 'MOPSS, 19th July 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 19th July 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 19th July 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25jul19/";
             },},{id: "mopss-mopss-8th-november-2025",
           title: 'MOPSS, 8th November 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 8th November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 8th November 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25nov08/";
             },},{id: "mopss-mopss-22nd-november-2025",
           title: 'MOPSS, 22nd November 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 22nd November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 22nd November 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25nov22/";
             },},{id: "mopss-mopss-29th-november-2025",
           title: 'MOPSS, 29th November 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 29th November 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 29th November 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25nov29/";
             },},{id: "mopss-mopss-11th-october-2025",
           title: 'MOPSS, 11th October 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 11th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 11th October 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25oct11/";
             },},{id: "mopss-mopss-18th-october-2025",
           title: 'MOPSS, 18th October 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 18th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 18th October 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25oct18/";
             },},{id: "mopss-mopss-25th-october-2025",
           title: 'MOPSS, 25th October 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 25th October 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 25th October 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25oct25/";
             },},{id: "mopss-mopss-27th-september-2025",
           title: 'MOPSS, 27th September 2025',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 27th September 2025. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 27th September 2025.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/25sep27/";
             },},{id: "mopss-mopss-4th-april-2026",
           title: 'MOPSS, 4th April 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 4th April 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 4th April 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26apr04/";
             },},{id: "mopss-mopss-14th-february-2026",
           title: 'MOPSS, 14th February 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 14th February 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 14th February 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26feb14/";
             },},{id: "mopss-mopss-21st-february-2026",
           title: 'MOPSS, 21st February 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 21st February 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 21st February 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26feb21/";
             },},{id: "mopss-mopss-31st-january-2026",
           title: 'MOPSS, 31st January 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 31st January 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 31st January 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26jan31/";
             },},{id: "mopss-mopss-14th-march-2026",
           title: 'MOPSS, 14th March 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 14th March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 14th March 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26mar14/";
             },},{id: "mopss-mopss-21st-march-2026",
           title: 'MOPSS, 21st March 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 21st March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 21st March 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26mar21/";
             },},{id: "mopss-mopss-28th-march-2026",
           title: 'MOPSS, 28th March 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 28th March 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 28th March 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26mar28/";
             },},{id: "mopss-mopss-2nd-may-2026",
           title: 'MOPSS, 2nd May 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 2nd May 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 2nd May 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26may02/";
             },},{id: "mopss-mopss-17th-october-2026",
           title: 'MOPSS, 17th October 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 17th October 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 17th October 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26oct17/";
             },},{id: "mopss-mopss-24th-october-2026",
           title: 'MOPSS, 24th October 2026',
-          description: "MOPSS Problems, Walkthroughs, Solutions from 24th October 2026. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
+          description: "MOPSS Problems, Walkthroughs, Solutions from 24th October 2026.",
           section: "Mopss",handler: () => {
               window.location.href = "/MOTP/mopss/26oct24/";
             },},{id: "nt-binomial-coefficients",
