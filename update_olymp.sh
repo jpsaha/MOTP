@@ -86,7 +86,7 @@ echo "Source:      ../prooly/olymp.yml"
 echo "Destination: _data/olymp.yml"
 echo "============================================================"
 
-mv ../prooly/olymp.yml _data/olymp.yml
+cp ../prooly/olymp.yml _data/olymp.yml
 
 echo "Completed: _data/olymp.yml updated."
 
