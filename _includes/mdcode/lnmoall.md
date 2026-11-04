@@ -1,3 +1,19 @@
+<!-- 
+{% assign subjects = "Algebra,Combinatorics,Geometry,Number Theory" | split: "," %}
+{% assign subject_icons = "fa-superscript,fa-shapes,fa-draw-polygon,fa-infinity" | split: "," %} -->
+
+{% assign subjects = "Algebra,Combinatorics,Number Theory" | split: "," %}
+{% assign subject_icons = "fa-superscript,fa-shapes,fa-infinity" | split: "," %}
+
+{% for subject in subjects %}
+  {% assign i = forloop.index0 %}
+  {% assign subject_icon = subject_icons[i] %}
+
+  {% include lqd/math-library.liquid
+     subject=subject
+     subject_icon=subject_icon %}
+{% endfor %}
+
 > #### **Lecture notes for Math Olympiad ([IOQM]({{ site.url }}{{ site.baseurl }}/ioqm/), [RMO]({{ site.url }}{{ site.baseurl }}/rmo/), [INMO]({{ site.url }}{{ site.baseurl }}/inmo/))**
 >
 > <table
