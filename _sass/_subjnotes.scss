@@ -1,0 +1,120 @@
+/* ==========================================================
+   Mathematics PDF Library
+   ========================================================== */
+
+.math-library {
+  margin: 2rem 0;
+}
+
+.math-library-section {
+  margin-bottom: 2.5rem;
+}
+
+/* Subject heading */
+
+.math-library-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.math-library-heading-icon {
+  font-size: 1.65rem;
+  color: #315f91;
+}
+
+.math-library-heading h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+
+/* Navigation cards */
+
+.math-library-navigation {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.math-library-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+
+  background: var(--global-card-bg, #f7f9fc);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+
+  color: var(--global-text-color);
+  text-decoration: none !important;
+
+  transition: all 0.2s ease;
+}
+
+.math-library-card:hover {
+  border-color: #527da8;
+  background: var(--global-hover-color, #eef3f8);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.math-library-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 10px;
+  background: #e6eef8;
+  color: #315f91;
+
+  font-size: 1.5rem;
+}
+
+.math-library-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.math-library-card-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.math-library-card-description {
+  font-size: 0.82rem;
+  opacity: 0.7;
+}
+
+.math-library-arrow {
+  margin-left: auto;
+  font-size: 1.1rem;
+  opacity: 0.5;
+  transition: transform 0.2s ease;
+}
+
+.math-library-card:hover .math-library-arrow {
+  transform: translateX(4px);
+  opacity: 1;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .math-library-navigation {
+    grid-template-columns: 1fr;
+  }
+
+  .math-library-heading h2 {
+    font-size: 1.25rem;
+  }
+}
