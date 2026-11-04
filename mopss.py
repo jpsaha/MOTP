@@ -20,10 +20,11 @@ months = {
     "Dec": "December",
 }
 
+# Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
 template = """---
 layout: page
 title: MOPSS, {day} {month_full} 20{yy}
-description: MOPSS Problems, Walkthroughs, Solutions from {day} {month_full} 20{yy}. Notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.
+description: MOPSS Problems, Walkthroughs, Solutions from {day} {month_full} 20{yy}. 
 ctst: mopss
 yr: {yy}
 p: {month_lower}{day_num}
