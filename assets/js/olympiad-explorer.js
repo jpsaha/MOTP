@@ -57,6 +57,21 @@ document.addEventListener("DOMContentLoaded", function () {
     "MOTPG/src/Parallelograms.tex": "Parallelograms"
   };
 
+  function getSourcePDF(includer, subjectCode) {
+    const subjectFolders = {
+      MOTPA: "Algebra",
+      MOTPC: "Combinatorics",
+      MOTPG: "Geometry",
+      MOTPNT: "NumberTheory"
+    };
+
+    if (!includer || !subjectFolders[subjectCode]) return "";
+
+    const filename = includer.split("/").pop().replace(/\.tex$/i, ".pdf");
+    const baseurl = root.dataset.baseurl || "";
+
+    return `${baseurl}/assets/pdf/${subjectFolders[subjectCode]}/${filename}`;
+  }  
   function getTopic(path) {
     if (!path) return "Unclassified";
 
@@ -313,7 +328,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const paperLinks = [
         makeLink(p.qq, "Question paper"),
         makeLink(p.sol, "Solutions"),
-        makeLink(p.src, "Source"),
+        makeLink(getSourcePDF(p.includer, p.subjectCode), "Similar Problems"),
         makeLink(p.omc, "Other resource")
       ].filter(Boolean);
 
