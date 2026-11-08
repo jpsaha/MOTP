@@ -29,7 +29,7 @@ chart:
   - Norway was the host for [IMO2022](https://www.imo2022.org/),
   - Russian Federation was the host for [IMO2020](https://imo2020.ru/), IMO2021.
 - The forthcoming IMOs have been scheduled.
-  - IMO2027 will be [held](https://www.imo-official.org/organizers.aspx) in Hungary.
+  - [IMO2027](https://imo2027.hu/) will be [held](https://www.imo-official.org/organizers.aspx) in Hungary.
   - IMO2028 will be [held](https://www.imo-official.org/organizers.aspx) in Saudi Arabia.
 - IMO is held over two consecutive days with 3 problems each. Each day, the contestants have four-and-a-half hours to solve three problems. Each problem is worth 7 points for a maximum total score of 42 points.
 - The problems are arranged so that the order in increasing difficulty is Q1, Q4, Q2, Q5, Q3 and Q6, where the Day 1 problems Q1, Q2, and Q3 are in increasing difficulty, and the Day 2 problems Q4, Q5, and Q6 are in increasing difficulty.
