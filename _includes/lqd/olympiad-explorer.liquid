@@ -1,0 +1,92 @@
+
+{% comment %}
+  Olympiad Problem Explorer
+
+  Reads:
+    _data/merged.yml
+
+  Supports:
+    IOQM, RMO and INMO
+
+  JavaScript handles filtering and rendering.
+{% endcomment %}
+
+{% comment %}
+    For DEBUGGING PURPOSES ONLY: Uncomment the following <pre> block to see the raw JSON data being passed to the Olympiad Explorer component. This can help you understand the structure of the data and debug any issues with filtering or rendering.
+    <pre id="oe-debug" style="white-space: pre-wrap; font-size: 12px;">
+    {{ site.data.merged | jsonify | escape }}
+    </pre>
+{% endcomment %}
+<div id="olympiad-explorer"
+     class="olympiad-explorer"
+     data-olympiad='{{ site.data.merged | jsonify | escape }}'>
+
+  <div class="oe-header">
+    <h2>Olympiad Problem Explorer</h2>
+    <p>Explore problems by competition, year, subject and topic.</p>
+  </div>
+
+  <div class="oe-filters">
+
+    <div class="oe-search">
+      <input
+        type="search"
+        id="oe-search"
+        placeholder="Search problems, subjects or topics..."
+        aria-label="Search problems">
+    </div>
+
+    <div class="oe-filter-grid">
+
+      <div class="oe-filter">
+        <label for="oe-contest">Competition</label>
+        <select id="oe-contest">
+          <option value="">All competitions</option>
+        </select>
+      </div>
+
+      <div class="oe-filter">
+        <label for="oe-year">Year</label>
+        <select id="oe-year">
+          <option value="">All years</option>
+        </select>
+      </div>
+
+      <div class="oe-filter">
+        <label for="oe-subject">Subject</label>
+        <select id="oe-subject">
+          <option value="">All subjects</option>
+        </select>
+      </div>
+
+      <div class="oe-filter">
+        <label for="oe-topic">Topic</label>
+        <select id="oe-topic">
+          <option value="">All topics</option>
+        </select>
+      </div>
+
+    </div>
+
+    <div class="oe-filter-bottom">
+      <label class="oe-checkbox">
+        <input type="checkbox" id="oe-has-solutions">
+        Only show papers with solutions
+      </label>
+
+      <button type="button" id="oe-reset" class="oe-reset">
+        Reset filters
+      </button>
+    </div>
+
+  </div>
+
+  <div class="oe-results-header">
+    <span id="oe-result-count">Loading problems...</span>
+  </div>
+
+  <div id="oe-results" class="oe-results" aria-live="polite">
+  </div>
+
+</div>
+<script src="{{ '/assets/js/olympiad-explorer.js' | relative_url }}" defer></script>
