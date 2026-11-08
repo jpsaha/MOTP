@@ -37,6 +37,7 @@ echo "Running: ./update_prooly.sh"
 
 echo "Completed: prooly repository updated."
 
+python3 generate_topic_names.py
 
 # ------------------------------------------------------------
 # 2. Return to MOTP and replace PDFs
