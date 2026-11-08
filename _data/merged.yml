@@ -1,3 +1,110 @@
+ioqm:
+  2023:
+    default:
+      qq: https://www.mtai.org.in/wp-content/uploads/2023/09/IOQM_Sep_2023_Question-paper-with-answer-key.pdf
+      sol: ""
+      src: ""
+      omc: https://www.youtube.com/watch?v=f64eRcI3plY
+      problems:
+        - file: "ioqm2023p4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/Cong.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/Cong.tex"
+                - "7QS/IOQM/ioqm2023p4.tex"
+        - file: "ioqm2023p6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Polygons.tex"
+              inclusion_chain:
+                - "MOTPG/src/Polygons.tex"
+                - "7QS/IOQM/ioqm2023p6.tex"
+        - file: "ioqm2023p9.tex"
+          problem: 9
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/Cong.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/Cong.tex"
+                - "7QS/IOQM/ioqm2023p9.tex"
+        - file: "ioqm2023p10.tex"
+          problem: 10
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/IndNT.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/IndNT.tex"
+                - "7QS/IOQM/ioqm2023p10.tex"
+        - file: "ioqm2023p11.tex"
+          problem: 11
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/Cong.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/Cong.tex"
+                - "7QS/IOQM/ioqm2023p11.tex"
+        - file: "ioqm2023p12.tex"
+          problem: 12
+          usages:
+            - subject: "MOTPA"
+              includer: "MOTPA/src/IntDiv.tex"
+              inclusion_chain:
+                - "MOTPA/src/AlgWrap.tex"
+                - "MOTPA/src/IntDiv.tex"
+                - "7QS/IOQM/ioqm2023p12.tex"
+        - file: "ioqm2023p16.tex"
+          problem: 16
+          usages:
+            - subject: "MOTPC"
+              includer: "MOTPC/src/WarmUp.tex"
+              inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
+                - "MOTPC/src/WarmUp.tex"
+                - "7QS/IOQM/ioqm2023p16.tex"
+  2024:
+    default:
+      qq: https://drive.google.com/file/d/1z7-3fJuk5BW9zx9SUEumcnuuE080pQJq/view
+      sol: https://drive.google.com/file/d/1Li9nwrQ5to5OEkyEbCL9Q1AM2oa5rYsm/view
+      src: ""
+      omc: https://www.youtube.com/watch?v=p9-JCpm83DI
+      problems:
+        - file: "ioqm2024p8.tex"
+          problem: 8
+          usages:
+            - subject: "MOTPNT"
+              includer: "MOTPNT/src/Cong.tex"
+              inclusion_chain:
+                - "MOTPNT/src/NTWrap.tex"
+                - "MOTPNT/src/Cong.tex"
+                - "7QS/IOQM/ioqm2024p8.tex"
+        - file: "ioqm2024p10.tex"
+          problem: 10
+          usages:
+            - subject: "MOTPA"
+              includer: "MOTPA/src/ineq/TriIneq.tex"
+              inclusion_chain:
+                - "MOTPA/src/AlgWrap.tex"
+                - "MOTPA/src/Ineq.tex"
+                - "MOTPA/src/ineq/TriIneq.tex"
+                - "7QS/IOQM/ioqm2024p10.tex"
+        - file: "ioqm2024p15.tex"
+          problem: 15
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Pythagoras.tex"
+              inclusion_chain:
+                - "MOTPG/src/Pythagoras.tex"
+                - "7QS/IOQM/ioqm2024p15.tex"
+        - file: "ioqm2024p20.tex"
+          problem: 20
+          usages: []
 rmo:
   1990:
     default:
