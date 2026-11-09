@@ -47,8 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // Add or correct entries here as required.
   // ------------------------------------------------------------
 
-  
   function getSourcePDF(includer, subjectCode) {
+    if (!includer) return "";
+
+    const filename = includer.split("/").pop().replace(/\.tex$/i, ".pdf");
+    const baseurl = root.dataset.baseurl || "";
+
+    // Special folder for inequality-related PDFs.
+    if (subjectCode === "MOTPA" && includer.toLowerCase().includes("/src/ineq/")) {
+      return `${baseurl}/assets/pdf/Algebra/Ineq.pdf`;
+    }
+
     const subjectFolders = {
       MOTPA: "Algebra",
       MOTPC: "Combinatorics",
@@ -56,13 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
       MOTPNT: "NumberTheory"
     };
 
-    if (!includer || !subjectFolders[subjectCode]) return "";
-
-    const filename = includer.split("/").pop().replace(/\.tex$/i, ".pdf");
-    const baseurl = root.dataset.baseurl || "";
+    if (!subjectFolders[subjectCode]) return "";
 
     return `${baseurl}/assets/pdf/${subjectFolders[subjectCode]}/${filename}`;
-  }  
+  }
+  
   function getTopic(path) {
     if (!path) return "Unclassified";
 
