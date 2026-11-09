@@ -52,18 +52,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const filename = includer.split("/").pop().replace(/\.tex$/i, ".pdf");
     const baseurl = root.dataset.baseurl || "";
-
-    // Special folder for inequality-related PDFs.
-    if (subjectCode === "MOTPA" && includer.toLowerCase().includes("/src/ineq/")) {
-      return `${baseurl}/assets/pdf/Algebra/Ineq.pdf`;
-    }
-
     const subjectFolders = {
       MOTPA: "Algebra",
       MOTPC: "Combinatorics",
       MOTPG: "Geometry",
       MOTPNT: "NumberTheory"
     };
+
+    // Special folder for inequality-related PDFs.
+    if (subjectCode === "MOTPA" && includer.toLowerCase().includes("/src/ineq/")) {
+      return `${baseurl}/assets/pdf/${subjectFolders[subjectCode]}/Ineq.pdf`;
+    }
 
     if (!subjectFolders[subjectCode]) return "";
 
