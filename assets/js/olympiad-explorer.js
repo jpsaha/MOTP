@@ -238,10 +238,19 @@ document.addEventListener("DOMContentLoaded", function () {
   // ------------------------------------------------------------
 
   function populateContests() {
-    const contests = unique(problems.map(p => p.contest));
+    const contestOrder = ["ioqm", "rmo", "inmo"];
+
+    const contests = contestOrder.filter(contest =>
+      problems.some(p => p.contest === contest)
+    );
 
     addOptions(contestSelect, contests, CONTESTS);
-  }
+  }  
+  // function populateContests() {
+  //   const contests = unique(problems.map(p => p.contest));
+
+  //   addOptions(contestSelect, contests, CONTESTS);
+  // }
 
   function populateYears() {
     const contest = contestSelect.value;
