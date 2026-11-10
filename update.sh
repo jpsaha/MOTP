@@ -68,7 +68,7 @@ echo
 echo -e "${YELLOW}Generating topic names...${RESET}"
 echo -e "${BLUE}Command: python3 generate_topic_names.py${RESET}"
 
-python3 generate_topic_names.py
+python3 _scripts/generate_topic_names.py
 
 echo -e "${GREEN}Completed: topic names generated.${RESET}"
 
