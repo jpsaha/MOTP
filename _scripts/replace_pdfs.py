@@ -35,7 +35,7 @@ from typing import Tuple
 # Configuration
 # ============================================================
 
-SCRIPT_DIR = Path(__file__).resolve().parents[1]
+SCRIPT_DIR = Path(__file__).resolve().parents[2]
 
 # Assumes replace_pdfs.py is inside the common parent of MOTP and prooly.
 PROOLY_ROOT = SCRIPT_DIR / "prooly"

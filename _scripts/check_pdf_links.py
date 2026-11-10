@@ -11,7 +11,7 @@ import re
 # 1. CONFIGURATION
 # ============================================================
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 
 SITE_DIR = ROOT / "_site"
 PDF_DIR = ROOT / "assets" / "pdf"
