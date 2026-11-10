@@ -222,6 +222,12 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function paperLabel(problem) {
+    const source = String(problem.src || "").trim();
+
+    if (source) {
+      return ` · ${source}`;
+    }
+
     return problem.variant === "default"
       ? ""
       : ` · Paper ${problem.variant.toUpperCase()}`;
