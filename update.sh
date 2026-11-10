@@ -81,7 +81,7 @@ cd ../MOTP
 echo
 echo -e "${CYAN}${BOLD}============================================================${RESET}"
 echo -e "${CYAN}${BOLD}STEP 2/7: Replacing existing PDFs${RESET}"
-echo -e "${BLUE}Command: python3 replace_pdfs.py --apply${RESET}"
+echo -e "${BLUE}Command: python3 _scripts/replace_pdfs.py --apply${RESET}"
 echo -e "${CYAN}${BOLD}============================================================${RESET}"
 
 # Replace matching PDFs in MOTP with the newly built PDFs
@@ -90,7 +90,7 @@ echo -e "${CYAN}${BOLD}=========================================================
 echo
 echo -e "${YELLOW}Replacing existing PDFs...${RESET}"
 
-python3 replace_pdfs.py --apply
+python3 _scripts/replace_pdfs.py --apply
 
 echo -e "${GREEN}Completed: PDF replacement.${RESET}"
 
@@ -169,7 +169,7 @@ echo -e "${CYAN}${BOLD}=========================================================
 echo
 echo -e "${YELLOW}[1/3] Generating ACGNT-related data...${RESET}"
 
-python3 acgnt.py
+python3 _scripts/acgnt.py
 
 echo -e "${GREEN}Completed: ACGNT data.${RESET}"
 
@@ -179,7 +179,7 @@ echo -e "${GREEN}Completed: ACGNT data.${RESET}"
 echo
 echo -e "${YELLOW}[2/3] Generating MOPSS-related data...${RESET}"
 
-python3 mopss.py
+python3 _scripts/mopss.py
 
 echo -e "${GREEN}Completed: MOPSS data.${RESET}"
 
@@ -189,7 +189,7 @@ echo -e "${GREEN}Completed: MOPSS data.${RESET}"
 echo
 echo -e "${YELLOW}[3/3] Generating PYQ data...${RESET}"
 
-python3 pyq.py
+python3 _scripts/pyq.py
 
 echo -e "${GREEN}Completed: PYQ data.${RESET}"
 
@@ -200,7 +200,7 @@ echo -e "${GREEN}Completed: PYQ data.${RESET}"
 echo
 echo -e "${CYAN}${BOLD}============================================================${RESET}"
 echo -e "${CYAN}${BOLD}STEP 7/7: Checking PDF links${RESET}"
-echo -e "${BLUE}Command: python3 check_pdf_links.py${RESET}"
+echo -e "${BLUE}Command: python3 _scripts/check_pdf_links.py${RESET}"
 echo -e "${CYAN}${BOLD}============================================================${RESET}"
 
 # Check the PDF links used throughout the MOTP website.
@@ -208,7 +208,7 @@ echo -e "${CYAN}${BOLD}=========================================================
 echo
 echo -e "${YELLOW}Checking PDF links...${RESET}"
 
-python3 check_pdf_links.py
+python3 _scripts/check_pdf_links.py
 
 echo -e "${GREEN}Completed: PDF link check.${RESET}"
 
