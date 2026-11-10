@@ -66,7 +66,7 @@ echo -e "${GREEN}Completed: prooly repository updated.${RESET}"
 
 echo
 echo -e "${YELLOW}Generating topic names...${RESET}"
-echo -e "${BLUE}Command: python3 generate_topic_names.py${RESET}"
+echo -e "${BLUE}Command: python3 _scripts/generate_topic_names.py${RESET}"
 
 python3 _scripts/generate_topic_names.py
 
