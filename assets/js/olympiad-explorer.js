@@ -265,7 +265,7 @@ document.addEventListener("DOMContentLoaded", function () {
       !contest || p.contest === contest
     );
 
-    addOptions(yearSelect, unique(filtered.map(p => p.year)));
+    addOptions(yearSelect, unique(filtered.map(p => p.year)).sort((a, b) => Number(b) - Number(a)));
   }
 
   function populateSubjects() {
