@@ -802,8 +802,8 @@ rmo:
                 - "7QS/RMO/rmo2001p7.tex"
   2002:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2002.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2002.pdf
       src: ""
       omc: ""
       problems:
@@ -855,8 +855,8 @@ rmo:
                 - "7QS/RMO/rmo2002p7.tex"
   2003:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2003.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2003.pdf
       src: ""
       omc: ""
       problems:
@@ -1357,8 +1357,8 @@ rmo:
                 - "7QS/RMO/rmo2011bp6.tex"
   2012:
     a:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-1.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-1.pdf
       src: CRMO 1
       omc: ""
       problems:
@@ -1400,8 +1400,8 @@ rmo:
                 - "MOTPA/src/Quartic.tex"
                 - "7QS/RMO/rmo2012ap6.tex"
     b:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-2.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-2.pdf
       src: CRMO 2
       omc: ""
       problems:
@@ -1451,8 +1451,8 @@ rmo:
                 - "MOTPA/src/Cubic.tex"
                 - "7QS/RMO/rmo2012bp6.tex"
     c:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-3.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-3.pdf
       src: CRMO 3
       omc: ""
       problems:
@@ -1502,8 +1502,8 @@ rmo:
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2012cp6.tex"
     d:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-4.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-4.pdf
       src: CRMO 4
       omc: ""
       problems:
@@ -3247,8 +3247,8 @@ inmo:
                 - "7QS/INMO/inmo1996p3.tex"
   2001:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2001.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2001.pdf
       src: ""
       omc: ""
       problems:
@@ -3296,8 +3296,8 @@ inmo:
                 - "7QS/INMO/inmo2013p4.tex"
   2015:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
       src: ""
       omc: ""
       problems:
