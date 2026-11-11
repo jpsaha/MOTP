@@ -22,12 +22,16 @@
           {{ item[contest].yr }}{{ letters[forloop.index0] }}
         {% endif %}
       {% endcomment %}
-      {%- if member.qq or member.sol or total_disc > 0 -%}
-        {%- if member.qq -%}
+      {%- if member.qq or member.qqisi or member.sol or total_disc > 0 -%}
+        {% if member.qq %}
           <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-file-pdf fa-2x"></i>
           </a>
-        {%- endif -%}
+        {% elsif member.qqisi %}
+          <a href="{{ member.qqisi }}" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-file-pdf fa-2x"></i>
+          </a>
+        {% endif %}
         {%- if member.sol and member.sol != member.qq -%}
           <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-file-pdf fa-2x"></i>
