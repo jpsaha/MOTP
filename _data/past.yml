@@ -82,8 +82,8 @@
         sol:
         src: KV or JNV
         omc: https://www.omath.club/2024/11/rmo-2024-discussing-solutions.html
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/Official-Solutions-for-RMO-2024.pdf
-        sol:
+      - qq: 
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/Official-Solutions-for-RMO-2024.pdf
         src: Non-KV and Non-JNV
         omc: https://www.youtube.com/live/xCFjzFnk_sk
     aops:
