@@ -28,7 +28,7 @@
             <i class="fa-solid fa-file-pdf fa-2x"></i>
           </a>
         {%- endif -%}
-        {%- if member.sol -%}
+        {%- if member.sol and member.sol != member.qq -%}
           <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-file-pdf fa-2x"></i>
           </a>
