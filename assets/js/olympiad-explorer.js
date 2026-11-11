@@ -224,14 +224,20 @@ document.addEventListener("DOMContentLoaded", function () {
   function paperLabel(problem) {
     const source = String(problem.src || "").trim();
 
+    const paper = problem.variant === "default"
+      ? ""
+      : `Paper ${problem.variant.toUpperCase()}`;
+
+    if (source && paper) {
+      return ` · ${source} · ${paper}`;
+    }
+
     if (source) {
       return ` · ${source}`;
     }
 
-    return problem.variant === "default"
-      ? ""
-      : ` · Paper ${problem.variant.toUpperCase()}`;
-  }
+    return paper ? ` · ${paper}` : "";
+  }  
 
   // ------------------------------------------------------------
   // 7. Populate filters
