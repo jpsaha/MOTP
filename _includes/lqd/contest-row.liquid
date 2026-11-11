@@ -31,6 +31,10 @@
         <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
           <i class="fa-solid fa-file-pdf fa-2x"></i>
         </a>
+      {% elsif member.qqisi %}
+        <a href="{{ member.qqisi }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf fa-2x"></i>
+        </a>
       {% endif %}
 
       {% if member.sol and member.sol != member.qq %}
