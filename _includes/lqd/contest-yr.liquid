@@ -25,19 +25,18 @@
     {% for member in item[contest].qn %}
       <tr>
         <td>
-          {% if member.qq %}
-            <a href="{{ member.qq }}" target="_blank" rel="noopener noreferrer">
-              <i class="fa-solid fa-file-pdf fa-2x"></i>
-            </a>
-          {% elsif member.qqisi %}
-            <a href="{{ member.qqisi }}" target="_blank" rel="noopener noreferrer">
+          {% assign question_url = member.qq | default: member.qqisi %}
+
+          {% if question_url %}
+            <a href="{{ question_url }}" target="_blank" rel="noopener noreferrer">
               <i class="fa-solid fa-file-pdf fa-2x"></i>
             </a>
           {% endif %}
         </td>
         <td>
-          {% if member.sol %}
-            <a href="{{ member.sol }}" target="_blank" rel="noopener noreferrer">
+          {% assign solution_url = member.sol | default: member.qqisisol %}
+          {% if solution_url and solution_url != question_url %}
+            <a href="{{ solution_url }}" target="_blank" rel="noopener noreferrer">
               <i class="fa-solid fa-file-pdf fa-2x"></i>
             </a>
           {% endif %}
