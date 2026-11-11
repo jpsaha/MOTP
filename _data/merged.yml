@@ -696,8 +696,8 @@ rmo:
                 - "7QS/RMO/rmo1999p7.tex"
   2000:
     default:
-      qq: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2000.pdf
-      sol: ""
+      qq: ""
+      sol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2000.pdf
       src: ""
       omc: ""
       problems:
@@ -908,8 +908,8 @@ rmo:
                 - "7QS/RMO/rmo2003p7.tex"
   2004:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2004.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2004.pdf
       src: ""
       omc: ""
       problems:
@@ -961,8 +961,8 @@ rmo:
                 - "7QS/RMO/rmo2004p7.tex"
   2005:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2005.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2005.pdf
       src: ""
       omc: ""
       problems:
@@ -1023,8 +1023,8 @@ rmo:
                 - "7QS/RMO/rmo2005p7.tex"
   2006:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2006.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2006.pdf
       src: ""
       omc: ""
       problems:
@@ -1076,8 +1076,8 @@ rmo:
                 - "7QS/RMO/rmo2006p7.tex"
   2007:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2007.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2007.pdf
       src: ""
       omc: ""
       problems:
@@ -1123,8 +1123,8 @@ rmo:
                 - "7QS/RMO/rmo2007p6.tex"
   2008:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2008.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2008.pdf
       src: ""
       omc: ""
       problems:
@@ -1167,8 +1167,8 @@ rmo:
                 - "7QS/RMO/rmo2008p5.tex"
   2009:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2009.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2009.pdf
       src: ""
       omc: ""
       problems:
@@ -1220,8 +1220,8 @@ rmo:
                 - "7QS/RMO/rmo2009p6.tex"
   2010:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2010.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2010.pdf
       src: ""
       omc: ""
       problems:
@@ -1263,8 +1263,8 @@ rmo:
                 - "7QS/RMO/rmo2010p6.tex"
   2011:
     a:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2011-solutions.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2011-solutions.pdf
       src: ""
       omc: ""
       problems:
@@ -1601,8 +1601,8 @@ rmo:
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2012ep6.tex"
     f:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2012-mumbai-region.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2012-mumbai-region.pdf
       src: Mumbai
       omc: ""
       problems:
@@ -2749,8 +2749,8 @@ rmo:
                 - "7QS/RMO/rmo2017bp5.tex"
   2018:
     a:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-crmo-18.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-crmo-18.pdf
       src: ""
       omc: ""
       problems:
@@ -2792,8 +2792,8 @@ rmo:
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2018ap5.tex"
     b:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-KL-TN-18.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-KL-TN-18.pdf
       src: Kerala and Tamil Nadu?
       omc: ""
       problems:
@@ -3051,8 +3051,8 @@ rmo:
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2024ap6.tex"
     b:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/Official-Solutions-for-RMO-2024.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/Official-Solutions-for-RMO-2024.pdf
       src: Non-KV and Non-JNV
       omc: https://www.youtube.com/live/xCFjzFnk_sk
       problems:
@@ -3264,8 +3264,8 @@ inmo:
                 - "7QS/INMO/inmo2001p3.tex"
   2002:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2002.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2002.pdf
       src: ""
       omc: ""
       problems:
@@ -3280,8 +3280,8 @@ inmo:
                 - "7QS/INMO/inmo2002p2.tex"
   2013:
     default:
-      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo2013-solutions.pdf
-      sol: ""
+      qq: ""
+      sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo2013-solutions.pdf
       src: ""
       omc: ""
       problems:
