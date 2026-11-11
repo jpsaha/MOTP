@@ -468,23 +468,23 @@
     yr: 2015
     qn:
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-3.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-3.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-3.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-3.pdf
         src: CRMO 3 (West Bengal?)
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-4.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-4.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-4.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-4.pdf
         src: CRMO 4 (Karnataka?)
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-5.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-mumbai.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-mumbai.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-5.pdf
         src: Mumbai
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-2.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-2.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-2.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-2.pdf
         src: CRMO 2 (Odisha?)
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-1.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-1.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2015-1.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-1.pdf
         src: CRMO 1
       - qq:
@@ -500,7 +500,7 @@
     yr: 2016
     qn:
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/INMO-2016-English-Version.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2016.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2016.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-inmo16.pdf
         src:
     aops:
@@ -530,23 +530,23 @@
     yr: 2014
     qn:
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol_crmo_14_1.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-1.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-1.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo-14-1.pdf
         src: CRMO 1
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-14-2.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-2.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-2.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo-14-2.pdf
         src: CRMO 2
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-14-3.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-3.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-3.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo-14-3.pdf
         src: CRMO 3
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-14-4.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-4.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-4.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo-14-4.pdf
         src: CRMO 4
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-14-5.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-mumbai.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2014-mumbai.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo-14-5.pdf
         src: Mumbai
     aops:
@@ -558,7 +558,7 @@
     yr: 2015
     qn:
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2015.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2015.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
         src:
     aops:
@@ -588,23 +588,23 @@
     yr: 2013
     qn:
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-paper-1.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-1.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-1.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-solutions-1.pdf
         src: CRMO 1
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-paper-2.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-2.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-2.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-solutions-2.pdf
         src: CRMO 2
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-paper-3.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-3.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-3.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-solutions-3.pdf
         src: CRMO 3
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-paper-4.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-4.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-4.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-2013-solutions-4.pdf
         src: CRMO 4
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2013-mumbai-region.pdf
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-mumbai.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2013-mumbai.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-to-rmo-2013-mumbai-region.pdf
         src: Mumbai
     aops:
@@ -616,7 +616,7 @@
     yr: 2014
     qn:
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2014.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2014.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2014.pdf
         src:
     aops:
@@ -646,19 +646,19 @@
     yr: 2012
     qn:
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-1.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-1.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-1.pdf
         src: CRMO 1
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-2.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-2.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-2.pdf
         src: CRMO 2
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-3.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-3.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-3.pdf
         src: CRMO 3
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-4.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-4.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-4.pdf
         src: CRMO 4
       - qq:
@@ -666,7 +666,7 @@
         sol:
         src: AoPS
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-mumbai.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-mumbai.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2012-mumbai-region.pdf
         src: Mumbai
     aops:
@@ -678,7 +678,7 @@
     yr: 2013
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2013.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2013.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo2013-solutions.pdf
         src:
     aops:
@@ -708,7 +708,7 @@
     yr: 2011
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2011-crmo.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2011-crmo.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2011-solutions.pdf
         src:
       - qq:
@@ -724,7 +724,7 @@
     yr: 2012
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2012.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2012.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2012.pdf
         src:
     aops:
@@ -754,7 +754,7 @@
     yr: 2010
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2010.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2010.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2010.pdf
         src:
     aops:
@@ -766,7 +766,7 @@
     yr: 2011
     qn:
       - qq: 
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2011.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2011.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2011.pdf
         src:
     aops:
@@ -785,7 +785,7 @@
     yr: 2009
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2009.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2009.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2009.pdf
         src:
     aops:
@@ -797,7 +797,7 @@
     yr: 2010
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2010.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2010.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/INMO2010.pdf
         src:
     aops:
@@ -816,7 +816,7 @@
     yr: 2008
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2008.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2008.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2008.pdf
         src:
     aops:
@@ -828,7 +828,7 @@
     yr: 2009
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2009.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2009.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2009-1.pdf
         src:
     aops:
@@ -847,7 +847,7 @@
     yr: 2007
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2007.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2007.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-2007.pdf
         src:
     aops:
@@ -858,7 +858,8 @@
   inmo:
     yr: 2008
     qn:
-      - qq: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2008.pdf
+      - qq: 
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2008.pdf
         sol:
         src:
     aops:
@@ -889,7 +890,7 @@
     yr: 2007
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2007.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2007.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2007.pdf
         src:
     aops:
@@ -1044,7 +1045,7 @@
     yr: 2002
     qn:
       - qq:
-        qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2002.pdf
+        qqisisol: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2002.pdf
         sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-2002.pdf
         src:
     aops:
