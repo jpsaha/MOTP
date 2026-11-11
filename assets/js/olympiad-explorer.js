@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const paper = problem.variant === "default"
       ? ""
-      : `Paper ${problem.variant.toUpperCase()}`;
+      : problem.variant;
 
     if (source && paper) {
       return ` · ${source} · ${paper}`;
