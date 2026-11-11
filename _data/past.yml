@@ -557,9 +557,9 @@
   inmo:
     yr: 2015
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2015.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmosol-15.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4941_2015_india_national_olympiad
@@ -645,21 +645,21 @@
   rmo:
     yr: 2012
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-1.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-1.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-1.pdf
         src: CRMO 1
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-2.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-2.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-2.pdf
         src: CRMO 2
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-3.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-3.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-3.pdf
         src: CRMO 3
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-4.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2012-4.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmosol-12-4.pdf
         src: CRMO 4
       - qq:
         qqisi:
@@ -765,9 +765,9 @@
   inmo:
     yr: 2011
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2011.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2011.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2011.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4937_2011_india_national_olympiad
@@ -969,9 +969,9 @@
   rmo:
     yr: 2003
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2003.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2003.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2003.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4984_2003_india_regional_mathematical_olympiad
@@ -1000,9 +1000,9 @@
   rmo:
     yr: 2002
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2002.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-2002.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-sol-2002.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4983_2002_india_regional_mathematical_olympiad
@@ -1073,9 +1073,9 @@
   inmo:
     yr: 2001
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2001.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2001.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2001.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4927_2001_india_national_olympiad
@@ -1103,9 +1103,9 @@
   inmo:
     yr: 2000
     qn:
-      - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2000.pdf
+      - qq: 
         qqisi: https://www2.isical.ac.in/~rmo/papers/inmo/inmo-2000.pdf
-        sol:
+        sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/inmo-sol-2000.pdf
         src:
     aops:
       - qq: https://artofproblemsolving.com/community/c4926_2000_india_national_olympiad
