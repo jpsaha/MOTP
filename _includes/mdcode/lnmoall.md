@@ -1,9 +1,6 @@
-<!-- 
-{% assign subjects = "Algebra,Combinatorics,Geometry,Number Theory" | split: "," %}
-{% assign subject_icons = "fa-superscript,fa-shapes,fa-draw-polygon,fa-infinity" | split: "," %} -->
 
-{% assign subjects = "Algebra,Combinatorics,Number Theory" | split: "," %}
-{% assign subject_icons = "fa-superscript,fa-shapes,fa-infinity" | split: "," %}
+{% assign subjects = "Algebra,Combinatorics,Geometry,Number Theory" | split: "," %}
+{% assign subject_icons = "fa-superscript,fa-shapes,fa-draw-polygon,fa-infinity" | split: "," %}
 
 {% for subject in subjects %}
   {% assign i = forloop.index0 %}
