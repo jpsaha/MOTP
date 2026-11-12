@@ -597,6 +597,11 @@ ninja.data = [{
           description: "",
           section: "Comb",handler: () => {
               window.location.href = "/MOTP/comb/warmup/";
+            },},{id: "geo-congruence-and-similarity-of-triangles",
+          title: 'Congruence and similarity of triangles',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/congsimi/";
             },},{id: "geo-parallelograms",
           title: 'Parallelograms',
           description: "",
