@@ -44,10 +44,14 @@ Combinatorics,Counting via bijections,2025/CountBijec,CountBijec
 Combinatorics,Counting the complement,2025/CountComple,CountComple
 Combinatorics,Counting in two different ways,2025/CountTwoDiff,CountTwoDiff
 Combinatorics,Generating functions,2025/GenFun,GenFun
+Geometry,Triangles,,Triangles
 Geometry,Polygons,2025/Polygons,Polygons
 Geometry,Congruence and similarity of triangles,,CongSimi
 Geometry,Parallelograms,2025/Parallelograms,Parallelograms
 Geometry,Pythagoras' theorem,2025/Pythagoras,Pythagoras
+Geometry,Circles,,Circles
+Geometry,Power of a point and radical axis,,PowerPt
+Geometry,Cyclic Quadrilaterals,,CyclicQuad
 Number Theory,Warm up,2025/WarmUp,WarmUp
 Number Theory,Infinite descent,2025/InfDes,InfDes
 Number Theory,Induction,2025/IndNT,IndNT
