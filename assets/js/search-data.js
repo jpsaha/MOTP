@@ -597,11 +597,21 @@ ninja.data = [{
           description: "",
           section: "Comb",handler: () => {
               window.location.href = "/MOTP/comb/warmup/";
+            },},{id: "geo-circles",
+          title: 'Circles',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/circles/";
             },},{id: "geo-congruence-and-similarity-of-triangles",
           title: 'Congruence and similarity of triangles',
           description: "",
           section: "Geo",handler: () => {
               window.location.href = "/MOTP/geo/congsimi/";
+            },},{id: "geo-cyclic-quadrilaterals",
+          title: 'Cyclic Quadrilaterals',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/cyclicquad/";
             },},{id: "geo-parallelograms",
           title: 'Parallelograms',
           description: "",
@@ -612,11 +622,21 @@ ninja.data = [{
           description: "",
           section: "Geo",handler: () => {
               window.location.href = "/MOTP/geo/polygons/";
+            },},{id: "geo-power-of-a-point-and-radical-axis",
+          title: 'Power of a point and radical axis',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/powerpt/";
             },},{id: "geo-pythagoras-39-theorem",
           title: 'Pythagoras&amp;#39; theorem',
           description: "",
           section: "Geo",handler: () => {
               window.location.href = "/MOTP/geo/pythagoras/";
+            },},{id: "geo-triangles",
+          title: 'Triangles',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/triangles/";
             },},{id: "imotc-imotc-2025",
           title: 'IMOTC 2025',
           description: "International Mathematical Olympiad Training Camp 2025. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
