@@ -22,6 +22,39 @@ Pre-Regional Mathematical Olympiad
 
 {% include lqd/pastqpdisp.liquid %}
 
+---
+
+{% include lqd/olympiad-explorer.liquid %}
+
+---
+
+{% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
+{{ lnmo | markdownify }}
+
+---
+
+{% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
+{{ content | markdownify }}
+
+#### {{ mycom | upcase }} ({{ mycomful }})
+
+{% if page.title == "IOQM" %}
+
+  {% capture content %}{% include mdcontent/mostages/ioqm.md %}{% endcapture %}
+  {{ content | markdownify }}
+
+{% elsif page.title == "RMO" %}
+
+  {% capture content %}{% include mdcontent/mostages/rmo.md %}{% endcapture %}
+  {{ content | markdownify }}
+
+{% elsif page.title == "INMO" %}
+
+  {% capture content %}{% include mdcontent/mostages/inmo.md %}{% endcapture %}
+  {{ content | markdownify }}
+{% endif %}
+
+---
 {% comment %}
 > ##### Links to Past Question Papers, Previous Years’ Question papers of {% if tst != 'prmo' %}{{ mycom | upcase }}{% else %}Pre-RMO{% endif %} ({{ mycomful }})
 {% endcomment %}

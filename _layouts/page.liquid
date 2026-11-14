@@ -64,9 +64,9 @@ layout: default
       {% endif %}
       {{ content }}
       {% if page.lnmo %}
+        {% include lqd/olympiad-explorer.liquid %}
         {% capture lnmo %}{% include mdcode/lnmoall.md %}{% endcapture %}
         {{ lnmo | markdownify }}
-        {% include lqd/olympiad-explorer.liquid %}
       {% endif %}
     </div>
   </article>

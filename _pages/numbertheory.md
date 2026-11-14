@@ -38,6 +38,7 @@ pretty_table: true
 
 {{ jnotes }}
 
+{% include lqd/olympiad-explorer.liquid %}
 {% capture jnotess %}{% include mdcode/lnmoall.md %}{% endcapture %}
 
 {{ jnotess }}
