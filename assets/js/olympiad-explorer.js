@@ -356,7 +356,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="oe-problem-heading">
 
             <div class="oe-problem-number" aria-hidden="true">
-              ${escapeHTML(p.number)}
+              P${escapeHTML(p.number)}
             </div>
 
             <div class="oe-problem-details">
