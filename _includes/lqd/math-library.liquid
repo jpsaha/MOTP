@@ -6,28 +6,33 @@
   {% when 'Algebra' %}
     {% assign prefix = 'alg' %}
     {% assign subject_icon = 'fa-superscript' %}
+    {% assign subject_color = '#3478C8' %}
   {% when 'Combinatorics' %}
     {% assign prefix = 'comb' %}
     {% assign subject_icon = 'fa-shapes' %}
+    {% assign subject_color = '#159B83' %}
   {% when 'Geometry' %}
     {% assign prefix = 'geo' %}
     {% assign subject_icon = 'fa-draw-polygon' %}
+    {% assign subject_color = '#E07845' %}
   {% when 'Number Theory' %}
     {% assign prefix = 'nt' %}
     {% assign subject_icon = 'fa-infinity' %}
+    {% assign subject_color = '#8964C8' %}
   {% else %}
     {% assign prefix = '' %}
     {% assign subject_icon = 'fa-book-open' %}
+    {% assign subject_color = 'var(--global-theme-color)' %}
 {% endcase %}
 
-
-{% if page.title != 'Geometry' %}
 <div class="math-library">
 
   <div class="math-library-heading">
-    <span class="math-library-heading-icon">
+    <span class="math-library-heading-icon"
+          style="color: {{ subject_color }};">
       <i class="fas {{ subject_icon }}"></i>
     </span>
+
     <h2>Past {{ subject }} Problems</h2>
   </div>
 
@@ -69,5 +74,3 @@
 
   </div>
 </div>
-
-{% endif %}
