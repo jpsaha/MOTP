@@ -602,6 +602,16 @@ ninja.data = [{
           description: "",
           section: "Geo",handler: () => {
               window.location.href = "/MOTP/geo/circles/";
+            },},{id: "geo-using-complex-numbers",
+          title: 'Using complex numbers',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/complex/";
+            },},{id: "geo-concurrency-and-collinearity",
+          title: 'Concurrency and Collinearity',
+          description: "",
+          section: "Geo",handler: () => {
+              window.location.href = "/MOTP/geo/concurcollin/";
             },},{id: "geo-congruence-and-similarity-of-triangles",
           title: 'Congruence and similarity of triangles',
           description: "",
