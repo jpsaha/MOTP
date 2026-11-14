@@ -354,7 +354,13 @@ document.addEventListener("DOMContentLoaded", function () {
         <article class="oe-problem-card">
 
           <div class="oe-problem-heading">
-            <div>
+
+            <div class="oe-problem-number" aria-hidden="true">
+              ${escapeHTML(p.number)}
+            </div>
+
+            <div class="oe-problem-details">
+
               <span class="oe-contest-label">
                 ${escapeHTML(contestName)}
                 · ${escapeHTML(p.year)}
@@ -362,17 +368,18 @@ document.addEventListener("DOMContentLoaded", function () {
               </span>
 
               <h3>Problem ${escapeHTML(p.number)}</h3>
+
+              <div class="oe-tags">
+                <span class="oe-tag">
+                  ${escapeHTML(p.subject)}
+                </span>
+
+                <span class="oe-tag oe-topic-tag">
+                  ${escapeHTML(p.topic)}
+                </span>
+              </div>
+
             </div>
-          </div>
-
-          <div class="oe-tags">
-            <span class="oe-tag">
-              ${escapeHTML(p.subject)}
-            </span>
-
-            <span class="oe-tag oe-topic-tag">
-              ${escapeHTML(p.topic)}
-            </span>
           </div>
 
           <div class="oe-card-footer">
