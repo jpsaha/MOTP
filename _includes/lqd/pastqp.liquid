@@ -1,24 +1,32 @@
+
 {% comment %}
   pastqp.liquid
+
   Used in: _pages/rmo.md, _pages/inmo.md, _pages/ioqm.md
-  Renders past question papers for the respective contest, 
-  using _includes/lqd/pastqpdisp.liquid, _includes/lqd/pastpapers.liquid
+
+  Renders past question papers for each contest in `tsts`.
+
+  Dependencies:
+    _includes/lqd/pastqpdisp.liquid
+    _includes/lqd/olympiad-explorer.liquid
+    _includes/lqd/pastpapers.liquid
+    _includes/mdcode/lnmoall.md
+    _includes/mdcontent/mostages/
 {% endcomment %}
 
-{% for element in tsts %}
-{% assign tst = element %}
-{%- capture mycom -%}{{ tst }}{%- endcapture -%}
-{%- capture mycomful -%}
-{%- if tst == 'rmo' -%}
-Regional Mathematical Olympiad
-{%- elsif tst == 'ioqm' -%}
-Indian Olympiad Qualifier in Mathematics
-{%- elsif tst == 'inmo' -%}
-Indian National Mathematical Olympiad
-{%- elsif tst == 'prmo' -%}
-Pre-Regional Mathematical Olympiad
-{%- endif -%}
-{%- endcapture -%}
+{% for tst in tsts %}
+
+{% comment %} Contest name {% endcomment %}
+{% case tst %}
+  {% when 'rmo' %}
+    {% assign mycomful = 'Regional Mathematical Olympiad' %}
+  {% when 'ioqm' %}
+    {% assign mycomful = 'Indian Olympiad Qualifier in Mathematics' %}
+  {% when 'inmo' %}
+    {% assign mycomful = 'Indian National Mathematical Olympiad' %}
+  {% when 'prmo' %}
+    {% assign mycomful = 'Pre-Regional Mathematical Olympiad' %}
+{% endcase %}
 
 {% include lqd/pastqpdisp.liquid %}
 
@@ -36,23 +44,22 @@ Pre-Regional Mathematical Olympiad
 {% capture content %}{% include mdcontent/mostages/stages.md %}{% endcapture %}
 {{ content | markdownify }}
 
-#### {{ mycom | upcase }} ({{ mycomful }})
+#### {{ tst | upcase }} ({{ mycomful }})
 
-{% if page.title == "IOQM" %}
+{% comment %} Contest-specific information {% endcomment %}
+{% case tst %}
+{% when 'ioqm' %}
+{% capture content %}{% include mdcontent/mostages/ioqm.md %}{% endcapture %}
+{{ content | markdownify }}
 
-  {% capture content %}{% include mdcontent/mostages/ioqm.md %}{% endcapture %}
-  {{ content | markdownify }}
+{% when 'rmo' %}
+{% capture content %}{% include mdcontent/mostages/rmo.md %}{% endcapture %}
+{{ content | markdownify }}
 
-{% elsif page.title == "RMO" %}
-
-  {% capture content %}{% include mdcontent/mostages/rmo.md %}{% endcapture %}
-  {{ content | markdownify }}
-
-{% elsif page.title == "INMO" %}
-
-  {% capture content %}{% include mdcontent/mostages/inmo.md %}{% endcapture %}
-  {{ content | markdownify }}
-{% endif %}
+{% when 'inmo' %}
+{% capture content %}{% include mdcontent/mostages/inmo.md %}{% endcapture %}
+{{ content | markdownify }}
+{% endcase %}
 
 ---
 {% comment %}
