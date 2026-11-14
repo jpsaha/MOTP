@@ -169,6 +169,15 @@ rmo:
         - file: "rmo1990p7.tex"
           problem: 7
           usages: []
+        - file: "rmo1990p8.tex"
+          problem: 8
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1990p8.tex"
   1991:
     default:
       qq: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1991.pdf
@@ -176,6 +185,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1991p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/ConcurCollin.tex"
+              inclusion_chain:
+                - "MOTPG/src/ConcurCollin.tex"
+                - "7QSgeo/RMO/rmo1991p1.tex"
         - file: "rmo1991p2.tex"
           problem: 2
           usages:
@@ -204,6 +221,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Induction.tex"
                 - "7QS/RMO/rmo1991p4.tex"
+        - file: "rmo1991p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo1991p5.tex"
         - file: "rmo1991p6.tex"
           problem: 6
           usages:
@@ -265,6 +290,30 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/BinCo.tex"
                 - "7QS/RMO/rmo1992p3.tex"
+        - file: "rmo1992p4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo1992p4.tex"
+        - file: "rmo1992p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo1992p5.tex"
+        - file: "rmo1992p6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo1992p6.tex"
         - file: "rmo1992p7.tex"
           problem: 7
           usages:
@@ -284,6 +333,15 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/SysEqn.tex"
                 - "7QS/RMO/rmo1992p8.tex"
+        - file: "rmo1992p9.tex"
+          problem: 9
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1992p9.tex"
   1993:
     default:
       qq: https://www2.isical.ac.in/~rmo/papers/rmo/rmo-1993.pdf
@@ -291,6 +349,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1993p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1993p1.tex"
         - file: "rmo1993p2.tex"
           problem: 2
           usages:
@@ -372,6 +439,15 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/AP.tex"
                 - "7QS/RMO/rmo1994p1.tex"
+        - file: "rmo1994p2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1994p2.tex"
         - file: "rmo1994p3.tex"
           problem: 3
           usages:
@@ -399,6 +475,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo1994p5.tex"
+        - file: "rmo1994p6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo1994p6.tex"
         - file: "rmo1994p7.tex"
           problem: 7
           usages:
@@ -425,6 +509,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1995p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1995p1.tex"
         - file: "rmo1995p2.tex"
           problem: 2
           usages:
@@ -488,6 +581,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1996p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1996p1.tex"
         - file: "rmo1996p2.tex"
           problem: 2
           usages:
@@ -550,6 +652,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1997p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo1997p1.tex"
         - file: "rmo1997p2.tex"
           problem: 2
           usages:
@@ -604,6 +714,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1998p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1998p1.tex"
         - file: "rmo1998p2.tex"
           problem: 2
           usages:
@@ -623,6 +742,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/Bunch.tex"
                 - "7QS/RMO/rmo1998p3.tex"
+        - file: "rmo1998p4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QSgeo/RMO/rmo1998p4.tex"
         - file: "rmo1998p5.tex"
           problem: 5
           usages:
@@ -648,6 +775,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo1999p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo1999p1.tex"
         - file: "rmo1999p2.tex"
           problem: 2
           usages:
@@ -657,6 +793,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo1999p2.tex"
+        - file: "rmo1999p3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo1999p3.tex"
         - file: "rmo1999p4.tex"
           problem: 4
           usages:
@@ -701,6 +845,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2000p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2000p1.tex"
         - file: "rmo2000p2.tex"
           problem: 2
           usages:
@@ -729,6 +882,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2000p4.tex"
+        - file: "rmo2000p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2000p5.tex"
         - file: "rmo2000p6.tex"
           problem: 6
           usages:
@@ -754,6 +915,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2001p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2001p1.tex"
         - file: "rmo2001p2.tex"
           problem: 2
           usages:
@@ -781,6 +950,15 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2001p4.tex"
+        - file: "rmo2001p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2001p5.tex"
         - file: "rmo2001p6.tex"
           problem: 6
           usages:
@@ -807,6 +985,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2002p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2002p1.tex"
         - file: "rmo2002p2.tex"
           problem: 2
           usages:
@@ -834,6 +1021,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/ArrangeInOrder.tex"
                 - "7QS/RMO/rmo2002p4.tex"
+        - file: "rmo2002p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2002p5.tex"
         - file: "rmo2002p6.tex"
           problem: 6
           usages:
@@ -860,6 +1055,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2003p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QSgeo/RMO/rmo2003p1.tex"
         - file: "rmo2003p2.tex"
           problem: 2
           usages:
@@ -888,6 +1091,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/SysEqn.tex"
                 - "7QS/RMO/rmo2003p4.tex"
+        - file: "rmo2003p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2003p5.tex"
         - file: "rmo2003p6.tex"
           problem: 6
           usages:
@@ -913,6 +1124,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2004p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/PowerPt.tex"
+              inclusion_chain:
+                - "MOTPG/src/PowerPt.tex"
+                - "7QSgeo/RMO/rmo2004p1.tex"
         - file: "rmo2004p2.tex"
           problem: 2
           usages:
@@ -940,6 +1159,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountComple.tex"
                 - "7QS/RMO/rmo2004p4.tex"
+        - file: "rmo2004p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2004p5.tex"
         - file: "rmo2004p6.tex"
           problem: 6
           usages:
@@ -1002,6 +1229,15 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2005p4.tex"
+        - file: "rmo2005p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2005p5.tex"
         - file: "rmo2005p6.tex"
           problem: 6
           usages:
@@ -1028,6 +1264,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2006p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2006p1.tex"
         - file: "rmo2006p2.tex"
           problem: 2
           usages:
@@ -1056,6 +1300,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/ArrangeInOrder.tex"
                 - "7QS/RMO/rmo2006p4.tex"
+        - file: "rmo2006p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo2006p5.tex"
         - file: "rmo2006p6.tex"
           problem: 6
           usages:
@@ -1081,6 +1333,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2007p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2007p1.tex"
         - file: "rmo2007p2.tex"
           problem: 2
           usages:
@@ -1110,7 +1371,12 @@ rmo:
                 - "7QS/RMO/rmo2007p4.tex"
         - file: "rmo2007p5.tex"
           problem: 5
-          usages: []
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QS/RMO/rmo2007p5.tex"
         - file: "rmo2007p6.tex"
           problem: 6
           usages:
@@ -1128,6 +1394,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2008p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2008p1.tex"
         - file: "rmo2008p2.tex"
           problem: 2
           usages:
@@ -1165,6 +1439,15 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2008p5.tex"
+        - file: "rmo2008p6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2008p6.tex"
   2009:
     default:
       qq: ""
@@ -1172,6 +1455,15 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2009p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2009p1.tex"
         - file: "rmo2009p2.tex"
           problem: 2
           usages:
@@ -1225,6 +1517,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2010p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2010p1.tex"
         - file: "rmo2010p2.tex"
           problem: 2
           usages:
@@ -1252,6 +1552,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2010p4.tex"
+        - file: "rmo2010p5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2010p5.tex"
         - file: "rmo2010p6.tex"
           problem: 6
           usages:
@@ -1268,6 +1576,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2011ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2011ap1.tex"
         - file: "rmo2011ap2.tex"
           problem: 2
           usages:
@@ -1295,6 +1611,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2011ap4.tex"
+        - file: "rmo2011ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2011ap5.tex"
         - file: "rmo2011ap6.tex"
           problem: 6
           usages:
@@ -1310,6 +1634,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2011bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2011bp1.tex"
         - file: "rmo2011bp2.tex"
           problem: 2
           usages:
@@ -1362,6 +1694,14 @@ rmo:
       src: CRMO 1
       omc: ""
       problems:
+        - file: "rmo2012ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2012ap1.tex"
         - file: "rmo2012ap2.tex"
           problem: 2
           usages:
@@ -1390,6 +1730,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012ap4.tex"
+        - file: "rmo2012ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2012ap5.tex"
         - file: "rmo2012ap6.tex"
           problem: 6
           usages:
@@ -1441,6 +1789,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012bp4.tex"
+        - file: "rmo2012bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2012bp5.tex"
         - file: "rmo2012bp6.tex"
           problem: 6
           usages:
@@ -1492,6 +1848,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012cp4.tex"
+        - file: "rmo2012cp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2012cp5.tex"
         - file: "rmo2012cp6.tex"
           problem: 6
           usages:
@@ -1543,6 +1907,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountBijec.tex"
                 - "7QS/RMO/rmo2012dp4.tex"
+        - file: "rmo2012dp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2012dp5.tex"
         - file: "rmo2012dp6.tex"
           problem: 6
           usages:
@@ -1558,6 +1930,14 @@ rmo:
       src: AoPS
       omc: ""
       problems:
+        - file: "rmo2012ep1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QSgeo/RMO/rmo2012ep1.tex"
         - file: "rmo2012ep2.tex"
           problem: 2
           usages:
@@ -1633,6 +2013,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/SysEqn.tex"
                 - "7QS/RMO/rmo2012fp3.tex"
+        - file: "rmo2012fp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2012fp4.tex"
         - file: "rmo2012fp5.tex"
           problem: 5
           usages:
@@ -1651,6 +2039,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/GrpPairs.tex"
                 - "7QS/RMO/rmo2012fp6.tex"
+        - file: "rmo2012fp7.tex"
+          problem: 7
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2012fp7.tex"
         - file: "rmo2012fp8.tex"
           problem: 8
           usages:
@@ -1668,6 +2064,14 @@ rmo:
       src: CRMO 1
       omc: ""
       problems:
+        - file: "rmo2013ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2013ap1.tex"
         - file: "rmo2013ap2.tex"
           problem: 2
           usages:
@@ -1719,6 +2123,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2013bp1.tex"
+        - file: "rmo2013bp2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QSgeo/RMO/rmo2013bp2.tex"
         - file: "rmo2013bp3.tex"
           problem: 3
           usages:
@@ -1728,6 +2140,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/FiniteDiff.tex"
                 - "7QS/RMO/rmo2013bp3.tex"
+        - file: "rmo2013bp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CongSimi.tex"
+              inclusion_chain:
+                - "MOTPG/src/CongSimi.tex"
+                - "7QSgeo/RMO/rmo2013bp4.tex"
         - file: "rmo2013bp5.tex"
           problem: 5
           usages:
@@ -1771,6 +2191,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2013cp2.tex"
+        - file: "rmo2013cp3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2013cp3.tex"
         - file: "rmo2013cp4.tex"
           problem: 4
           usages:
@@ -1780,6 +2208,15 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Quadratic.tex"
                 - "7QS/RMO/rmo2013cp4.tex"
+        - file: "rmo2013cp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2013cp5.tex"
         - file: "rmo2013cp6.tex"
           problem: 6
           usages:
@@ -1795,6 +2232,14 @@ rmo:
       src: CRMO 4
       omc: ""
       problems:
+        - file: "rmo2013dp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo2013dp1.tex"
         - file: "rmo2013dp2.tex"
           problem: 2
           usages:
@@ -1823,6 +2268,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Rationals.tex"
                 - "7QS/RMO/rmo2013dp4.tex"
+        - file: "rmo2013dp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo2013dp5.tex"
         - file: "rmo2013dp6.tex"
           problem: 6
           usages:
@@ -1838,6 +2291,14 @@ rmo:
       src: Mumbai
       omc: ""
       problems:
+        - file: "rmo2013ep1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo2013ep1.tex"
         - file: "rmo2013ep2.tex"
           problem: 2
           usages:
@@ -1856,6 +2317,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2013ep3.tex"
+        - file: "rmo2013ep4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2013ep4.tex"
         - file: "rmo2013ep5.tex"
           problem: 5
           usages:
@@ -1881,6 +2350,14 @@ rmo:
       src: CRMO 1
       omc: ""
       problems:
+        - file: "rmo2014ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2014ap1.tex"
         - file: "rmo2014ap2.tex"
           problem: 2
           usages:
@@ -1908,6 +2385,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Pigeon.tex"
                 - "7QS/RMO/rmo2014ap4.tex"
+        - file: "rmo2014ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2014ap5.tex"
         - file: "rmo2014ap6.tex"
           problem: 6
           usages:
@@ -1924,6 +2409,15 @@ rmo:
       src: CRMO 2
       omc: ""
       problems:
+        - file: "rmo2014bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2014bp1.tex"
         - file: "rmo2014bp2.tex"
           problem: 2
           usages:
@@ -1952,6 +2446,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2014bp4.tex"
+        - file: "rmo2014bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2014bp5.tex"
         - file: "rmo2014bp6.tex"
           problem: 6
           usages:
@@ -1967,6 +2469,14 @@ rmo:
       src: CRMO 3
       omc: ""
       problems:
+        - file: "rmo2014cp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2014cp1.tex"
         - file: "rmo2014cp2.tex"
           problem: 2
           usages:
@@ -1995,6 +2505,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/SysEqn.tex"
                 - "7QS/RMO/rmo2014cp4.tex"
+        - file: "rmo2014cp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2014cp5.tex"
         - file: "rmo2014cp6.tex"
           problem: 6
           usages:
@@ -2010,6 +2528,14 @@ rmo:
       src: CRMO 4
       omc: ""
       problems:
+        - file: "rmo2014dp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/RMO/rmo2014dp1.tex"
         - file: "rmo2014dp2.tex"
           problem: 2
           usages:
@@ -2029,6 +2555,23 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2014dp3.tex"
+        - file: "rmo2014dp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2014dp4.tex"
+        - file: "rmo2014dp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2014dp5.tex"
         - file: "rmo2014dp6.tex"
           problem: 6
           usages:
@@ -2063,6 +2606,15 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2014ep2.tex"
+        - file: "rmo2014ep3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2014ep3.tex"
         - file: "rmo2014ep4.tex"
           problem: 4
           usages:
@@ -2082,6 +2634,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/QMAMGMHM.tex"
                 - "7QS/RMO/rmo2014ep5.tex"
+        - file: "rmo2014ep6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2014ep6.tex"
   2015:
     a:
       qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-3.pdf
@@ -2089,6 +2649,14 @@ rmo:
       src: CRMO 3 (West Bengal?)
       omc: ""
       problems:
+        - file: "rmo2015ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2015ap1.tex"
         - file: "rmo2015ap2.tex"
           problem: 2
           usages:
@@ -2116,6 +2684,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015ap4.tex"
+        - file: "rmo2015ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015ap5.tex"
         - file: "rmo2015ap6.tex"
           problem: 6
           usages:
@@ -2131,6 +2707,14 @@ rmo:
       src: CRMO 4 (Karnataka?)
       omc: ""
       problems:
+        - file: "rmo2015bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015bp1.tex"
         - file: "rmo2015bp2.tex"
           problem: 2
           usages:
@@ -2158,6 +2742,15 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015bp4.tex"
+        - file: "rmo2015bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2015bp5.tex"
         - file: "rmo2015bp6.tex"
           problem: 6
           usages:
@@ -2173,6 +2766,14 @@ rmo:
       src: Mumbai
       omc: ""
       problems:
+        - file: "rmo2015cp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2015cp1.tex"
         - file: "rmo2015cp2.tex"
           problem: 2
           usages:
@@ -2206,6 +2807,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2015cp4.tex"
+        - file: "rmo2015cp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015cp5.tex"
         - file: "rmo2015cp6.tex"
           problem: 6
           usages:
@@ -2225,12 +2834,28 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/NoSqIsNeg.tex"
                 - "7QS/RMO/rmo2015cp7.tex"
+        - file: "rmo2015cp8.tex"
+          problem: 8
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Triangles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Triangles.tex"
+                - "7QSgeo/RMO/rmo2015cp8.tex"
     d:
       qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/crmo-15-2.pdf
       sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/sol-crmo15-2.pdf
       src: CRMO 2 (Odisha?)
       omc: ""
       problems:
+        - file: "rmo2015dp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015dp1.tex"
         - file: "rmo2015dp2.tex"
           problem: 2
           usages:
@@ -2258,6 +2883,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015dp4.tex"
+        - file: "rmo2015dp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015dp5.tex"
         - file: "rmo2015dp6.tex"
           problem: 6
           usages:
@@ -2273,6 +2906,14 @@ rmo:
       src: CRMO 1
       omc: ""
       problems:
+        - file: "rmo2015ep1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2015ep1.tex"
         - file: "rmo2015ep2.tex"
           problem: 2
           usages:
@@ -2299,6 +2940,15 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2015ep4.tex"
+        - file: "rmo2015ep5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TriangleCenters.tex"
+              inclusion_chain:
+                - "MOTPG/src/From1Geom.tex"
+                - "MOTPG/src/TriangleCenters.tex"
+                - "7QSgeo/RMO/rmo2015ep5.tex"
         - file: "rmo2015ep6.tex"
           problem: 6
           usages:
@@ -2324,6 +2974,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/NoSqIsNeg.tex"
                 - "7QS/RMO/rmo2015fp1.tex"
+        - file: "rmo2015fp2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Complex.tex"
+              inclusion_chain:
+                - "MOTPG/src/Complex.tex"
+                - "7QSgeo/RMO/rmo2015fp2.tex"
         - file: "rmo2015fp3.tex"
           problem: 3
           usages:
@@ -2333,6 +2991,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2015fp3.tex"
+        - file: "rmo2015fp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/PowerPt.tex"
+              inclusion_chain:
+                - "MOTPG/src/PowerPt.tex"
+                - "7QSgeo/RMO/rmo2015fp4.tex"
         - file: "rmo2015fp5.tex"
           problem: 5
           usages:
@@ -2358,6 +3024,14 @@ rmo:
       src: CRMO 1 (Mumbai?)
       omc: ""
       problems:
+        - file: "rmo2016ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016ap1.tex"
         - file: "rmo2016ap2.tex"
           problem: 2
           usages:
@@ -2386,6 +3060,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2016ap4.tex"
+        - file: "rmo2016ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016ap5.tex"
         - file: "rmo2016ap6.tex"
           problem: 6
           usages:
@@ -2401,6 +3083,14 @@ rmo:
       src: CRMO 2 (Telangana?)
       omc: ""
       problems:
+        - file: "rmo2016bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016bp1.tex"
         - file: "rmo2016bp2.tex"
           problem: 2
           usages:
@@ -2429,6 +3119,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Count.tex"
                 - "7QS/RMO/rmo2016bp4.tex"
+        - file: "rmo2016bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016bp5.tex"
         - file: "rmo2016bp6.tex"
           problem: 6
           usages:
@@ -2444,6 +3142,14 @@ rmo:
       src: CRMO 3 (Karnataka and West Bengal?)
       omc: ""
       problems:
+        - file: "rmo2016cp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016cp1.tex"
         - file: "rmo2016cp2.tex"
           problem: 2
           usages:
@@ -2472,6 +3178,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Opti.tex"
                 - "7QS/RMO/rmo2016cp4.tex"
+        - file: "rmo2016cp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016cp5.tex"
         - file: "rmo2016cp6.tex"
           problem: 6
           usages:
@@ -2487,6 +3201,14 @@ rmo:
       src: CRMO 4 (Odisha?)
       omc: ""
       problems:
+        - file: "rmo2016dp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016dp1.tex"
         - file: "rmo2016dp2.tex"
           problem: 2
           usages:
@@ -2515,6 +3237,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Invariance.tex"
                 - "7QS/RMO/rmo2016dp4.tex"
+        - file: "rmo2016dp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016dp5.tex"
         - file: "rmo2016dp6.tex"
           problem: 6
           usages:
@@ -2530,6 +3260,14 @@ rmo:
       src: Delhi?
       omc: ""
       problems:
+        - file: "rmo2016ep1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016ep1.tex"
         - file: "rmo2016ep2.tex"
           problem: 2
           usages:
@@ -2539,6 +3277,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2016ep2.tex"
+        - file: "rmo2016ep3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016ep3.tex"
         - file: "rmo2016ep4.tex"
           problem: 4
           usages:
@@ -2599,6 +3345,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Cubic.tex"
                 - "7QS/RMO/rmo2016fp3.tex"
+        - file: "rmo2016fp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016fp4.tex"
         - file: "rmo2016fp5.tex"
           problem: 5
           usages:
@@ -2609,6 +3363,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/QMAMGMHM.tex"
                 - "7QS/RMO/rmo2016fp5.tex"
+        - file: "rmo2016fp6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016fp6.tex"
     g:
       qq: ""
       sol: ""
@@ -2642,6 +3404,22 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2016gp3.tex"
+        - file: "rmo2016gp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016gp4.tex"
+        - file: "rmo2016gp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016gp5.tex"
         - file: "rmo2016gp6.tex"
           problem: 6
           usages:
@@ -2651,6 +3429,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2016gp6.tex"
+        - file: "rmo2016gp7.tex"
+          problem: 7
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2016gp7.tex"
         - file: "rmo2016gp8.tex"
           problem: 8
           usages:
@@ -2667,6 +3453,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2017ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2017ap1.tex"
         - file: "rmo2017ap2.tex"
           problem: 2
           usages:
@@ -2694,6 +3488,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Opti.tex"
                 - "7QS/RMO/rmo2017ap4.tex"
+        - file: "rmo2017ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2017ap5.tex"
         - file: "rmo2017ap6.tex"
           problem: 6
           usages:
@@ -2737,6 +3539,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/WarmUp.tex"
                 - "7QS/RMO/rmo2017bp3.tex"
+        - file: "rmo2017bp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2017bp4.tex"
         - file: "rmo2017bp5.tex"
           problem: 5
           usages:
@@ -2747,6 +3557,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/LookAtDiff.tex"
                 - "7QS/RMO/rmo2017bp5.tex"
+        - file: "rmo2017bp6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2017bp6.tex"
   2018:
     a:
       qq: ""
@@ -2754,6 +3572,14 @@ rmo:
       src: ""
       omc: ""
       problems:
+        - file: "rmo2018ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2018ap1.tex"
         - file: "rmo2018ap2.tex"
           problem: 2
           usages:
@@ -2791,12 +3617,28 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2018ap5.tex"
+        - file: "rmo2018ap6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2018ap6.tex"
     b:
       qq: ""
       sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/solutions-KL-TN-18.pdf
       src: Kerala and Tamil Nadu?
       omc: ""
       problems:
+        - file: "rmo2018bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2018bp1.tex"
         - file: "rmo2018bp2.tex"
           problem: 2
           usages:
@@ -2824,6 +3666,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Opti.tex"
                 - "7QS/RMO/rmo2018bp4.tex"
+        - file: "rmo2018bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2018bp5.tex"
         - file: "rmo2018bp6.tex"
           problem: 6
           usages:
@@ -2849,6 +3699,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Rationals.tex"
                 - "7QS/RMO/rmo2019ap1.tex"
+        - file: "rmo2019ap2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2019ap2.tex"
         - file: "rmo2019ap3.tex"
           problem: 3
           usages:
@@ -2867,6 +3725,14 @@ rmo:
               inclusion_chain:
                 - "MOTPA/src/WarmUp.tex"
                 - "7QS/RMO/rmo2019ap4.tex"
+        - file: "rmo2019ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2019ap5.tex"
         - file: "rmo2019ap6.tex"
           problem: 6
           usages:
@@ -2897,6 +3763,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/MultFun.tex"
                 - "7QS/RMO/rmo2019bp1.tex"
+        - file: "rmo2019bp2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2019bp2.tex"
         - file: "rmo2019bp3.tex"
           problem: 3
           usages:
@@ -2924,6 +3798,14 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/IncluExclu.tex"
                 - "7QS/RMO/rmo2019bp5.tex"
+        - file: "rmo2019bp6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2019bp6.tex"
   2023:
     a:
       qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/KVJNV_Bilingual.pdf
@@ -2931,6 +3813,14 @@ rmo:
       src: KV or JNV
       omc: ""
       problems:
+        - file: "rmo2023ap1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2023ap1.tex"
         - file: "rmo2023ap2.tex"
           problem: 2
           usages:
@@ -2964,6 +3854,22 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/CountTwoDiff.tex"
                 - "7QS/RMO/rmo2023ap4.tex"
+        - file: "rmo2023ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2023ap5.tex"
+        - file: "rmo2023ap6.tex"
+          problem: 6
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2023ap6.tex"
     b:
       qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/rmo-combined.pdf
       sol: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/NonKV-or-Non-JNV.pdf
@@ -2979,6 +3885,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2023bp1.tex"
+        - file: "rmo2023bp2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2023bp2.tex"
         - file: "rmo2023bp3.tex"
           problem: 3
           usages:
@@ -2988,6 +3902,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/SysEqnNT.tex"
                 - "7QS/RMO/rmo2023bp3.tex"
+        - file: "rmo2023bp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2023bp4.tex"
         - file: "rmo2023bp5.tex"
           problem: 5
           usages:
@@ -3032,6 +3954,14 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/Quadratic.tex"
                 - "7QS/RMO/rmo2024ap2.tex"
+        - file: "rmo2024ap3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2024ap3.tex"
         - file: "rmo2024ap4.tex"
           problem: 4
           usages:
@@ -3041,6 +3971,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2024ap4.tex"
+        - file: "rmo2024ap5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2024ap5.tex"
         - file: "rmo2024ap6.tex"
           problem: 6
           usages:
@@ -3074,6 +4012,14 @@ rmo:
                 - "MOTPNT/src/NTWrap.tex"
                 - "MOTPNT/src/Cong.tex"
                 - "7QS/RMO/rmo2024bp2.tex"
+        - file: "rmo2024bp3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2024bp3.tex"
         - file: "rmo2024bp4.tex"
           problem: 4
           usages:
@@ -3084,6 +4030,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/LookAtDiff.tex"
                 - "7QS/RMO/rmo2024bp4.tex"
+        - file: "rmo2024bp5.tex"
+          problem: 5
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/TG.tex"
+              inclusion_chain:
+                - "MOTPG/src/TG.tex"
+                - "7QSgeo/RMO/rmo2024bp5.tex"
         - file: "rmo2024bp6.tex"
           problem: 6
           usages:
@@ -3301,6 +4255,14 @@ inmo:
       src: ""
       omc: ""
       problems:
+        - file: "inmo2015p1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/Circles.tex"
+              inclusion_chain:
+                - "MOTPG/src/Circles.tex"
+                - "7QSgeo/INMO/inmo2015p1.tex"
         - file: "inmo2015p6.tex"
           problem: 6
           usages:
