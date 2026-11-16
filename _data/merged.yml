@@ -4132,6 +4132,22 @@ rmo:
                 - "MOTPA/src/AlgWrap.tex"
                 - "MOTPA/src/IntDiv.tex"
                 - "7QS/RMO/rmo2025bp6.tex"
+  2026:
+    b:
+      qq: ""
+      sol: ""
+      src: Non-KV and Non-JNV
+      omc: ""
+      problems:
+        - file: "rmo2026bp2.tex"
+          problem: 2
+          usages:
+            - subject: "MOTPC"
+              includer: "MOTPC/src/Games.tex"
+              inclusion_chain:
+                - "MOTPC/src/CombWrap.tex"
+                - "MOTPC/src/Games.tex"
+                - "7QS/RMO/rmo2026bp2.tex"
 inmo:
   1987:
     default:
