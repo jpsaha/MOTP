@@ -1227,6 +1227,11 @@ ninja.data = [{
           description: "",
           section: "Rmo",handler: () => {
               window.location.href = "/MOTP/rmo/2025/";
+            },},{id: "rmo-rmo-2026-questions-solutions-discussions",
+          title: 'RMO 2026 Questions, Solutions, Discussions',
+          description: "",
+          section: "Rmo",handler: () => {
+              window.location.href = "/MOTP/rmo/2026/";
             },},{
         id: 'social-email',
         title: 'email',

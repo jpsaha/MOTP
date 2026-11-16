@@ -1,4 +1,25 @@
 from pathlib import Path
+from pathlib import Path
+import yaml
+
+ROOT = Path(__file__).resolve().parents[1]
+PAST_FILE = ROOT / "_data" / "past.yml"
+
+with open(PAST_FILE, "r", encoding="utf-8") as f:
+    past = yaml.safe_load(f) or []
+
+# Find the latest available year for each contest.
+END_YEARS = {}
+
+for entry in past:
+    for contest in ("ioqm", "rmo", "inmo"):
+        if contest in entry and entry[contest]:
+            year = entry[contest].get("yr")
+            if year is not None:
+                END_YEARS[contest] = max(
+                    END_YEARS.get(contest, year),
+                    year
+                )
 
 CONFIG = [
     {
@@ -7,7 +28,7 @@ CONFIG = [
         "title": "RMO",
         "category": "",
         "start": 1990,
-        "end": 2025,
+        "end": END_YEARS["rmo"],
         "exclude": {2020, 2021, 2022},
     },
     {
@@ -16,7 +37,7 @@ CONFIG = [
         "title": "INMO",
         "category": "INMO",
         "start": 1989,
-        "end": 2026,
+        "end": END_YEARS["inmo"],
         "exclude": {2022},
     },
     {
@@ -25,7 +46,7 @@ CONFIG = [
         "title": "IOQM",
         "category": "IOQM",
         "start": 2020,
-        "end": 2026,
+        "end": END_YEARS["ioqm"],
         "exclude": set(),
     },
 ]
