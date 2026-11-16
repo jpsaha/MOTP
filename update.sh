@@ -189,7 +189,7 @@ echo -e "${GREEN}Completed: MOPSS data.${RESET}"
 echo
 echo -e "${YELLOW}[3/3] Generating PYQ data...${RESET}"
 
-python3 _scripts/pyq.py
+python _scripts/pyq.py
 
 echo -e "${GREEN}Completed: PYQ data.${RESET}"
 
