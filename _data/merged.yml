@@ -4148,6 +4148,16 @@ rmo:
                 - "MOTPC/src/CombWrap.tex"
                 - "MOTPC/src/Games.tex"
                 - "7QS/RMO/rmo2026bp2.tex"
+        - file: "rmo2026bp3.tex"
+          problem: 3
+          usages:
+            - subject: "MOTPA"
+              includer: "MOTPA/src/ineq/Bunch.tex"
+              inclusion_chain:
+                - "MOTPA/src/AlgWrap.tex"
+                - "MOTPA/src/Ineq.tex"
+                - "MOTPA/src/ineq/Bunch.tex"
+                - "7QS/RMO/rmo2026bp3.tex"
         - file: "rmo2026bp5.tex"
           problem: 5
           usages:
