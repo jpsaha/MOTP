@@ -24,6 +24,38 @@ set -e
 # ============================================================
 
 
+# # ------------------------------------------------------------
+# # PROOLY: Commands executed by update_prooly.sh
+# # ------------------------------------------------------------
+
+# python _scripts/find_olympiad_inputs.py --manifest olymp.yml
+# python _scripts/yml_to_csv.py
+# python _scripts/clean.py
+# python _scripts/update_url_aopsmain.py
+# python3 _scripts/ioqmrmoinmoqp.py
+
+# python3 _scripts/generate_olympiad_tex.py
+# python3 _scripts/generate_iri_tex.py
+
+# python3 build_tex.py 10IOQM 10RMO 10INMO 11rmo IMOTC25 IMOTC26 INMOTC25Alg INMOTC26Alg LPP MOPSS24 MOPSS25 MOPSS26 MOPSSnb MOTPA MOTPA1C1 MOTPC MOTPG MOTPNT OTISJPS pbag RMOTC26 RushilMathur SMMC zBMTSC zTituBookList zTors
+
+# # ------------------------------------------------------------
+# # MOTP: Remaining commands in update.sh
+# # ------------------------------------------------------------
+
+# python3 _scripts/generate_topic_names.py
+# python3 _scripts/replace_pdfs.py --apply
+
+# python3 _scripts/generate_contest_urls.py
+# python3 _scripts/merge_contest_urls.py
+
+# python3 _scripts/acgnt.py
+# python3 _scripts/mopss.py
+# python _scripts/pyq.py
+
+# python3 _scripts/check_pdf_links.py
+
+
 # ------------------------------------------------------------
 # Terminal colors
 # ------------------------------------------------------------
