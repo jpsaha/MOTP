@@ -297,6 +297,7 @@ case "$answer" in
         echo "Updating other repositories..."
         cd ../
         python3 sync_common.py sync
+        cd MOTP
         ;;
     [Nn]|[Nn][Oo])
         echo
@@ -307,9 +308,6 @@ case "$answer" in
         echo "Invalid response. Skipping updates to other repositories."
         ;;
 esac
-
-# Return to MOTP directory
-cd MOTP
 
 echo
 echo "MOTP update process completed."
