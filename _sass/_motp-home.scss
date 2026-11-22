@@ -278,6 +278,8 @@
     }
   }
 
+  /* Original stage list */
+
   .motp-stage-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -301,74 +303,134 @@
     }
   }
 
-    .motp-stage-list-nouvelle {
+  /* Nouvelle stage list */
+
+  .motp-stage-list-nouvelle {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.65rem;
     margin: 1.2rem 0;
 
     a {
-        display: block;
-        padding: 0.65rem 0.8rem;
-        border: 1px solid var(--global-divider-color);
-        border-left: 3px solid var(--stage-color);
-        border-radius: 8px;
-        background: rgba(128, 128, 128, 0.045);
-        color: var(--global-text-color-light);
-        font-size: 0.82rem;
-        text-decoration: none;
-        transition: transform 0.2s ease, box-shadow 0.2s ease,
-                    border-color 0.2s ease, background-color 0.2s ease;
+      display: block;
+      padding: 0.65rem 0.8rem;
+      border: 1px solid var(--global-divider-color);
+      border-left: 3px solid var(--stage-color);
+      border-radius: 8px;
+      background: rgba(128, 128, 128, 0.045);
+      color: var(--global-text-color-light);
+      font-size: 0.82rem;
+      text-decoration: none;
 
-        &:hover {
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+
+      &:hover {
         transform: translateY(-3px);
         border-color: var(--stage-color);
         background: color-mix(in srgb, var(--stage-color) 8%, transparent);
         box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
         color: var(--global-text-color);
         text-decoration: none;
-        }
+      }
 
-        strong {
+      strong {
         display: block;
         margin-bottom: 0.15rem;
         color: var(--stage-color);
         font-size: 0.9rem;
-        }
+      }
     }
+  }
 
-    .stage-blue {
+  /* Shared competition colours */
+
+  .stage-blue {
     --stage-color: #3478C8;
-    }
+  }
 
-    .stage-teal {
+  .stage-teal {
     --stage-color: #159B83;
-    }
+  }
 
-    .stage-orange {
+  .stage-orange {
     --stage-color: #E07845;
-    }
+  }
 
-    .stage-purple {
+  .stage-purple {
     --stage-color: #8964C8;
-    }    
+  }
 
-    .stage-ioqm {
-        --stage-color: #3478C8;
-    }
+  /* Original stage-specific colour classes */
 
-    .stage-rmo {
-        --stage-color: #159B83;
-    }
+  .stage-ioqm {
+    --stage-color: #3478C8;
+  }
 
-    .stage-inmo {
-        --stage-color: #E07845;
-    }
+  .stage-rmo {
+    --stage-color: #159B83;
+  }
 
-    .stage-further {
-        --stage-color: #8964C8;
+  .stage-inmo {
+    --stage-color: #E07845;
+  }
+
+  .stage-further {
+    --stage-color: #8964C8;
+  }
+
+  /* ----------------------------------------------------------
+     International Mathematical Olympiads
+     ---------------------------------------------------------- */
+
+  .motp-international-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin: 1.2rem 0;
+
+    a {
+      display: block;
+      padding: 0.75rem 0.85rem;
+      border: 1px solid var(--global-divider-color);
+      border-left: 3px solid var(--stage-color);
+      border-radius: 8px;
+      background: rgba(128, 128, 128, 0.045);
+      color: var(--global-text-color-light);
+      font-size: 0.84rem;
+      text-decoration: none;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease,
+        background-color 0.2s ease;
+
+      strong {
+        display: block;
+        margin-bottom: 0.15rem;
+        color: var(--stage-color);
+        font-size: 0.92rem;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        border-color: var(--stage-color);
+        background: color-mix(in srgb, var(--stage-color) 8%, transparent);
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
+        color: var(--global-text-color);
+        text-decoration: none;
+      }
     }
-    }  
+  }
+
+  /* ----------------------------------------------------------
+     Common text link
+     ---------------------------------------------------------- */
+
   .motp-text-link {
     display: inline-block;
     margin-top: 0.25rem;
@@ -545,74 +607,77 @@
     }
   }
 
-    .motp-resource-links-nouvelle {
+  /* Nouvelle resource links */
+
+  .motp-resource-links-nouvelle {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.8rem;
 
     a {
-        display: flex;
-        align-items: center;
-        gap: 0.9rem;
-        min-width: 0;
-        padding: 1rem 1.1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      min-width: 0;
+      padding: 1rem 1.1rem;
 
-        border: 1px solid var(--global-divider-color);
-        border-radius: 10px;
-        background: var(--global-card-bg-color);
+      border: 1px solid var(--global-divider-color);
+      border-radius: 10px;
+      background: var(--global-card-bg-color);
 
-        color: var(--global-text-color);
-        text-decoration: none;
+      color: var(--global-text-color);
+      text-decoration: none;
 
-        transition:
+      transition:
         border-color 0.2s ease,
         transform 0.2s ease,
         box-shadow 0.2s ease;
 
-        > i:first-child {
+      > i:first-child {
         flex-shrink: 0;
         color: var(--global-theme-color);
         font-size: 1.25rem;
-        }
+      }
 
-        > span {
+      > span {
         display: flex;
         flex: 1;
         flex-direction: column;
         min-width: 0;
 
         strong {
-            color: var(--global-text-color);
-            font-size: 0.9rem;
+          color: var(--global-text-color);
+          font-size: 0.9rem;
         }
 
         small {
-            margin-top: 0.2rem;
-            color: var(--global-text-color-light);
-            font-size: 0.78rem;
-            line-height: 1.45;
+          margin-top: 0.2rem;
+          color: var(--global-text-color-light);
+          font-size: 0.78rem;
+          line-height: 1.45;
         }
-        }
+      }
 
-        > i:last-child {
+      > i:last-child {
         flex-shrink: 0;
         color: var(--global-text-color-light);
         font-size: 0.75rem;
         transition: transform 0.2s ease;
-        }
+      }
 
-        &:hover {
+      &:hover {
         border-color: var(--global-theme-color);
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 
         > i:last-child {
-            color: var(--global-theme-color);
-            transform: translateX(3px);
+          color: var(--global-theme-color);
+          transform: translateX(3px);
         }
-        }
+      }
     }
-    }  
+  }
+
   /* ----------------------------------------------------------
      About section
      ---------------------------------------------------------- */
@@ -658,47 +723,6 @@
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
     }
-
-    .motp-international-section {
-
-    .motp-international-grid {
-        display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 0.65rem;
-        margin: 1.2rem 0;
-    }
-
-    .motp-international-grid a {
-        display: block;
-        padding: 0.75rem 0.85rem;
-        border: 1px solid var(--global-divider-color);
-        border-left: 3px solid var(--stage-color);
-        border-radius: 8px;
-        background: rgba(128, 128, 128, 0.045);
-        color: var(--global-text-color-light);
-        font-size: 0.84rem;
-        text-decoration: none;
-        transition: transform 0.2s ease, box-shadow 0.2s ease,
-                    border-color 0.2s ease, background-color 0.2s ease;
-
-        strong {
-        display: block;
-        margin-bottom: 0.15rem;
-        color: var(--stage-color);
-        font-size: 0.92rem;
-        }
-
-        &:hover {
-        transform: translateY(-3px);
-        border-color: var(--stage-color);
-        background: color-mix(in srgb, var(--stage-color) 8%, transparent);
-        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
-        color: var(--global-text-color);
-        text-decoration: none;
-        }
-    }
-    }
-    
   }
 }
 
@@ -719,9 +743,8 @@
 
     .motp-feature-grid,
     .motp-subject-grid,
-    .motp-resource-links {
-      grid-template-columns: 1fr;
-    }
+    .motp-resource-links,
+    .motp-resource-links-nouvelle,
     .motp-international-grid {
       grid-template-columns: 1fr;
     }
@@ -746,7 +769,8 @@
       font-size: 1.3rem;
     }
 
-    .motp-stage-list {
+    .motp-stage-list,
+    .motp-stage-list-nouvelle {
       grid-template-columns: 1fr;
     }
 
