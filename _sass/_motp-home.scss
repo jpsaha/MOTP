@@ -1,0 +1,761 @@
+
+/* ============================================================
+   MOTP Homepage
+   Styles for the Mathematics Olympiad Portal homepage only.
+   ============================================================ */
+
+.motp-home {
+  --motp-blue: #3478C8;
+  --motp-teal: #159B83;
+  --motp-orange: #E07845;
+  --motp-purple: #8964C8;
+
+  color: var(--global-text-color);
+
+  /* ----------------------------------------------------------
+     Common section layout
+     ---------------------------------------------------------- */
+
+  .motp-home-section {
+    margin: 3.2rem 0;
+  }
+
+  .motp-section-heading {
+    margin-bottom: 1.5rem;
+
+    h2 {
+      margin: 0.25rem 0 0.55rem;
+      font-size: 1.65rem;
+      font-weight: 650;
+      color: var(--global-text-color);
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0;
+      color: var(--global-text-color-light);
+      font-size: 0.95rem;
+    }
+  }
+
+  .motp-section-kicker {
+    display: inline-block;
+    color: var(--global-theme-color);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+  /* ----------------------------------------------------------
+     Hero
+     ---------------------------------------------------------- */
+
+  .motp-hero {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 3rem;
+    padding: 3rem 2.5rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-radius: 16px;
+
+    background:
+      linear-gradient(
+        120deg,
+        rgba(52, 120, 200, 0.12),
+        rgba(137, 100, 200, 0.09)
+      );
+
+    .motp-hero-label {
+      margin-bottom: 0.8rem;
+      color: var(--global-theme-color);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 760px;
+      margin: 0 0 1rem;
+      color: var(--global-text-color);
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 750;
+      line-height: 1.15;
+      letter-spacing: -0.035em;
+    }
+
+    .motp-hero-lead {
+      max-width: 690px;
+      margin: 0;
+      color: var(--global-text-color-light);
+      font-size: 1.08rem;
+      line-height: 1.75;
+    }
+  }
+
+  .motp-hero-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1.5rem;
+
+    span {
+      padding: 0.35rem 0.8rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 30px;
+      background: var(--global-card-bg-color);
+      color: var(--global-text-color);
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+  }
+
+  /* ----------------------------------------------------------
+     Main navigation cards
+     ---------------------------------------------------------- */
+
+  .motp-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .motp-feature-card {
+    --motp-accent: var(--global-theme-color);
+
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 0;
+    padding: 1.35rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+
+    color: var(--global-text-color);
+    text-decoration: none !important;
+
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      color: var(--global-text-color);
+      border-color: var(--motp-accent);
+      text-decoration: none !important;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 16px rgba(0, 0, 0, 0.07);
+
+      .motp-feature-icon {
+        background: var(--motp-accent);
+        color: #fff;
+      }
+
+      .motp-card-link {
+        color: var(--motp-accent);
+      }
+    }
+  }
+
+  .motp-feature-blue {
+    --motp-accent: var(--motp-blue);
+  }
+
+  .motp-feature-teal {
+    --motp-accent: var(--motp-teal);
+  }
+
+  .motp-feature-orange {
+    --motp-accent: var(--motp-orange);
+  }
+
+  .motp-feature-purple {
+    --motp-accent: var(--motp-purple);
+  }
+
+  .motp-feature-icon {
+    display: flex;
+    flex: 0 0 2.8rem;
+    align-items: center;
+    justify-content: center;
+
+    width: 2.8rem;
+    height: 2.8rem;
+
+    border-radius: 9px;
+    background: rgba(128, 128, 128, 0.11);
+    color: var(--motp-accent);
+    font-size: 1.25rem;
+
+    transition:
+      background 0.2s ease,
+      color 0.2s ease;
+  }
+
+  .motp-feature-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+
+    > strong {
+      margin-bottom: 0.35rem;
+      color: var(--global-text-color);
+      font-size: 1.08rem;
+      font-weight: 650;
+    }
+
+    > span:not(.motp-card-link) {
+      color: var(--global-text-color-light);
+      font-size: 0.87rem;
+      line-height: 1.6;
+    }
+
+    .motp-card-link {
+      margin-top: 0.8rem;
+      color: var(--global-text-color);
+      font-size: 0.82rem;
+      font-weight: 650;
+      transition: color 0.2s ease;
+
+      i {
+        margin-left: 0.25rem;
+        font-size: 0.75rem;
+      }
+    }
+  }
+
+  /* ----------------------------------------------------------
+     Indian Olympiad Programme highlight
+     ---------------------------------------------------------- */
+
+  .motp-programme-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.4rem;
+
+    margin: 3.2rem 0;
+    padding: 1.8rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-left: 4px solid var(--motp-blue);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+  }
+
+  .motp-programme-icon {
+    display: flex;
+    flex: 0 0 3rem;
+    align-items: center;
+    justify-content: center;
+
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 10px;
+    background: rgba(52, 120, 200, 0.12);
+    color: var(--motp-blue);
+    font-size: 1.4rem;
+  }
+
+  .motp-programme-content {
+    flex: 1;
+    min-width: 0;
+
+    h2 {
+      margin: 0.25rem 0 0.8rem;
+      font-size: 1.55rem;
+      font-weight: 650;
+    }
+
+    p {
+      color: var(--global-text-color-light);
+      font-size: 0.92rem;
+      line-height: 1.7;
+    }
+  }
+
+  .motp-stage-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin: 1.2rem 0;
+
+    span {
+      padding: 0.65rem 0.8rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 8px;
+      background: rgba(128, 128, 128, 0.045);
+      color: var(--global-text-color-light);
+      font-size: 0.82rem;
+    }
+
+    strong {
+      display: block;
+      margin-bottom: 0.15rem;
+      color: var(--global-text-color);
+      font-size: 0.9rem;
+    }
+  }
+
+    .motp-stage-list-nouvelle {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin: 1.2rem 0;
+
+    a {
+        display: block;
+        padding: 0.65rem 0.8rem;
+        border: 1px solid var(--global-divider-color);
+        border-left: 3px solid var(--stage-color);
+        border-radius: 8px;
+        background: rgba(128, 128, 128, 0.045);
+        color: var(--global-text-color-light);
+        font-size: 0.82rem;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease,
+                    border-color 0.2s ease, background-color 0.2s ease;
+
+        &:hover {
+        transform: translateY(-3px);
+        border-color: var(--stage-color);
+        background: color-mix(in srgb, var(--stage-color) 8%, transparent);
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
+        color: var(--global-text-color);
+        text-decoration: none;
+        }
+
+        strong {
+        display: block;
+        margin-bottom: 0.15rem;
+        color: var(--stage-color);
+        font-size: 0.9rem;
+        }
+    }
+
+    .stage-blue {
+    --stage-color: #3478C8;
+    }
+
+    .stage-teal {
+    --stage-color: #159B83;
+    }
+
+    .stage-orange {
+    --stage-color: #E07845;
+    }
+
+    .stage-purple {
+    --stage-color: #8964C8;
+    }    
+
+    .stage-ioqm {
+        --stage-color: #3478C8;
+    }
+
+    .stage-rmo {
+        --stage-color: #159B83;
+    }
+
+    .stage-inmo {
+        --stage-color: #E07845;
+    }
+
+    .stage-further {
+        --stage-color: #8964C8;
+    }
+    }  
+  .motp-text-link {
+    display: inline-block;
+    margin-top: 0.25rem;
+    color: var(--global-theme-color);
+    font-size: 0.88rem;
+    font-weight: 650;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    i {
+      margin-left: 0.25rem;
+      font-size: 0.75rem;
+    }
+  }
+
+  /* ----------------------------------------------------------
+     Subject cards
+     ---------------------------------------------------------- */
+
+  .motp-subject-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .motp-subject-card {
+    --motp-accent: var(--global-theme-color);
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-width: 0;
+    padding: 1.2rem;
+
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    background: var(--global-card-bg-color);
+
+    color: var(--global-text-color);
+    text-decoration: none !important;
+
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease,
+      box-shadow 0.2s ease;
+
+    &:hover {
+      color: var(--global-text-color);
+      border-color: var(--motp-accent);
+      text-decoration: none !important;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+
+      .motp-subject-arrow {
+        color: var(--motp-accent);
+        transform: translateX(4px);
+      }
+
+      .motp-subject-content strong {
+        color: var(--motp-accent);
+      }
+    }
+  }
+
+  .motp-subject-algebra {
+    --motp-accent: var(--motp-blue);
+  }
+
+  .motp-subject-combinatorics {
+    --motp-accent: var(--motp-teal);
+  }
+
+  .motp-subject-geometry {
+    --motp-accent: var(--motp-orange);
+  }
+
+  .motp-subject-number-theory {
+    --motp-accent: var(--motp-purple);
+  }
+
+  .motp-subject-icon {
+    display: flex;
+    flex: 0 0 2.8rem;
+    align-items: center;
+    justify-content: center;
+
+    width: 2.8rem;
+    height: 2.8rem;
+
+    border-radius: 9px;
+    background: rgba(128, 128, 128, 0.10);
+    color: var(--motp-accent);
+    font-size: 1.3rem;
+  }
+
+  .motp-subject-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+
+    strong {
+      margin-bottom: 0.3rem;
+      color: var(--global-text-color);
+      font-size: 1.05rem;
+      font-weight: 650;
+      transition: color 0.2s ease;
+    }
+
+    span {
+      color: var(--global-text-color-light);
+      font-size: 0.83rem;
+      line-height: 1.55;
+    }
+  }
+
+  .motp-subject-arrow {
+    flex-shrink: 0;
+    color: var(--global-text-color-light);
+    transition:
+      color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  /* ----------------------------------------------------------
+     Further learning links
+     ---------------------------------------------------------- */
+
+  .motp-resource-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      min-width: 0;
+      padding: 0.85rem 1rem;
+
+      border: 1px solid var(--global-divider-color);
+      border-radius: 9px;
+      background: var(--global-card-bg-color);
+
+      color: var(--global-text-color);
+      font-size: 0.88rem;
+      text-decoration: none;
+
+      transition:
+        border-color 0.2s ease,
+        color 0.2s ease;
+
+      > i:first-child {
+        color: var(--global-theme-color);
+      }
+
+      > span {
+        flex: 1;
+      }
+
+      > i:last-child {
+        color: var(--global-text-color-light);
+        font-size: 0.75rem;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+    .motp-resource-links-nouvelle {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 0.9rem;
+        min-width: 0;
+        padding: 1rem 1.1rem;
+
+        border: 1px solid var(--global-divider-color);
+        border-radius: 10px;
+        background: var(--global-card-bg-color);
+
+        color: var(--global-text-color);
+        text-decoration: none;
+
+        transition:
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+
+        > i:first-child {
+        flex-shrink: 0;
+        color: var(--global-theme-color);
+        font-size: 1.25rem;
+        }
+
+        > span {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        min-width: 0;
+
+        strong {
+            color: var(--global-text-color);
+            font-size: 0.9rem;
+        }
+
+        small {
+            margin-top: 0.2rem;
+            color: var(--global-text-color-light);
+            font-size: 0.78rem;
+            line-height: 1.45;
+        }
+        }
+
+        > i:last-child {
+        flex-shrink: 0;
+        color: var(--global-text-color-light);
+        font-size: 0.75rem;
+        transition: transform 0.2s ease;
+        }
+
+        &:hover {
+        border-color: var(--global-theme-color);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
+        > i:last-child {
+            color: var(--global-theme-color);
+            transform: translateX(3px);
+        }
+        }
+    }
+    }  
+  /* ----------------------------------------------------------
+     About section
+     ---------------------------------------------------------- */
+
+  .motp-about-section {
+    margin: 3.2rem 0 1rem;
+    padding: 1.6rem 1.8rem;
+
+    border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+
+    h2 {
+      margin: 0.25rem 0 0.8rem;
+      font-size: 1.5rem;
+      font-weight: 650;
+    }
+
+    p {
+      max-width: 850px;
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      line-height: 1.75;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* ============================================================
+   Responsive layout
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .motp-home {
+    .motp-hero {
+      padding: 2.2rem 1.6rem;
+    }
+
+    .motp-home-section,
+    .motp-programme-section {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .motp-international-section {
+
+    .motp-international-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.65rem;
+        margin: 1.2rem 0;
+    }
+
+    .motp-international-grid a {
+        display: block;
+        padding: 0.75rem 0.85rem;
+        border: 1px solid var(--global-divider-color);
+        border-left: 3px solid var(--stage-color);
+        border-radius: 8px;
+        background: rgba(128, 128, 128, 0.045);
+        color: var(--global-text-color-light);
+        font-size: 0.84rem;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease,
+                    border-color 0.2s ease, background-color 0.2s ease;
+
+        strong {
+        display: block;
+        margin-bottom: 0.15rem;
+        color: var(--stage-color);
+        font-size: 0.92rem;
+        }
+
+        &:hover {
+        transform: translateY(-3px);
+        border-color: var(--stage-color);
+        background: color-mix(in srgb, var(--stage-color) 8%, transparent);
+        box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
+        color: var(--global-text-color);
+        text-decoration: none;
+        }
+    }
+    }
+    
+  }
+}
+
+@media (max-width: 576px) {
+  .motp-home {
+    .motp-hero {
+      padding: 1.8rem 1.25rem;
+      border-radius: 12px;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .motp-hero-lead {
+        font-size: 0.95rem;
+      }
+    }
+
+    .motp-feature-grid,
+    .motp-subject-grid,
+    .motp-resource-links {
+      grid-template-columns: 1fr;
+    }
+    .motp-international-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .motp-feature-card {
+      padding: 1.05rem;
+    }
+
+    .motp-programme-section {
+      gap: 0.9rem;
+      padding: 1.2rem;
+    }
+
+    .motp-programme-icon {
+      flex-basis: 2.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.15rem;
+    }
+
+    .motp-programme-content h2 {
+      font-size: 1.3rem;
+    }
+
+    .motp-stage-list {
+      grid-template-columns: 1fr;
+    }
+
+    .motp-section-heading h2 {
+      font-size: 1.4rem;
+    }
+
+    .motp-about-section {
+      padding: 1.3rem 0;
+    }
+  }
+}
