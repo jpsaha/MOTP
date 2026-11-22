@@ -4134,11 +4134,19 @@ rmo:
                 - "7QS/RMO/rmo2025bp6.tex"
   2026:
     b:
-      qq: ""
+      qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/11/RMO-Paper-english.pdf
       sol: ""
       src: Non-KV and Non-JNV
       omc: ""
       problems:
+        - file: "rmo2026bp1.tex"
+          problem: 1
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QS/RMO/rmo2026bp1.tex"
         - file: "rmo2026bp2.tex"
           problem: 2
           usages:
@@ -4158,6 +4166,14 @@ rmo:
                 - "MOTPA/src/Ineq.tex"
                 - "MOTPA/src/ineq/Bunch.tex"
                 - "7QS/RMO/rmo2026bp3.tex"
+        - file: "rmo2026bp4.tex"
+          problem: 4
+          usages:
+            - subject: "MOTPG"
+              includer: "MOTPG/src/CyclicQuad.tex"
+              inclusion_chain:
+                - "MOTPG/src/CyclicQuad.tex"
+                - "7QSgeo/RMO/rmo2026bp4.tex"
         - file: "rmo2026bp5.tex"
           problem: 5
           usages:

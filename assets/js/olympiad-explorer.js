@@ -328,7 +328,8 @@ document.addEventListener("DOMContentLoaded", function () {
       if (search && !text.includes(search)) return false;
 
       return true;
-    });
+
+    }).sort((a, b) => Number(b.year) - Number(a.year));
 
     resultCount.textContent =
       `${filtered.length} problem${filtered.length === 1 ? "" : "s"} found`;
