@@ -1,0 +1,508 @@
+
+/* ============================================================
+   MOTP Subject Pages
+   Shared styles for Algebra, Combinatorics, Geometry,
+   and Number Theory.
+   ============================================================ */
+
+
+/* ------------------------------------------------------------
+   1. Subject accent colours
+   ------------------------------------------------------------ */
+
+.subject-algebra {
+  --subject-accent: #3478C8;
+}
+
+.subject-combinatorics {
+  --subject-accent: #159B83;
+}
+
+.subject-geometry {
+  --subject-accent: #E07845;
+}
+
+.subject-number-theory {
+  --subject-accent: #8964C8;
+}
+
+
+/* ------------------------------------------------------------
+   2. Main subject page
+   ------------------------------------------------------------ */
+
+.subject-page {
+  --subject-accent: var(--global-theme-color);
+
+  color: var(--global-text-color);
+
+  width: 100%;
+
+  /* Common section spacing */
+  section {
+    margin-bottom: 2.75rem;
+  }
+
+  /* Common headings */
+  h2 {
+    font-size: 1.55rem;
+    font-weight: 650;
+    margin-bottom: 1.1rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  a {
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   3. Subject introduction
+   ------------------------------------------------------------ */
+
+.subject-intro {
+  position: relative;
+
+  padding: 1.4rem 1.6rem;
+  margin: 0 0 2.5rem;
+
+  border-left: 4px solid var(--subject-accent);
+  border-radius: 0 10px 10px 0;
+
+  background: var(--global-card-bg-color);
+
+  .subject-kicker {
+    color: var(--subject-accent);
+
+    font-size: 0.78rem;
+    font-weight: 700;
+
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    color: var(--subject-accent);
+
+    font-size: clamp(2rem, 4vw, 2.7rem);
+    font-weight: 750;
+
+    margin: 0 0 0.6rem;
+  }
+
+  p {
+    color: var(--global-text-color-light);
+
+    font-size: 1rem;
+    line-height: 1.75;
+
+    margin-bottom: 0.5rem;
+  }
+
+  .subject-subtitle {
+    color: var(--global-text-color-light);
+
+    font-size: 0.88rem;
+    font-weight: 500;
+
+    letter-spacing: 0.025em;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   4. Subject section headings
+   ------------------------------------------------------------ */
+
+.subject-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+
+  color: var(--subject-accent);
+
+  padding-bottom: 0.65rem;
+  margin-bottom: 1.2rem;
+
+  border-bottom: 1px solid var(--global-divider-color);
+
+  i {
+    font-size: 1.15rem;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   5. Topic-wise lecture notes
+   ------------------------------------------------------------ */
+
+.subject-notes {
+  margin-bottom: 2.75rem;
+
+  table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  th {
+    color: var(--subject-accent);
+    font-weight: 650;
+  }
+
+  td,
+  th {
+    vertical-align: middle;
+  }
+
+  td a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--subject-accent);
+    }
+  }
+
+  td:last-child {
+    text-align: center;
+
+    a {
+      color: var(--subject-accent);
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------
+   5bis. Topic-wise lecture notes
+   ------------------------------------------------------------ */
+
+
+/* ============================================================
+   Topic-wise lecture notes
+   Styled consistently with MOTP homepage stage cards
+   ============================================================ */
+
+.topic-notes {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.topic-notes-subtitle {
+  margin-bottom: 1.2rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.topic-notes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 1.2rem 0;
+}
+
+.topic-note-card {
+  --stage-color: var(--global-theme-color);
+
+  display: block;
+  min-width: 0;
+  padding: 0.75rem 0.9rem;
+
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid var(--stage-color);
+  border-radius: 8px;
+
+  background: rgba(128, 128, 128, 0.045);
+  color: var(--global-text-color-light);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    border-color: var(--stage-color);
+    background: color-mix(in srgb, var(--stage-color) 8%, transparent);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
+    color: var(--global-text-color);
+  }
+}
+
+/* Subject colours */
+
+.topic-note-card.stage-blue {
+  --stage-color: #3478C8;
+}
+
+.topic-note-card.stage-teal {
+  --stage-color: #159B83;
+}
+
+.topic-note-card.stage-orange {
+  --stage-color: #E07845;
+}
+
+.topic-note-card.stage-purple {
+  --stage-color: #8964C8;
+}
+
+/* Card heading */
+
+.topic-note-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+
+    a {
+      color: var(--stage-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }  
+}
+
+/* PDF link */
+
+.topic-note-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  text-decoration: none;
+
+  i {
+    color: #d9534f;
+    font-size: 1rem;
+  }
+
+  &:hover {
+    color: var(--stage-color);
+  }
+}
+
+/* Topic description */
+
+.topic-note-description {
+  margin: 0.45rem 0 0.7rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+/* Read notes link */
+
+.topic-note-footer {
+  margin-top: 0.55rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    color: var(--stage-color);
+    font-size: 0.82rem;
+    font-weight: 650;
+    text-decoration: none;
+
+    transition: gap 0.2s ease;
+
+    &:hover {
+      gap: 0.65rem;
+    }
+  }
+}
+
+/* Responsive */
+
+@media (max-width: 650px) {
+  .topic-notes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .topic-note-card,
+  .topic-note-footer a {
+    transition: none;
+  }
+
+  .topic-note-card:hover {
+    transform: none;
+  }
+}
+
+/* ------------------------------------------------------------
+   6. Olympiad Problem Explorer
+   ------------------------------------------------------------ */
+
+.subject-explorer {
+  margin-bottom: 3rem;
+
+  .olympiad-explorer {
+    width: 100%;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   7. Past problem collections
+   ------------------------------------------------------------ */
+
+.subject-problems {
+  margin-bottom: 3rem;
+
+  .math-library {
+    margin: 0;
+  }
+}
+
+
+/* ------------------------------------------------------------
+   8. Notes guidance
+   ------------------------------------------------------------ */
+
+.subject-guidance {
+  padding: 1.4rem 1.6rem;
+
+  margin-bottom: 2.5rem;
+
+  background: var(--global-card-bg-color);
+
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+
+  h2,
+  h3 {
+    color: var(--subject-accent);
+  }
+
+  p,
+  li {
+    color: var(--global-text-color-light);
+    line-height: 1.75;
+  }
+
+  ul {
+    padding-left: 1.4rem;
+  }
+
+  a {
+    color: var(--subject-accent);
+  }
+}
+
+
+/* ------------------------------------------------------------
+   9. References and further reading
+   ------------------------------------------------------------ */
+
+.subject-references {
+  margin-bottom: 2rem;
+
+  ul {
+    padding-left: 1.4rem;
+  }
+
+  li {
+    margin-bottom: 0.65rem;
+    line-height: 1.65;
+  }
+
+  a {
+    color: var(--subject-accent);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------
+   10. Responsive layout
+   ------------------------------------------------------------ */
+
+@media (max-width: 768px) {
+
+  .subject-page {
+    section {
+      margin-bottom: 2.2rem;
+    }
+  }
+
+  .subject-intro {
+    padding: 1.2rem 1.25rem;
+  }
+
+  .subject-guidance {
+    padding: 1.2rem 1.25rem;
+  }
+}
+
+
+@media (max-width: 576px) {
+
+  .subject-intro {
+    padding: 1rem 1.1rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .subject-page {
+    h2 {
+      font-size: 1.35rem;
+    }
+  }
+
+  .subject-section-heading {
+    font-size: 1.25rem;
+  }
+
+  .subject-notes {
+    overflow-x: auto;
+
+    table {
+      min-width: 420px;
+    }
+  }
+}
