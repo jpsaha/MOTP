@@ -1,0 +1,50 @@
+
+<section class="subject-resources">
+
+  <h2 class="subject-section-heading">
+    <i class="fas fa-book-open"></i>
+    Explore More Mathematics Resources
+  </h2>
+
+  <h3>Past Problem Collections</h3>
+
+  <div class="subject-resource-grid">
+
+    {% assign subjects = "Algebra:alg,Combinatorics:comb,Geometry:geo,Number Theory:nt" | split: "," %}
+
+    {% for entry in subjects %}
+      {% assign parts = entry | split: ":" %}
+      {% assign name = parts[0] %}
+      {% assign prefix = parts[1] %}
+
+      {% if name != page.title %}
+        <div class="subject-resource-card">
+          <strong>{{ name }}</strong>
+          <div>
+            <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}">
+              By Year
+            </a>
+            <span>·</span>
+            <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}">
+              By Topic
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+
+  <h3>Other Lecture Notes and Resources</h3>
+
+  <div class="subject-resource-links">
+
+    <a href="{{ '/inmotc/' | relative_url }}">INMO Training Camp</a>
+    <a href="{{ '/imotc/' | relative_url }}">IMO Training Camp</a>
+    <a href="{{ '/mopss/' | relative_url }}">MOPSS</a>
+    <a href="{{ '/smmc/' | relative_url }}">Simon Marais Mathematics Competition</a>
+    <a href="{{ '/resources/' | relative_url }}">Resources</a>
+
+  </div>
+
+</section>
