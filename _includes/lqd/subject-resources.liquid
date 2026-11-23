@@ -25,27 +25,33 @@
 
         <div class="subject-resource-card {{ colour }}">
 
-          <strong>{{ name }}</strong>
+            <a class="subject-resource-notes"
+                href="{{ '/' | append: slug | append: '/' | relative_url }}"
+                aria-label="View {{ name }} lecture notes">
 
-          <div class="subject-resource-actions">
+                <strong>{{ name }}</strong>
 
-            <a href="{{ '/' | append: slug | append: '/' | relative_url }}">
-              Notes
             </a>
 
-            <span>·</span>
+            <div class="subject-resource-actions">
 
-            <a href="{{ '/assets/pdf/' | append: folder | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}">
-              By Year
-            </a>
+                <a href="{{ '/' | append: slug | append: '/' | relative_url }}">
+                Notes
+                </a>
 
-            <span>·</span>
+                <span>·</span>
 
-            <a href="{{ '/assets/pdf/' | append: folder | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}">
-              By Topic
-            </a>
+                <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}">
+                By Year
+                </a>
 
-          </div>
+                <span>·</span>
+
+                <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}">
+                By Topic
+                </a>
+
+            </div>
 
         </div>
 
