@@ -73,4 +73,28 @@
 
   </div>
 
+
+  {% assign other_resources = "INMO Training Camp:inmotc:stage-blue,IMO Training Camp:imotc:stage-teal,MOPSS:mopss:stage-orange,Simon Marais Mathematics Competition:smmc:stage-purple,Resources:resources:stage-blue" | split: "," %}
+
+  <div class="subject-resource-grid subject-other-resources">
+
+    {% for entry in other_resources %}
+      {% assign parts = entry | split: ":" %}
+      {% assign name = parts[0] %}
+      {% assign slug = parts[1] %}
+      {% assign colour = parts[2] %}
+
+      <a class="subject-resource-card {{ colour }}"
+         href="{{ '/' | append: slug | append: '/' | relative_url }}">
+
+        <strong>{{ name }}</strong>
+        <span>Explore resources <i class="fas fa-arrow-right"></i></span>
+
+      </a>
+
+    {% endfor %}
+
+  </div>
+
+
 </section>
