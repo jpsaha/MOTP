@@ -252,6 +252,77 @@
   }
 }
 
+
+/* ============================================================
+   Other subject collections and resources
+   ============================================================ */
+
+.subject-resources {
+  margin: 2.5rem 0;
+
+  h3 {
+    margin: 1.4rem 0 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+.subject-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.subject-resource-card {
+  padding: 0.7rem 0.85rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  background: rgba(128, 128, 128, 0.045);
+
+  strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  a {
+    font-size: 0.82rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.subject-resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  a {
+    padding: 0.45rem 0.7rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 7px;
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+    text-decoration: none;
+    background: rgba(128, 128, 128, 0.045);
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .subject-resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Subject colours */
 
 .topic-note-card.stage-blue {
