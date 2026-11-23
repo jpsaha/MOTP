@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
   const root = document.getElementById("olympiad-explorer");
@@ -20,11 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-// Diagnostic output
-    console.log("Olympiad data:", data);
-    console.log("Available competitions:", Object.keys(data || {}));
+  // Diagnostic output
+  console.log("Olympiad data:", data);
+  console.log("Available competitions:", Object.keys(data || {}));
+
   // ------------------------------------------------------------
-  // 2. Subject names
+  // 2. Subject and competition names
   // ------------------------------------------------------------
 
   const SUBJECTS = {
@@ -41,10 +41,17 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   // ------------------------------------------------------------
-  // 3. Topic names
-  //
-  // Keys are includer paths relative to the repository root.
-  // Add or correct entries here as required.
+  // 3. Page-specific default filters
+  // ------------------------------------------------------------
+
+  // Values are supplied through data attributes in the HTML.
+  // Empty strings mean "All competitions" or "All subjects".
+
+  const DEFAULT_CONTEST = root.dataset.defaultContest || "";
+  const DEFAULT_SUBJECT = root.dataset.defaultSubject || "";
+
+  // ------------------------------------------------------------
+  // 4. Topic names and source PDF links
   // ------------------------------------------------------------
 
   function getSourcePDF(includer, subjectCode) {
@@ -52,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const filename = includer.split("/").pop().replace(/\.tex$/i, ".pdf");
     const baseurl = root.dataset.baseurl || "";
+
     const subjectFolders = {
       MOTPA: "Algebra",
       MOTPC: "Combinatorics",
@@ -60,7 +68,10 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     // Special folder for inequality-related PDFs.
-    if (subjectCode === "MOTPA" && includer.toLowerCase().includes("/src/ineq/")) {
+    if (
+      subjectCode === "MOTPA" &&
+      includer.toLowerCase().includes("/src/ineq/")
+    ) {
       return `${baseurl}/assets/pdf/${subjectFolders[subjectCode]}/Ineq.pdf`;
     }
 
@@ -68,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     return `${baseurl}/assets/pdf/${subjectFolders[subjectCode]}/${filename}`;
   }
-  
+
   function getTopic(path) {
     if (!path) return "Unclassified";
 
@@ -85,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // ------------------------------------------------------------
-  // 4. Flatten YAML data into individual problem records
+  // 5. Flatten YAML data into individual problem records
   // ------------------------------------------------------------
 
   const problems = [];
@@ -127,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
               topic: "Unclassified",
               includer: ""
             });
+
             return;
           }
 
@@ -157,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ------------------------------------------------------------
-  // 5. HTML elements
+  // 6. HTML elements
   // ------------------------------------------------------------
 
   const contestSelect = root.querySelector("#oe-contest");
@@ -171,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const resultCount = root.querySelector("#oe-result-count");
 
   // ------------------------------------------------------------
-  // 6. Helper functions
+  // 7. Helper functions
   // ------------------------------------------------------------
 
   function unique(values) {
@@ -182,6 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function addOptions(select, values, labels = {}) {
     const firstOption = select.options[0];
+
     select.innerHTML = "";
     select.appendChild(firstOption);
 
@@ -237,10 +250,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     return paper ? ` · ${paper}` : "";
-  }  
+  }
 
   // ------------------------------------------------------------
-  // 7. Populate filters
+  // 8. Populate filters
   // ------------------------------------------------------------
 
   function populateContests() {
@@ -251,12 +264,7 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     addOptions(contestSelect, contests, CONTESTS);
-  }  
-  // function populateContests() {
-  //   const contests = unique(problems.map(p => p.contest));
-
-  //   addOptions(contestSelect, contests, CONTESTS);
-  // }
+  }
 
   function populateYears() {
     const contest = contestSelect.value;
@@ -265,7 +273,10 @@ document.addEventListener("DOMContentLoaded", function () {
       !contest || p.contest === contest
     );
 
-    addOptions(yearSelect, unique(filtered.map(p => p.year)).sort((a, b) => Number(b) - Number(a)));
+    addOptions(
+      yearSelect,
+      unique(filtered.map(p => p.year)).sort((a, b) => Number(b) - Number(a))
+    );
   }
 
   function populateSubjects() {
@@ -295,7 +306,38 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // ------------------------------------------------------------
-  // 8. Render problem cards
+  // 9. Apply page-specific default filters
+  // ------------------------------------------------------------
+
+  function applyDefaultFilters() {
+
+    // Competition
+    contestSelect.value = DEFAULT_CONTEST;
+
+    // Year
+    yearSelect.value = "";
+
+    // Update available years and subjects.
+    populateYears();
+    populateSubjects();
+
+    // Subject
+    subjectSelect.value = DEFAULT_SUBJECT;
+
+    // Update available topics.
+    populateTopics();
+
+    // Other filters
+    topicSelect.value = "";
+    searchInput.value = "";
+    solutionsCheckbox.checked = false;
+
+    // Display results.
+    renderProblems();
+  }
+
+  // ------------------------------------------------------------
+  // 10. Render problem cards
   // ------------------------------------------------------------
 
   function renderProblems() {
@@ -399,7 +441,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // ------------------------------------------------------------
-  // 9. Filter events
+  // 11. Filter events
   // ------------------------------------------------------------
 
   contestSelect.addEventListener("change", function () {
@@ -424,28 +466,19 @@ document.addEventListener("DOMContentLoaded", function () {
   searchInput.addEventListener("input", renderProblems);
   solutionsCheckbox.addEventListener("change", renderProblems);
 
-  resetButton.addEventListener("click", function () {
-    contestSelect.value = "";
-    yearSelect.value = "";
-    subjectSelect.value = "";
-    topicSelect.value = "";
-    searchInput.value = "";
-    solutionsCheckbox.checked = false;
+  // ------------------------------------------------------------
+  // 12. Reset filters
+  // ------------------------------------------------------------
 
-    populateYears();
-    populateSubjects();
-    populateTopics();
-    renderProblems();
+  resetButton.addEventListener("click", function () {
+    applyDefaultFilters();
   });
 
   // ------------------------------------------------------------
-  // 10. Initial setup
+  // 13. Initial setup
   // ------------------------------------------------------------
 
   populateContests();
-  populateYears();
-  populateSubjects();
-  populateTopics();
-  renderProblems();
+  applyDefaultFilters();
 
 });
