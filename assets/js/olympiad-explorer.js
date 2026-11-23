@@ -181,6 +181,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const resetButton = root.querySelector("#oe-reset");
   const results = root.querySelector("#oe-results");
   const resultCount = root.querySelector("#oe-result-count");
+  const activeFilters = root.querySelector("#oe-active-filters");
+  const activeFilterList = root.querySelector("#oe-active-filter-list");
 
   // ------------------------------------------------------------
   // 7. Helper functions
@@ -336,11 +338,66 @@ document.addEventListener("DOMContentLoaded", function () {
     renderProblems();
   }
 
+
+  // ------------------------------------------------------------
+  // Render active filter chips
+  // ------------------------------------------------------------
+
+  function renderActiveFilters() {
+
+    const filters = [
+      {
+        key: "contest",
+        label: CONTESTS[contestSelect.value]
+      },
+      {
+        key: "year",
+        label: yearSelect.value
+      },
+      {
+        key: "subject",
+        label: subjectSelect.value
+      },
+      {
+        key: "topic",
+        label: topicSelect.value
+      },
+      {
+        key: "search",
+        label: searchInput.value.trim()
+      },
+      {
+        key: "solutions",
+        label: solutionsCheckbox.checked
+          ? "Only papers with solutions"
+          : ""
+      }
+    ].filter(filter => filter.label);
+
+    activeFilterList.innerHTML = filters.map(filter => `
+      <button
+        type="button"
+        class="oe-active-filter"
+        data-filter="${filter.key}"
+        aria-label="Remove ${escapeHTML(filter.label)} filter">
+
+        ${escapeHTML(filter.label)}
+        <span aria-hidden="true">&times;</span>
+
+      </button>
+    `).join("");
+
+    activeFilters.hidden = filters.length === 0;
+  }
+
   // ------------------------------------------------------------
   // 10. Render problem cards
   // ------------------------------------------------------------
 
   function renderProblems() {
+
+    // Update active filter chips
+    renderActiveFilters();
 
     const contest = contestSelect.value;
     const year = yearSelect.value;
@@ -439,6 +496,62 @@ document.addEventListener("DOMContentLoaded", function () {
     }).join("");
 
   }
+
+  // ------------------------------------------------------------
+  // Remove individual active filters
+  // ------------------------------------------------------------
+
+  activeFilterList.addEventListener("click", function (event) {
+
+    const button = event.target.closest("[data-filter]");
+    if (!button) return;
+
+    const filter = button.dataset.filter;
+
+    switch (filter) {
+
+      case "contest":
+        contestSelect.value = "";
+        break;
+
+      case "year":
+        yearSelect.value = "";
+        break;
+
+      case "subject":
+        subjectSelect.value = "";
+        break;
+
+      case "topic":
+        topicSelect.value = "";
+        break;
+
+      case "search":
+        searchInput.value = "";
+        break;
+
+      case "solutions":
+        solutionsCheckbox.checked = false;
+        break;
+    }
+
+    // Preserve other selections whenever they remain valid.
+    const selectedYear = yearSelect.value;
+    const selectedSubject = subjectSelect.value;
+    const selectedTopic = topicSelect.value;
+
+    populateYears();
+    yearSelect.value = selectedYear;
+
+    populateSubjects();
+    subjectSelect.value = selectedSubject;
+
+    populateTopics();
+    topicSelect.value = selectedTopic;
+
+    renderProblems();
+
+  });
 
   // ------------------------------------------------------------
   // 11. Filter events

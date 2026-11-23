@@ -124,6 +124,66 @@
 }
 
 /* ============================================================
+   Active Filters
+   ============================================================ */
+
+.oe-active-filters {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.oe-active-filters[hidden] {
+  display: none;
+}
+
+.oe-active-filters-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--global-text-color);
+  white-space: nowrap;
+}
+
+.oe-active-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.oe-active-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 11px;
+  border: 1px solid rgba(52, 120, 200, 0.25);
+  border-radius: 20px;
+  background: rgba(52, 120, 200, 0.08);
+  color: var(--global-text-color);
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.oe-active-filter span {
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--global-text-color);
+}
+
+.oe-active-filter:hover {
+  background: rgba(52, 120, 200, 0.16);
+  border-color: rgba(52, 120, 200, 0.5);
+}
+
+.oe-active-filter:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+
+/* ============================================================
    4. Problem results grid
    ============================================================ */
 
