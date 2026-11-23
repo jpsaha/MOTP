@@ -622,6 +622,19 @@
   }
 }
 
+.subject-reference-list {
+  margin-top: -1.5rem;
+
+  ul {
+    margin-top: 0;
+    padding-left: 1.4rem;
+
+    li {
+      margin-bottom: 0.3rem;
+      line-height: 1.5;
+    }
+  }
+}
 
 /* ------------------------------------------------------------
    10. Responsive layout
