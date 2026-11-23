@@ -1,0 +1,87 @@
+{% case page.title %}
+  {% when 'Algebra' %}
+    {% assign topic_class = 'stage-blue' %}
+    {% assign subject_slug = 'alg' %}
+    {% assign subject_class = 'algebra' %}
+  {% when 'Combinatorics' %}
+    {% assign topic_class = 'stage-teal' %}
+    {% assign subject_slug = 'comb' %}
+    {% assign subject_class = 'combinatorics' %}
+  {% when 'Geometry' %}
+    {% assign topic_class = 'stage-orange' %}
+    {% assign subject_slug = 'geo' %}
+    {% assign subject_class = 'geometry' %}
+  {% when 'Number Theory' %}
+    {% assign topic_class = 'stage-purple' %}
+    {% assign subject_slug = 'nt' %}
+    {% assign subject_class = 'numbertheory' %}
+{% endcase %}
+
+<div class="subject-page subject-{{ subject_class }}">
+
+  <!-- Introduction -->
+
+  <section class="subject-intro">
+
+    <div class="subject-kicker">
+      Mathematics · Problem Solving · Olympiads
+    </div>
+
+    <p>
+      {{ page.subject_intro }}
+    </p>
+
+  </section>
+
+
+  <!-- Topic-wise lecture notes -->
+
+  <section class="subject-notes">
+
+    <h2 class="subject-section-heading">
+      <i class="fas fa-book-open"></i>
+      Topic-wise Lecture Notes
+    </h2>
+
+    {% include mdcode/no.md %}
+
+  </section>
+
+
+  <!-- Olympiad problem explorer -->
+
+  <section class="subject-explorer">
+
+    <h2 class="subject-section-heading">
+      <i class="fas fa-search"></i>
+      Olympiad Problem Explorer
+    </h2>
+
+    {% include lqd/olympiad-explorer.liquid %}
+
+  </section>
+
+
+  <!-- Past problem collections -->
+
+  <section class="subject-problems">
+
+    {% include lqd/math-library.liquid %}
+
+  </section>
+
+
+  <!-- About the notes -->
+
+  <section class="subject-guidance">
+
+    {% capture thesenotes %}
+      {% include mdcontent/lnmo_use.md %}
+    {% endcapture %}
+
+    {{ thesenotes | markdownify }}
+
+  </section>
+
+    {% include lqd/subject-resources.liquid %}    
+</div>
