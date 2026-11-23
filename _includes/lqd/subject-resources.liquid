@@ -8,32 +8,52 @@
 
   <h3>Past Problem Collections</h3>
 
-  <div class="subject-resource-grid">
 
-    {% assign subjects = "Algebra:alg,Combinatorics:comb,Geometry:geo,Number Theory:nt" | split: "," %}
+  {% assign subjects = "Algebra:alg:Algebra:stage-blue,Combinatorics:comb:Combinatorics:stage-teal,Geometry:geo:Geometry:stage-orange,Number Theory:nt:NumberTheory:stage-purple" | split: "," %}
+
+  <div class="subject-resource-grid">
 
     {% for entry in subjects %}
       {% assign parts = entry | split: ":" %}
       {% assign name = parts[0] %}
       {% assign prefix = parts[1] %}
+      {% assign slug = parts[1] %}
+      {% assign folder = parts[2] %}
+      {% assign colour = parts[3] %}
 
-      {% if name != page.title %}
-        <div class="subject-resource-card">
+      {% if prefix != subject_slug %}
+
+        <div class="subject-resource-card {{ colour }}">
+
           <strong>{{ name }}</strong>
-          <div>
-            <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}">
+
+          <div class="subject-resource-actions">
+
+            <a href="{{ '/' | append: slug | append: '/' | relative_url }}">
+              Notes
+            </a>
+
+            <span>·</span>
+
+            <a href="{{ '/assets/pdf/' | append: folder | append: '/' | append: prefix | append: '_yr.pdf' | relative_url }}">
               By Year
             </a>
+
             <span>·</span>
-            <a href="{{ '/assets/pdf/' | append: name | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}">
+
+            <a href="{{ '/assets/pdf/' | append: folder | append: '/' | append: prefix | append: '_topic.pdf' | relative_url }}">
               By Topic
             </a>
+
           </div>
+
         </div>
+
       {% endif %}
     {% endfor %}
 
   </div>
+
 
   <h3>Other Lecture Notes and Resources</h3>
 
