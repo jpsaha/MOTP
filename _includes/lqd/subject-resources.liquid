@@ -6,8 +6,11 @@
     Explore More Mathematics Resources
   </h2>
 
-  <h3>Explore Other Subjects</h3>
-
+  {% if page.title == 'Algebra' or page.title == 'Combinatorics' or page.title == 'Geometry' or page.title == 'Number Theory' %}
+    <h3>Explore Other Topics</h3>
+  {% else %}
+    <h3>Explore Various Topics</h3>
+  {% endif %}
 
   {% assign subjects = "Algebra:alg:Algebra:stage-blue,Combinatorics:comb:Combinatorics:stage-teal,Geometry:geo:Geometry:stage-orange,Number Theory:nt:NumberTheory:stage-purple" | split: "," %}
 
