@@ -1,4 +1,5 @@
-## These notes
+
+These notes
 
 - may be useful
   - to the students who would like to have a look at some of the past [RMO]({{ site.url }}{{ site.baseurl }}/rmo/) problems, in order to have an idea of the notions/topics involved, and/or to have a glimpse before getting started, or just curious about it,

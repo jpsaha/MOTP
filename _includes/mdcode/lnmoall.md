@@ -11,7 +11,14 @@
      subject_icon=subject_icon %}
 {% endfor %}
 
-> #### **Lecture notes for Math Olympiad ([IOQM]({{ site.url }}{{ site.baseurl }}/ioqm/), [RMO]({{ site.url }}{{ site.baseurl }}/rmo/), [INMO]({{ site.url }}{{ site.baseurl }}/inmo/))**
+<div class="subject-page subject-algebra">
+
+  {% include lqd/subject-resources.liquid %}
+  
+</div>
+
+
+<!-- > #### **Lecture notes for Math Olympiad ([IOQM]({{ site.url }}{{ site.baseurl }}/ioqm/), [RMO]({{ site.url }}{{ site.baseurl }}/rmo/), [INMO]({{ site.url }}{{ site.baseurl }}/inmo/))**
 >
 > <table
 >   id="table"
@@ -41,4 +48,4 @@
 >   {% endif %}
 >   {% endfor %}
 >   </tbody>
-> </table>
+> </table> -->
