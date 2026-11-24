@@ -158,11 +158,12 @@
   align-items: center;
   gap: 7px;
   padding: 4px 11px;
-  border: 1px solid rgba(52, 120, 200, 0.25);
+  border: 1px solid rgba(52, 120, 200, 0.30);
   border-radius: 20px;
-  background: rgba(52, 120, 200, 0.08);
-  color: var(--global-text-color);
+  background: rgba(52, 120, 200, 0.15);
+  color: #3478C8;
   font-size: 0.82rem;
+  font-weight: 600;
   cursor: pointer;
   transition: background 0.2s ease, border-color 0.2s ease;
 }
@@ -170,12 +171,12 @@
 .oe-active-filter span {
   font-size: 1rem;
   line-height: 1;
-  color: var(--global-text-color);
+  color: #3478C8;
 }
 
 .oe-active-filter:hover {
-  background: rgba(52, 120, 200, 0.16);
-  border-color: rgba(52, 120, 200, 0.5);
+  background: rgba(52, 120, 200, 0.23);
+  border-color: rgba(52, 120, 200, 0.55);
 }
 
 .oe-active-filter:focus-visible {
