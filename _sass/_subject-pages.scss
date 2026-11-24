@@ -226,6 +226,8 @@
 .topic-note-card {
   --stage-color: var(--global-theme-color);
 
+  position: relative; // Added for the stretched link
+
   display: block;
   min-width: 0;
   padding: 0.75rem 0.9rem;
@@ -250,8 +252,30 @@
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.07);
     color: var(--global-text-color);
   }
-}
 
+  .topic-note-card-header h3 a.topic-note-link {
+    color: var(--stage-color);
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: var(--stage-color);
+      text-decoration: underline;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+  }
+
+  .topic-note-pdf {
+    position: relative;
+    z-index: 2;
+  }
+}
 
 /* ============================================================
    Other subject collections and resources
