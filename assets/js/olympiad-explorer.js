@@ -181,6 +181,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const resetButton = root.querySelector("#oe-reset");
   const results = root.querySelector("#oe-results");
   const resultCount = root.querySelector("#oe-result-count");
+  const resultSummary = root.querySelector("#oe-result-summary");
+  const progressBar = root.querySelector("#oe-results-progress-bar");
   const activeFilters = root.querySelector("#oe-active-filters");
   const activeFilterList = root.querySelector("#oe-active-filter-list");
 
@@ -430,8 +432,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }).sort((a, b) => Number(b.year) - Number(a.year));
 
+    const matching = filtered.length;
+    const total = problems.length;
+    const shown = matching;
+
     resultCount.textContent =
-      `${filtered.length} problem${filtered.length === 1 ? "" : "s"} found`;
+      `${matching} result${matching === 1 ? "" : "s"}`;
+
+    resultSummary.textContent =
+      `Showing ${shown} of ${total} problems`;
+
+    progressBar.style.width =
+      total > 0 ? `${(matching / total) * 100}%` : "0%";
 
     if (filtered.length === 0) {
       results.innerHTML =
