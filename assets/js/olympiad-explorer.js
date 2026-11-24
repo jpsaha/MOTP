@@ -455,6 +455,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const contestName = CONTESTS[p.contest] || p.contest.toUpperCase();
 
+      const subjectClass = {
+        "Algebra": "subject-algebra",
+        "Combinatorics": "subject-combinatorics",
+        "Geometry": "subject-geometry",
+        "Number Theory": "subject-number-theory"
+      }[p.subject] || "";      
+
       const paperLinks = [
         makeLink(p.qq, "Question paper"),
         makeLink(p.sol, "Solutions"),
@@ -463,7 +470,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ].filter(Boolean);
 
       return `
-        <article class="oe-problem-card">
+        <article class="oe-problem-card ${subjectClass}">
 
           <div class="oe-problem-heading">
 

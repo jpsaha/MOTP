@@ -221,6 +221,7 @@
   transition: width 0.3s ease;
 }
 
+
 /* ============================================================
    5. Problem cards
    ============================================================ */
@@ -244,6 +245,15 @@
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
     transform: translateY(-2px);
   }
+}
+
+/* Subject-coloured problem cards */
+
+.oe-problem-card.subject-algebra,
+.oe-problem-card.subject-combinatorics,
+.oe-problem-card.subject-geometry,
+.oe-problem-card.subject-number-theory {
+  border-left: 4px solid var(--subject-accent);
 }
 
 /* Problem heading */
