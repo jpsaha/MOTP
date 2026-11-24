@@ -603,7 +603,24 @@ document.addEventListener("DOMContentLoaded", function () {
   // ------------------------------------------------------------
 
   resetButton.addEventListener("click", function () {
-    applyDefaultFilters();
+
+    // Clear all filters, including page-specific defaults.
+    contestSelect.value = "";
+    yearSelect.value = "";
+    subjectSelect.value = "";
+    topicSelect.value = "";
+
+    searchInput.value = "";
+    solutionsCheckbox.checked = false;
+
+    // Restore all available filter options.
+    populateYears();
+    populateSubjects();
+    populateTopics();
+
+    // Display all problems.
+    renderProblems();
+
   });
 
   // ------------------------------------------------------------
