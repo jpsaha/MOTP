@@ -14,7 +14,7 @@
   {% when 'Number Theory' %}
     {% assign topic_class = 'stage-purple' %}
     {% assign subject_slug = 'nt' %}
-    {% assign subject_class = 'numbertheory' %}
+    {% assign subject_class = 'number-theory' %}
 {% endcase %}
 
 <div class="subject-page subject-{{ subject_class }}">
@@ -87,6 +87,22 @@
     {% endcapture %}
 
     {{ thesenotes | markdownify }}
+
+  </section>
+
+</div>
+
+
+<div class="subject-page subject-{{ subject_class }}">
+
+  <!-- References -->
+
+  <section class="subject-references">
+
+    <h2 class="subject-section-heading">
+      <i class="fas fa-book"></i>
+      References and Further Reading
+    </h2>
 
   </section>
 
