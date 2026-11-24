@@ -12,6 +12,7 @@
    1. Header
    ============================================================ */
 
+   
 .oe-header {
   margin-bottom: 1.5rem;
 
@@ -22,6 +23,27 @@
   p {
     color: var(--global-text-color-light);
     margin-bottom: 0;
+  }
+}
+
+/* ------------------------------------------------------------
+   Explorer section heading
+   ------------------------------------------------------------ */
+
+.oe-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+
+  color: var(--global-theme-color);
+
+  padding-bottom: 0.65rem;
+  margin-bottom: 1.2rem;
+
+  border-bottom: 1px solid var(--global-divider-color);
+
+  i {
+    font-size: 1.15rem;
   }
 }
 
@@ -461,5 +483,9 @@
   .oe-filter-bottom {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .oe-section-heading {
+    font-size: 1.25rem;
   }
 }
