@@ -8,11 +8,11 @@
   color: var(--global-text-color);
 }
 
+
 /* ============================================================
    1. Header
    ============================================================ */
 
-   
 .oe-header {
   margin-bottom: 1.5rem;
 
@@ -26,9 +26,7 @@
   }
 }
 
-/* ------------------------------------------------------------
-   Explorer section heading
-   ------------------------------------------------------------ */
+/* Explorer section heading */
 
 .oe-section-heading {
   display: flex;
@@ -36,6 +34,9 @@
   gap: 0.7rem;
 
   color: var(--global-theme-color);
+
+  font-size: 1.55rem;
+  font-weight: 650;
 
   padding-bottom: 0.65rem;
   margin-bottom: 1.2rem;
@@ -46,6 +47,13 @@
     font-size: 1.15rem;
   }
 }
+
+/* Preserve heading spacing despite .oe-header h2 */
+
+.oe-header .oe-section-heading {
+  margin-bottom: 1.2rem;
+}
+
 
 /* ============================================================
    2. Filters
@@ -101,53 +109,7 @@
   }
 }
 
-/* Filter bottom row */
-
-.oe-filter-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 1.1rem;
-  padding-top: 0.9rem;
-  border-top: 1px solid var(--global-divider-color);
-}
-
-.oe-checkbox {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  margin: 0;
-}
-
-.oe-reset {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 7px;
-  padding: 0.45rem 0.8rem;
-  background: transparent;
-  color: var(--global-text-color);
-  cursor: pointer;
-
-  &:hover {
-    background: var(--global-hover-color);
-  }
-}
-
-/* ============================================================
-   3. Result count
-   ============================================================ */
-
-.oe-results-header {
-  margin-bottom: 0.8rem;
-  font-size: 0.9rem;
-  color: var(--global-text-color-light);
-}
-
-/* ============================================================
-   Active Filters
-   ============================================================ */
+/* Active filters */
 
 .oe-active-filters {
   display: flex;
@@ -206,23 +168,49 @@
   outline-offset: 2px;
 }
 
+/* Filter bottom row */
+
+.oe-filter-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.oe-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.oe-reset {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 7px;
+  padding: 0.45rem 0.8rem;
+  background: transparent;
+  color: var(--global-text-color);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--global-hover-color);
+  }
+}
+
+
 /* ============================================================
-   4. Problem results grid
+   3. Results header and progress
    ============================================================ */
 
-.oe-results {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-
-  /* Internal scrolling */
-  max-height: 500px;
-  overflow-y: auto;
-  padding: 0.75rem;
-
-  border: 1px solid var(--global-divider-color);
-  border-radius: 10px;
-  scrollbar-width: thin;
+.oe-results-header {
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
 }
 
 /* Results progress bar */
@@ -242,6 +230,26 @@
   border-radius: inherit;
   background: #3478C8;
   transition: width 0.3s ease;
+}
+
+
+/* ============================================================
+   4. Problem results grid
+   ============================================================ */
+
+.oe-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+
+  /* Internal scrolling */
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 0.75rem;
+
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  scrollbar-width: thin;
 }
 
 
@@ -314,6 +322,7 @@
   letter-spacing: 0.04em;
 }
 
+
 /* ============================================================
    6. Subject and topic labels
    ============================================================ */
@@ -343,6 +352,7 @@
   background: #e5f5e9;
   color: #21834a;
 }
+
 
 /* ============================================================
    7. Card footer and links
@@ -380,6 +390,7 @@
   color: var(--global-text-color-light);
   font-size: 0.9rem;
 }
+
 
 /* ============================================================
    8. Responsive layout
@@ -484,6 +495,8 @@
     align-items: flex-start;
     flex-direction: column;
   }
+
+  /* Explorer heading */
 
   .oe-section-heading {
     font-size: 1.25rem;
