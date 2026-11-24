@@ -1,0 +1,204 @@
+
+<div class="notes-library">
+
+  <!-- Search and filters -->
+
+  <div class="notes-library-controls">
+
+    <div class="notes-search">
+      <i class="fas fa-search"></i>
+      <input
+        type="search"
+        id="notes-search"
+        placeholder="Search topics or keywords..."
+        aria-label="Search lecture notes">
+    </div>
+
+    <select id="notes-subject-filter" aria-label="Filter by subject">
+      <option value="all">All Subjects</option>
+      <option value="algebra">Algebra</option>
+      <option value="combinatorics">Combinatorics</option>
+      <option value="geometry">Geometry</option>
+      <option value="numbertheory">Number Theory</option>
+    </select>
+
+    <button type="button" id="notes-reset" class="notes-reset">
+      <i class="fas fa-undo"></i> Reset
+    </button>
+
+  </div>
+
+  <!-- Results information -->
+
+  <div class="notes-results" aria-live="polite">
+    <strong id="notes-result-count">0 notes</strong>
+    <span id="notes-result-message"></span>
+  </div>
+
+  <!-- Subject sections -->
+
+  {% assign note_subjects = "Algebra,Combinatorics,Geometry,Number Theory" | split: "," %}
+
+  {% for subject in note_subjects %}
+
+    {% case subject %}
+      {% when 'Algebra' %}
+        {% assign subject_slug = 'alg' %}
+        {% assign subject_class = 'stage-blue' %}
+        {% assign subject_key = 'algebra' %}
+        {% assign subject_color = '#3478C8' %}
+      {% when 'Combinatorics' %}
+        {% assign subject_slug = 'comb' %}
+        {% assign subject_class = 'stage-teal' %}
+        {% assign subject_key = 'combinatorics' %}
+        {% assign subject_color = '#159B83' %}
+      {% when 'Geometry' %}
+        {% assign subject_slug = 'geo' %}
+        {% assign subject_class = 'stage-orange' %}
+        {% assign subject_key = 'geometry' %}
+        {% assign subject_color = '#E07845' %}
+      {% when 'Number Theory' %}
+        {% assign subject_slug = 'nt' %}
+        {% assign subject_class = 'stage-purple' %}
+        {% assign subject_key = 'numbertheory' %}
+        {% assign subject_color = '#8964C8' %}
+    {% endcase %}
+
+    {% assign subject_folder = subject | replace: ' ', '' %}
+
+    <section class="notes-subject-section"
+             data-subject-section="{{ subject_key }}">
+
+      <h2 class="notes-subject-heading {{ subject_class }}"
+          style="--notes-accent: {{ subject_color }};">
+
+        {% case subject %}
+            {% when 'Algebra' %}
+            <i class="fas fa-superscript"></i>
+            {% when 'Combinatorics' %}
+            <i class="fas fa-shapes"></i>
+            {% when 'Geometry' %}
+            <i class="fas fa-draw-polygon"></i>
+            {% when 'Number Theory' %}
+            <i class="fas fa-infinity"></i>
+        {% endcase %}
+
+        {{ subject }}
+      </h2>
+
+      <div class="notes-topic-grid">
+
+        {% for item in site.data.csv.no %}
+          {% if item.subj == subject %}
+
+            {% assign topic_url = '/' | append: subject_slug | append: '/' | append: item.pdf | downcase | append: '/' %}
+            {% assign pdf_url = '/assets/pdf/' | append: subject_folder | append: '/' | append: item.pdf | append: '.pdf' %}
+
+            <article class="notes-topic-card {{ subject_class }}"
+                     style="--notes-accent: {{ subject_color }};"
+                     data-subject="{{ subject_key }}"
+                     data-search="{{ item.topic | downcase | escape }} {{ item.description | downcase | escape }}">
+
+              <div class="notes-topic-header">
+
+                <h3>
+                  <a href="{{ topic_url | relative_url }}">
+                    {{ item.topic }}
+                  </a>
+                </h3>
+
+                {% if item.pdf != blank %}
+                  <a href="{{ pdf_url | relative_url }}"
+                     class="notes-topic-pdf"
+                     target="_blank"
+                     rel="noopener"
+                     aria-label="Open PDF for {{ item.topic }}">
+                    <i class="fas fa-file-pdf"></i>
+                  </a>
+                {% endif %}
+
+              </div>
+
+              {% if item.description != blank %}
+                <p>{{ item.description }}</p>
+              {% endif %}
+
+            </article>
+
+          {% endif %}
+        {% endfor %}
+
+      </div>
+    </section>
+
+  {% endfor %}
+
+  <div class="notes-no-results" id="notes-no-results" hidden>
+    <i class="fas fa-search"></i>
+    <p>No lecture notes match your search.</p>
+    <span>Try another keyword or change the subject filter.</span>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const searchInput = document.getElementById('notes-search');
+  const subjectFilter = document.getElementById('notes-subject-filter');
+  const resetButton = document.getElementById('notes-reset');
+
+  const cards = document.querySelectorAll('.notes-topic-card');
+  const sections = document.querySelectorAll('.notes-subject-section');
+
+  const countDisplay = document.getElementById('notes-result-count');
+  const messageDisplay = document.getElementById('notes-result-message');
+  const noResults = document.getElementById('notes-no-results');
+
+  function filterNotes() {
+    const query = searchInput.value.trim().toLowerCase();
+    const selectedSubject = subjectFilter.value;
+
+    let visibleCount = 0;
+
+    cards.forEach(function (card) {
+      const matchesSearch = card.dataset.search.includes(query);
+      const matchesSubject =
+        selectedSubject === 'all' ||
+        card.dataset.subject === selectedSubject;
+
+      const visible = matchesSearch && matchesSubject;
+
+      card.hidden = !visible;
+
+      if (visible) visibleCount++;
+    });
+
+    sections.forEach(function (section) {
+      const visibleCards = section.querySelectorAll(
+        '.notes-topic-card:not([hidden])'
+      );
+
+      section.hidden = visibleCards.length === 0;
+    });
+
+    countDisplay.textContent =
+      visibleCount + (visibleCount === 1 ? ' note' : ' notes');
+
+    messageDisplay.textContent =
+      'Showing ' + visibleCount + ' of ' + cards.length + ' notes';
+
+    noResults.hidden = visibleCount !== 0;
+  }
+
+  searchInput.addEventListener('input', filterNotes);
+  subjectFilter.addEventListener('change', filterNotes);
+
+  resetButton.addEventListener('click', function () {
+    searchInput.value = '';
+    subjectFilter.value = 'all';
+    filterNotes();
+  });
+
+  filterNotes();
+});
+</script>

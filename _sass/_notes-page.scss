@@ -1,0 +1,241 @@
+
+/* ============================================================
+   Central Lecture Notes Page
+   ============================================================ */
+
+.notes-page {
+  --notes-blue: #3478C8;
+  --notes-teal: #159B83;
+  --notes-orange: #E07845;
+  --notes-purple: #8964C8;
+
+  .notes-intro {
+    margin-bottom: 1.5rem;
+    color: var(--global-text-color-light);
+    line-height: 1.7;
+  }
+}
+
+/* Search and filters */
+
+.notes-library {
+  margin: 1.5rem 0;
+
+  .notes-library-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 190px auto;
+    gap: 0.65rem;
+    margin-bottom: 1rem;
+  }
+
+  .notes-search {
+    position: relative;
+
+    i {
+      position: absolute;
+      top: 50%;
+      left: 0.85rem;
+      transform: translateY(-50%);
+      color: var(--global-text-color-light);
+    }
+
+    input {
+      width: 100%;
+      min-height: 42px;
+      padding: 0.55rem 0.8rem 0.55rem 2.35rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 7px;
+      background: var(--global-card-bg-color);
+      color: var(--global-text-color);
+      font-size: 0.9rem;
+
+      &:focus {
+        outline: none;
+        border-color: var(--global-theme-color);
+        box-shadow: 0 0 0 2px rgba(52, 120, 200, 0.10);
+      }
+    }
+  }
+
+  #notes-subject-filter {
+    min-height: 42px;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 7px;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    font-size: 0.88rem;
+  }
+
+  .notes-reset {
+    padding: 0.5rem 0.85rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 7px;
+    background: rgba(128, 128, 128, 0.06);
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    transition: 0.2s ease;
+
+    &:hover {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+    }
+  }
+
+  /* Results count */
+
+  .notes-results {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0.8rem 0 1.5rem;
+    padding: 0.65rem 0.85rem;
+    border-left: 3px solid var(--global-theme-color);
+    border-radius: 4px;
+    background: rgba(128, 128, 128, 0.06);
+    font-size: 0.85rem;
+
+    strong {
+      color: var(--global-text-color);
+    }
+
+    span {
+      color: var(--global-text-color-light);
+    }
+  }
+
+  /* Subject sections */
+
+  .notes-subject-section {
+    margin: 2rem 0;
+
+    &[hidden],
+    .notes-topic-card[hidden] {
+      display: none !important;
+    }
+  }
+
+  .notes-subject-heading {
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid var(--notes-accent);
+    color: var(--notes-accent);
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  /* Topic cards */
+
+  .notes-topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .notes-topic-card {
+    position: relative;
+    min-width: 0;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--notes-accent);
+    border-radius: 8px;
+    background: rgba(128, 128, 128, 0.045);
+    color: var(--global-text-color-light);
+    transition: 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-color: var(--notes-accent);
+      background: color-mix(in srgb, var(--notes-accent) 7%, transparent);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 0.92rem;
+      font-weight: 500;
+
+      a {
+        color: var(--notes-accent);
+        text-decoration: none;
+
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          z-index: 1;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    p {
+      margin: 0.3rem 0 0;
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+  }
+
+  .notes-topic-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .notes-topic-pdf {
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+    color: #d9534f;
+    font-size: 1rem;
+
+    &:hover {
+      color: #b52b27;
+    }
+  }
+
+  /* Empty search results */
+
+  .notes-no-results {
+    padding: 2.5rem 1rem;
+    text-align: center;
+    color: var(--global-text-color-light);
+
+    i {
+      margin-bottom: 0.7rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin: 0.3rem 0;
+      font-weight: 600;
+      color: var(--global-text-color);
+    }
+
+    span {
+      font-size: 0.85rem;
+    }
+  }
+}
+
+/* Responsive layout */
+
+@media (max-width: 650px) {
+  .notes-library {
+    .notes-library-controls {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .notes-search {
+      grid-column: 1 / -1;
+    }
+
+    .notes-topic-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
