@@ -7,35 +7,30 @@
 
 
 /* ------------------------------------------------------------
-   1. Subject accent colours
-   ------------------------------------------------------------ */
-
-.subject-algebra {
-  --subject-accent: #3478C8;
-}
-
-.subject-combinatorics {
-  --subject-accent: #159B83;
-}
-
-.subject-geometry {
-  --subject-accent: #E07845;
-}
-
-.subject-number-theory {
-  --subject-accent: #8964C8;
-}
-
-
-/* ------------------------------------------------------------
-   2. Main subject page
+   1. Main subject page
    ------------------------------------------------------------ */
 
 .subject-page {
+  /* Subject-specific accent colours */
   --subject-accent: var(--global-theme-color);
 
-  color: var(--global-text-color);
+  &.subject-algebra {
+    --subject-accent: #3478C8;
+  }
 
+  &.subject-combinatorics {
+    --subject-accent: #159B83;
+  }
+
+  &.subject-geometry {
+    --subject-accent: #E07845;
+  }
+
+  &.subject-number-theory {
+    --subject-accent: #8964C8;
+  }
+
+  color: var(--global-text-color);
   width: 100%;
 
   /* Common section spacing */
@@ -55,6 +50,7 @@
     font-weight: 600;
   }
 
+  /* Smooth link transitions */
   a {
     transition:
       color 0.2s ease,
@@ -65,7 +61,7 @@
 
 
 /* ------------------------------------------------------------
-   3. Subject introduction
+   2. Subject introduction
    ------------------------------------------------------------ */
 
 .subject-intro {
@@ -121,7 +117,8 @@
 
 
 /* ------------------------------------------------------------
-   4. Subject section headings
+   3. Subject section headings
+   Neutral colour shared by all subject pages
    ------------------------------------------------------------ */
 
 .subject-section-heading {
@@ -129,7 +126,7 @@
   align-items: center;
   gap: 0.7rem;
 
-  color: var(--subject-accent);
+  color: var(--global-theme-color);
 
   padding-bottom: 0.65rem;
   margin-bottom: 1.2rem;
@@ -143,7 +140,8 @@
 
 
 /* ------------------------------------------------------------
-   5. Topic-wise lecture notes
+   4. Topic-wise lecture notes
+   Table-based notes and resource links
    ------------------------------------------------------------ */
 
 .subject-notes {
@@ -188,14 +186,9 @@
 
 
 /* ------------------------------------------------------------
-   5bis. Topic-wise lecture notes
+   5. Topic-wise lecture notes
+   Card-based layout styled consistently with MOTP homepage
    ------------------------------------------------------------ */
-
-
-/* ============================================================
-   Topic-wise lecture notes
-   Styled consistently with MOTP homepage stage cards
-   ============================================================ */
 
 .topic-notes {
   margin: 1.5rem 0 2.5rem;
@@ -223,10 +216,13 @@
   margin: 1.2rem 0;
 }
 
+
+/* Topic note card */
+
 .topic-note-card {
   --stage-color: var(--global-theme-color);
 
-  position: relative; // Added for the stretched link
+  position: relative; // Stretched link container
 
   display: block;
   min-width: 0;
@@ -277,9 +273,112 @@
   }
 }
 
-/* ============================================================
-   Other subject collections and resources
-   ============================================================ */
+
+/* Subject/stage colours for topic note cards */
+
+.topic-note-card.stage-blue {
+  --stage-color: #3478C8;
+}
+
+.topic-note-card.stage-teal {
+  --stage-color: #159B83;
+}
+
+.topic-note-card.stage-orange {
+  --stage-color: #E07845;
+}
+
+.topic-note-card.stage-purple {
+  --stage-color: #8964C8;
+}
+
+
+/* Topic card heading */
+
+.topic-note-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+
+  h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+
+    a {
+      color: var(--stage-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+/* PDF link */
+
+.topic-note-pdf {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-shrink: 0;
+
+  color: var(--global-text-color-light);
+  font-size: 0.78rem;
+  text-decoration: none;
+
+  i {
+    color: #d9534f;
+    font-size: 1rem;
+  }
+
+  &:hover {
+    color: var(--stage-color);
+  }
+}
+
+
+/* Topic description */
+
+.topic-note-description {
+  margin: 0.45rem 0 0.7rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+
+/* Read notes link */
+
+.topic-note-footer {
+  margin-top: 0.55rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    color: var(--stage-color);
+    font-size: 0.82rem;
+    font-weight: 650;
+    text-decoration: none;
+
+    transition: gap 0.2s ease;
+
+    &:hover {
+      gap: 0.65rem;
+    }
+  }
+}
+
+
+/* ------------------------------------------------------------
+   6. Other subject collections and resources
+   ------------------------------------------------------------ */
 
 .subject-resources {
   margin: 2.5rem 0;
@@ -298,13 +397,17 @@
 }
 
 
+/* Resource cards */
+
 .subject-resource-card {
   --stage-color: var(--global-theme-color);
 
   padding: 0.7rem 0.85rem;
+
   border: 1px solid var(--global-divider-color);
   border-left: 3px solid var(--stage-color);
   border-radius: 8px;
+
   background: rgba(128, 128, 128, 0.045);
 
   transition:
@@ -329,6 +432,9 @@
   }
 }
 
+
+/* Subject/stage colours for resource cards */
+
 .subject-resource-card.stage-blue {
   --stage-color: #3478C8;
 }
@@ -344,6 +450,9 @@
 .subject-resource-card.stage-purple {
   --stage-color: #8964C8;
 }
+
+
+/* Resource card actions */
 
 .subject-resource-actions {
   display: flex;
@@ -368,6 +477,9 @@
   }
 }
 
+
+/* Resource links */
+
 .subject-resource-links {
   display: flex;
   flex-wrap: wrap;
@@ -375,11 +487,14 @@
 
   a {
     padding: 0.45rem 0.7rem;
+
     border: 1px solid var(--global-divider-color);
     border-radius: 7px;
+
     color: var(--global-text-color-light);
     font-size: 0.82rem;
     text-decoration: none;
+
     background: rgba(128, 128, 128, 0.045);
 
     &:hover {
@@ -388,6 +503,9 @@
     }
   }
 }
+
+
+/* Resource notes links */
 
 .subject-resource-notes {
   display: block;
@@ -403,6 +521,8 @@
   }
 }
 
+
+/* Other resource cards */
 
 .subject-other-resources {
   .subject-resource-card {
@@ -434,130 +554,9 @@
   }
 }
 
-@media (max-width: 650px) {
-  .subject-resource-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Subject colours */
-
-.topic-note-card.stage-blue {
-  --stage-color: #3478C8;
-}
-
-.topic-note-card.stage-teal {
-  --stage-color: #159B83;
-}
-
-.topic-note-card.stage-orange {
-  --stage-color: #E07845;
-}
-
-.topic-note-card.stage-purple {
-  --stage-color: #8964C8;
-}
-
-/* Card heading */
-
-.topic-note-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-
-  h3 {
-    margin: 0;
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
-
-    a {
-      color: var(--stage-color);
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }  
-}
-
-/* PDF link */
-
-.topic-note-pdf {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  flex-shrink: 0;
-
-  color: var(--global-text-color-light);
-  font-size: 0.78rem;
-  text-decoration: none;
-
-  i {
-    color: #d9534f;
-    font-size: 1rem;
-  }
-
-  &:hover {
-    color: var(--stage-color);
-  }
-}
-
-/* Topic description */
-
-.topic-note-description {
-  margin: 0.45rem 0 0.7rem;
-  color: var(--global-text-color-light);
-  font-size: 0.85rem;
-  line-height: 1.5;
-}
-
-/* Read notes link */
-
-.topic-note-footer {
-  margin-top: 0.55rem;
-
-  a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-
-    color: var(--stage-color);
-    font-size: 0.82rem;
-    font-weight: 650;
-    text-decoration: none;
-
-    transition: gap 0.2s ease;
-
-    &:hover {
-      gap: 0.65rem;
-    }
-  }
-}
-
-/* Responsive */
-
-@media (max-width: 650px) {
-  .topic-notes-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .topic-note-card,
-  .topic-note-footer a {
-    transition: none;
-  }
-
-  .topic-note-card:hover {
-    transform: none;
-  }
-}
 
 /* ------------------------------------------------------------
-   6. Olympiad Problem Explorer
+   7. Olympiad Problem Explorer
    ------------------------------------------------------------ */
 
 .subject-explorer {
@@ -570,7 +569,7 @@
 
 
 /* ------------------------------------------------------------
-   7. Past problem collections
+   8. Past problem collections
    ------------------------------------------------------------ */
 
 .subject-problems {
@@ -583,12 +582,11 @@
 
 
 /* ------------------------------------------------------------
-   8. Notes guidance
+   9. Notes guidance
    ------------------------------------------------------------ */
 
 .subject-guidance {
   padding: 1.4rem 1.6rem;
-
   margin-bottom: 2.5rem;
 
   background: var(--global-card-bg-color);
@@ -618,7 +616,7 @@
 
 
 /* ------------------------------------------------------------
-   9. References and further reading
+   10. References and further reading
    ------------------------------------------------------------ */
 
 .subject-references {
@@ -646,6 +644,9 @@
   }
 }
 
+
+/* Additional reference list */
+
 .subject-reference-list {
   margin-top: -1.5rem;
 
@@ -660,9 +661,25 @@
   }
 }
 
+
 /* ------------------------------------------------------------
-   10. Responsive layout
+   11. Responsive layout
    ------------------------------------------------------------ */
+
+/* Smaller resource cards */
+
+@media (max-width: 650px) {
+  .subject-resource-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-notes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Tablet layout */
 
 @media (max-width: 768px) {
 
@@ -681,6 +698,8 @@
   }
 }
 
+
+/* Mobile layout */
 
 @media (max-width: 576px) {
 
@@ -708,5 +727,19 @@
     table {
       min-width: 420px;
     }
+  }
+}
+
+
+/* Respect reduced-motion preferences */
+
+@media (prefers-reduced-motion: reduce) {
+  .topic-note-card,
+  .topic-note-footer a {
+    transition: none;
+  }
+
+  .topic-note-card:hover {
+    transform: none;
   }
 }
