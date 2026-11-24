@@ -4,11 +4,13 @@
    ============================================================ */
 
 .notes-page {
+  /* Subject accent colours */
   --notes-blue: #3478C8;
   --notes-teal: #159B83;
   --notes-orange: #E07845;
   --notes-purple: #8964C8;
 
+  /* Page introduction */
   .notes-intro {
     margin-bottom: 1.5rem;
     color: var(--global-text-color-light);
@@ -16,10 +18,19 @@
   }
 }
 
-/* Search and filters */
+
+/* ============================================================
+   Notes Library
+   Search, filters, results and topic sections
+   ============================================================ */
 
 .notes-library {
   margin: 1.5rem 0;
+
+
+  /* ----------------------------------------------------------
+     1. Search and filter controls
+     ---------------------------------------------------------- */
 
   .notes-library-controls {
     display: grid;
@@ -28,6 +39,7 @@
     margin-bottom: 1rem;
   }
 
+  /* Search input with integrated icon */
   .notes-search {
     position: relative;
 
@@ -52,11 +64,16 @@
       &:focus {
         outline: none;
         border-color: var(--global-theme-color);
-        box-shadow: 0 0 0 2px rgba(52, 120, 200, 0.10);
+        box-shadow: 0 0 0 2px color-mix(
+          in srgb,
+          var(--global-theme-color) 12%,
+          transparent
+        );
       }
     }
   }
 
+  /* Subject selection */
   #notes-subject-filter {
     min-height: 42px;
     padding: 0.5rem 0.7rem;
@@ -67,6 +84,7 @@
     font-size: 0.88rem;
   }
 
+  /* Reset search and filter selections */
   .notes-reset {
     padding: 0.5rem 0.85rem;
     border: 1px solid var(--global-divider-color);
@@ -82,7 +100,10 @@
     }
   }
 
-  /* Results count */
+
+  /* ----------------------------------------------------------
+     2. Results count
+     ---------------------------------------------------------- */
 
   .notes-results {
     display: flex;
@@ -104,17 +125,21 @@
     }
   }
 
-  /* Subject sections */
+
+  /* ----------------------------------------------------------
+     3. Subject sections and headings
+     ---------------------------------------------------------- */
 
   .notes-subject-section {
     margin: 2rem 0;
 
-    &[hidden],
-    .notes-topic-card[hidden] {
+    /* Hide subjects with no matching topics */
+    &[hidden] {
       display: none !important;
     }
   }
 
+  /* Subject heading uses the accent colour of its section */
   .notes-subject-heading {
     margin: 0 0 0.9rem;
     padding-bottom: 0.45rem;
@@ -124,7 +149,10 @@
     font-weight: 600;
   }
 
-  /* Topic cards */
+
+  /* ----------------------------------------------------------
+     4. Topic cards
+     ---------------------------------------------------------- */
 
   .notes-topic-grid {
     display: grid;
@@ -132,6 +160,7 @@
     gap: 0.7rem;
   }
 
+  /* Individual topic card */
   .notes-topic-card {
     position: relative;
     min-width: 0;
@@ -143,6 +172,7 @@
     color: var(--global-text-color-light);
     transition: 0.2s ease;
 
+    /* Hover effect */
     &:hover {
       transform: translateY(-2px);
       border-color: var(--notes-accent);
@@ -150,6 +180,18 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
     }
 
+    /* Keyboard focus indication */
+    &:focus-within {
+      border-color: var(--notes-accent);
+      outline: 2px solid color-mix(
+        in srgb,
+        var(--notes-accent) 30%,
+        transparent
+      );
+      outline-offset: 2px;
+    }
+
+    /* Topic title and stretched link */
     h3 {
       margin: 0;
       font-size: 0.92rem;
@@ -159,6 +201,7 @@
         color: var(--notes-accent);
         text-decoration: none;
 
+        /* Make the entire card clickable */
         &::after {
           content: "";
           position: absolute;
@@ -172,6 +215,7 @@
       }
     }
 
+    /* Topic description */
     p {
       margin: 0.3rem 0 0;
       font-size: 0.82rem;
@@ -179,6 +223,7 @@
     }
   }
 
+  /* Topic title and PDF link alignment */
   .notes-topic-header {
     display: flex;
     align-items: center;
@@ -186,10 +231,15 @@
     gap: 0.5rem;
   }
 
+  /* Separate PDF link above the stretched card link */
   .notes-topic-pdf {
     position: relative;
     z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
+    padding: 0.2rem;
     color: #d9534f;
     font-size: 1rem;
 
@@ -198,7 +248,10 @@
     }
   }
 
-  /* Empty search results */
+
+  /* ----------------------------------------------------------
+     5. Empty search results
+     ---------------------------------------------------------- */
 
   .notes-no-results {
     padding: 2.5rem 1rem;
@@ -222,10 +275,16 @@
   }
 }
 
-/* Responsive layout */
+
+/* ============================================================
+   Responsive Layout
+   ============================================================ */
 
 @media (max-width: 650px) {
+
   .notes-library {
+
+    /* Search takes the full row; filter and reset share the next */
     .notes-library-controls {
       grid-template-columns: 1fr 1fr;
     }
@@ -234,6 +293,7 @@
       grid-column: 1 / -1;
     }
 
+    /* Stack topic cards vertically on smaller screens */
     .notes-topic-grid {
       grid-template-columns: 1fr;
     }
