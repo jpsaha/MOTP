@@ -280,11 +280,20 @@
 
 /* Subject-coloured problem cards */
 
-.oe-problem-card.subject-algebra,
-.oe-problem-card.subject-combinatorics,
-.oe-problem-card.subject-geometry,
+.oe-problem-card.subject-algebra {
+  border-left: 4px solid #3478C8;
+}
+
+.oe-problem-card.subject-combinatorics {
+  border-left: 4px solid #159B83;
+}
+
+.oe-problem-card.subject-geometry {
+  border-left: 4px solid #E07845;
+}
+
 .oe-problem-card.subject-number-theory {
-  border-left: 4px solid var(--subject-accent);
+  border-left: 4px solid #8964C8;
 }
 
 /* Problem heading */
