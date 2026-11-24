@@ -34,24 +34,19 @@ giscus_comments: true
 pretty_table: true
 ---
 
-{% capture jnotes %}{% include mdcode/no.md %}{% endcapture %}
+{% include lqd/subject-page.liquid %}
 
-{{ jnotes }}
+<div class="subject-reference-list">
 
-{% include lqd/olympiad-explorer.liquid %}
-
-{% capture jnotess %}{% include mdcode/lnmoall.md %}{% endcapture %}
-
-{{ jnotess }}
-
-{% capture thesenotes %}{% include mdcontent/lnmo_use.md %}{% endcapture %}
-{{ thesenotes | markdownify }}
-
-## References/Resources
-
+  {% capture references %}
 - Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts)
-- Mathematical Olympiad Treasures by Titu Andreescu, Bogdan Enescu
-- 101 Problems in Algebra by Titu Andreescu, Zuming Feng
-- Mathematical Olympiad Challenges by Titu Andreescu, Răzvan Gelca
-- Putnam and Beyond by Răzvan Gelca, Titu Andreescu
+- *Mathematical Olympiad Treasures* by Titu Andreescu, Bogdan Enescu
+- *101 Problems in Algebra* by Titu Andreescu, Zuming Feng
+- *Mathematical Olympiad Challenges* by Titu Andreescu, Răzvan Gelca
+- *Putnam and Beyond* by Răzvan Gelca, Titu Andreescu
 - A [<i class="fa-brands fa-youtube"></i> video](https://www.youtube.com/watch?v=gvG22CFDK2o) by [Zlatko Salko Lagumdžija](https://www.imo-official.org/results/contestant/25889/)
+  {% endcapture %}
+
+  {{ references | markdownify }}
+
+</div>
