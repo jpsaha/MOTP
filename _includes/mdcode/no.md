@@ -1,44 +1,68 @@
 
+<div class="topic-notes">
 
-##### Lecture notes on {{ page.title }} (for Math Olympiad --- [IOQM]({{ site.url }}{{ site.baseurl }}/ioqm/), [RMO]({{ site.url }}{{ site.baseurl }}/rmo/), [INMO]({{ site.url }}{{ site.baseurl }}/inmo/))
+  <div class="topic-notes-subtitle">
+    Mathematics Olympiad ·
+    <a href="{{ '/ioqm/' | relative_url }}">IOQM</a> ·
+    <a href="{{ '/rmo/' | relative_url }}">RMO</a> ·
+    <a href="{{ '/inmo/' | relative_url }}">INMO</a>
+  </div>
 
-<table
-  id="table"
-  data-toggle="table">
+  {% case page.title %}
+    {% when 'Algebra' %}
+      {% assign topic_class = 'stage-blue' %}
+      {% assign subject_slug = 'alg' %}
+    {% when 'Combinatorics' %}
+      {% assign topic_class = 'stage-teal' %}
+      {% assign subject_slug = 'comb' %}
+    {% when 'Geometry' %}
+      {% assign topic_class = 'stage-orange' %}
+      {% assign subject_slug = 'geo' %}
+    {% when 'Number Theory' %}
+      {% assign topic_class = 'stage-purple' %}
+      {% assign subject_slug = 'nt' %}
+  {% endcase %}
 
-  <thead>
-    <tr>
-      <th data-field="topic" data-halign="center" data-align="center">
-        {{ page.title }} Topics
-      </th>
-      <th data-field="links" data-halign="center" data-align="center">
-        Links
-      </th>
-    </tr>
-  </thead>
+  <div class="topic-notes-grid">
 
-  <tbody>
-  {% for item in site.data.csv.no %}
-    {% if item.subj == page.title %}
-    <tr>
+    {% for item in site.data.csv.no %}
+      {% if item.subj == page.title %}
 
-      <td>
-        <a href="{{ site.url }}{{ site.baseurl }}/{% if page.title == 'Algebra' %}alg{% elsif page.title == 'Combinatorics' %}comb{% elsif page.title == 'Geometry' %}geo{% else %}nt{% endif %}/{{ item.pdf | downcase }}/">
-          {{ item.topic }}
-        </a>
-      </td>
+        {% assign topic_url = '/' | append: subject_slug | append: '/' | append: item.pdf | downcase | append: '/' %}
 
-      <td>
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/pdf/{{ page.jsujet }}/{{ item.pdf }}.pdf">
-          <i class="fa-solid fa-file-pdf fa-2x"></i>
-        </a>
-      </td>
+        {% assign pdf_url = '/assets/pdf/' | append: page.jsujet | append: '/' | append: item.pdf | append: '.pdf' %}
 
-    </tr>
-    {% endif %}
+        <article class="topic-note-card {{ topic_class }}">
 
-{% endfor %}
+          <div class="topic-note-card-header">
 
-  </tbody>
+            <h3>
+              <a class="topic-note-link" href="{{ topic_url | relative_url }}">
+                {{ item.topic }}
+              </a>
+            </h3>
 
-</table>
+            <a href="{{ pdf_url | relative_url }}"
+              class="topic-note-pdf"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open PDF for {{ item.topic }}">
+              <i class="fa-solid fa-file-pdf"></i>
+              <span>PDF</span>
+            </a>
+
+          </div>
+
+          {% if item.description != blank %}
+            <p class="topic-note-description">
+              {{ item.description }}
+            </p>
+          {% endif %}
+
+        </article>
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>
