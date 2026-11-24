@@ -34,21 +34,17 @@ giscus_comments: true
 pretty_table: true
 ---
 
-{% capture jnotes %}{% include mdcode/no.md %}{% endcapture %}
+{% include lqd/subject-page.liquid %}
 
-{{ jnotes }}
+<div class="subject-reference-list">
 
-{% include lqd/olympiad-explorer.liquid %}
-{% capture jnotess %}{% include mdcode/lnmoall.md %}{% endcapture %}
-
-{{ jnotess }}
-
-{% capture thesenotes %}{% include mdcontent/lnmo_use.md %}{% endcapture %}
-{{ thesenotes | markdownify }}
-
-## References/Resources
-
+  {% capture references %}
 - Olympiad Training Materials from [IMOmath](https://imomath.com/index.cgi?page=mathTexts)
-- [A Beautiful Journey Through Olympiad Geometry](https://www.olympiadgeometry.com/) by Stefan Lozanovski
-- Euclidean Geometry in Mathematical Olympiads ([EGMO](https://web.evanchen.cc/geombook.html)) by [Evan Chen](https://web.evanchen.cc/). The [Automatically Generated EGMO Solutions Treasury](https://web.evanchen.cc/upload/AGEST.pdf) contains updated solutions to a significant number of the sourced problems.
+- [_A Beautiful Journey Through Olympiad Geometry_](https://www.olympiadgeometry.com/) by Stefan Lozanovski
+- _Euclidean Geometry in Mathematical Olympiads_ ([EGMO](https://web.evanchen.cc/geombook.html)) by [Evan Chen](https://web.evanchen.cc/). The [Automatically Generated EGMO Solutions Treasury](https://web.evanchen.cc/upload/AGEST.pdf) contains updated solutions to a significant number of the sourced problems.
 - A [<i class="fa-brands fa-youtube"></i> video](https://www.youtube.com/watch?v=jbHDT9RgwUE) by [Zlatko Salko Lagumdžija](https://www.imo-official.org/results/contestant/25889/).
+  {% endcapture %}
+
+  {{ references | markdownify }}
+
+</div>
