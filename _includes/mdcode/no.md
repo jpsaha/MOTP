@@ -38,16 +38,11 @@
 
             <h3>
               <a class="topic-note-link" href="{{ topic_url | relative_url }}">
-              <a href="{{ topic_url | relative_url }}">
                 {{ item.topic }}
               </a>
             </h3>
 
             <a href="{{ pdf_url | relative_url }}"
-              class="topic-note-pdf"
-              target="_blank"
-              rel="noopener"
-              aria-label="Open PDF for {{ item.topic }}">
                class="topic-note-pdf"
                target="_blank"
                rel="noopener"
