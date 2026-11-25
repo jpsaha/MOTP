@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/MOTP/";
     },
-  },{id: "nav-algebra",
+  },{id: "nav-notes",
+          title: "Notes",
+          description: "Topic-wise lecture notes in Algebra, Combinatorics, Geometry and Number Theory for mathematical olympiads.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/MOTP/notes/";
+          },
+        },{id: "nav-algebra",
           title: "Algebra",
           description: "Algebra notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.",
           section: "Navigation",
@@ -72,26 +79,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/MOTP/imotc/";
           },
-        },{id: "nav-smmc",
-          title: "SMMC",
-          description: "SMMC Training Camp. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/MOTP/smmc/";
-          },
         },{id: "nav-mopss",
           title: "MOPSS",
           description: "Mathematics Olympiad Problem Solving Sessions",
           section: "Navigation",
           handler: () => {
             window.location.href = "/MOTP/mopss/";
-          },
-        },{id: "nav-notes",
-          title: "Notes",
-          description: "Topic-wise lecture notes in Algebra, Combinatorics, Geometry and Number Theory for mathematical olympiads.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/MOTP/notes/";
           },
         },{id: "nav-pyqs",
           title: "PYQs",
