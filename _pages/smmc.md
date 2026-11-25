@@ -3,7 +3,7 @@ layout: page
 permalink: /smmc/
 title: SMMC
 description: SMMC Training Camp. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions.
-nav: true
+nav: false
 nav_order: 15
 jpdf: SMMC25ISI
 jsujet: SMMC
