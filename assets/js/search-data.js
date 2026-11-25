@@ -86,6 +86,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/MOTP/mopss/";
           },
+        },{id: "nav-notes",
+          title: "Notes",
+          description: "Topic-wise lecture notes in Algebra, Combinatorics, Geometry and Number Theory for mathematical olympiads.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/MOTP/notes/";
+          },
         },{id: "nav-pyqs",
           title: "PYQs",
           description: "Previous Years&#39; Question Papers of Pre-RMO, IOQM, RMO, INMO, EGMOTC, IMOTC. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Solutions in pdf.",
