@@ -106,6 +106,8 @@
 </div>
 
 
+{% if page.title == "Algebra" or page.title == "Combinatorics" or page.title == "Geometry" or page.title == "Number Theory" %}
+
 <div class="subject-page subject-{{ subject_class }}">
 
   <!-- References -->
@@ -120,3 +122,4 @@
   </section>
 
 </div>
+{% endif %}
