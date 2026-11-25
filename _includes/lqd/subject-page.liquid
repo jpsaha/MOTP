@@ -73,7 +73,16 @@
 
   <section class="subject-problems">
 
-    {% include lqd/math-library.liquid %}
+    {% if page.title == "Algebra" or page.title == "Combinatorics" or page.title == "Geometry" or page.title == "Number Theory" %}
+
+      <h2 class="subject-section-heading">
+        <i class="fas fa-book-open"></i>
+        Topic-wise Lecture Notes
+      </h2>
+
+      {% include lqd/math-library.liquid %}
+
+    {% endif %}
 
   </section>
 
