@@ -5,7 +5,7 @@ title: Combinatorics
 date: 2024-06-24 08:57:00-0400
 description: Combinatorics notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.
 nav: true
-nav_order: 3
+nav_order: 4
 tags:
   [
     combinatorics,

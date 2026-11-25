@@ -5,7 +5,7 @@ title: Algebra
 date: 2024-06-24 08:57:00-0400
 description: Algebra notes for Mathematics Olympiad, IOQM, RMO, INMO. Problem set, Solutions, Questions, Answers, Hints, Walkthroughs, Discussions, Resources, Notes.
 nav: true
-nav_order: 2
+nav_order: 3
 tags:
   [
     algebra,
