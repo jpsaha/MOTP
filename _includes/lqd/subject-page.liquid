@@ -39,12 +39,16 @@
 
   <section class="subject-notes">
 
-    <h2 class="subject-section-heading">
-      <i class="fas fa-book-open"></i>
-      Topic-wise Lecture Notes
-    </h2>
+    {% if page.title == "Algebra" or page.title == "Combinatorics" or page.title == "Geometry" or page.title == "Number Theory" %}
 
-    {% include mdcode/no.md %}
+      <h2 class="subject-section-heading">
+        <i class="fas fa-book-open"></i>
+        Topic-wise Lecture Notes
+      </h2>
+
+      {% include mdcode/no.md %}
+
+    {% endif %}
 
   </section>
 
