@@ -475,6 +475,9 @@
       - qq: https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2026/10/prermo2015-1-b.pdf
         sol:
         src:
+      - qq: c
+        sol:
+        src: West Bengal?
     aops:
       - qq: https://artofproblemsolving.com/community/c3799588_2015_india_prmo
         cmt:
